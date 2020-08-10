@@ -1,0 +1,19 @@
+{
+  "nav": {
+    "top": {
+      "mission_statement": "Misiunea",
+      "our_story": "Povestea",
+      "projects": "Proiecte",
+      "news": "Media",
+      "support_us": "Implica-te",
+      "join_our_team": "Hai in echipa"
+    },
+    "bottom": {
+      "privacy_policy": "Politica de confidentialitate",
+      "activity_reports": "Rapoarte de activitate",
+      "terms_and_conditions": "Termeni si conditii"
+    }
+  },
+  "email": "community@poweredbydlot.ro",
+  "phone": "+00 000 000 000"
+}

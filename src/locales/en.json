@@ -1,0 +1,19 @@
+{
+  "nav": {
+    "top": {
+      "mission_statement": "Mission statement",
+      "our_story": "Our story",
+      "projects": "Projects",
+      "news": "News",
+      "support_us": "Support us",
+      "join_our_team": "Join our team"
+    },
+    "bottom": {
+      "privacy_policy": "Privacy policy",
+      "activity_reports": "Activity reports",
+      "terms_and_conditions": "Terms and conditions"
+    }
+  },
+  "email": "community@poweredbydlot.com",
+  "phone": "+00 000 000 000"
+}

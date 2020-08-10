@@ -1,0 +1,37 @@
+name: Deploy to communitypoweredbydlot.github.io
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+          persist-credentials: false
+    
+    - name: Cache node_modules
+      uses: actions/cache@v2.1.0
+      with:
+        path: node_modules/
+        key: cache-node-modules
+      
+    - name: Install and Build
+      run: |
+        npm install
+        npm run build
+    
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@3.5.9
+      with:
+        ACCESS_TOKEN: ${{ secrets.DEPLOY_ACCESS_TOKEN }}
+        BRANCH: master
+        FOLDER: dist
+        REPOSITORY_NAME: communitypoweredbydlot/communitypoweredbydlot.github.io
+
+
