@@ -19,7 +19,8 @@
                 :key="index"
               >
                 <v-btn
-                  :to="item.route"
+                  :to="{ name: item.route, params: { locale: $i18n.locale }}"
+                  exact
                   text
                   small
                   bottom
@@ -52,7 +53,8 @@
         <v-list-item
           v-for="(item, index) in mainMenuItems"
           :key="index"
-          :to="item.route"
+          :to="{ name: item.route, params: { locale: $i18n.locale }}"
+          exact
         >
           <v-list-item-title>{{ $t(item.text) }}</v-list-item-title>
         </v-list-item>
@@ -91,27 +93,27 @@ export default class App extends Vue {
   mainMenuItems = [
     {
       text: "nav.top.mission_statement",
-      route: '/'
+      route: 'statement'
     },
     {
       text: "nav.top.our_story",
-      route: '/ourstory'
+      route: 'our_story'
     },
     {
       text: "nav.top.projects",
-      route: '/projects'
+      route: 'projects'
     },
     {
       text: "nav.top.news",
-      route: '/news'
+      route: 'news'
     },
     {
       text: "nav.top.support_us",
-      route: '/supportus'
+      route: 'support_us'
     },
     {
       text: "nav.top.join_our_team",
-      route: '/joinourteam'
+      route: 'join_our_team'
     }
   ]
 }

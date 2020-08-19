@@ -2,7 +2,7 @@
   <v-menu offset-y>
     <template v-slot:activator="{ on, attrs }">
       <v-btn v-bind="attrs" v-on="on" text>
-        <v-icon left>{{ languageSelectionIcon }}</v-icon> {{ selectedLanguage }}
+        <v-icon left>{{ languageSelectionIcon }}</v-icon> {{ selectedLanguage() }}
       </v-btn>
     </template>
     <v-list>
@@ -20,33 +20,28 @@
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
 import { mdiWeb } from '@mdi/js'
+import SupportedLocales from '@/supported-locales'
 
 @Component
 export default class LanguageSelect extends Vue {
   languageSelectionIcon = mdiWeb
 
-  supportedLanguages = [
-    {
-      locale: "en",
-      text: "English"
-    },
-    {
-      locale: "ro",
-      text: "Romana"
-    }
-  ]
-
   get languageOptions() {
-    return this.supportedLanguages.filter(sl => sl.locale !== this.$store.state.locale)
+    return SupportedLocales
   }
 
-  get selectedLanguage(): string {
-    const sl = this.supportedLanguages.find(sl => sl.locale === this.$store.state.locale)
-    return sl ? sl.locale : ""
+  selectedLanguage(): string {
+    const sl = SupportedLocales.find(sl => sl.locale === this.$i18n.locale)
+    return sl ? sl.locale : ''
   }
 
   selectLanguage(language: { locale: string; text: string }) {
-    this.$store.dispatch('setLocale', language.locale)
+      if (this.$i18n.locale !== language.locale) {
+        this.$i18n.locale = language.locale;
+        const to = this.$router.resolve({ params: {locale: language.locale} })
+        console.log(to.location)
+        this.$router.push(to.location)
+    }
   }
 }
 </script>

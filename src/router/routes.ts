@@ -1,68 +1,59 @@
-import Statement from '@/views/Statement.vue'
-import OurStory from '@/views/OurStory.vue'
-import Projects from '@/views/Projects.vue'
-import SupportUs from '@/views/SupportUs.vue'
-import News from '@/views/News.vue'
-import JoinOurTeam from '@/views/JoinOurTeam.vue'
-import ActivityReports from '@/views/ActivityReports.vue'
-import PrivacyPolicy from '@/views/PrivacyPolicy.vue'
-import TermsAndConditions from '@/views/TermsAndConditions.vue'
 import { RouteConfig } from 'vue-router'
 
 const routes: Array<RouteConfig> = [
   {
-    path: '/',
-    name: 'Statement',
-    component: Statement,
-    beforeEnter: (to, from, next) => {
-      if (sessionStorage.getItem('redirect') !== null) {
-        const redirect = sessionStorage.redirect
-        delete sessionStorage.redirect
-        next(redirect)
-      } else {
-        next()
-      }
-    }
+    path: '/:locale',
+    name: 'statement',
+    props: true,
+    component: () => import('@/views/Statement.vue')
   },
   {
-    path: '/ourstory',
-    name: 'Our Story',
-    component: OurStory,
+    path: `/:locale/ourstory`,
+    name: 'our_story',
+    props: true,
+    component: () => import('@/views/OurStory.vue')
   },
   {
-    path: '/projects',
-    name: 'Projects',
-    component: Projects,
+    path: '/:locale/projects',
+    name: 'projects',
+    props: true,
+    component: () => import('@/views/Projects.vue')
   },
   {
-    path: '/supportus',
-    name: 'Support us',
-    component: SupportUs,
+    path: '/:locale/supportus',
+    name: 'support_us',
+    props: true,
+    component: () => import('@/views/SupportUs.vue')
   },
   {
-    path: '/news',
-    name: 'News',
-    component: News,
+    path: '/:locale/news',
+    name: 'news',
+    props: true,
+    component: () => import('@/views/News.vue')
   },
   {
-    path: '/joinourteam',
-    name: 'Join our team',
-    component: JoinOurTeam
+    path: '/:locale/joinourteam',
+    name: 'join_our_team',
+    props: true,
+    component: () => import('@/views/JoinOurTeam.vue')
   },
   {
-    path: '/activityreports',
-    name: 'Activity reports',
-    component: ActivityReports
+    path: '/:locale/activityreports',
+    name: 'activity_reports',
+    props: true,
+    component: () => import('@/views/ActivityReports.vue')
   },
   {
-    path: '/privacypolicy',
-    name: 'Privacy policy',
-    component: PrivacyPolicy
+    path: '/:locale/privacypolicy',
+    name: 'privacy_policy',
+    props: true,
+    component: () => import('@/views/PrivacyPolicy.vue')
   },
   {
-    path: '/termsandconditions',
-    name: 'Terms and conditions',
-    component: TermsAndConditions
+    path: '/:locale/termsandconditions',
+    name: 'terms_and_conditions',
+    props: true,
+    component: () => import('@/views/TermsAndConditions.vue')
   }
 ]
 
