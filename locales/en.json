@@ -16,6 +16,37 @@
   },
   "email": "community@poweredbydlot.com",
   "phone": "+00 000 000 000",
+  "statement": {
+    "short_description": "Community powered by DLOT is a nonprofit organization focused on environment.",
+    "section_vision": {
+      "title": "Our Vision",
+      "content": "We aim for a world where people, independent of culture, race and gender, can coexist in harmony; where technology is used for protecting nature and wildlife, so we can all benefit from clean air and water, food and shelter. A world guided by respect, not by money and power."
+    },
+    "section_values": {
+      "title": "Our Values",
+      "powered_by": {
+        "content": "Our actions are powered by {0}",
+        "hyperlink_label": "DLOT"
+      },
+      "values": [
+        "We sustain the cultural influence of music.",
+        "We promote love and acceptance for everyone and everything around us.",
+        "We advocate for environment friendly actions and products.",
+        "We support life as a continuous state of exploration and discovery of the self."
+      ],
+      "commitment": "We are committed to a balanced lifestyle. We aim for a life in which technology and nature combine and reach the equilibrium between progress and spirituality."
+    },
+    "section_mission": {
+      "title": "Our Mission",
+      "objectives": [
+        "Cleaning the litter from natural environments such as forests, banks of water, natural parks and other outdoor protected areas;",
+        "Identifying regions where trash is improperly disposed and drawing attention of the concerned authority towards the situation;",
+        "Educating tourists and rural communities about the importance of properly disposing trash and providing them the means to collect and recycle the waste;",
+        "Promoting behaviors oriented to minimize the environmental impact of each individual without getting far from their comfort zone;",
+        "Achieving a healthy and balanced lifestyle by spending time outdoors and protecting nature."
+      ]
+    }
+  },
   "our_story": {
     "title": "Our story",
     "intro": "We love to spend time in nature. Hiking, camping or relaxing in the hammock, we take advantage of every weekend or public holiday to escape the urban jungle. First, we chose places close to our home town. Easy to get there by foot or bike. But, in this continuing urbanizing world cities are expanding, and soon, our peace oasis became residential complexes and we were forced to go farther. There are still parks, small forests and barbecue areas nearby, with their issues and shortcomings: they are crowded, noisy and mostly dirty.",
