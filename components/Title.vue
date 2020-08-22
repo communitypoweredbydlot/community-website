@@ -5,5 +5,6 @@
 <style scoped>
 .community-text-title {
   color:#16a99f;
+  font-family: 'Comfortaa';
 }
 </style>

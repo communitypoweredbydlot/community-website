@@ -1,14 +1,16 @@
 <template>
   <v-footer app absolute class="white">
     <v-container>
-      <v-divider/>
+      <v-divider />
 
       <v-row align="start" justify="start" justify-sm="center" class="text-caption" no-gutters>
         <v-col cols="auto">
           <v-list dense nav flat tile>
             <v-list-item dense flat>
               <v-list-item-content>
-                <v-list-item-title>© {{ new Date().getFullYear() }} powered by DLOT™</v-list-item-title>
+                <v-list-item-title class="copyright">
+                  © {{ new Date().getFullYear() }} powered by DLOT™
+                </v-list-item-title>
               </v-list-item-content>
             </v-list-item>
           </v-list>
@@ -67,16 +69,16 @@ import { Component, Vue } from 'vue-property-decorator'
 export default class Footer extends Vue {
   transparencyAndGdprMenuItems = [
     {
-      text: "nav.bottom.privacy_policy",
-      route: "/privacypolicy"
+      text: 'nav.bottom.privacy_policy',
+      route: '/privacypolicy'
     },
     {
-      text: "nav.bottom.activity_reports",
-      route: "/activityreports"
+      text: 'nav.bottom.activity_reports',
+      route: '/activityreports'
     },
     {
-      text: "nav.bottom.terms_and_conditions",
-      route: "/termsandconditions"
+      text: 'nav.bottom.terms_and_conditions',
+      route: '/termsandconditions'
     }
   ]
 }
@@ -85,6 +87,10 @@ export default class Footer extends Vue {
 <style scoped>
 .theme--light.v-list-item--disabled {
   color: rgba(0, 0, 0, 0.38);
+}
+
+.copyright {
+  font-family: 'Comfortaa';
 }
 
 .theme--light.v-list-item:not(.v-list-item--active):not(.v-list-item--disabled) {
