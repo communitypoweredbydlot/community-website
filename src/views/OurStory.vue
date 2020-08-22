@@ -6,12 +6,12 @@
       <p>{{ $t("our_story.intro") }}</p>
       <p>{{ $t("our_story.trash") }}</p>
       <v-img
-        src="../assets/ourstory/Community-powered-by-DLOT-Private-proprety.jpg"
+        src="https://community.poweredbydlot.com/wp-content/uploads/2020/07/Community-powered-by-DLOT-Private-proprety.jpg"
       />
       <v-img
-        src="../assets/ourstory/Community-powered-by-DLOT-deforestation.jpg"
+        src="https://community.poweredbydlot.com/wp-content/uploads/2020/07/Community-powered-by-DLOT-deforestation.jpg"
       />
-      <v-img src="../assets/ourstory/Community-powered-by-DLOT-Trash.jpg" />
+      <v-img src="https://community.poweredbydlot.com/wp-content/uploads/2020/07/Community-powered-by-DLOT-Trash.jpg" />
       <p>{{ $t("our_story.section1.desc") }}</p>
       <p>{{ $t("our_story.section1.cityfans") }}</p>
       <p>{{ $t("our_story.section1.unaware") }}</p>
@@ -24,25 +24,25 @@
       <p>{{ $t("our_story.section1.tripandpick") }}</p>
       <video controls>
         <source
-          src="../assets/ourstory/VID_20191027_133137.mp4"
+          src="https://poweredbydlot.com/wp-content/uploads/2020/07/VID_20191027_133137.mp4?_=1"
           type="video/mp4"
         />
       </video>
       <v-img
-        src="../assets/ourstory/Community-powered-by-DLOT-Trip-and-pick-scaled.jpg"
+        src="https://community.poweredbydlot.com/wp-content/uploads/2020/07/Community-powered-by-DLOT-Trip-and-pick-scaled.jpg"
       />
       <v-img
-        src="../assets/ourstory/Community-powered-by-DLOT-Trip-and-pick-challenge-scaled.jpg"
+        src="https://community.poweredbydlot.com/wp-content/uploads/2020/07/Community-powered-by-DLOT-Trip-and-pick-challenge-scaled.jpg"
       />
       <p>{{ $t("our_story.section2.desc") }}</p>
       <p>{{ $t("our_story.section2.garbage") }}</p>
       <v-img
-        src="../assets/ourstory/Garbage-in-nature-Community-powered-by-DLOT.jpg"
+        src="https://poweredbydlot.com/wp-content/uploads/2020/07/Garbage-in-nature-Community-powered-by-DLOT.jpg"
       />
       <p>{{ $t("our_story.section3.desc") }}</p>
       <p>{{ $t("our_story.section3.community") }}</p>
       <v-img
-        src="../assets/ourstory/Dog-picking-up-trash-Community-powered-by-DLOT-scaled.jpg"
+        src="https://poweredbydlot.com/wp-content/uploads/2020/07/Dog-picking-up-trash-Community-powered-by-DLOT-scaled.jpg"
       />
     </v-container>
   </article>
