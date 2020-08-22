@@ -55,7 +55,9 @@
         <v-spacer class="hidden-sm-and-down" />
 
         <v-col cols="auto">
-          <v-img src="https://poweredbydlot.com/wp-content/uploads/2019/11/logo-powered-by-Dlot-1-e1572971187212-216x139.jpg" height="100" width="125" contain />
+          <nuxt-link :to="localePath('/')">
+            <v-img src="https://poweredbydlot.com/wp-content/uploads/2019/11/logo-powered-by-Dlot-1-e1572971187212-216x139.jpg" height="100" width="125" contain />
+          </nuxt-link>
         </v-col>
       </v-row>
     </v-container>
