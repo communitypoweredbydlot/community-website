@@ -21,11 +21,12 @@
             <v-list-item
               v-for="(item, index) in transparencyAndGdprMenuItems"
               :key="index"
-              :to="item.route"
+              :to="localePath(item.route)"
               exact
               link
               dense
               flat
+              nuxt
             >
               <v-list-item-content>
                 <v-list-item-title>{{ $t(item.text) }}</v-list-item-title>

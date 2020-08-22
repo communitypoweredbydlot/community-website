@@ -19,11 +19,12 @@
                 :key="index"
               >
                 <v-btn
-                  :to="{ name: item.route, params: { locale: $i18n.locale }}"
+                  :to="localePath(item.route)"
                   exact
                   text
                   small
                   bottom
+                  nuxt
                 >
                   {{ $t(item.text) }}
                 </v-btn>
@@ -53,8 +54,9 @@
         <v-list-item
           v-for="(item, index) in mainMenuItems"
           :key="index"
-          :to="{ name: item.route, params: { locale: $i18n.locale }}"
+          :to="localePath(item.route)"
           exact
+          nuxt
         >
           <v-list-item-title>{{ $t(item.text) }}</v-list-item-title>
         </v-list-item>
@@ -63,8 +65,7 @@
 
     <v-main>
       <v-container class="mt-8">
-        <router-view>
-        </router-view>
+        <nuxt />
       </v-container>
     </v-main>
 
@@ -93,27 +94,27 @@ export default class App extends Vue {
   mainMenuItems = [
     {
       text: "nav.top.mission_statement",
-      route: 'statement'
+      route: '/'
     },
     {
       text: "nav.top.our_story",
-      route: 'our_story'
+      route: '/ourstory'
     },
     {
       text: "nav.top.projects",
-      route: 'projects'
+      route: '/projects'
     },
     {
       text: "nav.top.news",
-      route: 'news'
+      route: '/news'
     },
     {
       text: "nav.top.support_us",
-      route: 'support_us'
+      route: '/supportus'
     },
     {
       text: "nav.top.join_our_team",
-      route: 'join_our_team'
+      route: '/joinourteam'
     }
   ]
 }
@@ -132,3 +133,4 @@ export default class App extends Vue {
   opacity: 0.0;
 }
 </style>
+

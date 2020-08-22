@@ -1,42 +1,27 @@
-# communitypoweredbydlot.github.io
+# communitywebsite
 
-##
+## Build Setup
 
-
-## Project setup
 ```sh
-npm install
-```
+# install dependencies
+$ npm install
 
-### Compiles and hot-reloads for development
-```sh
-npm run serve
-```
+# serve with hot reload at localhost:3000
+$ npm run dev
 
-### Compiles and minifies for production
-```sh
-npm run build
-```
+# build for production and launch server
+$ npm run build
+$ npm run start
 
-### Run your unit tests
-```sh
-npm run test:unit
-```
-
-### Run your end-to-end tests
-```sh
-npm run test:e2e
-```
-
-### Lints and fixes files
-```sh
-npm run lint
+# generate static project
+$ npm run generate
 ```
 
 ## Previewing Locally
 
+After generating the static project
+
 ```sh
-npm install -g serve
-# -s flag means serve it in Single-Page Application mode
-serve -s dist
+$ npm install -g serve
+$ serve dist
 ```

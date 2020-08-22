@@ -5,7 +5,7 @@ set -e
 WEBSITE_VERSION=$(grep version package.json | awk -F \" '{print $4}')
 SOURCE_BRANCH=$(git branch --show-current)
 
-npm run build
+npm run generate
 
 cd dist
 
