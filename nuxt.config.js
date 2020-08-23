@@ -1,4 +1,3 @@
-import colors from 'vuetify/es5/util/colors'
 import en from './locales/en.json'
 import ro from './locales/ro.json'
 
@@ -59,7 +58,8 @@ export default {
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt/content
     '@nuxt/content',
-    'nuxt-i18n'
+    'nuxt-i18n',
+    '@nuxtjs/axios'
   ],
   /*
   ** Content module configuration
@@ -104,5 +104,14 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
+    babel: {
+      presets ({ _isServer }) {
+        return [
+          [
+            '@nuxt/babel-preset-app', { loose: true }
+          ]
+        ]
+      }
+    }
   }
 }
