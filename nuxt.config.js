@@ -94,8 +94,8 @@ export default {
     vueI18n: {
       fallbackLocale: 'en',
       messages: {
-        en: en,
-        ro: ro
+        en,
+        ro
       }
     }
   },
