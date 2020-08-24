@@ -1,8 +1,17 @@
 <template>
   <article>
-    <p
-      v-for="(p, index) in $t('projects.paragraphs')"
-      :key="index"
-      v-html="p" />
+    <nuxt-content :document="page" />
   </article>
 </template>
+
+<script lang="ts">
+import { Component, Vue } from 'nuxt-property-decorator'
+import mdFetchWithDefault from '@/lib/MdFetchWithDefault'
+
+@Component
+export default class PrivacyPolicy extends Vue {
+  async asyncData (context: any) {
+    return await mdFetchWithDefault('Projects')(context)
+  }
+}
+</script>

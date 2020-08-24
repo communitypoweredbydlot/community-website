@@ -1,8 +1,10 @@
 <template>
   <v-menu offset-y>
     <template v-slot:activator="{ on, attrs }">
-      <v-btn v-bind="attrs" v-on="on" text>
-        <v-icon left>{{ languageSelectionIcon }}</v-icon>  {{ $i18n.locale }}
+      <v-btn text v-bind="attrs" v-on="on">
+        <v-icon left>
+          {{ languageSelectionIcon }}
+        </v-icon>  {{ $i18n.locale }}
       </v-btn>
     </template>
     <v-list>
@@ -22,7 +24,6 @@
 import { Component, Vue } from 'nuxt-property-decorator'
 import { mdiWeb } from '@mdi/js'
 
-
 @Component
 export default class LanguageSelect extends Vue {
   languageSelectionIcon = mdiWeb
@@ -31,6 +32,5 @@ export default class LanguageSelect extends Vue {
     const locales = this.$i18n.locales || []
     return locales.filter((i: any) => i.code !== this.$i18n.locale)
   }
-
 }
 </script>

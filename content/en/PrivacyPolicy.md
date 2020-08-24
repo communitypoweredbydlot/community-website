@@ -1,6 +1,6 @@
 ---
 Title: Privacy Policy
-descriptions: Community website privacy policy
+Descriptions: Community website privacy policy
 ---
 
 *If you do not wish to read the entire below text (We can easily understand), it states that we do not collect your personal data unless you write us an e-mail; but we do use cookies and tracking technologies (Google analytics) to understand and improve users experience. If you have any further question do not hesitate to contact us at: community@poweredbydlot.com*
