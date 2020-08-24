@@ -101,7 +101,7 @@ export default class Footer extends Vue {
 }
 
 .v-list .v-list-item--active {
-  color: rgba(0, 0, 0, 1);
+  color: rgb(22, 169, 159);
 }
 
 .v-list-item--dense .v-list-item__title,

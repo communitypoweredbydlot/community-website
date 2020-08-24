@@ -123,7 +123,7 @@ export default class App extends Vue {
 }
 
 .theme--light.v-btn--active {
-    color: rgba(0,0,0,0.5);
+    color: rgb(22, 169, 159);
 }
 
 .theme-light.v-btn > a:hover {
