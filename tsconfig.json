@@ -8,6 +8,7 @@
       "ESNext.AsyncIterable",
       "DOM"
     ],
+    "noImplicitAny": false,
     "esModuleInterop": true,
     "allowJs": true,
     "sourceMap": true,
@@ -28,6 +29,7 @@
       "@nuxt/types",
       "@nuxt/content",
       "@nuxtjs/axios",
+      "@nuxtjs/vuetify",
       "nuxt-i18n"
     ]
   },

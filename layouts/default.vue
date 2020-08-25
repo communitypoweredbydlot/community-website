@@ -12,7 +12,11 @@
       <v-app-bar-nav-icon
         class="hidden-md-and-up"
         @click.stop="drawer = !drawer"
-      />
+      >
+        <v-icon>
+          {{ mdiMenu }}
+        </v-icon>
+      </v-app-bar-nav-icon>
       <Title class="hidden-md-and-up" />
       <v-container class="hidden-sm-and-down pb-6">
         <v-row align="center" justify="space-between" no-gutters>
@@ -82,11 +86,13 @@
 
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator'
+import { mdiMenu } from '@mdi/js';
 
 @Component
 export default class App extends Vue {
   tab!: any
   drawer = false
+  mdiMenu = mdiMenu
 
   mainMenuItems = [
     {
