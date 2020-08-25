@@ -10,11 +10,11 @@ Am inceput prin refugiul in locuri usor accesibile, pe jos sau cu bicicleta, dar
 Cu cat distanta este mai lunga, cu atat dezamagirea este mai mare: defrisarile in masa, proprietatile private construite prin sacrificarea copacilor si palcurile de deseuri tradeaza si de aceasta data natura.
 
 
-<md-image src="https://community.poweredbydlot.com/wp-content/uploads/2020/07/Community-powered-by-DLOT-Private-proprety.jpg"></md-image>
+<v-img src="https://community.poweredbydlot.com/wp-content/uploads/2020/07/Community-powered-by-DLOT-Private-proprety.jpg"></v-img>
 
-<md-image src=https://community.poweredbydlot.com/wp-content/uploads/2020/07/Community-powered-by-DLOT-deforestation.jpg></md-image>
+<v-img src=https://community.poweredbydlot.com/wp-content/uploads/2020/07/Community-powered-by-DLOT-deforestation.jpg></v-img>
 
-<md-image src=https://community.poweredbydlot.com/wp-content/uploads/2020/07/Community-powered-by-DLOT-Trash.jpg></md-image>
+<v-img src=https://community.poweredbydlot.com/wp-content/uploads/2020/07/Community-powered-by-DLOT-Trash.jpg></v-img>
 
 </br>
 
@@ -44,9 +44,9 @@ Determinati de indiferenta unora si de nestiinta altora, am decis sa luam cu noi
 
 </br>
 
-<md-image src="https://community.poweredbydlot.com/wp-content/uploads/2020/07/Community-powered-by-DLOT-Trip-and-pick-scaled.jpg" ></md-image>
+<v-img src="https://community.poweredbydlot.com/wp-content/uploads/2020/07/Community-powered-by-DLOT-Trip-and-pick-scaled.jpg" ></v-img>
 
-<md-image src="https://community.poweredbydlot.com/wp-content/uploads/2020/07/Community-powered-by-DLOT-Trip-and-pick-challenge-scaled.jpg"></md-image>
+<v-img src="https://community.poweredbydlot.com/wp-content/uploads/2020/07/Community-powered-by-DLOT-Trip-and-pick-challenge-scaled.jpg"></v-img>
 
 </br>
 
@@ -54,7 +54,7 @@ Din cauza sistemelor deficitare de gestionare a desurilor din zonele rurale, mal
 
 Am intalnit zone cu cantitati foarte mari de gunoaie, astfel incat ne era imposibil sa le curatam intr-o singura zi. Mai mult, am fi avut nevoie de o autoutilitara pentru a transporta toate deseurile. In lipsa unei forme legale de functionare, precum si a resurselor financiare si umane, nu putem curata multe dintre zonele cu probleme si nici nu putem contracta un camion de salubrizare.
 
-<md-image src="https://poweredbydlot.com/wp-content/uploads/2020/07/Garbage-in-nature-Community-powered-by-DLOT.jpg"></md-image>
+<v-img src="https://poweredbydlot.com/wp-content/uploads/2020/07/Garbage-in-nature-Community-powered-by-DLOT.jpg"></v-img>
 
 </br>
 
@@ -63,4 +63,4 @@ Realitatea ne-a demonstrat ca trebuie sa actionam, si sa mergem mai departe de p
 Pentru ca dorim sa ne implicam mai mult in protectia mediului, am fondat o asociatie non-profit.  
 Prin intermediul asociatiei Community, ne dorim sa organizam actiuni, campanii si evenimente de informare ecologica prin care oamenii sa devina constienti de importanta protejarii naturii si a implementarii practicilor prietenoase cu mediul.
 
-<md-image src="https://poweredbydlot.com/wp-content/uploads/2020/07/Dog-picking-up-trash-Community-powered-by-DLOT-scaled.jpg"></md-image>
+<v-img src="https://poweredbydlot.com/wp-content/uploads/2020/07/Dog-picking-up-trash-Community-powered-by-DLOT-scaled.jpg"></v-img>

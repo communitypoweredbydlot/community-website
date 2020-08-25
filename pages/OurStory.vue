@@ -1,6 +1,6 @@
 <template>
   <article>
-    <nuxt-content :document="page" class="d-flex flex-column justify-space-between body-1" />
+    <nuxt-content :document="page" class="d-flex flex-column justify-space-between body-1 ourstory" />
   </article>
 </template>
 
@@ -15,3 +15,9 @@ export default class PrivacyPolicy extends Vue {
   }
 }
 </script>
+
+<style>
+.ourstory .v-image {
+  margin-bottom: 10px;
+}
+</style>

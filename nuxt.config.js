@@ -30,6 +30,7 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
+    '@/plugins/global-components.ts'
   ],
   /*
   ** Auto import components
@@ -57,6 +58,9 @@ export default {
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
     treeShake: true,
+    defaultAssets: {
+      icons: false
+    },
     theme: {
       dark: false
     }

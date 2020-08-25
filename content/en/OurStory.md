@@ -7,11 +7,11 @@ We love to spend time in nature. Hiking, camping or relaxing in the hammock, we 
 
 However, the greater the distance from the cities, the greater our disappointment: large deforestation, private properties and lots of trash.
 
-<md-image src="https://community.poweredbydlot.com/wp-content/uploads/2020/07/Community-powered-by-DLOT-Private-proprety.jpg"></md-image>
+<v-img src="https://community.poweredbydlot.com/wp-content/uploads/2020/07/Community-powered-by-DLOT-Private-proprety.jpg"></v-img>
 
-<md-image src=https://community.poweredbydlot.com/wp-content/uploads/2020/07/Community-powered-by-DLOT-deforestation.jpg></md-image>
+<v-img src=https://community.poweredbydlot.com/wp-content/uploads/2020/07/Community-powered-by-DLOT-deforestation.jpg></v-img>
 
-<md-image src=https://community.poweredbydlot.com/wp-content/uploads/2020/07/Community-powered-by-DLOT-Trash.jpg></md-image>
+<v-img src=https://community.poweredbydlot.com/wp-content/uploads/2020/07/Community-powered-by-DLOT-Trash.jpg></v-img>
 
 </br>
 
@@ -40,9 +40,9 @@ We continued our search for hidden gems away from civilization and we decided to
 
 </br>
 
-<md-image src="https://community.poweredbydlot.com/wp-content/uploads/2020/07/Community-powered-by-DLOT-Trip-and-pick-scaled.jpg" ></md-image>
+<v-img src="https://community.poweredbydlot.com/wp-content/uploads/2020/07/Community-powered-by-DLOT-Trip-and-pick-scaled.jpg" ></v-img>
 
-<md-image src="https://community.poweredbydlot.com/wp-content/uploads/2020/07/Community-powered-by-DLOT-Trip-and-pick-challenge-scaled.jpg"></md-image>
+<v-img src="https://community.poweredbydlot.com/wp-content/uploads/2020/07/Community-powered-by-DLOT-Trip-and-pick-challenge-scaled.jpg"></v-img>
 
 </br>
 
@@ -50,7 +50,7 @@ Due to improper waste management systems in rural areas, rivers and streams are 
 
 We encountered areas with so much garbage that it was impossible for us to clean it in a day, not to mention the fact that we needed a van to fit it all. And even if we did, where were we supposed to take it? By not having a legal form to operate, nor the necessary financial and human resources, we cannot clean many of the problematic areas or contract a sanitation truck.
 
-<md-image src="https://poweredbydlot.com/wp-content/uploads/2020/07/Garbage-in-nature-Community-powered-by-DLOT.jpg"></md-image>
+<v-img src="https://poweredbydlot.com/wp-content/uploads/2020/07/Garbage-in-nature-Community-powered-by-DLOT.jpg"></v-img>
 
 </br>
 
@@ -58,4 +58,4 @@ Still, many of the things we saw on our trips show the need to go further than j
 
 In order to find solutions to these issues we founded Community, a non-profit organization focused on the environment. Our purpose is to create awareness around the impact of human lifestyle on nature and promoting means to improve the physical and mental health while living in harmony with the surroundings.
 
-<md-image src="https://poweredbydlot.com/wp-content/uploads/2020/07/Dog-picking-up-trash-Community-powered-by-DLOT-scaled.jpg"></md-image>
+<v-img src="https://poweredbydlot.com/wp-content/uploads/2020/07/Dog-picking-up-trash-Community-powered-by-DLOT-scaled.jpg"></v-img>
