@@ -1,4 +1,5 @@
 import Vue from 'vue'
-import { VImg } from 'vuetify/lib'
+import { VImg, VLazy } from 'vuetify/lib'
 
 Vue.component('VImg', VImg)
+Vue.component('VLazy', VLazy)

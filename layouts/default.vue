@@ -86,7 +86,7 @@
 
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator'
-import { mdiMenu } from '@mdi/js';
+import { mdiMenu } from '@mdi/js'
 
 @Component
 export default class App extends Vue {
