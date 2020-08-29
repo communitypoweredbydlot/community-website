@@ -9,7 +9,7 @@ import { Component, Vue } from 'nuxt-property-decorator'
 import mdFetchWithDefault from '@/lib/MdFetchWithDefault'
 
 @Component
-export default class PrivacyPolicy extends Vue {
+export default class SupportUs extends Vue {
   async asyncData (context: any) {
     return await mdFetchWithDefault('SupportUs')(context)
   }
