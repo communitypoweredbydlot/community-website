@@ -8,6 +8,6 @@
 
 $container-max-widths: (
     'md': map-get($grid-breakpoints, 'md') * 0.9375,
-    'lg': map-get($grid-breakpoints, 'lg') * 0.8375,
-    'xl': map-get($grid-breakpoints, 'xl') * 0.8375
+    'lg': map-get($grid-breakpoints, 'lg') * 0.7375,
+    'xl': map-get($grid-breakpoints, 'xl') * 0.5375
 );
