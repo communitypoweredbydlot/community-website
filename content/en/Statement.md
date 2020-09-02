@@ -1,15 +1,15 @@
 ---
-Title: Statement
-Description: The mission statement summarizes our vision, mission and values.
+Title: Statement Asociatia Community powered by DLOT
+Description: Asociatia Community powered by DLOT | is a non-profit organization focused on environmental cleanup and education., promoting environment friendly behaviours.
 ---
 
-**Community powered by DLOT is a nonprofit organization focused on the environment**
+**Asociatia Community powered by DLOT is a nonprofit organization focused on the environment**
 
 ### Our Vision
 We aim for a world where people, independent of culture, race and gender, can coexist in harmony; where technology is used for protecting nature and wildlife, so we can all benefit from clean air and water, food and shelter. A world guided by respect, not by money and power.
 
 ### Our Values
-Our actions are powered by [DLOT](https://www.poweredbydlot.com)
+Our actions are [powered by DLOT](https://www.poweredbydlot.com)
 * We sustain the cultural influence of music.
 * We promote love and acceptance for everyone and everything around us.
 * We advocate for environment friendly actions and products.

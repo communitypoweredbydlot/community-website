@@ -1,9 +1,10 @@
 ---
-Title: Support Us
-Descriptions: Support Us Page
+Title: Support Us Asociatia Community powered by DLOT
+Descriptions: There are many ways to support us spread the word, donate, volunteer, provide us valuable data for research, expose trash, follow us on social media.
 ---
 
-# Call for supporters <br></br>
+# CALL FOR SUPPORTERS
+<br></br>
 
 ### Spread the word
 
@@ -27,35 +28,42 @@ You can help us financially by donating an amount of your choice
 * BIC/SWIFT: ***BTRLRO22***
 <br></br>
 
+
+### VOLUNTEER
+
+We’re looking for volunteers for remote positions and environment clean-up projects. Read more [here](https://asociatiacommunity.ro/JoinOurTeam)
+<br></br>
+
 ### Provide valuable data
 
-Fill in our survey Consumer behavior and purchase decisions in the beer industry ([link to survey](https://docs.google.com/forms/d/e/1FAIpQLScvUQDZPiALtKtzw9OITf2Wce78LhZYuzOYWR7KhFFDHnTvWg/viewform))
+Fill in our survey [Consumer behavior and purchase decisions in the beer industry](https://docs.google.com/forms/d/e/1FAIpQLScvUQDZPiALtKtzw9OITf2Wce78LhZYuzOYWR7KhFFDHnTvWg/viewform))
+
 
 ### Disclaimer
 Responses to our surveys are anonymous. We do not collect any personal data that can identify the responder (IP, email, address, ID card and so on).
 
 ### Expose trash
 
-Point out locations where the trash is improperly disposed so we can investigate the issue and find solutions. Contact us by email at community@poweredbydlot.com or social [media chat](http://m.me/poweredbydlot).
+Point out locations where the trash is improperly disposed so we can investigate the issue and find solutions. Contact us by email at [tripandpick@asociatiacommunity.ro](mailto:tripandpick@asociatiacommunity.ro) or [social media chat](http://m.me/poweredbydlot).
 
 ### Live your life powered by DLOT
 
-* Respect and protect nature and wildlife
-* Be kind with everyone and everything around you
-* Spend time outdoors
-* Recycle
-* Reuse disposables
-* Say no to fast fashion
-* Shop locally
-* Grow your own food or flowering plants
-* Eat less meat
-* Ride a bike instead of taking the car
-* Avoid food-waste
-* Sustain underground artists
+* Respect and protect nature and wildlife;  
+* Be kind with everyone and everything around you;  
+* Spend time outdoors;  
+* Recycle;  
+* Reuse disposables;  
+* Say no to fast fashion;  
+* Shop locally;  
+* Grow your own food or flowering plants;  
+* Eat less meat;  
+* Ride a bike instead of taking the car;  
+* Avoid food-waste;  
+* Sustain underground artists.
 <br></br>
 
-Follow us on social media
+### Follow us on social media
 Social media icons linked to our profiles
+[comment]: # (social media icons linked to our profile)
 
-So far we have a LinkedIn page
 [LinkedIn](https://www.linkedin.com/showcase/community-powered-by-dlot)
