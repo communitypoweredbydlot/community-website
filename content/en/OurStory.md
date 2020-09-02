@@ -1,9 +1,11 @@
 ---
-Title: Our Story
-Description: How it all started
+Title: Our Story Asociatia Community powered by DLOT
+Description: Here's how Asociatia Community powered by DLOT started. How our hobby has become a way of life and why we decided to found a nonprofit organization.
 ---
 
-We love to spend time in nature. Hiking, camping or relaxing in the hammock, we take advantage of every weekend or public holiday to escape the urban jungle. First, we chose places close to our home town. Easy to get there by foot or bike. But, in this continuing urbanizing world cities are expanding, and soon, our peace oasis became residential complexes and we were forced to go farther. There are still parks, small forests and barbecue areas nearby, with their issues and shortcomings: they are crowded, noisy and mostly dirty.
+# OUR STORY
+
+We love to spend time in nature. Hiking, camping or relaxing in the hammock, we take advantage of every weekend or public holiday to escape the urban jungle. First, we chose places close to our home town, easy to get there by foot or bike. But, in this continuing urbanizing world, cities are expanding, and soon, our peace oasis became residential complexes and we were forced to go farther. There are still parks, small forests and barbecue areas nearby, with their issues and shortcomings: they are crowded, noisy and mostly dirty.
 
 However, the greater the distance from the cities, the greater our disappointment: large deforestation, private properties and lots of trash.
 
@@ -19,8 +21,8 @@ However, the greater the distance from the cities, the greater our disappointmen
 During the years, we noticed there are 5 types of individuals, concerning the attitude towards nature:
 
 **The city fans** – the ones who are not interested in spending time outdoors;  
-**The unaware** – the ones who like to relax in nature, or go for a walk/hike, but leave their litter on the trail or barbecue places and use motorised boats on lakes which provide their drinking water. They are unaware of negative implications on the environment and potential destructive effects of such practices;  
-**The ignorants** – the ones who like to spend time outdoors, listening to loud music and leaving all the trash behind because “they pay taxes so it’s the governments’ problem to pay others to clean it";  
+**The unaware** – the ones who like to relax in nature, or go for a walk/hike, but leave their litter on the trail or barbecue places or use motorised boats on lakes which provide their drinking water. They are unaware of negative implications on the environment and potential destructive effects of such practices;  
+**The ignorants** – the ones who like to spend time outdoors leaving all the trash behind because “they pay taxes so it’s the governments’ problem to pay others to clean it";  
 **The rational ones** – those who understand they have to leave things just like they found them and do not mess up the natural areas they visit;  
 **Trailblazers** – those who go the extra mile and try to fix what others broke, picking up others’ trash and restoring the shelters, trail marks and natural habitats.
 
@@ -30,7 +32,7 @@ Most tourists leave the trash behind because they didn’t came prepared with ga
 
 Besides field observations, our interaction with people from various country sides has revealed the limited beliefs that drive such behaviours: the misconception that the waste problem is solved as long as they don’t see it anymore. Many locals throw their garbage in the river because “the water will take it away”, never questioning where it takes it. There’s also the superstition that throwing solid waste in the river will bring you luck and prosperity.
 
-We continued our search for hidden gems away from civilization and we decided to take some garbage bags with us, to pick-up the litter found on the route back. This is how our campaign, #TripAndPick, has started.
+We continued our search for hidden gems away from civilization and we decided to take some garbage bags with us, to pick-up the litter found on the route back. This is how our campaign, [TripAndPick](https://asociatiacommunity.ro/projects), has started.
 
 </div>
 </v-lazy>
@@ -67,7 +69,7 @@ We encountered areas with so much garbage that it was impossible for us to clean
 <div>
 Still, many of the things we saw on our trips show the need to go further than just picking up others trash. There’s a great need for education, especially in the rural areas.
 
-In order to find solutions to these issues we founded Community, a non-profit organization focused on the environment. Our purpose is to create awareness around the impact of human lifestyle on nature and promoting means to improve the physical and mental health while living in harmony with the surroundings.
+In order to find solutions to these issues we founded Asociatia Community, a non-profit organization focused on the environment. Our purpose is to create awareness around the impact of human lifestyle on nature and promoting means to improve the physical and mental health while living in harmony with the surroundings.
 
 <v-img lazy-src="https://picsum.photos/id/11/100/60" src="https://poweredbydlot.com/wp-content/uploads/2020/07/Dog-picking-up-trash-Community-powered-by-DLOT-scaled.jpg"></v-img>
 

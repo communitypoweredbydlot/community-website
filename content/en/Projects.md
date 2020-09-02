@@ -1,7 +1,9 @@
 ---
-Title: Projects
-Description:  Centralized info of past, current and future projects
+Title: Projects Asociatia Community powered by DLOT
+Description:  #TripAndPick is about enjoying time outdoors and actively participating to the environmental cleanup. A campaign initiated by Asociatia Community powered by DLOT
 ---
+
+# OUR PROJECTS
 
 Hiking, trekking or just relaxing, the benefits of spending time in nature are enormous.
 
@@ -19,4 +21,4 @@ Even if it’s only a few things, or even one item, it counts. (Cigarette butts 
 
 Next time you take a trip outside the urban area, bring some garbage bags with you and pick up the litter found along the route.
 
-You can also join us in our trips. Explore the events calendar below and write [us](community@poweredbydlot.com) for details.
+You can also join us in our trips. Explore the events calendar below and [write us](tripandpick@asociatiacommunity.ro) for details.

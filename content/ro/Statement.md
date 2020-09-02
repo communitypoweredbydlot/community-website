@@ -1,28 +1,28 @@
 ---
-Title: Asociatia Community powered by DLOT
-Description: Viziune, valori si misiune
+Title: Manifesto Asociatia Community powered by DLOT
+Description: Asociatia Community powered by DLOT | este o organizatie non-profit focusata pe protectia mediului, ce  promoveaza un stil de viata sustenabil. 
 ---
 
-**Community powered by DLOT is a nonprofit organization focused on the environment**
+**Asociația Community powered by DLOT este o organizație non-profit focusată pe protecția naturii**
 
 ### Viziune
-Ne dorim o lume în care oamenii, indiferent de cultura, rasa si gen, coexista in armonie; in care tehnologia este folosita pentru protejarea naturii si a vietii salbatice, o lume in care fiecare dintre noi beneficiaza de aer curat, apa, hrana si adapost; o lume ghidata de respect, nu de impulsuri materialiste si sete de putere; o lume bazata pe o relatie profunda intre om si natura. 
+Ne dorim o lume în care oamenii, indiferent de cultură, rasă și gen, coexista în armonie; în care tehnologia este folosită pentru protejarea naturii și a vieții sălbatice, o lume ăn care fiecare dintre noi beneficiază de aer curat, apă, hrană și adăpost; o lume ghidată de respect, nu de impulsuri materialiste și sete de putere; o lume bazată pe o relație profundăa între om și natură. 
 
 ### Valori
-Actiunile noastre sunt powered by [DLOT](https://www.poweredbydlot.com)  
-* Sustinem influenta culturala a muzicii.  
-* Incurajam dragostea si acceptarea pentru toata lumea si pentru tot ce ne inconjoara.  
-* Pledam pentru actiuni si produse prietenoase cu mediul.  
-* Promovam existenta umana drept o stare continua de explorare si descoperire a sinelui.  
+Acțiunile noastre sunt [powered by DLOT](https://www.poweredbydlot.com)  
+* Sustținem influența culturală a muzicii.  
+* Încurajăm dragostea și acceptarea pentru toată lumea și pentru tot ce ne înconjoară.  
+* Pledăm pentru acțiuni și produse prietenoase cu mediul.  
+* Promovăm existența umană drept o stare continuă de explorare și descoperire a sinelui.  
 
 
-Ne asumam un stil de viata echilibrat. Aspiram spre o realitate in care tehnologia si natura se intrepatrund, atingand echilibrul dintre progres si spiritualitate.
+Ne asumăm un stil de viața echilibrat. Aspirăm spre o realitate în care tehnologia și natura se întrepatrund, atingând echilibrul dintre progres și spiritualitate.
 
 
-### Our Mission
-* Colectarea si sortarea adecvata a gunoiului din mediile naturale precum: paduri, maluri de ape, parcuri si alte zone protejate;  
-* Identificarea regiunilor in care deseurile sunt depozitate in mod necorespunzator si sesizarea autoritatilor pentru rezolvarea problemei;  
-* Informarea turistilor si a comunitatilor rurale despre importanta strangerii si sortarii adecvate a deseurilor;   punand la dispozitie mijloace necesare pentru colectare si reciclare;  
-* Promovarea unui stil de viata sustenabil, fara indepartarea individul de zona sa de confort;  
-* Incurajarea petrecerii timpului in aer liber si protejarea naturii.
+### Misiune
+* Colectarea și sortarea adecvată a gunoiului din mediile naturale precum: păduri, maluri de ape, parcuri și alte zone protejate;  
+* Identificarea regiunilor în care deșeurile sunt depozitate în mod necorespunzător și sesizarea autorităților pentru rezolvarea problemei;  
+* Informarea turiștilor și a comunitatilor rurale despre importanța strângerii și sortarii adecvate a deșeurilor, punând la dispoziție mijloacele necesare pentru colectare și reciclare;  
+* Promovarea unui stil de viață sustenabil, fără îndepartarea individului de zona sa de confort;  
+* Încurajarea petrecerii timpului în aer liber și protejarea naturii.
 
