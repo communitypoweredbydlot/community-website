@@ -36,9 +36,9 @@ Most tourists leave the trash behind because they didn’t came prepared with ga
 Besides field observations, our interaction with people from various country sides has revealed the limited beliefs that drive such behaviours: the misconception that the waste problem is solved as long as they don’t see it anymore. Many locals throw their garbage in the river because “the water will take it away”, never questioning where it takes it. There’s also the superstition that throwing solid waste in the river will bring you luck and prosperity.
 
 We continued our search for hidden gems away from civilization and we decided to take some garbage bags with us, to pick-up the litter found on the route back. This is how our campaign, [TripAndPick](https://asociatiacommunity.ro/projects), has started.
-
 </div>
 </v-lazy>
+
 <v-lazy :options="{threshold: .5}">
 <video controls width="100%" height="auto">
   <source
@@ -53,7 +53,7 @@ We continued our search for hidden gems away from civilization and we decided to
 <v-lazy :options="{threshold: .5}">
 <div>
 <v-img lazy-src="https://picsum.photos/id/11/100/60" src="https://community.poweredbydlot.com/wp-content/uploads/2020/07/Community-powered-by-DLOT-Trip-and-pick-scaled.jpg" ></v-img>
-<v-lazy :options="{threshold: .5}">
+
 <v-img lazy-src="https://picsum.photos/id/11/100/60" src="https://community.poweredbydlot.com/wp-content/uploads/2020/07/Community-powered-by-DLOT-Trip-and-pick-challenge-scaled.jpg"></v-img>
 
 <br>
