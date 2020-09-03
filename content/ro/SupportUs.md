@@ -3,9 +3,11 @@ Title: Sustine Asociatia Community powered by DLOT
 Descriptions: Ne poti sustine in multe feluri. spune si altora despre proiectele noastre, urmareste-ne pe social media, doneaza, participa la actiunle noastre, expune locuri in care deseurile sunt depozitate ilegal sau raspunde la chestionarele noastre de cercetare. 
 ---
 
-# IMPLICĂ-TE <br></br>
+### IMPLICĂ-TE
 
-### Spune și altora
+<br>
+
+#### Spune și altora
 
 Împărtășește cu alții povestea noastră, atrage atenția asupra importanței protejării naturii.
 
@@ -16,7 +18,7 @@ Urmarește si folosește hastag-urile noastre pe social media.
 [**#CommunityPoweredByDlot**](https://www.instagram.com/explore/tags/communitypoweredbydlot/?hl=en)  
 [**#PoweredByDlot**](https://www.instagram.com/explore/tags/poweredbydlot/?hl=en)  
 
-### Donează
+#### Donează
 
 Ne poți ajuta financiar donând o sumă la alegere  
 * Nume: ***ASOCIAȚIA COMMUNITY POWERED BY DLOT***
@@ -25,41 +27,42 @@ Ne poți ajuta financiar donând o sumă la alegere
 * Bancă: ***Banca Transilvania***
 * IBAN: ***RO40BTRLRONCRT0543520201***
 * BIC/SWIFT: ***BTRLRO22***
-<br></br>
 
-### Vino în echipa de volntari
+<br>
+
+#### Vino în echipa de volntari
 
 Căutăm voluntri care să ocupe poziții remote în cadrul asociației și/sau care să se alăture proiectelor noastre de curățare a mediului. Află mai multe detalii [aici](https://asociatiacommunity.ro/ro/joinourteam)
-<br></br>
 
-### Contribuie  la studiile noastre
+#### Contribuie  la studiile noastre
 
 Completează chestionarul [Atitudinea consumatorului și deciziile de cumpărare în industria berii](https://docs.google.com/forms/d/e/1FAIpQLScvUQDZPiALtKtzw9OITf2Wce78LhZYuzOYWR7KhFFDHnTvWg/viewform))
 
-### Disclaimer
+#### Disclaimer
 Răspunsurile sunt anonime. Nu colectăm date personale care pot identifica respondentul (IP, email, adresă etc).
 
-### Scoate la iveală deșeurile depozitate ilegal
+#### Scoate la iveală deșeurile depozitate ilegal
 
-Identifică zonele unde gunoaiele nu sunt gestionate corect pentru ca noi să putem investiga situația și să gasim soluții. Contactează-ne prin email la adresa [tripandpick@asociatiacommunity.ro](mailto:tripandpick@asociatiacommunity.ro) sau pe social media [media chat](http://m.me/poweredbydlot).
+Identifică zonele unde gunoaiele nu sunt gestionate corect pentru ca noi să putem investiga situația și să gasim soluții. Contactează-ne prin email la adresa [tripandpick@asociatiacommunity.ro](tripandpick@asociatiacommunity.ro) sau pe social media [media chat](http://m.me/poweredbydlot).
 
-### Trăieste-ți viața powered by DLOT
+#### Trăieste-ți viața powered by DLOT
 
-* Respectț natura și viața sălbatică;  
-* Fii bun cu toți și tot ceea ce te înconjoară ;  
-* Petrece timp în natură;  
-* Reciclează;  
-* Renunță la articolele de unică folosință;  
-* Spune nu cumpărăturilor de tip fast-fasion. Investește în bunuri durabile;  
-* Cumpară produse de la producători locali;  
-* Cultivă legume sau crește plante ornamentale;  
-* Redu consumul de carne;  
-* Înlocuieste mașina cu o plimbare pe jos sau cu bicicleta;  
-* Nu irosi mâncarea;  
+* Respectț natura și viața sălbatică;
+* Fii bun cu toți și tot ceea ce te înconjoară;
+* Petrece timp în natură;
+* Reciclează;
+* Renunță la articolele de unică folosință;
+* Spune nu cumpărăturilor de tip fast-fasion. Investește în bunuri durabile;
+* Cumpară produse de la producători locali;
+* Cultivă legume sau crește plante ornamentale;
+* Redu consumul de carne;
+* Înlocuieste mașina cu o plimbare pe jos sau cu bicicleta;
+* Nu irosi mâncarea;
 * Susține artiștii mai puțin cunoscuți.
-<br></br>
 
-### Urmărește-ne pe social media
+<br>
+
+#### Urmărește-ne pe social media
 [comment]: # (social media icons linked to our profile)
 
 [LinkedIn](https://www.linkedin.com/showcase/community-powered-by-dlot)

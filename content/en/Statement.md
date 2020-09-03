@@ -1,6 +1,6 @@
 ---
 Title: Statement Asociatia Community powered by DLOT
-Description: Asociatia Community powered by DLOT | is a non-profit organization focused on environmental cleanup and education., promoting environment friendly behaviours.
+Description: Asociatia Community powered by DLOT is a non-profit organization focused on environmental cleanup and education, promoting environment friendly behaviours.
 ---
 
 **Asociatia Community powered by DLOT is a nonprofit organization focused on the environment**
