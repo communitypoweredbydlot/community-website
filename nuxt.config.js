@@ -48,7 +48,8 @@ export default {
     '@nuxtjs/pwa',
     '@nuxt/content',
     'nuxt-i18n',
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    '@nuxtjs/sitemap'
   ],
   content: {},
   /*
@@ -85,6 +86,14 @@ export default {
         en,
         ro
       }
+    }
+  },
+  sitemap: {
+    hostname: 'https://asociatiacommunity.ro',
+    gzip: true,
+    i18n: {
+      locales: ['en', 'ro'],
+      routesNameSeparator: '___'
     }
   },
   /*
