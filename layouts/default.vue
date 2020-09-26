@@ -67,6 +67,7 @@
           :key="index"
           :to="localePath(item.route)"
           exact
+          color="#16a99f"
           nuxt
         >
           <v-list-item-title>{{ $t(item.text) }}</v-list-item-title>
@@ -124,15 +125,28 @@ export default class App extends Vue {
 </script>
 
 <style scoped>
+.theme--light.v-btn {
+  color:#807f81;
+}
+
+.theme--light.v-btn:hover {
+  color:#16a99f;
+}
+
 .theme--light.v-btn--active:hover::before, .theme--light.v-btn--active::before {
     opacity: 0.0;
 }
 
 .theme--light.v-btn--active {
-    color: rgb(22, 169, 159);
+    color:#16a99f;
 }
 
 .theme-light.v-btn > a:hover {
   opacity: 0.0;
 }
+
+a.theme--light.v-list-item:hover {
+  color:#16a99f ! important;
+}
+
 </style>
