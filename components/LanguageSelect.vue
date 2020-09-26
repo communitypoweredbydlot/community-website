@@ -1,7 +1,7 @@
 <template>
   <v-menu offset-y>
     <template v-slot:activator="{ on, attrs }">
-      <v-btn text v-bind="attrs" v-on="on">
+      <v-btn text color="#807f81" v-bind="attrs" v-on="on">
         <v-icon left>
           {{ languageSelectionIcon }}
         </v-icon>  {{ $i18n.locale }}

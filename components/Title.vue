@@ -1,7 +1,7 @@
 <template>
   <v-toolbar-title>
     <nuxt-link :to="localePath('/')" class="community-text-title">
-      Community
+      Asociația Community
     </nuxt-link>
     <div class="text-caption">
       powered by DLOT™
@@ -17,5 +17,11 @@
 
 a {
   text-decoration: none;
+}
+
+.text-caption {
+  font-size: 1 em;
+  font-weight: 400;
+  color: #807f81;
 }
 </style>

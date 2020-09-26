@@ -10,7 +10,7 @@
       height="64px"
     >
       <v-app-bar-nav-icon
-        class="hidden-md-and-up"
+        class="hidden-lg-and-up"
         @click.stop="drawer = !drawer"
       >
         <v-icon>
@@ -18,7 +18,7 @@
         </v-icon>
       </v-app-bar-nav-icon>
       <Title class="hidden-md-and-up" />
-      <v-container class="hidden-sm-and-down pb-6">
+      <v-container class="hidden-md-and-down pb-6">
         <v-row align="center" justify="space-between" no-gutters>
           <v-col cols="auto">
             <Title />
@@ -47,8 +47,8 @@
           </v-col>
         </v-row>
       </v-container>
-      <v-spacer class="hidden-md-and-up" />
-      <v-toolbar-items class="hidden-md-and-up">
+      <v-spacer class="hidden-lg-and-up" />
+      <v-toolbar-items class="hidden-lg-and-up">
         <LanguageSelect />
       </v-toolbar-items>
     </v-app-bar>
@@ -124,7 +124,7 @@ export default class App extends Vue {
 }
 </script>
 
-<style>
+<style scoped>
 .theme--light.v-btn {
   color:#807f81;
 }
@@ -147,13 +147,5 @@ export default class App extends Vue {
 
 a.theme--light.v-list-item:hover {
   color:#16a99f !important;
-}
-
-.v-application a {
-  color:#16a99f;
-}
-
-.v-application a:hover {
-  color:#cdc3d9;
 }
 </style>
