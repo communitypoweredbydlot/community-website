@@ -124,7 +124,7 @@ export default class App extends Vue {
 }
 </script>
 
-<style scoped>
+<style>
 .theme--light.v-btn {
   color:#807f81;
 }
@@ -146,7 +146,14 @@ export default class App extends Vue {
 }
 
 a.theme--light.v-list-item:hover {
-  color:#16a99f ! important;
+  color:#16a99f !important;
 }
 
+.v-application a {
+  color:#16a99f;
+}
+
+.v-application a:hover {
+  color:#cdc3d9;
+}
 </style>
