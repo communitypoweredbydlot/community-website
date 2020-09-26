@@ -1,6 +1,6 @@
 <template>
   <article>
-    <nuxt-content :document="page" class="d-flex flex-column justify-space-between body-1 ourstory" />
+    <nuxt-content :document="page" class="dlot-content-style" />
   </article>
 </template>
 
@@ -15,9 +15,3 @@ export default class JoinOurTeam extends Vue {
   }
 }
 </script>
-
-<style>
-.ourstory .v-image {
-  margin-bottom: 10px;
-}
-</style>

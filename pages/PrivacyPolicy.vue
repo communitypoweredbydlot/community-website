@@ -1,6 +1,6 @@
 <template>
   <article>
-    <nuxt-content :document="page" />
+    <nuxt-content :document="page" class="dlot-content-style" />
   </article>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
   <article>
-    <nuxt-content :document="page" class="d-flex flex-column justify-space-between body-1" />
+    <nuxt-content :document="page" class="dlot-content-style" />
   </article>
 </template>
 
