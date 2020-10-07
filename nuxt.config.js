@@ -2,7 +2,6 @@ import en from './locales/en.json'
 import ro from './locales/ro.json'
 
 export default {
-  mode: 'universal',
   target: 'static',
   generate: {
     fallback: true
