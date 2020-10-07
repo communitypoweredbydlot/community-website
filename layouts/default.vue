@@ -109,10 +109,6 @@ export default class App extends Vue {
       route: '/projects'
     },
     {
-      text: 'nav.top.news',
-      route: '/news'
-    },
-    {
       text: 'nav.top.support_us',
       route: '/supportus'
     },
