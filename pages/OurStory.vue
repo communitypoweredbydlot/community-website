@@ -1,6 +1,6 @@
 <template>
   <article>
-    <nuxt-content :document="page" />
+    <nuxt-content :document="page" class="prose max-w-none lg:prose-xl" />
   </article>
 </template>
 
@@ -15,9 +15,3 @@ export default class OurStory extends Vue {
   }
 }
 </script>
-
-<style>
-.ourstory .v-image {
-  margin-bottom: 10px;
-}
-</style>

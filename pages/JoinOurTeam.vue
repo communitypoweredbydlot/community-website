@@ -1,6 +1,6 @@
 <template>
   <article>
-    <nuxt-content :document="page" />
+    <nuxt-content :document="page" class="prose max-w-none lg:prose-xl" />
   </article>
 </template>
 
