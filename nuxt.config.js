@@ -42,7 +42,7 @@ export default {
   ],
   content: {},
   router: {
-    linkExactActiveClass: 'text-teal-500'
+    linkExactActiveClass: 'text-dlot-teal'
   },
   i18n: {
     locales: [

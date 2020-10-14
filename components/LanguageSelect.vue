@@ -4,7 +4,8 @@
     :class="[isOpen ? 'block' : 'inline-block']"
   >
     <button
-      class="font-medium py-2 px-4 focus:outline-none inline-flex items-center hover:text-teal-500"
+      class="relative z-10 inline-flex items-center block focus:outline-none font-medium py-2 px-4 rounded-md hover:text-dlot-teal"
+      :class="{ 'shadow': isOpen }"
       @click.stop="isOpen = !isOpen"
     >
       <svg
@@ -18,24 +19,20 @@
         {{ $i18n.locale }}
       </span>
     </button>
-    <ul
+    <div
       v-click-outside="onClickOutside"
-      class="absolute mt-1 border-gray-200 border-b border-l border-r"
-      :class="isOpen ? 'block' : 'hidden'"
+      class="absolute right-0 mt-2 py-2 w-48 bg-white rounded-md shadow z-20"
+      :class="isOpen ? '' : 'hidden'"
     >
-      <li
+      <nuxt-link
         v-for="locale in availableLocales"
         :key="locale.code"
-        class="bg-white hover:text-teal-500"
+        class="py-2 px-4 block whitespace-no-wrap bg-white hover:text-dlot-teal"
+        :to="switchLocalePath(locale.code)"
       >
-        <nuxt-link
-          class="py-2 px-4 block whitespace-no-wrap"
-          :to="switchLocalePath(locale.code)"
-        >
-          {{ locale.name }}
-        </nuxt-link>
-      </li>
-    </ul>
+        {{ locale.name }}
+      </nuxt-link>
+    </div>
   </div>
 </template>
 
