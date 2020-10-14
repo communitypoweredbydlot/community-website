@@ -30,7 +30,13 @@
       </div>
       <div class="col-span-1 flex justify-end items-start">
         <nuxt-link :to="localePath('/')">
-            <img src="https://poweredbydlot.com/wp-content/uploads/2019/11/logo-powered-by-Dlot-1-e1572971187212-216x139.jpg" height="100" width="125" contain />
+          <img
+            height="100"
+            width="125"
+            src="https://poweredbydlot.com/wp-content/uploads/2019/11/logo-powered-by-Dlot-1-e1572971187212-216x139.jpg"
+            alt="Powered by DLOT"
+            loading="lazy"
+          >
         </nuxt-link>
       </div>
     </div>
