@@ -8,10 +8,6 @@ export default {
   generate: {
     fallback: true
   },
-  /*
-  ** Headers of the page
-  ** See https://nuxtjs.org/api/configuration-head
-  */
   head: {
     titleTemplate: '%s - ' + process.env.npm_package_name,
     title: process.env.npm_package_name || '',
@@ -27,25 +23,15 @@ export default {
   css: [
     '@/assets/css/main.css'
   ],
-  /*
-  ** Plugins to load before mounting the App
-  ** https://nuxtjs.org/guide/plugins
-  */
   plugins: [
     '@/plugins/global-components.ts',
     '@/plugins/on-click-outside.ts'
   ],
-  /*
-  ** Auto import components
-  ** See https://nuxtjs.org/api/configuration-components
-  */
   components: true,
-  /*
-  ** Nuxt.js dev-modules
-  */
   buildModules: [
     '@nuxt/typescript-build',
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-fonts'
   ],
   modules: [
     '@nuxtjs/pwa',
@@ -89,6 +75,10 @@ export default {
       },
       theme: {
         extend: {
+          fontFamily: {
+            sans: ['Roboto', 'sans-serif'],
+            'dlot-logo': ['Comfortaa', 'sans-serif']
+          },
           colors: {
             'dlot-teal': '#16a99f',
             gray: {
@@ -107,6 +97,12 @@ export default {
       }
     }
   },
+  googleFonts: {
+    families: {
+      Roboto: true
+    },
+    display: 'swap'
+  },
   sitemap: {
     hostname: 'https://asociatiacommunity.ro',
     gzip: true,
@@ -115,10 +111,6 @@ export default {
       routesNameSeparator: '___'
     }
   },
-  /*
-  ** Build configuration
-  ** See https://nuxtjs.org/api/configuration-build/
-  */
   build: {
     babel: {
       presets ({ _isServer }) {
