@@ -12,7 +12,7 @@
             class="text-start mb-2"
           >
             <nuxt-link
-              class="hover:text-teal-500"
+              class="hover:text-dlot-teal"
               :to="localePath(item.route)"
             >
               {{ $t(item.text) }}
