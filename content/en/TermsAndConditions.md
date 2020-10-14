@@ -5,8 +5,6 @@ Descriptions: Internal regulations Asociatia Community powered by DLOT
 
 ### TERMS AND CONDITIONS
 
-<br>
-
 #### General terms
 Asociatia Community powered by DLOT is a non-governmental, apolitical and non-profit Organization which is subject to Romanian legislation, applicable to this type of legal person.
 

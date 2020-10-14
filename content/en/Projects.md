@@ -5,8 +5,6 @@ Description: TripAndPick is about enjoying time outdoors and actively participat
 
 ### OUR PROJECTS
 
-<br>
-
 Hiking, trekking or just relaxing, the benefits of spending time in nature are enormous.
 
 Nature is a spring of well-being for both physical and mental health. Spending time outdoors lowers blood pressure, heart rate and muscle tension. It helps relieve stress and anxiety by reducing the production of stress hormones.

@@ -6,8 +6,6 @@ Descriptions: Call for volunteers Asociatia Community powered by DLOT
 
 ### JOIN OUR TEAM
 
-</br>
-
 You're a student looking for opportunities to test and improve your skills, gain working experience, or, you simply like our concept?
 
 Does your personality fit our [values](https://asociatiacommunity.ro/)?   
