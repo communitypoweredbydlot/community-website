@@ -1,67 +1,40 @@
 <template>
-  <v-footer app absolute class="white">
-    <v-container>
-      <v-divider />
-
-      <v-row align="start" justify="start" justify-sm="center" class="text-caption" no-gutters>
-        <v-col cols="auto">
-          <v-list dense nav flat tile>
-            <v-list-item dense flat>
-              <v-list-item-content>
-                <v-list-item-title class="copyright">
-                  © {{ new Date().getFullYear() }} powered by DLOT™
-                </v-list-item-title>
-              </v-list-item-content>
-            </v-list-item>
-          </v-list>
-        </v-col>
-
-        <v-spacer class="hidden-sm-and-down" />
-
-        <v-col cols="auto">
-          <v-list dense nav flat tile>
-            <v-list-item
-              v-for="(item, index) in transparencyAndGdprMenuItems"
-              :key="index"
+  <div class="font-sans border-gray-400 border-t">
+    <div class="grid grid-cols-4 gap-4 text-xs mt-2 mb-4 font-light leading-4 text-gray-600">
+      <div class="col-span-1 flex justify-start items-start">
+        <span class="copyright">© {{ new Date().getFullYear() }} powered by DLOT™</span>
+      </div>
+      <div class="col-span-1 flex flex-col justify-start items-end">
+        <div class="flex flex-col justify-start items-start">
+          <div
+            v-for="(item, index) in transparencyAndGdprMenuItems"
+            :key="index"
+            class="text-start mb-2"
+          >
+            <nuxt-link
+              class="hover:text-teal-500"
               :to="localePath(item.route)"
-              exact
-              link
-              dense
-              flat
-              nuxt
             >
-              <v-list-item-content>
-                <v-list-item-title>{{ $t(item.text) }}</v-list-item-title>
-              </v-list-item-content>
-            </v-list-item>
-          </v-list>
-        </v-col>
-
-        <v-col cols="auto">
-          <v-list dense nav flat tile>
-            <v-list-item dense flat>
-              <v-list-item-content>
-                <v-list-item-title>{{ $t("email") }}</v-list-item-title>
-              </v-list-item-content>
-            </v-list-item>
-            <v-list-item dense flat>
-              <v-list-item-content>
-                <v-list-item-title>{{ $t("phone") }}</v-list-item-title>
-              </v-list-item-content>
-            </v-list-item>
-          </v-list>
-        </v-col>
-
-        <v-spacer class="hidden-sm-and-down" />
-
-        <v-col cols="auto">
-          <nuxt-link :to="localePath('/')">
-            <v-img src="https://poweredbydlot.com/wp-content/uploads/2019/11/logo-powered-by-Dlot-1-e1572971187212-216x139.jpg" height="100" width="125" contain />
-          </nuxt-link>
-        </v-col>
-      </v-row>
-    </v-container>
-  </v-footer>
+              {{ $t(item.text) }}
+            </nuxt-link>
+          </div>
+        </div>
+      </div>
+      <div class="col-span-1 flex flex-col justify-start items-start">
+        <div class="text-center mb-2">
+          {{ $t("email") }}
+        </div>
+        <div class="text-center">
+          {{ $t("phone") }}
+        </div>
+      </div>
+      <div class="col-span-1 flex justify-end items-start">
+        <nuxt-link :to="localePath('/')">
+            <img src="https://poweredbydlot.com/wp-content/uploads/2019/11/logo-powered-by-Dlot-1-e1572971187212-216x139.jpg" height="100" width="125" contain />
+        </nuxt-link>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script lang="ts">
@@ -87,29 +60,7 @@ export default class Footer extends Vue {
 </script>
 
 <style scoped>
-.theme--light.v-list-item--disabled {
-  color: rgba(0, 0, 0, 0.38);
-}
-
 .copyright {
   font-family: 'Comfortaa';
-}
-
-.theme--light.v-list-item:not(.v-list-item--active):not(.v-list-item--disabled) {
-  color: rgba(0, 0, 0, 0.65) !important;
-  font-size: 12px;
-}
-
-.v-list .v-list-item--active {
-  color: rgb(22, 169, 159);
-}
-
-.v-list-item--dense .v-list-item__title,
-.v-list-item--dense .v-list-item__subtitle,
-.v-list--dense .v-list-item .v-list-item__title,
-.v-list--dense .v-list-item .v-list-item__subtitle {
-  font-size: 0.75rem;
-  font-weight: 300;
-  line-height: 1rem;
 }
 </style>

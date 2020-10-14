@@ -1,147 +1,56 @@
 <template>
-  <v-app>
-    <v-app-bar
-      app
-      fixed
-      dense
-      class="white"
-      elevate-on-scroll
-      min-height="58px"
-      height="64px"
+  <div class="flex flex-col h-screen justify-between">
+    <transition
+      enter-class="opacity-0"
+      enter-active-class="ease-out transition-medium"
+      enter-to-class="opacity-100"
+      leave-class="opacity-100"
+      leave-active-class="ease-out transition-medium"
+      leave-to-class="opacity-0"
     >
-      <v-app-bar-nav-icon
-        class="hidden-lg-and-up"
-        @click.stop="drawer = !drawer"
+      <div
+        v-show="drawer"
+        class="z-10 fixed inset-0 transition-opacity"
+        @keydown.esc="isOpen = false"
       >
-        <v-icon>
-          {{ mdiMenu }}
-        </v-icon>
-      </v-app-bar-nav-icon>
-      <Title class="hidden-md-and-up" />
-      <v-container class="hidden-md-and-down pb-6">
-        <v-row align="center" justify="space-between" no-gutters>
-          <v-col cols="auto">
-            <Title />
-          </v-col>
-          <v-col cols="auto">
-            <v-row no-gutters align="center">
-              <v-col
-                v-for="(item, index) in mainMenuItems"
-                :key="index"
-              >
-                <v-btn
-                  :to="localePath(item.route)"
-                  exact
-                  text
-                  small
-                  bottom
-                  nuxt
-                >
-                  {{ $t(item.text) }}
-                </v-btn>
-              </v-col>
-            </v-row>
-          </v-col>
-          <v-col cols="auto">
-            <LanguageSelect />
-          </v-col>
-        </v-row>
-      </v-container>
-      <v-spacer class="hidden-lg-and-up" />
-      <v-toolbar-items class="hidden-lg-and-up">
-        <LanguageSelect />
-      </v-toolbar-items>
-    </v-app-bar>
-
-    <v-navigation-drawer
-      v-model="drawer"
-      app
-      temporary
+        <div
+          class="absolute inset-0 bg-black opacity-50"
+          tabindex="0"
+          @click="drawer = false"
+        />
+      </div>
+    </transition>
+    <aside
+      class="transform top-0 left-0 w-64 bg-white fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30"
+      :class="drawer ? 'translate-x-0' : '-translate-x-full'"
     >
-      <v-list
-        nav
-        dense
-      >
-        <v-list-item
-          v-for="(item, index) in mainMenuItems"
-          :key="index"
-          :to="localePath(item.route)"
-          exact
-          color="#16a99f"
-          nuxt
-        >
-          <v-list-item-title>{{ $t(item.text) }}</v-list-item-title>
-        </v-list-item>
-      </v-list>
-    </v-navigation-drawer>
-
-    <v-main>
-      <v-container class="mt-8">
-        <nuxt />
-      </v-container>
-    </v-main>
-
-    <Footer />
-  </v-app>
+      <NavigationList class="flex flex-col flex-grow justify-between" is-vertical="true" />
+    </aside>
+    <Navigation class="mt-4" @toggle-drawer="drawer = !drawer" />
+    <div class="container lg:mx-auto mt-6 mb-auto mx-4">
+      <nuxt />
+    </div>
+    <Footer class="container lg:mx-auto mt-6 mx-4" />
+  </div>
 </template>
 
 <script lang="ts">
-import { Component, Vue } from 'nuxt-property-decorator'
-import { mdiMenu } from '@mdi/js'
+import { Component, Vue, Watch } from 'nuxt-property-decorator'
 
 @Component
 export default class App extends Vue {
   tab!: any
   drawer = false
-  mdiMenu = mdiMenu
 
-  mainMenuItems = [
-    {
-      text: 'nav.top.mission_statement',
-      route: '/'
-    },
-    {
-      text: 'nav.top.our_story',
-      route: '/ourstory'
-    },
-    {
-      text: 'nav.top.projects',
-      route: '/projects'
-    },
-    {
-      text: 'nav.top.support_us',
-      route: '/supportus'
-    },
-    {
-      text: 'nav.top.join_our_team',
-      route: '/joinourteam'
-    }
-  ]
+  mounted () {
+    document.addEventListener('keydown', (e: KeyboardEvent) => {
+      this.drawer = e.keyCode === 27 && this.drawer
+    })
+  }
+
+  @Watch('$route')
+  afterRouteChanged () {
+    this.drawer = false
+  }
 }
 </script>
-
-<style scoped>
-.theme--light.v-btn {
-  color:#807f81;
-}
-
-.theme--light.v-btn:hover {
-  color:#16a99f;
-}
-
-.theme--light.v-btn--active:hover::before, .theme--light.v-btn--active::before {
-    opacity: 0.0;
-}
-
-.theme--light.v-btn--active {
-    color:#16a99f;
-}
-
-.theme-light.v-btn > a:hover {
-  opacity: 0.0;
-}
-
-a.theme--light.v-list-item:hover {
-  color:#16a99f !important;
-}
-</style>

@@ -1,3 +1,5 @@
+import tailwindTypography from '@tailwindcss/typography'
+
 import en from './locales/en.json'
 import ro from './locales/ro.json'
 
@@ -30,7 +32,8 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
-    '@/plugins/global-components.ts'
+    '@/plugins/global-components.ts',
+    '@/plugins/on-click-outside.ts'
   ],
   /*
   ** Auto import components
@@ -42,7 +45,7 @@ export default {
   */
   buildModules: [
     '@nuxt/typescript-build',
-    '@nuxtjs/vuetify'
+    '@nuxtjs/tailwindcss'
   ],
   modules: [
     '@nuxtjs/pwa',
@@ -52,19 +55,8 @@ export default {
     '@nuxtjs/sitemap'
   ],
   content: {},
-  /*
-  ** vuetify module configuration
-  ** https://github.com/nuxt-community/vuetify-module
-  */
-  vuetify: {
-    customVariables: ['~/assets/variables.scss'],
-    treeShake: true,
-    defaultAssets: {
-      icons: false
-    },
-    theme: {
-      dark: false
-    }
+  router: {
+    linkExactActiveClass: 'text-teal-500'
   },
   i18n: {
     locales: [
@@ -85,6 +77,33 @@ export default {
       messages: {
         en,
         ro
+      }
+    }
+  },
+  tailwindcss: {
+    config: {
+      plugins: [tailwindTypography],
+      future: {
+        removeDeprecatedGapUtilities: true,
+        purgeLayersByDefault: true
+      },
+      theme: {
+        extend: {
+          colors: {
+            'dlot-teal': '#16a99f',
+            gray: {
+              '100': '#f5f5f5',
+              '200': '#eeeeee',
+              '300': '#e0e0e0',
+              '400': '#bdbdbd',
+              '500': '#9e9e9e',
+              '600': '#757575',
+              '700': '#616161',
+              '800': '#424242',
+              '900': '#212121'
+            }
+          }
+        }
       }
     }
   },

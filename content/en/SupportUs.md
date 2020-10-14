@@ -5,8 +5,6 @@ Descriptions: There are many ways to support us spread the word, donate, volunte
 
 ### CALL FOR SUPPORTERS
 
-<br>
-
 #### Spread the word
 
 Share our concept, educate others, raise awareness about the importance of protecting the envronment and keeping nature clean.

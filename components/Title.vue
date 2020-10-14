@@ -1,27 +1,10 @@
 <template>
-  <v-toolbar-title>
-    <nuxt-link :to="localePath('/')" class="community-text-title">
-      Asociația Community
+  <div>
+    <nuxt-link :to="localePath('/')" class="text-base text-xl leading-6">
+      <span class="text-dlot-teal">Asociația Community</span>
     </nuxt-link>
-    <div class="text-caption">
+    <div class="font-sans text-xs text-gray-600">
       powered by DLOT™
     </div>
-  </v-toolbar-title>
+  </div>
 </template>
-
-<style scoped>
-.community-text-title {
-  color:#16a99f;
-  font-family: 'Comfortaa';
-}
-
-a {
-  text-decoration: none;
-}
-
-.text-caption {
-  font-size: 1 em;
-  font-weight: 400;
-  color: #807f81;
-}
-</style>
