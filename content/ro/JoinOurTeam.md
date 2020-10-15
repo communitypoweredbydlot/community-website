@@ -5,8 +5,6 @@ Descriptions: Asociatia Community powered by DLOT cauta voluntari
 
 ### APEL PENTRU VOLUNTARI
 
-</br>
-
 Esti student in cautare de oportunitati pentru a-ti testa si imbunatatii abilitatile, vrei sa acumulezi experienta de munca sau, pur si simplu iti place conceptul nostru? 
 
 
@@ -24,14 +22,13 @@ Bine ai venit!
 
 ### Unde-s multi, puterea creste
 
-</br>
-
 Cautam voluntri care sa ocupe pozitii remote in cadrul asociatiei si/sau care sa se alature proiectelor noastre de curatare a mediului.  
 Fiind la inceput de drum, avem mai multe posibilitati. Verifica lista de mai jos si [scrie-ne](mailto:team@asociatiacommunity.ro) daca ti-am captat interesul. 
 
 Poate iti place sa scrii, sau esti bun la planificare si organizare, ai o pasiune pentru oameni, animale si natura, esti creativ sau iti place sa petreci timp in aer liber si vrei sa te alaturi campaniei noastre de [Trip&Pick] (https://asociatiacommunity.ro/projects). Nu trebuie sa indeplinesti toate cerintele pentru o pozitie. Scrie-ne ce ti-ar placea sa faci si cat timp esti dispus sa investesti iar noi vom gasi o modalitate de a-ti pune in valoare abilitatile.  
 
 **Ce beneficii ai**
+
 * Program flexibil;  
 * Lucrezi de unde vrei;  
 * In functie de nivelul de implicare si rezultate, exista posibilitatea de a fi angajat in viitor;  
@@ -42,18 +39,16 @@ Poate iti place sa scrii, sau esti bun la planificare si organizare, ai o pasiun
 * Ai acces gratuit la evenimentele noastre;  
 * Oportunitatea de a deveni membru in asociatie;  
 * Nu ai nimic de pierdut. Poti sa renunti in momentul in care activitatea nu te satisface sau nu ti-am indeplinit aseptarile. 
-[comment]: # (accordion - job titles)
 
-</br>
 
-<v-expansion-panels accordion flat focusable>
-<v-expansion-panel>
+<expansion-panels>
+<expansion-panel>
 <expansion-panel-header>
 
 #### Specialist HR
 
 </expansion-panel-header>
-<v-expansion-panel-content>
+<expansion-panel-content>
 
 **Atributii**
 
@@ -66,8 +61,6 @@ Poate iti place sa scrii, sau esti bun la planificare si organizare, ai o pasiun
 * Centralizarea programului de lucru al voluntarilor si amembrilor;  
 * Realizarea rapoartelor de activitate ale membrilor si voluntarilor. 
 
-</br>
-
 **Cerinte**
 
 * Cunostinte in ceea ce priveste legislatia muncii;  
@@ -78,16 +71,16 @@ Poate iti place sa scrii, sau esti bun la planificare si organizare, ai o pasiun
 * Computer personal cu conexiune la internet;  
 * Abilitati de munca in echipa.
 
-</v-expansion-panel-content>
-</v-expansion-panel>
+</expansion-panel-content>
+</expansion-panel>
 
-<v-expansion-panel>
+<expansion-panel>
 <expansion-panel-header>
 
 #### Manager Social media 
 
 </expansion-panel-header>
-<v-expansion-panel-content>
+<expansion-panel-content>
 
 **Atributii**
 
@@ -99,8 +92,6 @@ Poate iti place sa scrii, sau esti bun la planificare si organizare, ai o pasiun
 * Participarea la conferinte si work-shop-uri educationale in domeniul marketing digital;  
 * Informarea cu privire la cele mai bune practici si tehnologii ale canalelor de socializare;     
 * Anaaliza si imbunatatirea implicarii publicului. 
-
-</br>
 
 **Cerinte**
 
@@ -114,16 +105,16 @@ Poate iti place sa scrii, sau esti bun la planificare si organizare, ai o pasiun
 * Abilitati de munca in echipa.
 
 
-</v-expansion-panel-content>
-</v-expansion-panel>
+</expansion-panel-content>
+</expansion-panel>
 
-<v-expansion-panel>
+<expansion-panel>
 <expansion-panel-header>
 
 #### Community & Stakeholder Manager
 
 </expansion-panel-header>
-<v-expansion-panel-content>
+<expansion-panel-content>
 
 **Atributii**
 
@@ -136,9 +127,6 @@ Poate iti place sa scrii, sau esti bun la planificare si organizare, ai o pasiun
 * Gestionarea situatiilor aparute in cadrul relatiei cu partemerii sau comunitatea si transmiterea acestora catre echipele de proiect;  
 * Identificarea si gestionarea riscurilor asociate cu partenerii si comunitatea. 
 
-
-</br>
-
 **Cerinte**
 
 * Abilitati de comuniare scrisa si verbala (Romana si Engleza);  
@@ -150,17 +138,17 @@ Poate iti place sa scrii, sau esti bun la planificare si organizare, ai o pasiun
 * Computer personal cu conexiune la internet;  
 * Abilitati de munca in echipa.
 
-</v-expansion-panel-content>
-</v-expansion-panel>
+</expansion-panel-content>
+</expansion-panel>
 
 
-<v-expansion-panel>
+<expansion-panel>
 <expansion-panel-header>
 
 #### Project manager
 
 </expansion-panel-header>
-<v-expansion-panel-content>
+<expansion-panel-content>
 
 **Atributii**
 
@@ -174,9 +162,6 @@ Poate iti place sa scrii, sau esti bun la planificare si organizare, ai o pasiun
 * Analiza si evaluarea rezultatelor proiectelor;  
 * Identificarea solutiilor pentru imbunatatirea activitatii.  
 
-
-</br>
-
 **Cerinte**
 
 * Abilitati de comuniare scrisa si verbala (Romana si Engleza);  
@@ -187,16 +172,16 @@ Poate iti place sa scrii, sau esti bun la planificare si organizare, ai o pasiun
 * Computer personal cu conexiune la internet;  
 * Abilitati de munca in echipa.
 
-</v-expansion-panel-content>
-</v-expansion-panel>
+</expansion-panel-content>
+</expansion-panel>
 
-<v-expansion-panel>
+<expansion-panel>
 <expansion-panel-header>
 
 #### Research specialist
 
 </expansion-panel-header>
-<v-expansion-panel-content>
+<expansion-panel-content>
 
 **Atributii**
 
@@ -206,8 +191,6 @@ Poate iti place sa scrii, sau esti bun la planificare si organizare, ai o pasiun
 * Teastarea, personalizarea si implementarea de noi metode si proceduri;    
 * Propunerea tehnicilor de imbunatatire a calitatii cercetarii;  
 * Contribuirea la scrierea si publicarea lucrarilor de specialitate, a prezentarilor si a altor documente stiintifice.
-
-</br>
 
 **Cerinte**
 
@@ -220,16 +203,16 @@ Poate iti place sa scrii, sau esti bun la planificare si organizare, ai o pasiun
 * Computer personal cu conexiune la internet;  
 * Abilitati de munca in echipa.
 
-</v-expansion-panel-content>
-</v-expansion-panel>
+</expansion-panel-content>
+</expansion-panel>
 
-<v-expansion-panel>
+<expansion-panel>
 <expansion-panel-header>
 
 #### Designer grafic
 
 </expansion-panel-header>
-<v-expansion-panel-content>
+<expansion-panel-content>
 
 **Atributii**
 
@@ -238,7 +221,6 @@ Poate iti place sa scrii, sau esti bun la planificare si organizare, ai o pasiun
 * Testarea designului grafic pe diverse canale media;    
 * Realizarea ilustratiilor, logo-urilor si a altor elemente de design si identitate vizuala;  
 * Colaborarea cu echipa de creatie pentru realizarea design-ului final. 
-</br>
 
 **Requirements**
 
@@ -250,17 +232,17 @@ Poate iti place sa scrii, sau esti bun la planificare si organizare, ai o pasiun
 * Computer personal cu conexiune la internet;  
 * Abilitati de munca in echipa.
 
-</v-expansion-panel-content>
-</v-expansion-panel>
+</expansion-panel-content>
+</expansion-panel>
 
 
-<v-expansion-panel>
+<expansion-panel>
 <expansion-panel-header>
 
 #### Specialist PR
 
 </expansion-panel-header>
-<v-expansion-panel-content>
+<expansion-panel-content>
 
 **Atributii**
 
@@ -270,9 +252,6 @@ Poate iti place sa scrii, sau esti bun la planificare si organizare, ai o pasiun
 * Asigurarea comunicarii in conformitate cu imaginea organizatiei;  
 * Monitorizarea si analiza acoperirii media in vederea informarii cu privire la viitoarele campanii;  
 * Organizarea, programarea si pregatirea responsabililor cu interviurile de presa. 
-
-
-</br>
 
 **Cerinte**
 
@@ -286,6 +265,6 @@ Poate iti place sa scrii, sau esti bun la planificare si organizare, ai o pasiun
 * Computer personal cu conexiune la internet;  
 * Abilitati de munca in echipa.
 
-</v-expansion-panel-content>
-</v-expansion-panel>
-</v-expansion-panels>
+</expansion-panel-content>
+</expansion-panel>
+</expansion-panels>

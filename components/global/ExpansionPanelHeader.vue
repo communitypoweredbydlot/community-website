@@ -1,14 +1,18 @@
 <template>
-  <v-expansion-panel-header>
-    <template v-slot:actions>
-      <v-icon class="icon" color="#16a99f">
-        {{ actionIcon }}
-      </v-icon>
-    </template>
-    <div class="header">
-      <slot />
+  <header class="flex justify-start items-start p-5 pl-8 pr-8 cursor-pointer select-none">
+    <div class="w-6 h-6 flex items-center justify-center">
+      <svg
+        class="fill-current h-6 w-6"
+        viewbox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path :d="actionIcon" />
+      </svg>
     </div>
-  </v-expansion-panel-header>
+    <span>
+      <slot />
+    </span>
+  </header>
 </template>
 
 <script lang="ts">
@@ -20,13 +24,3 @@ export default class ExpansionPanelHeader extends Vue {
   actionIcon = mdiChevronDown
 }
 </script>
-
-<style scoped>
-.icon {
-  order: 0;
-}
-
-.header {
-  order: 1;
-}
-</style>
