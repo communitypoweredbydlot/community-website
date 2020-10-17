@@ -1,0 +1,7 @@
+a {
+  @apply text-dlot-teal;
+}
+
+a:hover {
+  color: #cdc3d9;
+}

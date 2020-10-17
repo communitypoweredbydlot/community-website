@@ -1,5 +1,5 @@
 <template>
-  <section class="shadow">
+  <section class="flex flex-col">
     <slot />
   </section>
 </template>

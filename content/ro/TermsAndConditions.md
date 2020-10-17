@@ -5,8 +5,6 @@ Descriptions: Regulament de ordine interioara Asociatia Community powered by DLO
 
 ### TERMENI ȘI CONDIȚII
 
-<br>
-
 #### Dispoziții generale
 Asociaţia Community powered by DLOT este o asociaţie cu personalitate juridică, neguvernamentală, apolitică şi non-profit, care se supune legislaţiei române, aplicabilă acestui gen de persoană juridică.
 
@@ -19,7 +17,7 @@ Printre activitățile pe care le va desfășura se numără, dar nu se limiteaz
 * consultanță în probleme de mediu,
 * activitați de fitness și sporturi în aer liber,
 * plantarea, îngrijirea și întreținerea spațiilor verzi,
-*activități de recreere în natură,
+* activități de recreere în natură,
 * prezentări și conferințe pentru educarea cetățenilor în ceea ce privește protejarea mediului și beneficiile naturii asupra sănătății,
 * acțiuni de ecologizare,
 * organizarea de evenimente și spectacole în vederea strângerii de fonduri pentru susținerea activităților de ecologizare,
@@ -27,18 +25,15 @@ Printre activitățile pe care le va desfășura se numără, dar nu se limiteaz
 * contractarea firmelor specializate în ridicarea deșeurilor din locurile mai greu accesibile, cum ar fi zone rurale, cătune, malurile apelor sau păduri,
 * promovarea inițiativelor cetațenești cu privire la implementarea mijloacelor de colectare a deșeurilor în mod selectiv.
 
-<br>
-
 #### Organe de conducere
 
-<br>
+**Adunarea generală**
 
-**Adunarea generală**  
 Adunarea generală este organul de conducere alcătuit din totalitatea membrilor fondatori, membrilor de onoare şi membrilor asociaţi. 
 
 Adunarea generală are următoarele competenţe:
-* stabilirea strategiei și a obiectivelor generale ale asociației;  
-* aprobarea bugetului de venituri și cheltuieli, precum și a bilanțului contabil al asociației;  
+* stabilirea strategiei și a obiectivelor generale ale asociației;
+* aprobarea bugetului de venituri și cheltuieli, precum și a bilanțului contabil al asociației;
 * alegerea și revocarea membrilor consiliului director;
 * alegerea și revocarea cenzorului/membrilor comisiei de cenzori;
 * constituirea de filiale;
@@ -46,15 +41,11 @@ Adunarea generală are următoarele competenţe:
 * dizolvarea și lichidarea asociației, precum și stabilirea destinației bunurilor rămase după lichidare;
 * orice alte atribuții prevazute de lege și de statut.
 
-<br>
-
 Adunarea generală se întruneşte cel puţin o dată pe an şi are drept de coordonare şi de control asupra consiliului director, a cenzorului/comisiei de cenzori, precum şi a întregii activităţi a asociaţiei.
 
-Adunarea Generală Extraordinară poate fi convocată în următoarele situaţii:
+Adunarea Generală Extraordinară poate fi convocată în următoarele situaţii:  
 * ori de câte ori este nevoie, din iniţiativa Consiliului Director sau a Preşedintelui acestuia;
 * la cererea scrisă a cel puţin 1/3 din numărul total de membri.
-
-<br>
 
 Adunarea Generală este legal constituită când la şedinţă participă majoritatea simplă a membrilor asociaţiei şi adoptă hotărâri valabile cu votul a cel puţin jumătate plus unu din numărul membrilor prezenţi.
 
@@ -67,8 +58,6 @@ Alegerile pentru consiliul director şi pentru cenzor/comisia de cenzori au loc 
 
 Hotărârile Adunării Generale , contrare legii, actului constitutiv sau statutului pot fi atacate în justiţie de către membrii care nu au luat parte la adunarea generală sau de cei care au votat şi au cerut să se insereze aceasta în procesul-verbal, în termen de 15 zile de la data când au luat cunoştinţă despre hotărâre sau de la data când a avut loc şedinţa, după caz.
 
-<br>
-
 **Consiliul director**
 
 Consiliul Director asigură punerea în executare a hotărârilor Adunării Generale.
@@ -79,16 +68,12 @@ Acesta este alcătuit dupa cum urmează:
 * un secretar;
 * un specialist în Protecția Mediului.
 
-<br>
-
 Consiliul Director are urmatoarele atribuții:
 * prezintă adunării generale rapoarte de activitate, execuţia bugetului de venituri şi cheltuieli, bilanţul contabil, proiectul bugetului de venituri şi cheltuieli, proiectele programelor asociaţiei;
 * ncheie acte juridice în numele şi pe seama asociaţiei, prin preşedinte sau un împuternicit;
 * aprobă organigrama şi politica de personal a asociaţiei;
 * elaborează regulamentul intern;
 * îndeplineşte orice alte atribuţii şi sarcini stabilite de Adunarea Generală.
-
-<br>
 
 Membrii consiliului director se aleg prin vot secret de adunarea generală, pentru un mandat de 4 (patru) ani.
 
@@ -100,20 +85,14 @@ Consiliul director se întruneşte ori de câte ori nevoile asociaţiei o impun 
 
 Consiliul director deliberează, în mod valabil, în prezenţa a cel puţin 2/3 din numărul membrilor săi şi adoptă hotărâri valabile cu o jumătate plus unu din voturile celor prezenţi.
 
-<br>
-
 #### Departamentele Asociației
-
-<br>
 
 * Educațional-Social;
 * Comunicare-PR;
 * Fundraising - scriere de proiecte;
 * Resurse Umane și Contabilitate;
 * IT;
-* Managementul Proiectelor.
-
-<br>
+* Managementul Proiectelor.z
 
 **Departamentul Educațional-social**
 * Organizarea de evenimente, cursuri şi traininguri  în ceea ce privește protejarea mediului și beneficiile naturii asupra sănătății;   
@@ -121,8 +100,6 @@ Consiliul director deliberează, în mod valabil, în prezenţa a cel puţin 2/3
 * Participarea grupurilor de cercetare la conferinţe cu tematică apropiată de domeniile de activitate ale asociaţiei;  
 * Organizarea de evenimente de socializare pentru membrii și voluntarii asociației;  
 * Organizarea de acțiuni de ecologizare.
-
-<br>
 
 **Departamentul Comunicare -  PR**
 * Identificarea unor posibili colaboratori și parteneri și stabilirea legăturii cu aceștia;
@@ -133,16 +110,12 @@ Consiliul director deliberează, în mod valabil, în prezenţa a cel puţin 2/3
 * Crearea de materiale promoţionale;
 * Administrarea, actualizarea și crearea de conținut pentru blog-ul Asociației și paginile de social media.
 
-<br>
-
 **Departamentul Fundraising - scriere de Proiecte**
 * Identificarea de surse de finanţare;
 * Strângere de fonduri;
 * Obţinerea de sponsorizări;
 * Scrierea de proiecte – familiarizarea cu regulamentele finanțatorilor, completarea cererilor de finanțare, proiectarea primară a proiectelor;
 * imarea și gestionarea resurselor.
-
-<br>
 
 **Departamentul de Resurse Umane și Contabilitate**
 * Identificarea necesarului de voluntary/personal intern al Asociațieiș
@@ -153,14 +126,10 @@ Consiliul director deliberează, în mod valabil, în prezenţa a cel puţin 2/3
 * Realizarea contabilității primare;;
 * Realizează plata furnizorilor de bunuri și servicii.
 
-<br>
-
 **Departamentul IT**
 * Assigură funcționalitatea website-ului și a conturilor de email;
 * Identifică oportunități de dezvoltare software;
 * Mentine relația cu furnizorii de servicii web.
-
-<br>
 
 **Departamentul de Management al Proiectelor**
 * Identifică potențiale proiecte;
@@ -170,8 +139,6 @@ Consiliul director deliberează, în mod valabil, în prezenţa a cel puţin 2/3
 * Planifică și coordonează activitatea echipelor interne în vederea realizării proiectelor alocate;
 * Realizează raportul de evaluare a proiectelor încheiate.
 
-<br>
-
 **Coordonatorii departamentelor**
 * Au obligaţia să coordoneze voluntarii în desfăşurarea activităţilor prevăzute;
 * Îşi dau acordul pentru activităţile membrilor departamentului respective;
@@ -180,11 +147,7 @@ Consiliul director deliberează, în mod valabil, în prezenţa a cel puţin 2/3
 * Au dreptul de a propune voluntari ca membri ai Asociaţiei;
 * Au dreptul de a propune modificarea regulamentului intern.
 
-<br>
-
 #### Membrii Asociației
-
-<br>
 
 **Categorii de membri**  
 Asociaţia se compune din următoarele categorii de membri:
@@ -193,8 +156,6 @@ Asociaţia se compune din următoarele categorii de membri:
 * membri de onoare – persoanele fizice şi juridice care au adus/aduc o contribuţie deosebită la dezvoltarea şi desfăşurarea activităţii asociaţiei pe plan moral şi material;  
 * membri susținători - ersoanele fizice şi juridice care sprijină Asociația material, prin plata cotizațieiș sau prin oferirea de servicii neremunerate în vederea susținerii activității Asociației.
 
-<br>
-
 **Dobândirea calității de membru**  
 Poate fi membru al asociaţiei COMMUNITY POWERED BY DLOT orice persoană fizică care aderă la statutul asociaţiei, angajandu-se că va aplica şi va respecta în mod necondiţionat statutul ei cât şi legislaţia în vigoare.
 
@@ -202,21 +163,15 @@ Calitatea de membru al asociaţiei se dobândeşte prin următoarele modalităţ
 * La constituire, prin semnarea actului constitutiv;
 * Ulterior prin depunerea în scris a unei cereri prin care să îşi exprime voinţa de aderare, urmând ca cererea să fie aprobată de către Consiliul Director.
 
-<br>
-
 Calitatea de membru asociat şi cea de membru de onoare se acordă de Consiliul Director cu vot majoritar.
 
 riteriile de eligibilitate pentru obtinerea calitatii de membru asociat sunt următoarele:
 * este înscris în Asociație, ca voluntar, de minim un an și a participat activ, lunar, la cel puțin o acțiune a Asociației;
 * a coordonat cu success cel puțin 2 campanii în interesul Asociației.
 
-<br>
-
 Criteriile de eligibilitate pentru obtinerea calitatii de membru de onoare sunt următoarele:
 * a oferit o donație materială în cuantum de cel puțin X% față de cotizația anuala a membrilor fondatori;
 * contribuie la creșterea notorietății și prezentei în media, a Asociației.
-
-<br>
 
 riteriile de eligibilitate pentru obtinerea calitatii de membru susținători sunt următoarele:
 * ocupă o funcție nererumenrată în cadrul Asociației;
@@ -235,8 +190,6 @@ Pierderea calităţii de membru al asociaţiei se produce în următoarele situa
 * încălcarea obligaţiilor şi îndatoririlor prevăzute in Statut si in regulament;
 * conduită necorespunzătoare, prin care se aduc prejudicii morale şi/sau materiale Asociaţiei;
 * retragerea acestei calităţi de către Consiliul Director pentru motive întemeiate.
-
-<br>
 
 Sancţiunea excluderii se hotărăşte de către Consiliul Director şi se supune la vot în Adunarea Generală, care ia decizia cu majoritate calificată. Persoana în cauză poate contesta decizia în termen de 15 zile lucrătoare de la comunicarea deciziei în faţa Adunării Generale.
 
@@ -262,21 +215,15 @@ Drepturile membrilor asociației sunt urmatoarele:
 * dreptul la vot consultativ în cadrul Adunării Generale;
 * dreptul la vot decisiv în cadrul Consiliului Director.
 
-<br>
-
 **Drepturile membrilor onorifici:**
 * ssă participe la adunările generale ale Asociaţiei;
 * să aleagă şi să fie aleşi în Consiliul director şi în Comisia de cenzori, dacă au împlinit vârsta de 18 ani, au aptitudinile şi capacităţile necesare exercitării funcţiilor la care candidează;
 * dreptul la vot consultativ în cadrul Adunării Generale și a consiliului director.
 
-<br>
-
 **Drepturile membrilor simpatizanti:**
 * să participe la ședințele Adunării Generale  și a Consiliului Director ale Asociaţiei;
 * să aleagă şi să fie aleşi în Consiliul Director şi în Comisia de cenzori, dacă au împlinit vârsta de 18 ani, au aptitudinile şi capacităţile necesare exercitării funcţiilor la care candidează;
 * dreptul la vot consultativ în cadrul Adunării Generale  și a Consiliului Director.zs
-
-<br>
 
 **Obligaţiile membrilor asociaţiei sunt următoarele:**
 * să îşi exprime prin vot opţiunea faţă de proiectele de hotărâri ale Adunării Generale;
@@ -290,11 +237,7 @@ Drepturile membrilor asociației sunt urmatoarele:
 * să plătească contribuţiile băneşti, asupra cărora şi-au dat acordul;
 * să contribuie la cresterea prestigiului general al Asociatiei.
 
-<br>
-
 #### Voluntarii Asociației
-
-<br>
 
 **Recrutarea voluntarilor**
 Este anunțată pe site-ul  Asociației  precum și prin alte mijloace în mediul real sau virtual;  
@@ -311,8 +254,6 @@ Are în vedere principiile non-discriminării, echității și demnității și 
 * de a i se rambursa cheltuielile efectuate pentru derularea activităţilor;  
 * de a depune cerere pentru înscrierea ca membru al Asociaţiei.
 
-<br>
-
 **Obligațiile voluntarilor:**
 * să presteze o activitate de interes public, fără remuneraţie;  
 * să aibă o conduită complementară cu obiectivele generale ale voluntariatului;   
@@ -327,15 +268,13 @@ Are în vedere principiile non-discriminării, echității și demnității și 
 * să nu comunice sau să răspândească în public afirmaţii defăimătoare la adresa organizaţiei și sau a activităţii acesteia;  
 * să nu desfăşoare în cadrul Asociaţiei sau cu ocazia manifestărilor organizate de Asociaţie, activităţi de propagandă politică faţă de alţi membri ai asociaţiei, sau faţă de terţe persoane, aflate în legătură profesională cu Asociaţia sau străine de Asociaţie.
 
-<br>
+**Sancțiuni ale voluntarilor**
 
-**Sancțiuni ale voluntarilor**  
 Prima abatere de la respectarea îndatoririlor se sancționează cu atenționare verbală şi justifcarea faptei în faţa Consiliului Director
 
 A doua abatere se sanţionează cu atenționare scrisă și cu:
 * plata sau înlocuirea în cazul bunurilor deteriorate;
 * cuze publice dacă atentează la demnitatea unui membru sau voluntar al Asociaţiei.
-
 
 A treia abatere atrage suspendarea.
 
@@ -348,12 +287,11 @@ Cotizația se datorează asociatției începand cu anul urmator dobândirii cali
 
 Membrii asociați trebuie să plătească, suplimentar față de cotizația anuală, o taxă de intrare în Asociație, o singură dată la înscrierea în Asociație. Cuantumul cotizației și cuantumul taxei de înscriere (intrare) se stabilesc prin prezentul regulament și intră în vigoare în urma aprobării prin hotărâre a Adunării Generale  a Asociației, putând fi revizuite anual, din motive bine întemeiate, prin decizie a Consiliului Director și aprobate de către Adunarea Generală. 
 
-**Cuantumul cotizației**  
+**Cuantumul cotizației**
+
 TBD
 
 #### DISPOZIȚII FINALE
-
-<br>
 
 Prezentul regulament se aplică numai în interiorul Asociației și în cadrul activităților acesteia.
 

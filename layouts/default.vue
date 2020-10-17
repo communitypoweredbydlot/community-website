@@ -27,7 +27,7 @@
       <NavigationList class="flex flex-col flex-grow justify-between" is-vertical="true" />
     </aside>
     <Navigation class="mt-4" @toggle-drawer="drawer = !drawer" />
-    <div class="container lg:mx-auto mt-6 mb-auto mx-4">
+    <div class="container lg:mx-auto mt-16 mb-auto mx-4">
       <nuxt />
     </div>
     <Footer class="container lg:mx-auto mt-6 mx-4" />
