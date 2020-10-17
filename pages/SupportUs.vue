@@ -106,27 +106,55 @@
     </div>
     <div>
       <h4>{{ $t('supportus.live.title') }}</h4>
-      <div
-        v-for="(value, index) in $t('supportus.live.list')"
-        :key="index"
-        class="mb-1"
-      >
-        {{ value }}
-      </div>
+      <ul>
+        <li
+          v-for="(value, index) in $t('supportus.live.list')"
+          :key="index"
+          class="mb-1"
+        >
+          {{ value }}
+        </li>
+      </ul>
     </div>
-    <div>
+    <div class="flex flex-col">
       <h4>{{ $t('supportus.followus.title') }}</h4>
+      <div class="flex flex-row justify-start">
+        <svg
+          class="fill-current h-6 w-6 hover:text-dlot-teal"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+        >
+          <path :d="iconLinkedin" />
+        </svg>
+        <svg
+          class="fill-current h-6 w-6 hover:text-dlot-teal"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+        >
+          <path :d="iconFacebook" />
+        </svg>
+        <svg
+          class="fill-current h-6 w-6 hover:text-dlot-teal"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+        >
+          <path :d="iconInstagram" />
+        </svg>
+      </div>
     </div>
   </article>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator'
-import { mdiContentCopy } from '@mdi/js'
+import { mdiContentCopy, mdiFacebook, mdiLinkedin, mdiInstagram } from '@mdi/js'
 
 @Component
 export default class SupportUs extends Vue {
   iconCopy = mdiContentCopy
+  iconFacebook = mdiFacebook
+  iconLinkedin = mdiLinkedin
+  iconInstagram = mdiInstagram
   async copyToClipboard (v) {
     try {
       // @ts-ignore
@@ -141,5 +169,13 @@ export default class SupportUs extends Vue {
 <style scoped>
 h4 {
   @apply font-semibold leading-6 mb-2 mt-6;
+}
+
+p {
+  @apply leading-7 mt-5 mb-5 text-gray-700;
+}
+
+li {
+    @apply leading-7 text-gray-700;
 }
 </style>

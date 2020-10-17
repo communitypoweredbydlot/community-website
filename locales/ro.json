@@ -20,7 +20,7 @@
     "summary": "Asociația Community powered by DLOT este o organizație non-profit focusată pe protecția naturii",
     "vision": {
       "title": "Viziune",
-      "p1": "Ne dorim o lume în care oamenii, indiferent de cultură, rasă și gen, coexista în armonie; în care tehnologia este folosită pentru protejarea naturii și a vieții sălbatice, o lume ăn care fiecare dintre noi beneficiază de aer curat, apă, hrană și adăpost; o lume ghidată de respect, nu de impulsuri materialiste și sete de putere; o lume bazată pe o relație profundăa între om și natură."
+      "p1": "Ne dorim o lume în care oamenii coexista în armonie; în care tehnologia este folosită pentru protejarea naturii și a vieții sălbatice, o lume in care fiecare dintre noi beneficiază de aer curat, apă, hrană și adăpost; o lume bazată pe o relație profundă între om și natură."
     },
     "values": {
       "title": "Valori",
@@ -29,10 +29,10 @@
         "poweredBy_label": "powered by DLOT"
       },
       "list": [
-        "Susținem influența culturală a muzicii",
-        "Încurajăm dragostea și acceptarea pentru toată lumea și pentru tot ce ne înconjoară",
         "Pledăm pentru acțiuni și produse prietenoase cu mediul",
-        "Promovăm existența umană drept o stare continuă de explorare și descoperire a sinelui"
+        "Promovăm explorarea și descoperirea continuă a sinelui.",
+        "Încurajăm dragostea și acceptarea pentru toată lumea și pentru tot ce ne înconjoară",
+        "Susținem influența culturală a muzicii"
       ],
       "p2": "Ne asumăm un stil de viața echilibrat. Aspirăm spre o realitate în care tehnologia și natura se întrepatrund, atingând echilibrul dintre progres și spiritualitate."
     },

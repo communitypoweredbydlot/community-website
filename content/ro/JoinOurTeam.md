@@ -5,14 +5,12 @@ Descriptions: Asociatia Community powered by DLOT cauta voluntari
 
 ### APEL PENTRU VOLUNTARI
 
-Esti student in cautare de oportunitati pentru a-ti testa si imbunatatii abilitatile, vrei sa acumulezi experienta de munca sau, pur si simplu iti place conceptul nostru? 
-
+Vrei sa-ti testezi si sa-ti imbunatatesti abilitatile, sa acumulezi experienta de munca sau, pur si simplu iti place conceptul nostru? 
 
 Personalitatea ta se potriveste cu [valorile](https://asociatiacommunity.ro/) noastre?   
-Ai vrea sa contribui la a face lumea un loc mai bun?  
 Ai talente/aptitudini care ne pot ajuta sa ne indeplinim scopul?   
-Ai vrea sa iti deszolti acele abilitati?  
-Esti interesat sa obti experienta de munca pe o anumita pozitie sau in cadrul unui anumit departament?  
+Ai vrea sa iti dezvolti acele abilitati?  
+Esti interesat sa obtii experienta de munca pe o anumita pozitie sau in cadrul unui anumit departament?  
 Iti place sa petreci timp in aer liber?  
 Iti doresti sa inveti lucruri noi si ai curajul sa iti pui in practica ideile? 
 
@@ -25,21 +23,22 @@ Bine ai venit!
 Cautam voluntri care sa ocupe pozitii remote in cadrul asociatiei si/sau care sa se alature proiectelor noastre de curatare a mediului.  
 Fiind la inceput de drum, avem mai multe posibilitati. Verifica lista de mai jos si [scrie-ne](mailto:team@asociatiacommunity.ro) daca ti-am captat interesul. 
 
-Poate iti place sa scrii, sau esti bun la planificare si organizare, ai o pasiune pentru oameni, animale si natura, esti creativ sau iti place sa petreci timp in aer liber si vrei sa te alaturi campaniei noastre de [Trip&Pick] (https://asociatiacommunity.ro/projects). Nu trebuie sa indeplinesti toate cerintele pentru o pozitie. Scrie-ne ce ti-ar placea sa faci si cat timp esti dispus sa investesti iar noi vom gasi o modalitate de a-ti pune in valoare abilitatile.  
+Iti place sa scrii, esti bun la planificare si organizare, ai o pasiune pentru oameni, animale si natura, esti creativ sau iti place sa petreci timp in aer liber si vrei sa te alaturi campaniei noastre de [Trip&Pick](https://asociatiacommunity.ro/projects) ?. Poți îndeplini doar unele dintre cerințele specificare pentru a obține o poziție în Asociația noastră. Scrie-ne ce ti-ar placea sa faci si cat timp esti dispus sa investesti iar noi vom gasi o modalitate de a-ti pune in valoare abilitatile.  
 
 **Ce beneficii ai**
 
 * Program flexibil;  
-* Lucrezi de unde vrei;  
-* In functie de nivelul de implicare si rezultate, exista posibilitatea de a fi angajat in viitor;  
-* Cheltuielile in interesul asociatiei sunt decontate (ex transport, consumabile, print);  
-* Fiind la inceput de drum, activitatea ta poate fi usor cuantificata pentru a demonstra rezultatele contributiei tale in dezvoltarea asociatiei;  
-* Paticipi la brainstorm-uri iar ideile tale sunt luate in considerare. Poti sa propui campanii, strategii, chiar si directii de business;  
-* Vei ajuta la incercarea de a schimba societatea, piata muncii, angajatorii si brandurile catre o dezvoltare sustenabila;  
-* Ai acces gratuit la evenimentele noastre;  
-* Oportunitatea de a deveni membru in asociatie;  
-* Nu ai nimic de pierdut. Poti sa renunti in momentul in care activitatea nu te satisface sau nu ti-am indeplinit aseptarile. 
+* Lucrezi de unde vrei;
+* Ai acces gratuit la evenimentele noastre;
+* Paticipi la brainstorm-uri iar ideile tale sunt luate in considerare. Poti sa propui campanii, strategii, chiar si directii de business;
+* Fiind la inceput de drum, activitatea ta poate fi usor cuantificata pentru a demonstra rezultatele contributiei tale in dezvoltarea asociatiei;
+* Cheltuielile in interesul asociatiei sunt decontate (ex transport, consumabile, print);
+* In functie de nivelul de implicare si rezultate, exista posibilitatea de a fi angajat in viitor;
+* Oportunitatea de a deveni membru in asociatie;
+* Vei ajuta la incercarea de a schimba societatea, piata muncii, angajatorii si brandurile catre o dezvoltare sustenabila;
 
+
+Nu ai nimic de pierdut. Poti sa renunti in momentul in care activitatea nu te satisface sau nu ti-am indeplinit aseptarile.  
 
 <expansion-panels>
 <expansion-panel>

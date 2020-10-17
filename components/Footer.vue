@@ -1,10 +1,10 @@
 <template>
   <div class="font-sans border-gray-400 border-t">
-    <div class="grid grid-cols-4 gap-4 text-xs mt-2 mb-4 font-light leading-4 text-gray-600">
+    <div class="grid grid-cols-1 grid-cols-4 gap-4 text-xs mt-2 mb-4 font-light leading-4 text-gray-600">
       <div class="col-span-1 flex justify-start items-start">
         <span class="font-dlot-logo">© {{ new Date().getFullYear() }} powered by DLOT™</span>
       </div>
-      <div class="col-span-1 flex flex-col justify-start items-end">
+      <div class="col-span-1 flex flex-col justify-start lg:items-end">
         <div class="flex flex-col justify-start items-start">
           <div
             v-for="(item, index) in transparencyAndGdprMenuItems"
