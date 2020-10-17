@@ -5,8 +5,6 @@ Description: TripandPick este o cmpanie initiata de Asociatia Community powered 
 
 ### PROJECTS
 
-<br>
-
 Natura are un impact puternic asupra sănătății noastre fizice și psihice. Atunci când desfășuram activități în aer liber, prersiunea sângelui și bătăile inimii se reduc iar mușchii devin mai relaxati. De asemenea, scade producția de hormoni care declanșează stresul și anxietatea.
 
 Din păcate, nu toți înteleg pe deplin că ființa umană este profund interconectată cu Pământul și cu toate formele de viață existente. Protejând planeta și viața sălbatică, ne protejam viitorul. În caz contrar, prin prăbușirea ecosistemelor naturale, supraviețuirea rasei umane ar fi imposibilă.  

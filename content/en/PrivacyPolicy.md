@@ -5,15 +5,13 @@ Descriptions: Asociatia Community powered by DLOT privacy policy
 
 ### PRIVACY POLICY
 
-*If you do not wish to read the entire below text (We can easily understand), it states that we do not collect your personal data unless you write us an e-mail; but we do use cookies and tracking technologies (Google analytics) to understand and improve users experience. If you have any further question do not hesitate to contact us at: [juridic@asociatiacommunity.ro](juridic@asociatiacommunity.ro)
+_ * If you do not wish to read the entire below text (We can easily understand), it states that we do not collect your personal data unless you write us an e-mail; but we do use cookies and tracking technologies (Google analytics) to understand and improve users experience. If you have any further question do not hesitate to contact us at [juridic@asociatiacommunity.ro](juridic@asociatiacommunity.ro) _  
 
 We understand that the collection of Personal data involves a great deal of trust on your part. We take this trust very seriously and make it our highest priority to ensure the security and confidentiality of the Personal data you provide us with.
 
 The personal data that we collect from you shall be obtained, processed and transmitted in compliance with applicable data protection legislation, notably GDPR, where applicable.
 
 **Personal data** means any information relating to an identified or identifiable natural person; an identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person.
-
-<br>
 
 Please note that term **Consent** as used throughout this Privacy Policy means any freely given, specific, informed and unambiguous indication of which you, by a statement or by a clear affirmative action, signify agreement to the processing of Personal data relating to you.
 
@@ -32,8 +30,6 @@ We use this information only to get in touch with you, to answer your request. T
 When you make a donation by **direct bank transfer**, we collect and process information such as:
 * Name
 * IBAN
-
-<br>
 
 We use this information only for legal purposes, to comply with the financial regulation from our country. 
 
@@ -109,8 +105,6 @@ You have the following rights with respect to the personal data you provide us:
 + The right not to be the subject of a decision based exclusively on automatic processing, including the creation of profiles;
 + The right to withdraw consent with regard to the processing of personal data at any time (without affecting the legality of the processing prior to the withdrawal of the agreement);
 + The right to file a complaint with the National Supervisory Authority for Personal Data Processing.
-
-<br>
 
 ### PRIVACY POLICY UPDATE
 We may modify this Policy from time to time to comply with statutory data protection and privacy laws and will post the most current version on the website. You will be notified by email and you will be asked to Consent to these modifications before they become applicable if the changes are significant. Changes to this Privacy Policy are effective when they are posted on this page.

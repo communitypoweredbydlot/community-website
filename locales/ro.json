@@ -15,5 +15,93 @@
     }
   },
   "email": "community@poweredbydlot.ro",
-  "phone": "+00 000 000 000"
+  "phone": "+00 000 000 000",
+  "statement": {
+    "summary": "Asociația Community powered by DLOT este o organizație non-profit focusată pe protecția naturii",
+    "vision": {
+      "title": "Viziune",
+      "p1": "Ne dorim o lume în care oamenii, indiferent de cultură, rasă și gen, coexista în armonie; în care tehnologia este folosită pentru protejarea naturii și a vieții sălbatice, o lume ăn care fiecare dintre noi beneficiază de aer curat, apă, hrană și adăpost; o lume ghidată de respect, nu de impulsuri materialiste și sete de putere; o lume bazată pe o relație profundăa între om și natură."
+    },
+    "values": {
+      "title": "Valori",
+      "p1": {
+        "content": "Acțiunile noastre sunt {0}",
+        "poweredBy_label": "powered by DLOT"
+      },
+      "list": [
+        "Susținem influența culturală a muzicii",
+        "Încurajăm dragostea și acceptarea pentru toată lumea și pentru tot ce ne înconjoară",
+        "Pledăm pentru acțiuni și produse prietenoase cu mediul",
+        "Promovăm existența umană drept o stare continuă de explorare și descoperire a sinelui"
+      ],
+      "p2": "Ne asumăm un stil de viața echilibrat. Aspirăm spre o realitate în care tehnologia și natura se întrepatrund, atingând echilibrul dintre progres și spiritualitate."
+    },
+    "mission": {
+      "title": "Misiune",
+      "list": [
+        "Colectarea și sortarea adecvată a gunoiului din mediile naturale precum: păduri, maluri de ape, parcuri și alte zone protejate",
+        "Identificarea regiunilor în care deșeurile sunt depozitate în mod necorespunzător și sesizarea autorităților pentru rezolvarea problemei",
+        "Informarea turiștilor și a comunitatilor rurale despre importanța strângerii și sortarii adecvate a deșeurilor, punând la dispoziție mijloacele necesare pentru colectare și reciclare",
+        "Promovarea unui stil de viață sustenabil, fără îndepartarea individului de zona sa de confort",
+        "Încurajarea petrecerii timpului în aer liber și protejarea naturii"
+      ]
+    }
+  },
+  "supportus": {
+    "title": "implică-te",
+    "tell": {
+      "title": "Spune și altora",
+      "p1": "Împărtășește cu alții povestea noastră, atrage atenția asupra importanței protejării naturii.",
+      "p2": "Urmarește si folosește hastag-urile noastre pe social media."
+    },
+    "donate": {
+      "title": "Donează",
+      "p1": "Ne poți ajuta financiar donând o sumă la alegere",
+      "name": "Nume",
+      "address": "Adresă",
+      "taxid": "Cod fiscal",
+      "bank": "Bancă",
+      "iban": "IBAN",
+      "bicswift": "BIC/SWIFT"
+    },
+    "beavolunteer": {
+      "title": "Vino în echipa de volntari",
+      "p1": {
+        "content": "Căutăm voluntri care să ocupe poziții remote în cadrul asociației și/sau care să se alăture proiectelor noastre de curățare a mediului. Află mai multe detalii {0}",
+        "joinUs_label": "here."
+      }
+    },
+    "studies": {
+      "title": "Contribuie la studiile noastre",
+      "p1": {
+        "content": "Completează chestionarul {0}",
+        "form_label": "Atitudinea consumatorului și deciziile de cumpărare în industria berii"
+      },
+      "disclaimer": "Răspunsurile sunt anonime. Nu colectăm date personale care pot identifica respondentul (IP, email, adresă etc)."
+    },
+    "dumps": {
+      "title": "Scoate la iveală deșeurile depozitate ilegal",
+      "p1": "Identifică zonele unde gunoaiele nu sunt gestionate corect pentru ca noi să putem investiga situația și să gasim soluții. Contactează-ne prin email la adresa [tripandpick@asociatiacommunity.ro](tripandpick@asociatiacommunity.ro) sau pe social media [media chat](http://m.me/poweredbydlot)."
+    },
+    "live": {
+      "title": "Trăieste-ți viața powered by DLOT",
+      "list": [
+        "Respectț natura și viața sălbatică",
+        "Fii bun cu toți și tot ceea ce te înconjoară",
+        "Petrece timp în natură",
+        "Reciclează",
+        "Renunță la articolele de unică folosință",
+        "Spune nu cumpărăturilor de tip fast-fasion. Investește în bunuri durabile",
+        "Cumpară produse de la producători locali",
+        "Cultivă legume sau crește plante ornamentale",
+        "Redu consumul de carne",
+        "Înlocuieste mașina cu o plimbare pe jos sau cu bicicleta",
+        "Nu irosi mâncarea",
+        "Susține artiștii mai puțin cunoscuți"
+      ]
+    },
+    "followus": {
+      "title": "Urmărește-ne pe social media"
+    }
+  }
 }

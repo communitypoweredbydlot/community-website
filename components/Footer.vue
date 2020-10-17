@@ -64,3 +64,9 @@ export default class Footer extends Vue {
   ]
 }
 </script>
+
+<style scoped>
+a {
+  color:inherit;
+}
+</style>

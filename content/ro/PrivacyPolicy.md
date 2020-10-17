@@ -5,15 +5,13 @@ Description: Politica de confidentialitate a datelor cu caracter personal Asocia
 
 ### POLITICA DE CONFIDENȚIALITATE A DATELOR
 
-*Dacă nu vrei să citești tot textul de mai jos (te întțelegem), iată un rezumat al informațiilor prezentate: nu colectăm date cu caracter personal decât în cazul în care ne contactezi. Folosim cookie-uri și tehnologii de monitorizare a performanței site-ului (Google analytics). Pentru orice informații legate de colectarea și procesarea datelor personale ne poți contacta la adresa [juridic@asociatiacommunity.ro](juridic@asociatiacommunity.ro).
+_ * Dacă nu vrei să citești tot textul de mai jos (te întțelegem), iată un rezumat al informațiilor prezentate: nu colectăm date cu caracter personal decât în cazul în care ne contactezi. Folosim cookie-uri și tehnologii de monitorizare a performanței site-ului (Google analytics). Pentru orice informații legate de colectarea și procesarea datelor personale ne poți contacta la adresa [juridic@asociatiacommunity.ro](juridic@asociatiacommunity.ro) _  
 
 Colectarea și procesarea datelor cu caracter personal implică multă responsabilitate și îți mulțumim pentru încredere. Te asigurăm că protecția datelor tale este o sarcină foarte importantă pentru noi.
 
 Colectăm și procesam datele tale personale în conformitate cu Legea nr. 190/2018 privind măsuri de punere în aplicare a Regulamentului (UE) 2016/679 al Parlamentului European şi al Consiliului din 27 aprilie 2016 privind protecţia persoanelor fizice în ceea ce priveşte prelucrarea datelor cu caracter personal. (GDPR)
 
 **Datele cu caracter personal** orice informații care pot duce la identificarea unei anumite persoane, cum ar fi numele, adresa de email, domiciliul, precum și date biometrice, medicale, CNP etc.
-
-<br>
 
 Termenul **Consimțământ** folosit în acest doment, înseamnă manifestarea vointței libere, specifice, informate și lipsită de ambiguitate prin care îți exprimi neechivoc acordul ca datele dale cu caracter personal să fie procesate în conformitate cu aceasta politică de confidențialitate. 
 
@@ -31,8 +29,6 @@ Folosim aceste date doar pentru a-ți răspunde la solicitare. Informațiile pe 
 În cazul în care faci o donație **prin transfer bancar**, colectăm urmatoarele:
 * numele
 * IBAN
-
-<br>
 
 Folosim aceste informații doar pentru a ne conforma legislației fiscale din România.
 
@@ -108,8 +104,6 @@ Conform regulamentului general privind protecția datelor, ai o serie de dreptur
 * Dreptul de a te opune procesării datelor tale;  
 * Dreptul de a îti retrage consimțământul cu privire la procesarea datelor tale;  
 * Dreptul de a depune o plângere la Autoritatea Naționala de Supraveghere a Prelucrării Datelor cu Caracter Personal în cazul în care ți-au fost încălcate drepturile.
-
-<br>
 
 ### MODIFICĂRI ALE POLITICII DE CONFIDENȚIALITATE A DATELOR
 Ne rezervăm dreptul de a actualiza și modifica periodic aceastp Politicp de Confidențialitate, pentru a reflecta orice modificări ale modului în care prelucram datele tale cu caracter personal sau orice modificări ale cerințelor legale.

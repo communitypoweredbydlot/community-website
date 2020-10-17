@@ -38,7 +38,8 @@ export default {
     '@nuxt/content',
     'nuxt-i18n',
     '@nuxtjs/axios',
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
+    'nuxt-clipboard2'
   ],
   content: {},
   router: {
@@ -99,7 +100,8 @@ export default {
   },
   googleFonts: {
     families: {
-      Roboto: true
+      Roboto: [200, 300, 400, 500, 600, 700],
+      Comfortaa: [300, 400, 500, 600, 700]
     },
     display: 'swap'
   },
