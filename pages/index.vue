@@ -1,6 +1,6 @@
 <template>
   <article class="flex flex-col space-y-6">
-    <div class="text-center font-dlot-logo text-xl text-gray-700 leading-5 mb-8 font-bold">
+    <div class="text-center font-dlot-logo text-md lg:text-xl text-gray-700 leading-7 lg:leading-5 mb-6 lg:mb-8 font-bold">
       {{ $t('statement.summary') }}
     </div>
     <div class="flex flex-col">
@@ -16,7 +16,7 @@
         {{ $t('statement.values.title') }}
       </div>
       <div class="text-gray-700 leading-7">
-        <i18n path="statement.values.p1.content" tag="div">
+        <i18n path="statement.values.p1.content" tag="div" class="mb-4">
           <a :href="'https://www.poweredbydlot.com'">{{ $t("statement.values.p1.poweredBy_label") }}</a>
         </i18n>
         <div>
@@ -28,7 +28,9 @@
             {{ value }}
           </div>
         </div>
-        <div>{{ $t('statement.values.p2') }}</div>
+        <div class="mt-4">
+          {{ $t('statement.values.p2') }}
+        </div>
       </div>
     </div>
     <div class="flex flex-col">

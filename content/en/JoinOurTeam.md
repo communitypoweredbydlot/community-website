@@ -22,17 +22,16 @@ Welcome!
 
 ### Many hands make light work
 
-</br>
-
 We’re looking for volunteers for remote positions and environment clean-up projects.  
 As we just started our activity, we can offer you many possibilities. Check-out the list below and [write us](mailto:team@asociatiacommunity.ro) if something piques your interest. 
 
-Maybe you like to write stories, or you’re good at planning and organizing, you have a passion for people, animals and nature, you’re creative, or you like to spend time outdoors and want to join us in our [Trip&Pick] (https://asociatiacommunity.ro/projects) campaigns. 
+Maybe you like to write stories, or you’re good at planning and organizing, you have a passion for people, animals and nature, you’re creative, or you like to spend time outdoors and want to join us in our [Trip&Pick](https://asociatiacommunity.ro/projects) campaigns. 
 
 It doesn't matter if you don't check all the requirements for a position. Tell us what you would like to do and how much time you can commit, and we will find a way to highlight your skills.  
 
 
 **What's in it for you**
+
 * Flexible schedule;
 * Work from wherever you want;  
 * Based on the level of involvement and results, there is the possibility to be hired in the future;  
@@ -43,8 +42,6 @@ It doesn't matter if you don't check all the requirements for a position. Tell u
 * Free access to our events;  
 * Opportunity to adhere as a member of the NGO;  
 * You have nothing to lose, you can quit at any time you feel it no longer suits you or if we did not meet your expectations.
-
-</br>
 
 <v-expansion-panels accordion flat focusable>
 <v-expansion-panel>
@@ -65,8 +62,6 @@ It doesn't matter if you don't check all the requirements for a position. Tell u
 * Perform employee performance evaluations;  
 * Keep track of staff schedule and working hours;  
 * Create and deliver activity reports for members and volunteers.
-
-</br>
 
 **Requirements**
 
@@ -100,8 +95,6 @@ It doesn't matter if you don't check all the requirements for a position. Tell u
 * Attend educational conferences/work-shops;  
 * Analyze and improve social media engagement. 
 
-</br>
-
 **Requirements**
 
 * Organizational and time-management abilities;  
@@ -134,8 +127,6 @@ It doesn't matter if you don't check all the requirements for a position. Tell u
 * Maintain and communicate donations, sponsorships and community programs;  
 * Manage stakeholder and community issues and provide advice to the project team on communications, community and stakeholder relations activities;  
 * Identify and manage any risks associated with the community and stakeholders;  
-
-</br>
 
 **Requirements**
 
@@ -172,8 +163,6 @@ It doesn't matter if you don't check all the requirements for a position. Tell u
 * Manage contracts with vendors and suppliers by assigning tasks and communicating expected deliverable;  
 * Measure project performance to identify areas for improvement.
 
-</br>
-
 **Requirements**
 
 * Written and verbal skills (English and Romanian);  
@@ -206,8 +195,6 @@ It doesn't matter if you don't check all the requirements for a position. Tell u
 * Propose techniques to improve research quality;  
 * Contribute to and write research findings for publications, papers, presentations and other documents.
 
-</br>
-
 **Requirements**
 
 * Written and verbal skills (English and Romanian);  
@@ -238,8 +225,6 @@ It doesn't matter if you don't check all the requirements for a position. Tell u
 * Develop illustrations, logos and other designs using software or by hand;  
 * Work with copywriters and creative team to produce final design.
 
-</br>
-
 **Requirements**
 
 * A strong eye for visual composition;  
@@ -269,9 +254,7 @@ It doesn't matter if you don't check all the requirements for a position. Tell u
 * Write press releases, speeches and other PR copy;  
 * Ensure all communication is cohesive with the brand image;  
 * Track and analyze media coverage to inform future campaigns;  
-* Organize, schedule, and prepare key leaders for press interviews;  
-
-</br>
+* Organize, schedule, and prepare key leaders for press interviews;
 
 **Requirements**
 
