@@ -5,13 +5,13 @@ Descriptions: Asociatia Community powered by DLOT cauta voluntari
 
 ### APEL PENTRU VOLUNTARI
 
-Vrei să-ți testezi și să-ți îmbunătățești abilitățile, să acumulezi experiența de muncă sau, pur si simplu îți place conceptul nostru? 
+Vrei să-ți testezi și să-ți îmbunătățești abilitățile, să acumulezi experiență de muncă sau, pur și simplu îți place conceptul nostru? 
 
 Personalitatea ta se potrivește cu [valorile](https://asociatiacommunity.ro/) noastre?   
 Ai talente/aptitudini care ne pot ajuta să ne îndeplinim scopul?   
 Ai vrea să îți dezvolți acele abilități?  
 Ești interesat să obții experiență de muncă pe o anumita poziție sau în cadrul unui anumit departament?  
-Îți place să petreci timp in aer liber?  
+Îți place să petreci timp în aer liber?  
 Îți dorești să înveți lucruri noi și ai curajul să îți pui în practică ideile? 
 
 Dacă răspunsul este Da, ai ajuns unde trebuie.
