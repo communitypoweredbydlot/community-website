@@ -5,40 +5,40 @@ Descriptions: Asociatia Community powered by DLOT cauta voluntari
 
 ### APEL PENTRU VOLUNTARI
 
-Vrei sa-ti testezi si sa-ti imbunatatesti abilitatile, sa acumulezi experienta de munca sau, pur si simplu iti place conceptul nostru? 
+Vrei să-ți testezi și să-ți îmbunătățești abilitățile, să acumulezi experiența de muncă sau, pur si simplu îți place conceptul nostru? 
 
-Personalitatea ta se potriveste cu [valorile](https://asociatiacommunity.ro/) noastre?   
-Ai talente/aptitudini care ne pot ajuta sa ne indeplinim scopul?   
-Ai vrea sa iti dezvolti acele abilitati?  
-Esti interesat sa obtii experienta de munca pe o anumita pozitie sau in cadrul unui anumit departament?  
-Iti place sa petreci timp in aer liber?  
-Iti doresti sa inveti lucruri noi si ai curajul sa iti pui in practica ideile? 
+Personalitatea ta se potrivește cu [valorile](https://asociatiacommunity.ro/) noastre?   
+Ai talente/aptitudini care ne pot ajuta să ne îndeplinim scopul?   
+Ai vrea să îți dezvolți acele abilități?  
+Ești interesat să obții experiență de muncă pe o anumita poziție sau în cadrul unui anumit departament?  
+Îți place să petreci timp in aer liber?  
+Îți dorești să înveți lucruri noi și ai curajul să îți pui în practică ideile? 
 
-Daca raspunsul e Da, ai ajuns unde trebuie.
+Dacă răspunsul este Da, ai ajuns unde trebuie.
 
 Bine ai venit!
 
-### Unde-s multi, puterea creste
+### Unde-s mulți, puterea crește
 
-Cautam voluntri care sa ocupe pozitii remote in cadrul asociatiei si/sau care sa se alature proiectelor noastre de curatare a mediului.  
-Fiind la inceput de drum, avem mai multe posibilitati. Verifica lista de mai jos si [scrie-ne](mailto:team@asociatiacommunity.ro) daca ti-am captat interesul. 
+Căutăm voluntri care să ocupe poziții remote în cadrul asociației și/sau care să se alăture proiectelor noastre de curățare a mediului.  
+Fiind la început de drum, avem mai multe posibilități. Verifică lista de mai jos și [scrie-ne](mailto:team@asociatiacommunity.ro) dacă ți-am captat interesul. 
 
-Iti place sa scrii, esti bun la planificare si organizare, ai o pasiune pentru oameni, animale si natura, esti creativ sau iti place sa petreci timp in aer liber si vrei sa te alaturi campaniei noastre de [Trip&Pick](https://asociatiacommunity.ro/projects) ?. Poți îndeplini doar unele dintre cerințele specificare pentru a obține o poziție în Asociația noastră. Scrie-ne ce ti-ar placea sa faci si cat timp esti dispus sa investesti iar noi vom gasi o modalitate de a-ti pune in valoare abilitatile.  
+Îți place să scrii, ești bun la planificare și organizare, ai o pasiune pentru oameni, animale și natură, ești creativ sau îți place să petreci timp în aer liber și vrei să te alături campaniei noastre de [Trip&Pick](https://asociatiacommunity.ro/projects) ?. Poți îndeplini doar unele dintre cerințele specificate pentru a obține o poziție în asociația noastră. Scrie-ne ce ți-ar plăcea să faci și cât timp ești dispus/ă să investești, iar noi vom găsi o modalitate de a-ți pune în valoare abilitățile.  
 
 **Ce beneficii ai**
 
 * Program flexibil;  
 * Lucrezi de unde vrei;
 * Ai acces gratuit la evenimentele noastre;
-* Paticipi la brainstorm-uri iar ideile tale sunt luate in considerare. Poti sa propui campanii, strategii, chiar si directii de business;
-* Fiind la inceput de drum, activitatea ta poate fi usor cuantificata pentru a demonstra rezultatele contributiei tale in dezvoltarea asociatiei;
-* Cheltuielile in interesul asociatiei sunt decontate (ex transport, consumabile, print);
-* In functie de nivelul de implicare si rezultate, exista posibilitatea de a fi angajat in viitor;
-* Oportunitatea de a deveni membru in asociatie;
-* Vei ajuta la incercarea de a schimba societatea, piata muncii, angajatorii si brandurile catre o dezvoltare sustenabila;
+* Paticipi la brainstorm-uri, iar ideile tale sunt luate în considerare. Poți să propui campanii, strategii, chiar și directii de business;
+* Fiind la început de drum, activitatea ta poate fi ușor cuantificată pentru a demonstra rezultatele contribuției tale în dezvoltarea asociației;
+* Cheltuielile în interesul asociației sunt decontate (ex transport, consumabile, print);
+* În funcție de nivelul de implicare și rezultate, există posibilitatea de a fi angajat în viitor;
+* Oportunitatea de a deveni membru în asociație;
+* Vei ajuta la încercarea de a schimba societatea, piața muncii, angajatorii și brandurile către o dezvoltare sustenabilă;
 
 
-Nu ai nimic de pierdut. Poti sa renunti in momentul in care activitatea nu te satisface sau nu ti-am indeplinit aseptarile.  
+Nu ai nimic de pierdut. Poți să renunți în momentul în care activitatea nu te satisface sau nu ți-am îndeplinit așteptările.  
 
 <expansion-panels>
 <expansion-panel>
@@ -49,26 +49,26 @@ Nu ai nimic de pierdut. Poti sa renunti in momentul in care activitatea nu te sa
 </expansion-panel-header>
 <expansion-panel-content>
 
-**Atributii**
+**Atribuții**
 
-* Crearea, implementarea si evaluarea politicilor si procedurilor depatamentului de resurse umane;  
-* Recrutarea si coordonarea interviurilor;  
-* Realizarea si procesarea a documentelor pentru noii voluntari si membri;  
-* Informarea aplicantilor cu privire la responsabilitatile postului, beneficii, program, conditii de munca, oportunitati de promorvare etc;  
-* Crearea si implementarea programelor de training si dezvoltare personala;   
-* Evaluarea performantei membrilor si voluntarilor;  
-* Centralizarea programului de lucru al voluntarilor si amembrilor;  
-* Realizarea rapoartelor de activitate ale membrilor si voluntarilor. 
+* Crearea, implementarea și evaluarea politicilor și procedurilor departamentului de resurse umane;  
+* Recrutarea și coordonarea interviurilor;  
+* Realizarea și procesarea documentelor pentru noii voluntari și membri;  
+* Informarea aplicanților cu privire la responsabilitățile postului, beneficii, program, condiții de muncă, oportunități de promorvare etc;  
+* Crearea și implementarea programelor de training și dezvoltare personală;   
+* Evaluarea performanței membrilor și voluntarilor;  
+* Centralizarea programului de lucru al voluntarilor și membrilor;  
+* Realizarea rapoartelor de activitate ale membrilor și voluntarilor. 
 
-**Cerinte**
+**Cerințe**
 
-* Cunostinte in ceea ce priveste legislatia muncii;  
-* Intelegerea procesului de recrutare;  
-* Abilitati de comunicare verbala si in scris;  
-* Abilitati de rezolvare a problemelor si management al echipelor;  
-* Cunostinte in utilizarea Microsoft Office sau alte programe similare;  
+* Cunoștințe în ceea ce privește legislația muncii;  
+* Întelegerea procesului de recrutare;  
+* Abilități de comunicare verbală și în scris;  
+* Abilități de rezolvare a problemelor și management al echipelor;  
+* Cunoștințe în utilizarea Microsoft Office sau alte programe similare;  
 * Computer personal cu conexiune la internet;  
-* Abilitati de munca in echipa.
+* Abilități de muncă în echipă.
 
 </expansion-panel-content>
 </expansion-panel>
@@ -81,27 +81,27 @@ Nu ai nimic de pierdut. Poti sa renunti in momentul in care activitatea nu te sa
 </expansion-panel-header>
 <expansion-panel-content>
 
-**Atributii**
+**Atribuții**
 
-* Dezvoltarea, implementarea si gestionarea strategiei de social media;  
-* Crerea si publicarea continutului relevant pentru diverse canale de socializare;  
-* Gestionarea continutului pe canalele de socializare;  
-* Propunea si implementarea activitatilor pentru a creste notorietatea asociatiei (ex promotii si concursuri);  
+* Dezvoltarea, implementarea și gestionarea strategiei de social media;  
+* Crearea și publicarea conținutului relevant pentru diverse canale de socializare;  
+* Gestionarea conținutului pe canalele de socializare;  
+* Propunerea și implementarea activităților pentru a crește notorietatea asociației (ex promoții și concursuri);  
 * Analiza succesului campaniilor pe platformele de socializare;   
-* Participarea la conferinte si work-shop-uri educationale in domeniul marketing digital;  
-* Informarea cu privire la cele mai bune practici si tehnologii ale canalelor de socializare;     
-* Anaaliza si imbunatatirea implicarii publicului. 
+* Participarea la conferințe și work-shop-uri educaționale în domeniul marketing digital;  
+* Informarea cu privire la cele mai bune practici și tehnologii ale canalelor de socializare;     
+* Analiza și îmbunătațirea implicării publicului. 
 
-**Cerinte**
+**Cerințe**
 
-* Capacitate de organizare si management al timpului;  
+* Capacitate de organizare și management al timpului;  
 * Creativitate;  
-* Abilitati de creare a textelor creative;   
-* Abilitati de analiza a datelor;  
-* Cunostinte in gestionarea platformelor de social media precum Facebook,Linkedin, Instagram;  
-* Cunostinte in utilizarea Microsoft Office sau alte programe similare;  
+* Abilități de creare a textelor creative;   
+* Abilități de analiză a datelor;  
+* Cunostințe în gestionarea platformelor de social media precum Facebook, Linkedin, Instagram;  
+* Cunostințe în utilizarea Microsoft Office sau alte programe similare;  
 * Computer personal cu conexiune la internet;  
-* Abilitati de munca in echipa.
+* Abilități de muncă în echipa.
 
 
 </expansion-panel-content>
@@ -115,27 +115,27 @@ Nu ai nimic de pierdut. Poti sa renunti in momentul in care activitatea nu te sa
 </expansion-panel-header>
 <expansion-panel-content>
 
-**Atributii**
+**Atribuții**
 
-* Identificarea potentialilor parteneri;  
-* Crearea, mentinerea si cresterea bazei de date a partenerilor si potentialilor parteneri;  
-* Initierea, mentinerea si dezvoltarea parteneriatelor conumitare;  
-* Dezvoltarea si implementarea programelor de parteneriat;  
-* Gestionarea relatiei cu administratiile locale si alte grupuri de interes;  
-* Gestionarea programelor de donatii, sponsorizari si alte programe comunitare;  
-* Gestionarea situatiilor aparute in cadrul relatiei cu partemerii sau comunitatea si transmiterea acestora catre echipele de proiect;  
-* Identificarea si gestionarea riscurilor asociate cu partenerii si comunitatea. 
+* Identificarea potențialilor parteneri;  
+* Crearea, menținerea și creșterea bazei de date a partenerilor și potențialilor parteneri;  
+* Inițierea, menținerea și dezvoltarea parteneriatelor comunitare;  
+* Dezvoltarea și implementarea programelor de parteneriat;  
+* Gestionarea relației cu administrațiile locale și alte grupuri de interes;  
+* Gestionarea programelor de donații, sponsorizări și alte programe comunitare;  
+* Gestionarea situațiilor apărute în cadrul relației cu partenerii sau comunitatea și transmiterea acestora către echipele de proiect;  
+* Identificarea și gestionarea riscurilor asociate cu partenerii și comunitatea. 
 
-**Cerinte**
+**Cerințe**
 
-* Abilitati de comuniare scrisa si verbala (Romana si Engleza);  
-* Abilitatea de a construi relatii, a motiva si inspira diverse grupuri;   
-* Atentie la detalii si abilitati de organizare;   
-* Intelegerea metodologiei de comunicare si implicare a publicului;   
-* Abilitati de rezolvare a problemelor;  
-* Cunostinte in utilizarea Microsoft Office sau alte programe similare;  
+* Abilități de comunicare scrisă și verbală (Română și Engleză);  
+* Abilitatea de a construi relații, a motiva și inspira diverse grupuri;   
+* Atenție la detalii si abilități de organizare;   
+* Întelegerea metodologiei de comunicare și implicare a publicului;   
+* Abilități de rezolvare a problemelor;  
+* Cunoștințe în utilizarea Microsoft Office sau alte programe similare;  
 * Computer personal cu conexiune la internet;  
-* Abilitati de munca in echipa.
+* Abilități de muncă în echipă.
 
 </expansion-panel-content>
 </expansion-panel>
@@ -149,27 +149,27 @@ Nu ai nimic de pierdut. Poti sa renunti in momentul in care activitatea nu te sa
 </expansion-panel-header>
 <expansion-panel-content>
 
-**Atributii**
+**Atribuții**
 
-* Identificarea si definirea obiectivelor proiectelor;  
-* Estimarea si planificarea resurselor;  
-* Gestionarea eficienta a resurselor;  
-* Urmarirea costurilor in vederea respectarii bugetelor alocate;  
-* Monitorizarea desfasurarii proiectelor si transmiterea informatiilor patenerilor implicati;  
-* Dezvoltarea si gestionarea programului de implementare;  
-* Gestionarea relatia cu furnizorii si partenerii;   
-* Analiza si evaluarea rezultatelor proiectelor;  
-* Identificarea solutiilor pentru imbunatatirea activitatii.  
+* Identificarea și definirea obiectivelor proiectelor;  
+* Estimarea și planificarea resurselor;  
+* Gestionarea eficientă a resurselor;  
+* Urmărirea costurilor în vederea respectării bugetelor alocate;  
+* Monitorizarea desfășurării proiectelor și transmiterea informațiilor partenerilor implicați;  
+* Dezvoltarea și gestionarea programului de implementare;  
+* Gestionarea relației cu furnizorii și partenerii;   
+* Analiza și evaluarea rezultatelor proiectelor;  
+* Identificarea soluțiilor pentru îmbunătățirea activității.  
 
-**Cerinte**
+**Cerințe**
 
-* Abilitati de comuniare scrisa si verbala (Romana si Engleza);  
-* Atentie la detalii si abilitati de organizare;   
-* Abilitati de rezolvare a problemelor;  
-* Abilitati de estimare si gestionare a resurselor;  
-* Cunostinte in utilizarea Microsoft Office sau alte programe similare;  
+* Abilități de comunicare scrisă și verbală (Română și Engleză);  
+* Atenție la detalii și abilități de organizare;   
+* Abilități de rezolvare a problemelor;  
+* Abilități de estimare și gestionare a resurselor;  
+* Cunoștințe în utilizarea Microsoft Office sau alte programe similare;  
 * Computer personal cu conexiune la internet;  
-* Abilitati de munca in echipa.
+* Abilități de muncă în echipă.
 
 </expansion-panel-content>
 </expansion-panel>
@@ -182,25 +182,25 @@ Nu ai nimic de pierdut. Poti sa renunti in momentul in care activitatea nu te sa
 </expansion-panel-header>
 <expansion-panel-content>
 
-**Atributii**
+**Atribuții**
 
-* Trasarea obiectivelor si propunerea de proiecte de cercetare;  
-* Formularea si implementarea metodologiei de cercetare (chestionare, observatii, interviuri, focus grupuri, experimente, consultare literatura de specialitate);    
-* Replicarea, evaluarea si imbunatatirea strategiilor de cercetare;  
-* Teastarea, personalizarea si implementarea de noi metode si proceduri;    
-* Propunerea tehnicilor de imbunatatire a calitatii cercetarii;  
-* Contribuirea la scrierea si publicarea lucrarilor de specialitate, a prezentarilor si a altor documente stiintifice.
+* Trasarea obiectivelor și propunerea de proiecte de cercetare;  
+* Formularea și implementarea metodologiei de cercetare (chestionare, observații, interviuri, focus grupuri, experimente, consultare literatură de specialitate);    
+* Replicarea, evaluarea și imbunătațirea strategiilor de cercetare;  
+* Testarea, personalizarea și implementarea de noi metode și proceduri;    
+* Propunerea tehnicilor de îmbunătățire a calității cercetării;  
+* Contribuirea la scrierea și publicarea lucrărilor de specialitate, a prezentărilor și a altor documente științifice.
 
-**Cerinte**
+**Cerințe**
 
-* Abilitati de comuniare scrisa si verbala (Romana si Engleza);  
-* Cunoasterea princiiplor, conceptelor, practicilor si metodelor de cercetare;   
-* Atentie la detalii si abilitati de organizare;   
+* Abilități de comunicare scrisă și verbală (Română și Engleză);  
+* Cunoașterea princiiplor, conceptelor, practicilor și metodelor de cercetare;   
+* Atenție la detalii si abilități de organizare;   
 * Aptitudini matematice, analitice si statistice;   
-* Cunostinte in utilizarea Google Docs, Survey Monkey sau a altor platforme de sondaj;  
-* Cunostinte in utilizarea Microsoft Office sau alte programe similare;  
+* Cunoștințe in utilizarea Google Docs, Survey Monkey sau a altor platforme de sondaj;  
+* Cunoștințe in utilizarea Microsoft Office sau alte programe similare;  
 * Computer personal cu conexiune la internet;  
-* Abilitati de munca in echipa.
+* Abilități de muncă în echipă.
 
 </expansion-panel-content>
 </expansion-panel>
@@ -213,23 +213,23 @@ Nu ai nimic de pierdut. Poti sa renunti in momentul in care activitatea nu te sa
 </expansion-panel-header>
 <expansion-panel-content>
 
-**Atributii**
+**Atribuții**
 
 * Prpunerea conceptului de design;  
-* Utilizarea programelor digitale de creare ilustratii, video si foto editare;  
+* Utilizarea programelor digitale de creare ilustrații, video și foto editare;  
 * Testarea designului grafic pe diverse canale media;    
-* Realizarea ilustratiilor, logo-urilor si a altor elemente de design si identitate vizuala;  
-* Colaborarea cu echipa de creatie pentru realizarea design-ului final. 
+* Realizarea ilustrațiilor, logo-urilor și a altor elemente de design și identitate vizuală;  
+* Colaborarea cu echipa de creație pentru realizarea design-ului final. 
 
-**Requirements**
+**Cerințe**
 
-* Abilitati de compozitie vizuala;  
-* Capacitate de a oferi si a primi critici constructive;  
-* Abilitati creative;  
-* Cunostinte in utilizarea programelor de design grafic (CAdobe PhotoShop, Illustrator, Sketch, InDesign, sau altele);  
-* Atentie la detailii;  
+* Abilități de compoziție vizuala;  
+* Capacitate de a oferi și a primi critici constructive;  
+* Abilități creative;  
+* Cunoștințe în utilizarea programelor de design grafic (CAdobe PhotoShop, Illustrator, Sketch, InDesign, sau altele);  
+* Atenție la detalii;  
 * Computer personal cu conexiune la internet;  
-* Abilitati de munca in echipa.
+* Abilități de muncă în echipă.
 
 </expansion-panel-content>
 </expansion-panel>
@@ -245,24 +245,24 @@ Nu ai nimic de pierdut. Poti sa renunti in momentul in care activitatea nu te sa
 
 **Atributii**
 
-* Imbunatatirea prezentei media a organizatiei prin intermediul canalelor online si offline;  
-* Scrierea declaratiilor de presa, studii de caz si alte documente;  
-* Crearea si mentinerea relatiilor cu media;  
-* Asigurarea comunicarii in conformitate cu imaginea organizatiei;  
-* Monitorizarea si analiza acoperirii media in vederea informarii cu privire la viitoarele campanii;  
-* Organizarea, programarea si pregatirea responsabililor cu interviurile de presa. 
+* Îmbunătățirea prezenței media a organizației prin intermediul canalelor online și offline;  
+* Scrierea declarațiilor de presă, studii de caz și alte documente;  
+* Crearea și menținerea relațiilor cu media;  
+* Asigurarea comunicării în conformitate cu imaginea organizației;  
+* Monitorizarea și analiza acoperirii media în vederea informării cu privire la viitoarele campanii;  
+* Organizarea, programarea și pregătirea responsabililor cu interviurile de presă. 
 
-**Cerinte**
+**Cerințe**
 
-* Abilitati de comuniare scrisa si verbala (Romana si Engleza);  
+* Abilități de comunicare scrisă și verbala (Română și Engleză);  
 * Abilitatea de a comunica cu presa;  
 * Creativitate;  
-* Abilitati de a vorbi in public;  
-* Comeptente in administrarea situatiilor de criza;  
+* Abilități de a vorbi în public;  
+* Comeptențe în administrarea situatiilor de criza;  
 * Atentie la detalii;  
-* Cunostinte in utilizarea Microsoft Office sau alte programe similare;  
+* Cunostinte în utilizarea Microsoft Office sau alte programe similare;  
 * Computer personal cu conexiune la internet;  
-* Abilitati de munca in echipa.
+* Abilități de munca în echipă.
 
 </expansion-panel-content>
 </expansion-panel>
