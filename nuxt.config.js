@@ -58,9 +58,9 @@ export default {
         name: 'Romana'
       }
     ],
-    defaultLocale: 'en',
+    defaultLocale: 'ro',
     vueI18n: {
-      fallbackLocale: 'en',
+      fallbackLocale: 'ro',
       messages: {
         en,
         ro
