@@ -57,12 +57,24 @@
     "donate": {
       "title": "Donate",
       "p1": "You can help us financially by donating an amount of your choice",
-      "name": "Name",
-      "address": "Adress",
-      "taxid": "Tax ID",
-      "bank": "Bank",
-      "iban": "IBAN",
-      "bicswift": "BIC/SWIFT"
+      "name": {
+        "label": "Name"
+      },
+      "address": {
+        "label": "Address"
+      },
+      "taxid": {
+        "label": "Tax ID"
+      },
+      "bank": {
+        "label": "Bank"
+      },
+      "iban": {
+        "label": "iban"
+      },
+      "currency": {
+        "label": "Currency"
+      }
     },
     "beavolunteer": {
       "title": "Volunteer",
@@ -81,7 +93,12 @@
     },
     "dumps": {
       "title": "Expose trash",
-      "p1": "Point out locations where the trash is improperly disposed so we can investigate the issue and find solutions. Contact us by email at [tripandpick@asociatiacommunity.ro](tripandpick@asociatiacommunity.ro) or [social media chat](http://m.me/poweredbydlot)."
+      "p1": {
+        "content": "Point out locations where the trash is improperly disposed so we can investigate the issue and find solutions. Contact us by email at {email-link} or social {messenger-link}.",
+        "messenger-link": {
+          "label": "media chat"
+        }
+      }
     },
     "live": {
       "title": "Live your life powered by DLOT",

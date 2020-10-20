@@ -1,12 +1,10 @@
 <template>
   <header class="flex flex-row flex-wrap justify-start items-center">
-    <svg
-      class="fill-current h-6 w-6"
-      viewbox="0 0 24 24"
-      xmlns="http://www.w3.org/2000/svg"
+    <icon
+      class="h-6 w-6"
     >
-      <path :d="actionIcon" />
-    </svg>
+      {{ actionIcon }}
+    </icon>
     <div class="items-center">
       <slot />
     </div>

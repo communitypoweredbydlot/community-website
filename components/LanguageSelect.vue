@@ -8,13 +8,11 @@
       :class="{ 'shadow': isOpen }"
       @click.stop="isOpen = !isOpen"
     >
-      <svg
-        class="fill-current h-4 w-4"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 24 24"
+      <icon
+        class="h-4 w-4"
       >
-        <path :d="languageSelectionIcon" />
-      </svg>
+        {{ languageSelectionIcon }}
+      </icon>
       <span class="ml-1 uppercase">
         {{ $i18n.locale }}
       </span>

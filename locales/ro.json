@@ -57,18 +57,40 @@
     "donate": {
       "title": "Donează",
       "p1": "Ne poți ajuta financiar donând o sumă la alegere",
-      "name": "Nume",
-      "address": "Adresă",
-      "taxid": "Cod fiscal",
-      "bank": "Bancă",
-      "iban": "IBAN",
-      "bicswift": "BIC/SWIFT"
+      "name": {
+        "label": "Nume",
+        "value": "ASOCIATIA COMMUNITY POWERED BY DLOT"
+      },
+      "address": {
+        "label": "Adresă",
+        "value": "Calea Floresti 60, 400522, Cluj-Napoca, Romania"
+      },
+      "taxid": {
+        "label": "Cod fiscal",
+        "value": "42622580"
+      },
+      "bank": {
+        "label": "Bancă",
+        "value": "Banca Transilvania"
+      },
+      "iban": {
+        "label": "iban",
+        "value": "RO40BTRLRONCRT0543520201"
+      },
+      "currency": {
+        "label": "Monedă",
+        "value": "ron"
+      },
+      "bicswift": {
+        "label": "BIC/SWIFT",
+        "value": "BTRLRO22"
+      }
     },
     "beavolunteer": {
       "title": "Vino în echipa de volntari",
       "p1": {
         "content": "Căutăm voluntri care să ocupe poziții remote în cadrul asociației și/sau care să se alăture proiectelor noastre de curățare a mediului. Află mai multe detalii {0}",
-        "joinUs_label": "here."
+        "joinUs_label": "aici."
       }
     },
     "studies": {
@@ -81,12 +103,17 @@
     },
     "dumps": {
       "title": "Scoate la iveală deșeurile depozitate ilegal",
-      "p1": "Identifică zonele unde gunoaiele nu sunt gestionate corect pentru ca noi să putem investiga situația și să gasim soluții. Contactează-ne prin email la adresa [tripandpick@asociatiacommunity.ro](tripandpick@asociatiacommunity.ro) sau pe social media [media chat](http://m.me/poweredbydlot)."
+      "p1": {
+        "content": "Identifică zonele unde gunoaiele nu sunt gestionate corect pentru ca noi să putem investiga situația și să gasim soluții. Contactează-ne prin email la adresa {email-link} sau pe social {messenger-link}.",
+        "messenger-link": {
+          "label": "media chat"
+        }
+      }
     },
     "live": {
       "title": "Trăieste-ți viața powered by DLOT",
       "list": [
-        "Respectț natura și viața sălbatică",
+        "Respectă natura și viața sălbatică",
         "Fii bun cu toți și tot ceea ce te înconjoară",
         "Petrece timp în natură",
         "Reciclează",
