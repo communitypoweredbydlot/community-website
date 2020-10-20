@@ -3,7 +3,7 @@ Title: Proiecte Asociatia Community powered by DLOT
 Description: TripandPick este o cmpanie initiata de Asociatia Community powered by DLOT. Incurajam petrecerea timpului in aer liber si drumetiile, totdata participand activ la curatarea deseurilor din zonele vizitate. 
 ---
 
-### PROJECTS
+### PROIECTE
 
 Natura are un impact puternic asupra sănătății noastre fizice și psihice. 
 

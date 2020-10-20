@@ -3,9 +3,9 @@
     <div class="flex items-center">
       <div class="block lg:hidden px-3 py-2">
         <button class="px-3 py-2 focus:outline-none" aria-label="Toggle Menu" @click="$emit('toggle-drawer')">
-          <svg class="fill-current h-4 w-4" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" role="img">
-            <path :d="mdiMenu" />
-          </svg>
+          <icon class="h-6 w-6">
+            {{ mdiMenu }}
+          </icon>
         </button>
       </div>
       <Title />
