@@ -120,5 +120,206 @@
     "followus": {
       "title": "Follow us on social media"
     }
+  },
+  "joinourteam": {
+    "jobs": [
+      {
+        "title": "HR Specialist",
+        "attributions": {
+          "label": "Attributions",
+          "list": [
+            "Create, implement, and evaluate human resource department policies and procedures",
+            "Recruit and coordinate interviewing",
+            "Ensuring new hire paperwork is completed and processed",
+            "Informing job applicants of job duties, responsibilities, benefits, schedules, working conditions, promotion opportunities, etc.",
+            "Design and implement effective training and development plans",
+            "Perform employee performance evaluations",
+            "Keep track of staff schedule and working hours",
+            "Create and deliver activity reports for members and volunteers"
+          ]
+        },
+        "requirements": {
+          "label": "Requirements",
+          "list": [
+            "Knowledge of labor legislation processes",
+            "Understanding of the recruitment process", 
+            "Verbal and written communication skills",
+            "Problem-solving and team management abilities",
+            "Computer skills using Microsoft Office or other similar software",
+            "Personal computer with internet connection",
+            "Team player"
+          ]
+        }
+      },
+      {
+        "title": "Social media manager",
+        "attributions": {
+          "label": "Attributions",
+          "list": [
+            "Develop, implement and manage our social media strategy",
+            "Create and publish relevant, original and engaging content",
+            "Manage and oversee social media content",
+            "Suggest and implement new features to develop brand awareness, like promotions and competitions",
+            "Measure the success of every social media campaign",
+            "Stay up to date with latest social media best practices and technologies",
+            "Attend educational conferences/work-shops",
+            "Analyze and improve social media engagement"
+          ]
+        },
+        "requirements": {
+          "label": "Requirements",
+          "list": [
+            "Organizational and time-management abilities",
+            "Creative skills",
+            "Copywriting skills",
+            "Data analysis skills",
+            "Computer skills using Microsoft Office or other similar software",
+            "Knowledge of social media platforms such as Facebook, Twitter, LinkedIn and Instagram",
+            "Personal computer with internet connection",
+            "Team player"
+          ]
+        }
+      },
+      {
+        "title": "Community & Stakeholder Manager",
+        "attributions": {
+          "label": "Attributions",
+          "list": [
+            "Identify stakeholders",
+            "Create, maintain and grow stakeholder database",
+            "Establish, maintain and grow community partnerships",
+            "Develop and implement stakeholder and community relations program",
+            "Manage our relationship with various different local councils and groups",
+            "Maintain and communicate donations, sponsorships and community programs",
+            "Manage stakeholder and community issues and provide advice to the project team on communications, community and stakeholder relations activities",
+            "Identify and manage any risks associated with the community and stakeholders"
+          ]
+        },
+        "requirements": {
+          "label": "Requirements",
+          "list": [
+            "Written and verbal skills (English and Romanian)",
+            "Ability to build relationships, motivate and inspire diverse groups",
+            "Attention to detail and good organizational skills",
+            "Understanding of communications and engagement methodologies",
+            "Problem-solving skills",
+            "Computer skills using Microsoft Office or other similar software",
+            "Personal computer with internet connection",
+            "Team player"
+          ]
+        }
+      },
+      {
+        "title": "Project manager",
+        "attributions": {
+          "label": "Attributions",
+          "list": [
+            "Determine and define project objectives",
+            "Plan and designate project resources",
+            "Predict project budgets and other resources needed to reach objectives",
+            "Manage resources in an effective and efficient manner",
+            "Track project costs in order to meet budget",
+            "Monitor progress, and keep stakeholders informed the entire way",
+            "Develop and manage a detailed project schedule and work plan",
+            "Manage contracts with vendors and suppliers by assigning tasks and communicating expected deliverable",
+            "Measure project performance to identify areas for improvement"
+          ]
+        },
+        "requirements": {
+          "label": "Requirements",
+          "list": [
+            "Written and verbal skills (English and Romanian)",
+            "Ability to build relationships, motivate and inspire diverse groups",
+            "Attention to detail and good organizational skills",
+            "Ability to estimate and manage resorces",
+            "Problem-solving skills",
+            "Team management skills", 
+            "Computer skills using Microsoft Office or other similar software",
+            "Personal computer with internet connection",
+            "Team player"
+          ]
+        }
+      },
+      {
+        "title": "Research specialist",
+        "attributions": {
+          "label": "Attributions",
+          "list": [
+            "Develop objectives and design research projects and proposals",
+            "Formulate and conduct scientific research methodology (survey, observation, interviews, focus groups, experiments, secondary data analysis / archival study)",
+            "Replicate, evaluate, and refine research strategies and approaches and recommend improvements",
+            "Test, customize, and implement new methods and procedures",
+            "Propose techniques to improve research quality",
+            "Contribute to and write research findings for publications, papers, presentations and other documents"
+          ]
+        },
+        "requirements": {
+          "label": "Requirements",
+          "list": [
+            "Written and verbal skills (English and Romanian)",
+            "Knowledge of research principles, concepts, practices, and methods",
+            "Attention to detail and good organizational skills",
+            "Mathematical, analytical, and research skills",
+            "Computer skills using Microsoft Office or other similar software",
+            "Knowledge in using Google Docs, Survey Monkey and/or other survey platforms",
+            "Personal computer with internet connection",
+            "Team player"
+          ]
+        }
+      },
+      {
+        "title": "Graphic designer",
+        "attributions": {
+          "label": "Attributions",
+          "list": [
+            "Propose design concepts",
+            "Use digital illustration, photo and video editing software, and layout software to create designs",
+            "Test graphics across various media",
+            "Develop illustrations, logos and other designs using software or by hand",
+            "Work with copywriters and creative team to produce final design"
+          ]
+        },
+        "requirements": {
+          "label": "Requirements",
+          "list": [
+            "A strong eye for visual composition",
+            "Able to give and receive constructive criticism",
+            "Creative skills",
+            "Knowledge of Adobe PhotoShop, Illustrator, Sketch, InDesign, or other graphic design software",
+            "Attention to details",
+            "Personal computer with internet connection",
+            "Team player"
+          ]
+        }
+      },
+      {
+        "title": "PR Specialist",
+        "attributions": {
+          "label": "Attributions",
+          "list": [
+            "Enhance the company’s voice and presence through online and offline channels",
+            "Build relationships with new media contacts and maintain relationships with existing contacts",
+            "Write press releases, speeches and other PR copy",
+            "Ensure all communication is cohesive with the brand image",
+            "Track and analyze media coverage to inform future campaigns",
+            "Organize, schedule, and prepare key leaders for press interviews"
+          ]
+        },
+        "requirements": {
+          "label": "Requirements",
+          "list": [
+            "Written and verbal skills (English and Romanian)",
+            "Ability to pitch to media",
+            "Creative skills",
+            "Aptitude in presentation and public speaking",
+            "Ability to manage crisis situations",
+            "Attention to details",
+            "Computer skills using Microsoft Office or other similar software",
+            "Personal computer with internet connection",
+            "Team player"
+          ]
+        }
+      }
+    ]
   }
 }

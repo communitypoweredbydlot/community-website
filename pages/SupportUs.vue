@@ -166,7 +166,7 @@ export default class SupportUs extends Vue {
 }
 </script>
 
-<style scoped>
+<style lang="postcss" scoped>
 h4 {
   @apply font-semibold leading-6 mb-2 mt-6;
 }

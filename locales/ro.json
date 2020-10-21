@@ -130,5 +130,204 @@
     "followus": {
       "title": "Urmărește-ne pe social media"
     }
+  },
+  "joinourteam": {
+    "jobs": [
+      {
+        "title": "Specialist HR",
+        "attributions": {
+          "label": "Atribuții",
+          "list": [
+            "Crearea, implementarea și evaluarea politicilor și procedurilor departamentului de resurse umane",
+            "Recrutarea și coordonarea interviurilor",
+            "Realizarea și procesarea documentelor pentru noii voluntari și membri",
+            "Informarea aplicanților cu privire la responsabilitățile postului, beneficii, program, condiții de muncă, oportunități de promorvare etc",
+            "Crearea și implementarea programelor de training și dezvoltare personală",
+            "Evaluarea performanței membrilor și voluntarilor",
+            "Centralizarea programului de lucru al voluntarilor și membrilor",
+            "Realizarea rapoartelor de activitate ale membrilor și voluntarilor"
+          ]
+        },
+        "requirements": {
+          "label": "Cerințe",
+          "list": [
+            "Cunoștințe în ceea ce privește legislația muncii",
+            "Întelegerea procesului de recrutare",
+            "Abilități de comunicare verbală și în scris",
+            "Abilități de rezolvare a problemelor și management al echipelor", 
+            "Cunoștințe în utilizarea Microsoft Office sau alte programe similare",
+            "Computer personal cu conexiune la internet",
+            "Abilități de muncă în echipă"
+          ]
+        }
+      },
+      {
+        "title": "Manager Social media ",
+        "attributions": {
+          "label": "Atribuții",
+          "list": [
+            "Dezvoltarea, implementarea și gestionarea strategiei de social media",
+            "Crearea și publicarea conținutului relevant pentru diverse canale de socializare",
+            "Gestionarea conținutului pe canalele de socializare",
+            "Propunerea și implementarea activităților pentru a crește notorietatea asociației (ex promoții și concursuri)",
+            "Analiza succesului campaniilor pe platformele de socializare",
+            "Participarea la conferințe și work-shop-uri educaționale în domeniul marketing digital",
+            "Informarea cu privire la cele mai bune practici și tehnologii ale canalelor de socializare",
+            "Analiza și îmbunătațirea implicării publicului"
+          ]
+        },
+        "requirements": {
+          "label": "Cerințe",
+          "list": [
+            "Capacitate de organizare și management al timpului",
+            "Creativitate",
+            "Abilități de creare a textelor creative",
+            "Abilități de analiză a datelor",
+            "Cunostințe în gestionarea platformelor de social media precum Facebook, Linkedin, Instagram",
+            "Cunostințe în utilizarea Microsoft Office sau alte programe similare",
+            "Computer personal cu conexiune la internet",
+            "Abilități de muncă în echipa"
+          ]
+        }
+      },
+      {
+        "title": "Community & Stakeholder Manager",
+        "attributions": {
+          "label": "Atribuții",
+          "list": [
+            "Identificarea potențialilor parteneri",
+            "Crearea, menținerea și creșterea bazei de date a partenerilor și potențialilor parteneri",
+            "Inițierea, menținerea și dezvoltarea parteneriatelor comunitare",
+            "Dezvoltarea și implementarea programelor de parteneriat",
+            "Gestionarea relației cu administrațiile locale și alte grupuri de interes",
+            "Gestionarea programelor de donații, sponsorizări și alte programe comunitare",
+            "Gestionarea situațiilor apărute în cadrul relației cu partenerii sau comunitatea și transmiterea acestora către echipele de proiect",
+            "Identificarea și gestionarea riscurilor asociate cu partenerii și comunitatea"
+          ]
+        },
+        "requirements": {
+          "label": "Cerințe",
+          "list": [
+            "Abilități de comunicare scrisă și verbală (Română și Engleză)",
+            "Abilitatea de a construi relații, a motiva și inspira diverse grupuri",
+            "Atenție la detalii si abilități de organizare",
+            "Întelegerea metodologiei de comunicare și implicare a publicului",
+            "Abilități de rezolvare a problemelor",
+            "Cunoștințe în utilizarea Microsoft Office sau alte programe similare",
+            "Computer personal cu conexiune la internet",
+            "Abilități de muncă în echipă"
+          ]
+        }
+      },
+      {
+        "title": "Project manager",
+        "attributions": {
+          "label": "Atribuții",
+          "list": [
+            "Identificarea și definirea obiectivelor proiectelor",
+            "Estimarea și planificarea resurselor",
+            "Gestionarea eficientă a resurselor",
+            "Urmărirea costurilor în vederea respectării bugetelor alocate",  
+            "Monitorizarea desfășurării proiectelor și transmiterea informațiilor partenerilor implicați",
+            "Dezvoltarea și gestionarea programului de implementare",
+            "Gestionarea relației cu furnizorii și partenerii",
+            "Analiza și evaluarea rezultatelor proiectelor",
+            "Identificarea soluțiilor pentru îmbunătățirea activității"
+          ]
+        },
+        "requirements": {
+          "label": "Cerințe",
+          "list": [
+            "Abilități de comunicare scrisă și verbală (Română și Engleză)",
+            "Atenție la detalii și abilități de organizare",
+            "Abilități de rezolvare a problemelor",
+            "Abilități de estimare și gestionare a resurselor",
+            "Cunoștințe în utilizarea Microsoft Office sau alte programe similare",
+            "Computer personal cu conexiune la internet",
+            "Abilități de muncă în echipă"
+          ]
+        }
+      },
+      {
+        "title": "Research specialist",
+        "attributions": {
+          "label": "Atribuții",
+          "list": [
+            "Trasarea obiectivelor și propunerea de proiecte de cercetare",
+            "Formularea și implementarea metodologiei de cercetare (chestionare, observații, interviuri, focus grupuri, experimente, consultare literatură de specialitate)",
+            "Replicarea, evaluarea și imbunătațirea strategiilor de cercetare",
+            "Testarea, personalizarea și implementarea de noi metode și proceduri",
+            "Propunerea tehnicilor de îmbunătățire a calității cercetării",
+            "Contribuirea la scrierea și publicarea lucrărilor de specialitate, a prezentărilor și a altor documente științifice"
+          ]
+        },
+        "requirements": {
+          "label": "Cerințe",
+          "list": [
+            "Abilități de comunicare scrisă și verbală (Română și Engleză)",
+            "Cunoașterea princiiplor, conceptelor, practicilor și metodelor de cercetare",
+            "Atenție la detalii si abilități de organizare",
+            "Aptitudini matematice, analitice si statistice",
+            "Cunoștințe in utilizarea Google Docs, Survey Monkey sau a altor platforme de sondaj",
+            "Cunoștințe in utilizarea Microsoft Office sau alte programe similare",
+            "Computer personal cu conexiune la internet",
+            "Abilități de muncă în echipă"
+          ]
+        }
+      },
+      {
+        "title": "Designer grafic",
+        "attributions": {
+          "label": "Atribuții",
+          "list": [
+            "Propunerea conceptului de design",
+            "Utilizarea programelor digitale de creare ilustrații, video și foto editare",
+            "Testarea designului grafic pe diverse canale media",
+            "Realizarea ilustrațiilor, logo-urilor și a altor elemente de design și identitate vizuală",
+            "Colaborarea cu echipa de creație pentru realizarea design-ului final"
+          ]
+        },
+        "requirements": {
+          "label": "Cerințe",
+          "list": [
+            "Abilități de compoziție vizuala",
+            "Capacitate de a oferi și a primi critici constructive",
+            "Abilități creative",
+            "Cunoștințe în utilizarea programelor de design grafic (CAdobe PhotoShop, Illustrator, Sketch, InDesign, sau altele)",
+            "Atenție la detalii",
+            "Computer personal cu conexiune la internet",
+            "Abilități de muncă în echipă"
+          ]
+        }
+      },
+      {
+        "title": "Specialist PR",
+        "attributions": {
+          "label": "Atribuții",
+          "list": [
+            "Îmbunătățirea prezenței media a organizației prin intermediul canalelor online și offline",
+            "Scrierea declarațiilor de presă, studii de caz și alte documente",
+            "Crearea și menținerea relațiilor cu media",
+            "Asigurarea comunicării în conformitate cu imaginea organizației",
+            "Monitorizarea și analiza acoperirii media în vederea informării cu privire la viitoarele campanii",
+            "Organizarea, programarea și pregătirea responsabililor cu interviurile de presă"
+          ]
+        },
+        "requirements": {
+          "label": "Cerințe",
+          "list": [
+            "Abilități de comunicare scrisă și verbala (Română și Engleză)",
+            "Abilitatea de a comunica cu presa",
+            "Creativitate",
+            "Abilități de a vorbi în public",
+            "Comeptențe în administrarea situatiilor de criza",
+            "Atentie la detalii",
+            "Cunostinte în utilizarea Microsoft Office sau alte programe similare",
+            "Computer personal cu conexiune la internet",
+            "Abilități de munca în echipă"
+          ]
+        }
+      }
+    ]
   }
 }
