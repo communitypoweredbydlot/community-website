@@ -132,6 +132,44 @@
     }
   },
   "joinourteam": {
+    "joinus": {
+      "title": "apel pentru voluntari",
+      "p1": "Vrei să-ți testezi și să-ți îmbunătățești abilitățile, să acumulezi experiență de muncă sau, pur și simplu îți place conceptul nostru?",
+      "p2": [
+        "Personalitatea ta se potrivește cu {values-link} noastre?",
+        "Ai talente/aptitudini care ne pot ajuta să ne îndeplinim scopul?",
+        "Ai vrea să îți dezvolți acele abilități?",
+        "Ești interesat să obții experiență de muncă pe o anumita poziție sau în cadrul unui anumit departament?",
+        "Îți place să petreci timp în aer liber?",
+        "Îți dorești să înveți lucruri noi și ai curajul să îți pui în practică ideile?"
+      ],
+      "p3": "Dacă răspunsul este Da, ai ajuns unde trebuie.",
+      "p4": "Bine ai venit!"
+    },
+    "manyhands": {
+      "title": "Unde-s mulți, puterea crește",
+      "p1": [
+        "Căutăm voluntri care să ocupe poziții remote în cadrul asociației și/sau care să se alăture proiectelor noastre de curățare a mediului.",
+        "Fiind la început de drum, avem mai multe posibilități. Verifică lista de mai jos și {email-link} dacă ți-am captat interesul."
+      ],
+      "p2": "Îți place să scrii, ești bun la planificare și organizare, ai o pasiune pentru oameni, animale și natură, ești creativ sau îți place să petreci timp în aer liber și vrei să te alături campaniei noastre de {tripandpick-link}?",
+      "p3": "Poți îndeplini doar unele dintre cerințele specificate pentru a obține o poziție în asociația noastră. Scrie-ne ce ți-ar plăcea să faci și cât timp ești dispus/ă să investești, iar noi vom găsi o modalitate de a-ți pune în valoare abilitățile."
+    },
+    "whatsinit": {
+      "title": "Ce beneficii ai",
+      "list": [
+        "Program flexibil",
+        "Lucrezi de unde vrei",
+        "Ai acces gratuit la evenimentele noastre",
+        "Participi la brainstorm-uri, iar ideile tale sunt luate în considerare. Poți să propui campanii, strategii, chiar și directii de business",
+        "Fiind la început de drum, activitatea ta poate fi ușor cuantificată pentru a demonstra rezultatele contribuției tale în dezvoltarea asociației",
+        "Cheltuielile în interesul asociației sunt decontate (ex transport, consumabile, print)",
+        "În funcție de nivelul de implicare și rezultate, există posibilitatea de a fi angajat în viitor",
+        "Oportunitatea de a deveni membru în asociație",
+        "Vei ajuta la încercarea de a schimba societatea, piața muncii, angajatorii și brandurile către o dezvoltare sustenabilă"
+      ],
+      "p1": "Nu ai nimic de pierdut. Poți să renunți în momentul în care activitatea nu te satisface sau nu ți-am îndeplinit așteptările."
+    },
     "jobs": [
       {
         "title": "Specialist HR",

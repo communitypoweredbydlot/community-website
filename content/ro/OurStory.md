@@ -20,7 +20,7 @@ Cu cât distanța este mai lungă, cu atât dezamăgirea este mai mare. Defriș�
 Din cauza sistemelor deficitare de gestionare a deșeurilor din zonele rurale, malurile râurilor și pădurile sunt cele mai vulnerabile la depozitarea necontrolată a gunoaielor provenite din gospodăriile private. Zonele naturale de interes turistic se confruntă cu acceași prolemă a gestionării deficitare a deșeurilor.
 
 Am decis să luăm cu noi in drumeții saci de gunoi, iar la întoarcere să facem curat.
-Așa a început campania noastră Trip & Pick.   
+Așa a început campania noastră Trip & Pick.
 
 <video controls width="100%" height="auto" class="rounded shadow">
   <source

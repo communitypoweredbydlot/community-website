@@ -5,31 +5,21 @@ Description: Here's how Asociatia Community powered by DLOT started. How our hob
 
 ### OUR STORY
 
-We love to spend time in nature. Hiking, camping or relaxing in the hammock, we take advantage of every weekend or public holiday to escape the urban jungle. First, we chose places close to our home town, easy to get there by foot or bike. But, in this continuing urbanizing world, cities are expanding, and soon, our peace oasis became residential complexes and we were forced to go farther. There are still parks, small forests and barbecue areas nearby, with their issues and shortcomings: they are crowded, noisy and mostly dirty.
+We love spending time in nature. Hiking, camping or relaxing in the hammock, we take advantage of every weekend or public holiday to escape the urban jungle.
+
+At first, we took refuge in easily accessible places by foot or bike. Unfortunately, in this constantly urbanizing world, our peace oases soon became a thing of the past. There are still parks, small forests and barbecue areas nearby, each with their issues and shortcomings: they are crowded, noisy and mostly dirty. Thus, we were forced to retreat further and further away from the city, hoping to reunite with the unaltered nature.
 
 However, the greater the distance from the cities, the greater our disappointment: large deforestation, private properties and lots of trash.
 
 <img src="https://community.poweredbydlot.com/wp-content/uploads/2020/07/Community-powered-by-DLOT-Private-proprety.jpg" loading="lazy" class="rounded shadow"></img>
 
-<img src="https://community.poweredbydlot.com/wp-content/uploads/2020/07/Community-powered-by-DLOT-deforestation.jpg" loading="lazy" class="rounded shadow"></img>
+<img src=https://community.poweredbydlot.com/wp-content/uploads/2020/07/Community-powered-by-DLOT-deforestation.jpg loading="lazy" class="rounded shadow"></img>
 
 <img src=https://community.poweredbydlot.com/wp-content/uploads/2020/07/Community-powered-by-DLOT-Trash.jpg loading="lazy" class="rounded shadow"></img>
 
-During the years, we noticed there are 5 types of individuals, concerning the attitude towards nature:
+Due to poor waste management systems in rural areas, riverbanks are the most vulnerable to uncontrolled landfilling from private household waste. Natural areas of tourist interest face the same problem of poor waste management.
 
-**The city fans** – the ones who are not interested in spending time outdoors;  
-**The unaware** – the ones who like to relax in nature, or go for a walk/hike, but leave their litter on the trail or barbecue places or use motorised boats on lakes which provide their drinking water. They are unaware of negative implications on the environment and potential destructive effects of such practices;  
-**The ignorants** – the ones who like to spend time outdoors leaving all the trash behind because “they pay taxes so it’s the governments’ problem to pay others to clean it";  
-**The rational ones** – those who understand they have to leave things just like they found them and do not mess up the natural areas they visit;  
-**Trailblazers** – those who go the extra mile and try to fix what others broke, picking up others’ trash and restoring the shelters, trail marks and natural habitats.
-
-Recently we have discovered there are two subtypes of the unaware category: the urban and the rural ones. Although their behaviour regarding waste management is similar, the difference consists in their motives.
-
-Most tourists leave the trash behind because they didn’t came prepared with garbage bags. Putting used food and drink packing in their backpacks or cars would be messy. Garbage cans are available in few natural palces, and, if they are, they’re usually full.
-
-Besides field observations, our interaction with people from various country sides has revealed the limited beliefs that drive such behaviours: the misconception that the waste problem is solved as long as they don’t see it anymore. Many locals throw their garbage in the river because “the water will take it away”, never questioning where it takes it. There’s also the superstition that throwing solid waste in the river will bring you luck and prosperity.
-
-We continued our search for hidden gems away from civilization and we decided to take some garbage bags with us, to pick-up the litter found on the route back. This is how our campaign, [TripAndPick](https://asociatiacommunity.ro/projects), has started.
+We continued our search for hidden gems away from civilization and we decided to take some garbage bags with us, to pick-up the litter found on the way back. This is how our campaign, Trip & Pick, has started.
 
 <video controls width="100%" height="auto" class="rounded shadow">
   <source
@@ -42,14 +32,14 @@ We continued our search for hidden gems away from civilization and we decided to
 
 <img src="https://community.poweredbydlot.com/wp-content/uploads/2020/07/Community-powered-by-DLOT-Trip-and-pick-challenge-scaled.jpg" loading="lazy" class="rounded shadow"></img>
 
-Due to improper waste management systems in rural areas, rivers and streams are the most vulnerable to uncontrolled waste disposal. The main output of waste generated by households is the nearby riverbed.
-
-We encountered areas with so much garbage that it was impossible for us to clean it in a day, not to mention the fact that we needed a van to fit it all. And even if we did, where were we supposed to take it? By not having a legal form to operate, nor the necessary financial and human resources, we cannot clean many of the problematic areas or contract a sanitation truck.
+We encountered areas with so much garbage that it was impossible for us to clean them in one day. Moreover, we would have needed a van to transport the trash. In the absence of a legal form of operation, as well as financial and human resources, we could not clean many of the problem areas, nor could we hire a sanitation truck.
 
 <img src="https://poweredbydlot.com/wp-content/uploads/2020/07/Garbage-in-nature-Community-powered-by-DLOT.jpg" loading="lazy" class="rounded shadow"></img>
 
-Still, many of the things we saw on our trips show the need to go further than just picking up others trash. There’s a great need for education, especially in the rural areas.
+Many of the things we saw on our trips show the need to go further than just picking up others trash. For a sustainable development of society, expansion of the community of responsible people is indispensable. This is only possible through education and proper information, especially in rural areas.
 
-In order to find solutions to these issues we founded Asociatia Community, a non-profit organization focused on the environment. Our purpose is to create awareness around the impact of human lifestyle on nature and promoting means to improve the physical and mental health while living in harmony with the surroundings.
+In order to find solutions to these issues we founded Community, a non-profit organization focused on environmental protection.
+
+Through various educational campaigns and events, we aim to create awareness around the impact of human lifestyle on nature and to promote means to improve the physical and mental health while living in harmony with the surroundings.
 
 <img src="https://poweredbydlot.com/wp-content/uploads/2020/07/Dog-picking-up-trash-Community-powered-by-DLOT-scaled.jpg" loading="lazy" class="rounded shadow"></img>

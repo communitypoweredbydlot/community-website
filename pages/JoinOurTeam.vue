@@ -1,6 +1,20 @@
 <template>
   <article>
-    <nuxt-content :document="page" class="prose max-w-none" />
+    <h3>{{ $t("joinourteam.joinus.title") }}</h3>
+    <p>{{ $t("joinourteam.joinus.p1") }}</p>
+    <p>{{ $t("joinourteam.joinus.p3") }}</p>
+    <p>{{ $t("joinourteam.joinus.p4") }}</p>
+    <h3>{{ $t("joinourteam.manyhands.title") }}</h3>
+    <h4>{{ $t("joinourteam.whatsinit.title") }}</h4>
+    <ul>
+      <li
+        v-for="(benefit, bi) in $t('joinourteam.whatsinit.list')"
+        :key="bi"
+      >
+        {{ benefit }}
+      </li>
+    </ul>
+    <p>{{ $t("joinourteam.whatsinit.p1") }}</p>
     <expansion-panels class="mt-6">
       <expansion-panel
         v-for="(job, ji) in $t('joinourteam.jobs')"
@@ -45,12 +59,8 @@
 
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator'
-import mdFetchWithDefault from '@/lib/MdFetchWithDefault'
 
 @Component
 export default class JoinOurTeam extends Vue {
-  async asyncData (context: any) {
-    return await mdFetchWithDefault('JoinOurTeam')(context)
-  }
 }
 </script>
