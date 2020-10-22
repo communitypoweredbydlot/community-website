@@ -3,7 +3,7 @@ Title: Our Story Asociatia Community powered by DLOT
 Description: Here's how Asociatia Community powered by DLOT started. How our hobby has become a way of life and why we decided to found a nonprofit organization.
 ---
 
-### OUR STORY
+### Our Story
 
 We love spending time in nature. Hiking, camping or relaxing in the hammock, we take advantage of every weekend or public holiday to escape the urban jungle.
 
