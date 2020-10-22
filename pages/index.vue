@@ -1,59 +1,41 @@
 <template>
   <article class="flex flex-col space-y-6">
-    <div class="text-center font-dlot-logo text-md lg:text-xl text-gray-700 leading-7 lg:leading-5 mb-6 lg:mb-8 font-bold">
+    <p class="text-center font-dlot-logo text-md lg:text-xl lg:leading-5 mb-6 lg:mb-8 font-bold">
       {{ $t('statement.summary') }}
-    </div>
+    </p>
     <div class="flex flex-col">
-      <div class="font-dlot-logo text-gray-500 leading-5 mb-2 font-medium">
-        {{ $t('statement.vision.title') }}
-      </div>
-      <div class="text-gray-700 leading-7">
+      <h3>{{ $t('statement.vision.title') }}</h3>
+      <p>
         {{ $t('statement.vision.p1') }}
-      </div>
+      </p>
     </div>
     <div class="flex flex-col">
-      <div class="font-dlot-logo text-gray-500 leading-5 mb-2 font-medium">
-        {{ $t('statement.values.title') }}
-      </div>
-      <div class="text-gray-700 leading-7">
-        <i18n path="statement.values.p1.content" tag="div" class="mb-4">
+      <h3>{{ $t('statement.values.title') }}</h3>
+      <div>
+        <i18n path="statement.values.p1.content" tag="p" class="mb-4">
           <a :href="'https://www.poweredbydlot.com'">{{ $t("statement.values.p1.poweredBy_label") }}</a>
         </i18n>
-        <div>
-          <div
-            v-for="(value, index) in $t('statement.values.list')"
-            :key="index"
-            class="mb-1"
-          >
-            {{ value }}
-          </div>
-        </div>
-        <div class="mt-4">
-          {{ $t('statement.values.p2') }}
-        </div>
-      </div>
-    </div>
-    <div class="flex flex-col">
-      <div class="font-dlot-logo text-gray-500 leading-5 mb-2 font-medium">
-        {{ $t('statement.mission.title') }}
-      </div>
-      <div class="text-gray-700 leading-7">
-        <div
-          v-for="(value, index) in $t('statement.mission.list')"
+        <p
+          v-for="(value, index) in $t('statement.values.list')"
           :key="index"
           class="mb-1"
         >
           {{ value }}
-        </div>
+        </p>
+        <p class="mt-4">
+          {{ $t('statement.values.p2') }}
+        </p>
       </div>
+    </div>
+    <div class="flex flex-col">
+      <h3>{{ $t('statement.mission.title') }}</h3>
+      <p
+        v-for="(value, index) in $t('statement.mission.list')"
+        :key="index"
+        class="mb-1"
+      >
+        {{ value }}
+      </p>
     </div>
   </article>
 </template>
-
-<script lang="ts">
-import { Component, Vue } from 'nuxt-property-decorator'
-
-@Component
-export default class Statement extends Vue {
-}
-</script>

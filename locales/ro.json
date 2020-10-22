@@ -30,7 +30,7 @@
       },
       "list": [
         "Pledăm pentru acțiuni și produse prietenoase cu mediul",
-        "Promovăm explorarea și descoperirea continuă a sinelui.",
+        "Promovăm explorarea și descoperirea continuă a sinelui",
         "Încurajăm dragostea și acceptarea pentru toată lumea și pentru tot ce ne înconjoară",
         "Susținem influența culturală a muzicii"
       ],
@@ -48,7 +48,7 @@
     }
   },
   "supportus": {
-    "title": "implică-te",
+    "title": "Implică-te",
     "tell": {
       "title": "Spune și altora",
       "p1": "Împărtășește cu alții povestea noastră, atrage atenția asupra importanței protejării naturii.",
@@ -75,7 +75,8 @@
       },
       "iban": {
         "label": "iban",
-        "value": "RO40BTRLRONCRT0543520201"
+        "value": "RO40BTRLRONCRT0543520201",
+        "copyTooltip": "Copiază IBAN în clipboard"
       },
       "currency": {
         "label": "Monedă",
@@ -107,6 +108,9 @@
         "content": "Identifică zonele unde gunoaiele nu sunt gestionate corect pentru ca noi să putem investiga situația și să gasim soluții. Contactează-ne prin email la adresa {email-link} sau pe social {messenger-link}.",
         "messenger-link": {
           "label": "media chat"
+        },
+        "email-link": {
+          "label": "tripandpick@asociatiacommunity.ro"
         }
       }
     },
@@ -156,7 +160,7 @@
       "p3": "Poți îndeplini doar unele dintre cerințele specificate pentru a obține o poziție în asociația noastră. Scrie-ne ce ți-ar plăcea să faci și cât timp ești dispus/ă să investești, iar noi vom găsi o modalitate de a-ți pune în valoare abilitățile."
     },
     "whatsinit": {
-      "title": "Ce beneficii ai",
+      "title": "Ce beneficii ai:",
       "list": [
         "Program flexibil",
         "Lucrezi de unde vrei",

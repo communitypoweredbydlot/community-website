@@ -48,7 +48,7 @@
     }
   },
   "supportus": {
-    "title": "call for supporters",
+    "title": "Call for Supporters",
     "tell": {
       "title": "Spread the word",
       "p1": "Share our concept, educate others, raise awareness about the importance of protecting the envronment and keeping nature clean.",
@@ -70,7 +70,8 @@
         "label": "Bank"
       },
       "iban": {
-        "label": "iban"
+        "label": "iban",
+        "copyTooltip": "Copy IBAN to the clipboard"
       },
       "currency": {
         "label": "Currency"
