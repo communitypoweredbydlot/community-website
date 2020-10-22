@@ -6,6 +6,16 @@
     role="img"
     aria-hidden="true"
   >
+    <title v-if="tooltip">{{ tooltip }}</title>
     <path :d="$slots.default[0].text.trim()" />
   </svg>
 </template>
+
+<script lang="ts">
+import { Component, Prop, Vue } from 'nuxt-property-decorator'
+
+@Component
+export default class LanguageSelect extends Vue {
+  @Prop() tooltip!: string
+}
+</script>

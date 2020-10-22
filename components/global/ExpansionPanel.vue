@@ -1,6 +1,6 @@
 <template>
   <article>
-    <header class="flex flex-row flex-wrap justify-start items-center bg-gray-100">
+    <header class="flex flex-row flex-wrap justify-start items-center">
       <button
         class="focus:outline-none"
         @click="onClick"
