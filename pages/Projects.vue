@@ -12,14 +12,14 @@
       <h4>{{ $t('projects.tripandpick.title') }}</h4>
       <i18n path="projects.tripandpick.p1.content" tag="p">
         <template v-slot:tripandpick-hashtag>
-          <a href="https://www.instagram.com/explore/tags/tripandpick">{{ $t('projects.tripandpick.p1.tripandpick-hashtag') }}</a>
+          <a class="text-link" href="https://www.instagram.com/explore/tags/tripandpick">{{ $t('projects.tripandpick.p1.tripandpick-hashtag') }}</a>
         </template>
       </i18n>
       <p>{{ $t('projects.tripandpick.p2') }}</p>
       <p>{{ $t('projects.tripandpick.p3') }}</p>
       <i18n path="projects.tripandpick.p4.content" tag="p">
-        <template v-slot:tripandpick-hashtag>
-          <a href="mailto:tripandpick@asociatiacommunity.ro">{{ $t('projects.tripandpick.p4.tripandpick-email-link') }}</a>
+        <template v-slot:tripandpick-email-link>
+          <a class="text-link" href="mailto:tripandpick@asociatiacommunity.ro">{{ $t('projects.tripandpick.p4.tripandpick-email-link') }}</a>
         </template>
       </i18n>
     </div>

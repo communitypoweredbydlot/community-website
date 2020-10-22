@@ -13,7 +13,7 @@
       <h3>{{ $t('statement.values.title') }}</h3>
       <div>
         <i18n path="statement.values.p1.content" tag="p" class="mb-4">
-          <a :href="'https://www.poweredbydlot.com'">{{ $t("statement.values.p1.poweredBy_label") }}</a>
+          <a class="text-link" :href="'https://www.poweredbydlot.com'">{{ $t("statement.values.p1.poweredBy_label") }}</a>
         </i18n>
         <p
           v-for="(value, index) in $t('statement.values.list')"

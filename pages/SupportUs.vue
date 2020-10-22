@@ -10,11 +10,11 @@
         <br>
         {{ $t('supportus.tell.p2') }}
         <br>
-        <a href="https://www.instagram.com/explore/tags/tripandpick/?hl=en">#TripAndPick</a>
-        <a href="https://www.instagram.com/explore/tags/tripandpickchallenge/?hl=en">#TripandPickChallenge</a>
-        <a href="https://www.instagram.com/explore/tags/asociatiacommunity/?hl=en">#AsociatiaCommunity</a>
-        <a href="https://www.instagram.com/explore/tags/communitypoweredbydlot/?hl=en">#CommunityPoweredByDlot</a>
-        <a href="https://www.instagram.com/explore/tags/poweredbydlot/?hl=en">#PoweredByDlot</a>
+        <a class="text-link" href="https://www.instagram.com/explore/tags/tripandpick/?hl=en">#TripAndPick</a>
+        <a class="text-link" href="https://www.instagram.com/explore/tags/tripandpickchallenge/?hl=en">#TripandPickChallenge</a>
+        <a class="text-link" href="https://www.instagram.com/explore/tags/asociatiacommunity/?hl=en">#AsociatiaCommunity</a>
+        <a class="text-link" href="https://www.instagram.com/explore/tags/communitypoweredbydlot/?hl=en">#CommunityPoweredByDlot</a>
+        <a class="text-link" href="https://www.instagram.com/explore/tags/poweredbydlot/?hl=en">#PoweredByDlot</a>
       </p>
     </div>
     <div>
@@ -52,7 +52,7 @@
           <div class="flex flex-row justify-start">
             <span class="family-sans font-medium text-base text-gray-800">{{ $t('supportus.donate.iban.value') }}</span>
             <button
-              class="focus:outline-none hover:text-dlot-teal ml-2 h-4 w-4"
+              class="focus:outline-none icon-link ml-2 h-4 w-4"
               :title="$t('supportus.donate.iban.copyTooltip')"
               @click="copyToClipboard($t('supportus.donate.iban.value'))"
             >
@@ -89,23 +89,28 @@
     <div>
       <h4>{{ $t('supportus.beavolunteer.title') }}</h4>
       <i18n path="supportus.beavolunteer.p1.content" tag="p">
-        <a :href="'https://asociatiacommunity.ro/ro/joinourteam'">{{ $t("supportus.beavolunteer.p1.joinUs_label") }}</a>
+        <a class="text-link" :href="'https://asociatiacommunity.ro/ro/joinourteam'">{{ $t("supportus.beavolunteer.p1.joinUs_label") }}</a>
       </i18n>
     </div>
     <div>
       <h4>{{ $t('supportus.studies.title') }}</h4>
       <i18n path="supportus.studies.p1.content" tag="p">
-        <a :href="'https://docs.google.com/forms/d/e/1FAIpQLScvUQDZPiALtKtzw9OITf2Wce78LhZYuzOYWR7KhFFDHnTvWg/viewform'" class="italic">{{ $t("supportus.studies.p1.form_label") }}</a>
+        <a
+          class="italic text-link"
+          :href="'https://docs.google.com/forms/d/e/1FAIpQLScvUQDZPiALtKtzw9OITf2Wce78LhZYuzOYWR7KhFFDHnTvWg/viewform'"
+        >
+          {{ $t("supportus.studies.p1.form_label") }}
+        </a>
       </i18n>
     </div>
     <div>
       <h4>{{ $t('supportus.dumps.title') }}</h4>
       <i18n path="supportus.dumps.p1.content" tag="p">
         <template v-slot:messenger-link>
-          <a :href="'https://www.messenger.com/t/poweredbydlot'">{{ $t("supportus.dumps.p1.messenger-link.label") }}</a>
+          <a class="text-link" :href="'https://www.messenger.com/t/poweredbydlot'">{{ $t("supportus.dumps.p1.messenger-link.label") }}</a>
         </template>
         <template v-slot:email-link>
-          <a href="mailto:tripandpick@asociatiacommunity.ro">{{ $t("supportus.dumps.p1.email-link.label") }}</a>
+          <a class="text-link" href="mailto:tripandpick@asociatiacommunity.ro">{{ $t("supportus.dumps.p1.email-link.label") }}</a>
         </template>
       </i18n>
     </div>
@@ -124,27 +129,30 @@
     <div class="flex flex-col">
       <h4>{{ $t('supportus.followus.title') }}</h4>
       <div class="flex flex-row justify-start">
-        <svg
-          class="fill-current h-6 w-6 hover:text-dlot-teal"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
+        <a
+          class="h-6 w-6 icon-link"
+          href="https://www.linkedin.com/company/poweredbydlot/"
+          alt="Linkedin"
+          title="Linkedin"
         >
-          <path :d="iconLinkedin" />
-        </svg>
-        <svg
-          class="fill-current h-6 w-6 hover:text-dlot-teal"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
+          <icon>{{ iconLinkedin }}</icon>
+        </a>
+        <a
+          class="h-6 w-6 icon-link"
+          href="https://www.instagram.com/poweredbydlot/"
+          alt="Facebook"
+          title="Facebook"
         >
-          <path :d="iconFacebook" />
-        </svg>
-        <svg
-          class="fill-current h-6 w-6 hover:text-dlot-teal"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
+          <icon>{{ iconFacebook }}</icon>
+        </a>
+        <a
+          class="h-6 w-6 icon-link"
+          href="https://www.facebook.com/poweredbydlot/"
+          alt="Instagram"
+          title="Instagram"
         >
-          <path :d="iconInstagram" />
-        </svg>
+          <icon>{{ iconInstagram }}</icon>
+        </a>
       </div>
     </div>
   </article>

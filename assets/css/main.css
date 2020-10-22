@@ -1,9 +1,15 @@
-a {
-  @apply text-dlot-teal;
-}
+@layer utilities {
+  .text-link {
+    @apply text-dlot-teal;
+  }
 
-a:hover {
-  color: #cdc3d9;
+  .text-link:hover {
+    @apply text-dlot-blue-haze;
+  }
+
+  .icon-link:hover {
+    @apply text-dlot-teal;
+  }
 }
 
 .paragraph {

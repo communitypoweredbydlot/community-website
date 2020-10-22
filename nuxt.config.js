@@ -82,6 +82,7 @@ export default {
           },
           colors: {
             'dlot-teal': '#16a99f',
+            'dlot-blue-haze': '#cdc3d9',
             gray: {
               '100': '#f5f5f5',
               '200': '#eeeeee',
