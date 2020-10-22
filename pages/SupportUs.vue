@@ -51,13 +51,13 @@
           </div>
           <div class="flex flex-row justify-start">
             <span class="family-sans font-medium text-base text-gray-800">{{ $t('supportus.donate.iban.value') }}</span>
-            <icon
-              class="h-4 w-4 ml-2 hover:text-dlot-teal cursor-pointer"
-              :tooltip="$t('supportus.donate.iban.copyTooltip')"
+            <button
+              class="focus:outline-none hover:text-dlot-teal ml-2 h-4 w-4"
+              :title="$t('supportus.donate.iban.copyTooltip')"
               @click="copyToClipboard($t('supportus.donate.iban.value'))"
             >
-              {{ iconCopy }}
-            </icon>
+              <icon>{{ iconCopy }}</icon>
+            </button>
           </div>
         </div>
         <div>
