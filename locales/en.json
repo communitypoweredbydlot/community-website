@@ -359,5 +359,24 @@
         }
       }
     ]
+  },
+  "projects": {
+    "title": "our projects",
+    "p1": "Hiking, trekking or just relaxing, the benefits of spending time in nature are enormous.",
+    "p2": "By protecting the planet and wildlife, we are protecting our future, as we cannot survive while the natural ecosystems collapse.",
+    "p3": "The data is visible, on our beaches, forests, lakes and mountains. From the city park to the Everest, the traces left by humans illustrate the problem. Yet, people are walking off these places empty handed.",
+    "tripandpick": {
+      "title": "Trip & Pick",
+      "p1": {
+        "content": "{tripandpick-hashtag} is about enjoying time outdoors and taking part in the environmental clean-up.",
+        "tripandpick-hashtag": "#TripAndPick"
+      },
+      "p2": "Even if it’s only a few things (cigarette butts or candy wrappers), or even one item, it counts.",
+      "p3": "Next time you take a trip outside the urban area, bring some garbage bags with you and pick up the litter found along the route.",
+      "p4": {
+        "content": "You can also join us in our trips. Explore the events calendar below and {tripandpick-email-link} for details",
+        "tripandpick-email-link": "write-us"
+      }
+    }
   }
 }

@@ -367,5 +367,24 @@
         }
       }
     ]
+  },
+  "projects": {
+    "title": "proiecte",
+    "p1": "Natura are un impact puternic asupra sănătății noastre fizice și psihice.",
+    "p2": "Protejând planeta și viața sălbatică, ne protejam viitorul. În caz contrar, prin prăbușirea ecosistemelor naturale, supraviețuirea rasei umane ar fi imposibilă.",
+    "p3": "Vedem gunoaie aruncate pe plaje, în munți, în păduri și ape... Cu toate acestea, observăm cum mulți trec apatici, fără să le adune.",
+    "tripandpick": {
+      "title": "Trip & Pick",
+      "p1": {
+        "content": "{tripandpick-hashtag} este o campanie care încurajează activitățile în natură și participarea activă la ecologizarea zonelor frecventate.",
+        "tripandpick-hashtag": "#TripAndPick"
+      },
+      "p2": "Fiecare efort contează, chiar dacă se rezumă doar la câteva ambalaje sau chiștoace de țigară.",
+      "p3": "Când ieși în aer liber, nu uita să iei cu tine saci de gunoi. Alătură-te campaniei noastre și strânge gunoiul pe care îl întâlnești în drumul tău.",
+      "p4": {
+        "content": "Mai jos găsești un calendar cu următoarele noastre drumeții. Dacă vrei să afli detalii despre cum poți să ni te alături {tripandpick-email-link}",
+        "tripandpick-email-link": "scrie-ne"
+      }
+    }
   }
 }
