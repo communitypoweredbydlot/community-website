@@ -24,6 +24,7 @@
       class="transform top-0 left-0 w-64 bg-white fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30"
       :class="drawer ? 'translate-x-0' : '-translate-x-full'"
     >
+      <Title class="mt-4 ml-4" />
       <NavigationList class="flex flex-col flex-grow justify-between" is-vertical="true" />
     </aside>
     <Navigation class="mt-4" @toggle-drawer="drawer = !drawer" />
