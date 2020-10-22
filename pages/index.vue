@@ -1,6 +1,6 @@
 <template>
   <article class="flex flex-col space-y-6">
-    <p class="text-center font-dlot-logo text-md lg:text-xl lg:leading-5 mb-6 lg:mb-8 font-bold">
+    <p class="text-center font-dlot-logo text-md lg:text-xl lg:leading-5 mb-4 sm:mb-6 lg:mb-8 font-bold">
       {{ $t('statement.summary') }}
     </p>
     <div class="flex flex-col">

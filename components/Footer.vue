@@ -1,10 +1,10 @@
 <template>
   <div class="font-sans border-gray-400 border-t">
-    <div class="grid grid-cols-1 grid-cols-4 gap-4 text-xs mt-2 mb-4 font-light leading-4 text-gray-600">
-      <div class="col-span-1 flex justify-start items-start">
+    <div class="grid grid-cols-1 sm:grid-cols-4 gap-4 text-xs mt-2 mb-4 font-light leading-4 text-gray-600">
+      <div class="col-span-1 flex justify-start items-start order-4 sm:order-1">
         <span class="font-dlot-logo">© {{ new Date().getFullYear() }} powered by DLOT™</span>
       </div>
-      <div class="col-span-1 flex flex-col justify-start lg:items-end">
+      <div class="col-span-1 flex flex-col justify-start sm:items-end order-1 sm:order-2">
         <div class="flex flex-col justify-start items-start">
           <div
             v-for="(item, index) in transparencyAndGdprMenuItems"
@@ -20,7 +20,7 @@
           </div>
         </div>
       </div>
-      <div class="col-span-1 flex flex-col justify-start items-start">
+      <div class="col-span-1 flex flex-col justify-start items-start order-2 sm:order-3">
         <div class="text-center mb-2">
           {{ $t("email") }}
         </div>
@@ -28,7 +28,7 @@
           {{ $t("phone") }}
         </div>
       </div>
-      <div class="col-span-1 flex justify-end items-start">
+      <div class="col-span-1 flex justify-start sm:justify-end items-start order-3 sm:order-4">
         <nuxt-link :to="localePath('/')">
           <img
             height="100"
