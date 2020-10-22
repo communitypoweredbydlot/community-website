@@ -54,10 +54,6 @@ export default class Footer extends Vue {
       route: '/privacypolicy'
     },
     {
-      text: 'nav.bottom.activity_reports',
-      route: '/activityreports'
-    },
-    {
       text: 'nav.bottom.terms_and_conditions',
       route: '/termsandconditions'
     }
