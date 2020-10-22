@@ -1,6 +1,6 @@
 <template>
   <div class="font-sans border-gray-400 border-t">
-    <div class="grid grid-cols-1 sm:grid-cols-4 gap-4 text-xs mt-2 mb-4 font-light leading-4 text-gray-600">
+    <div class="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-4 gap-2 sm:gap-4 text-xs mt-2 mb-4 font-light leading-4 text-gray-600">
       <div class="col-span-1 flex justify-start items-start order-4 sm:order-1">
         <span class="font-dlot-logo">© {{ new Date().getFullYear() }} powered by DLOT™</span>
       </div>
