@@ -6,12 +6,11 @@ Descriptions: Internal regulations Asociatia Community powered by DLOT
 ### TERMS AND CONDITIONS
 
 #### General terms
-Asociatia Community powered by DLOT is a non-governmental, apolitical and non-profit Organization which is subject to Romanian legislation, applicable to this type of legal person.
+Asociatia Community powered by DLOT is a non-governmental, apolitical and non-profit Organization which is subject to Romanian legislation, applicable to this type of legal persona.
 
 #### PURPOSE AND OBJECTIVES
-The purpose of the Organization is to carry out educational actions to create awareness, regarding the environment, especially in rural areas. The actions include, but are not limited to presentations, information campaigns and events on topics related to environmental protection, selective waste collection and recycling, the benefits of spending time in nature.
-
-ASOCIATIA COMMUNITY POWERED BY DLOT aims to inform citizens about the impact that lifestyle has on the environment and to encourage actions to protect nature and improve the physical and mental health of any person, through recreation in nature and outdoor sports activities.
+ASOCIATIA COMMUNITY POWERED BY DLOT aims to inform citizens about the impact that lifestyle has on the environment and to encourage actions to protect nature and improve the physical and mental health of any person, through recreation in nature and outdoor sports
+activities.
 
 Among the activities it will carry out are, but are not limited to:
 * consulting in environmental issues;
@@ -29,17 +28,17 @@ Among the activities it will carry out are, but are not limited to:
 
 **General Assembly**
 
-The general assembly is the governing body composed of all the founding, members and associate members.
+The general assembly is the governing body composed of all the founding members, honorary members and associate members.
 
 The general assembly has the following powers:
-* establishing the strategy and general objectives of the Organizationn;
-* approving the budget of revenues and expenditures;
-* election and revocation of the members of the board of directors;
-* election and revocation of the censor / members of the censors commission;
-* establishment of subsidiaries;
-* modify the constitutive act and statute;
-* dissolution and liquidation of the Organization, as well as establishing the destination of the assets remaining after the liquidation;
-* any other attributions provided by law and statute.
+* establishing the strategy and general objectives of the Organizationn
+* approving the budget of revenues and expenditures
+* election and revocation of the members of the board of directors
+* election and revocation of the censor / members of the censors commission
+* establishment of subsidiaries
+* modify the constitutive act and statute
+* dissolution and liquidation of the Organization, as well as establishing the destination of the assets remaining after the liquidation
+* any other attributions provided by law and statute
 
 The general assembly meets at least once a year and has the right to coordinate and control the board of directors, the censor / commission of censors, as well as the entire activity of the Organization.
 
@@ -86,110 +85,113 @@ The Board of Directors deliberates, validly, in the presence of at least 2/3 of 
 
 #### Departments
 
-* Social-Educational;
-* PR and Communication;
-* Fundraising - project writing;
-* Human Resources and Accounting;
-* IT;
-* Project Management.
+* Social-Educational
+* PR and Communication
+* Fundraising - project writing
+* Human Resources and Accounting
+* IT
+* Project Management
 
 **Social-Educational department**
-* Organizing events, courses and trainings regarding the protection of the environment and the health benefits of nature;
-* Establishing research groups on certain topics and publishing the results in specialized journals in the country and abroad;
-* Participation of research groups in conferences related to the fields of activity of the Organization;
-* Organizing social events for members and volunteers of the Organization;
-* Organizing environment clean-up actions.
+* Organizing events, courses and trainings regarding the protection of the environment and the health benefits of nature
+* Establishing research groups on certain topics and publishing the results in specialized journals in the country and abroad
+* Participation of research groups in conferences related to the fields of activity of the Organization
+* Organizing social events for members and volunteers of the Organization
+* Organizing environment clean-up actions
 
 **PR and Communication department**
-* Identifying possible collaborators and partners and establishing a connection with them;
+* Identifying possible collaborators and partners and establishing a connection with them
 * Concluding partnership contracts;
-* Maintaining relationships with partners and communicating with them during the project development;
-* Communication with the press: drafting press releases, addressing invitations to various events;
-* Promoting the Organization as well as its events and projects;
+* Maintaining relationships with partners and communicating with them during the project development
+* Communication with the press: drafting press releases, addressing invitations to various events
+* Promoting the Organization as well as its events and projects
 * Creating promotional materials;
-* Administering, updating and creating content for the Organization's blog and social media pages.
+* Administering, updating and creating content for the Organization's blog and social media pages
 
 **Fundraising - project writing department**
-* Identification of funding sources;
-* Fundraising;
-* Obtaining sponsorships;
-* Writing projects - familiarization with the regulations of the financiers, completing the financing applications, the primary design of the projects;
-* Resources estimation and management.
+* Identification of funding sources
+* Fundraising
+* Obtaining sponsorships
+* Writing projects - familiarization with the regulations of the financiers, completing the financing applications, the primary design of the projects
+* Resources estimation and management
 
 **Human Resources and Accounting department**
-* Identifies the need for voluntary / internal staff of the Organization;
-* Recruitment of volunteers;
-* Takes over the applications for membership;
-* Completes employment / accession formalities;
-* Training of volunteers and employees;
-* Carrying out primary accounting;
-* Makes payment to suppliers of goods and services.
+* Identifies the need for voluntary / internal staff of the Organization
+* Recruitment of volunteers
+* Takes over the applications for membership
+* Completes employment / accession formalities
+* Training of volunteers and employees
+* Carrying out primary accounting
+* Makes payment to suppliers of goods and services
 
 **IT department**
-* Ensures the functionality of the website and email accounts;
-* Identifies software development opportunities;
-* Maintains relationships with web service providers.
+* Ensures the functionality of the website and email accounts
+* Identifies software development opportunities
+* Maintains relationships with web service providers
 
 **Project Management department**
-* Identifies potential projects;
-* Identifies the need for logistical and human resources in order to implement projects;
-* Makes budget estimates for activities;
-* Plans and coordinates the activity of volunteers in order to organize the actions of the Organization;
-* Plans and coordinates the activity of internal teams in order to achieve the assigned projects;
-* Prepares the evaluation report of completed projects.
+* Identifies potential projects
+* Identifies the need for logistical and human resources in order to implement projects
+* Makes budget estimates for activities
+* Plans and coordinates the activity of volunteers in order to organize the actions of the Organization
+* Plans and coordinates the activity of internal teams in order to achieve the assigned projects
+* Prepares the evaluation report of completed projects
 
 **Department coordinators**
-* Coordinate the volunteers in carrying out the planned activities;
-* Give their consent for the activities of the members of the respective department;
-* Formulates a monthly activity report to be handed over to the management bodies;
-* Have the right to propose the action of volunteers who refuse to fulfill their duties;
-* Have the right to propose volunteers as members of the Organization;
-* Have the right to propose amendments to the internal regulations.
+* Coordinate the volunteers in carrying out the planned activities
+* Give their consent for the activities of the members of the respective department
+* Formulates a monthly activity report to be handed over to the management bodies
+* Have the right to propose the action of volunteers who refuse to fulfill their duties
+* Have the right to propose volunteers as members of the Organization
+* Have the right to propose amendments to the internal regulations
 
 #### Members
 
 **Member categories**
 
-The Organization consists of the following categories of members:  
-* founding members - who participated in the founding of the Organization and contributed materially and morally to its founding and to the establishment of the initial social patrimony;  
-* associate members - who are subsequently associated with the founding of the Organization and contribute morally and materially to the increase of its patrimony;  
-* honorary members - persons or companies who have made a special contribution to the development of the Organization's activity on a moral and material level;  
-* supporting members - persons or companies who support the Organization materially, by paying dues or by offering unpaid services in order to support the activity of the Organization.
+The Organization consists of the following categories of members:
+* founding members - who participated in the founding of the Organization and contributed materially and morally to its founding and to the establishment of the initial social patrimony
+* associate members - who are subsequently associated with the founding of the Organization and contribute morally and materially to the increase of its patrimony
+* honorary members - persons or companies who have made a special contribution to the development of the Organization's activity on a moral and material level
+* supporting members - persons or companies who support the Organization materially, by paying dues or by offering unpaid services in order to support the activity of the Organization
 
 **Acquiring membership**
 
 Any person or company who adheres to the statute of the Organization can be a member of the ASOCIATIA COMMUNITY POWERED BY DLOT, committing that he/she/it will apply and respect unconditionally his statute as well as the legislation in force.
 
 The status of member of the Organization is acquired through the following ways:
-* At the constitution, by signing the constitutive act;
-* Subsequently, by submitting in writing an application to express its will to join, and the application will be approved by the Board of Directors.
+* At the constitution, by signing the constitutive act
+* Subsequently, by submitting in writing an application to express its will to join, and the application will be approved by the Board of Directors
 
 The quality of associate member and that of honorary member is granted by the Board of Directors with majority vote.
 
 The eligibility criteria for obtaining the quality of associate member are the following:
-* has been registered in the Organization, as a volunteer, for at least one year and has actively participated, monthly, to at least one campaign of the Organization;
-* has successfully coordinated at least 2 campaigns in the interest of the Organization.
+* actively participated in at least 3 actions of the Organization  
+  OR
+* has successfully coordinated at least 2 campaigns in the interest of the Organization
 
 The eligibility criteria for obtaining the honorary membership are the following:
-* has offered a material donation in the amount of at least X% compared to the annual membership fee of the founding members;
-* contributes to the increase of the notoriety and the presence in the media, of the Organization.
+* brings a major material contribution to the patrimony of the Organization  
+  OR
+* contributes to the increase of the notoriety and the presence in the media, of the Organization
 
 The eligibility criteria for obtaining the status of supporting member are the following:
-* holds an unpaid position within the Organization;
-* is actively involved in both internal and external activities of the Organization.
+* holds an unpaid position within the Organization, other than volunteering  
+  OR
+* is actively involved in both internal and external activities of the Organization
 
 Membership is not transferable.
 
 **Loss of membership**
 
 Occurs in the following situations:
-* cessation of the existence of the Organization;
-* loss of citizenship;
-* loss of exercise capacity;
-* resignation from membership;
-* violation of the obligations and duties provided in the Statute and in the regulation;
-* improper conduct, which causes moral and / or material damages to the Organization;
-* withdrawal of this quality by the Board of Directors for justified reasons.
+* cessation of the existence of the Organization
+* loss of citizenship
+* loss of exercise capacity
+* resignation from membership
+* violation of the obligations and duties provided in the Statute and in the regulation
+* improper conduct, which causes moral and / or material damages to the Organization
+* withdrawal of this quality by the Board of Directors for justified reasons
 
 The loss of the quality of members of the Organization is decided by the Board of Directors and is submitted to the vote in the General Assembly, which takes the decision by qualified majority. The person in question may challenge the decision within 15 working days from the communication of the decision before the General Assembly.
 
@@ -201,26 +203,26 @@ Members who retire or are excluded have the obligation to submit a written repor
 **The rights of members of the Organization**
 
 The rights of the members of the Organization are the following:
-* To publish articles, studies and other works on behalf of the Organization;
-* To receive social and humanitarian aid, in case of need;
-* To propose to the activity, campaigns, solutions and changes regarding the purpose of the Organization and the functioning regulation;
-* To withdraw on request;
-* To be informed regarding the activities of the Organization;
-* To recommend new members and volunteers;
-* To hold positions for which they are qualified;
-* To participate in events organized by the Organization;
-* To address requests, proposals and complaints at any level of the Organization's management.
+* To publish articles, studies and other works on behalf of the Organization
+* To receive social and humanitarian aid, in case of need
+* To propose to the activity, campaigns, solutions and changes regarding the purpose of the Organization and the functioning regulation
+* To withdraw on request
+* To be informed regarding the activities of the Organization
+* To recommend new members and volunteers
+* To hold positions for which they are qualified
+* To participate in events organized by the Organization
+* To address requests, proposals and complaints at any level of the Organization's management
 
 Associate members' rights:
-* to participate in the general meetings of the Organization;
-* to elect and be elected in the Board of Directors and in the Board of Auditors, if they have reached the age of 18, have the skills and abilities necessary to exercise the positions for which they are running;
-* the right to vote advisory in the General Assembly;
-* the right to decisively vote within the Board of Directors.
+* to participate in the general meetings of the Organization
+* to elect and be elected in the Board of Directors and in the Board of Auditors, if they have reached the age of 18, have the skills and abilities necessary to exercise the positions for which they are running
+* the right to vote decisively in the General Assembly
+* the right to advisory vote within the Board of Directors
 
 The rights of honorary members:
-* to participate in the general meetings of the Organization;
-* to elect and be elected in the Board of Directors and in the Board of Auditors, if they have reached the age of 18, have the skills and abilities necessary to exercise the positions for which they are running;
-* the right to an advisory vote within the General Assembly and the Board of Directors.
+* to participate in the general meetings of the Organization
+* to elect and be elected in the Board of Directors and in the Board of Auditors, if they have reached the age of 18, have the skills and abilities necessary to exercise the positions for which they are running
+* the right to an advisory vote within the General Assembly and the Board of Directors
 
 The rights of supporters:
 * to participate in the meetings of the General Assembly and of the Board of Directors of the Organization;
@@ -292,7 +294,13 @@ The associated members must pay, in addition to the annual membership fee, an en
 
 **The amount of the contribution**
 
-TBD
+The annual fee is in the amount of 200 RON. It can be paid in quarterly, half-yearly or annual
+installments.
+
+For founding members, the membership fee is due to the Organization starting with the year following the establishment of the Organization.  
+Associate members must pay, in addition to the annual membership fee, a one-time entry fee to the Organization. The amount of the fee is 50 RON and is paid at the time of registration as a member in the constitutive act and statute.  
+Payment of the membership fee is mandatory to maintain membership.  
+Payment of membership fees confers voting status.  
 
 #### FINAL PROVISIONS
 
@@ -304,9 +312,7 @@ Proposals to amend the regulations may be submitted by volunteers to the departm
 
 These regulations may be amended by decision of the General Assembly.
 
-The rights to the name of the Organization and the visual identity, such as the logo and graphic elements, belong to the company POWERED BY DLOT SRL. in case of liquidation of the Organization, the company POWERED BY DLOT sRL has the right to use them for other purposes.
-
-This Regulation shall be drawn up on ___________
+The rights over the name of the Organization, the visual identity such as logo and graphic elements, as well as over the concepts existing at the time founding of the Organization (Trip and Pick) belong to the company POWERED BY DLOT SRL. Other intellectual property rights, such as graphics, texts, phrases, images, etc., are established by amending this regulation, at the request of the author.
 
 Asociatia Community powered by DLOT reserves the right to amend the regulations periodically. The changes will be notified to the members and volunteers, who have the obligation to sign the acknowledgment.
 

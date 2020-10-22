@@ -17,10 +17,10 @@
   "email": "community@poweredbydlot.com",
   "phone": "+00 000 000 000",
   "statement": {
-    "summary": "Asociația Community powered by DLOT is a nonprofit organization focused on the environment",
+    "summary": "Asociația Community powered by DLOT is a non-profit organization focused on environmental protection",
     "vision": {
       "title": "Our Vision",
-      "p1": "We aim for a world where people, independent of culture, race and gender, can coexist in harmony; where technology is used for protecting nature and wildlife, so we can all benefit from clean air and water, food and shelter. A world guided by respect, not by money and power."
+      "p1": "We aim for a world where people can coexist in harmony; where technology is used for protecting nature and wildlife, so we can all benefit from clean air and water, food and shelter. A world guided by respect and consensus between humans and nature."
     },
     "values": {
       "title": "Our Values",
@@ -29,17 +29,17 @@
         "poweredBy_label": "powered by DLOT"
       },
       "list": [
-        "We sustain the cultural influence of music",
-        "We promote love and acceptance for everyone and everything around us",
         "We advocate for environment friendly actions and products",
-        "We support life as a continuous state of exploration and discovery of the self"
+        "We support life as a continuous state of exploration and discovery of the self",
+        "We promote love and acceptance for everyone and everything around us",
+        "We sustain the cultural influence of music"
       ],
       "p2": "We are committed to a balanced lifestyle. We aim for a life in which technology and nature combine and reach the equilibrium between progress and spirituality."
     },
     "mission": {
       "title": "Our Mission",
       "list": [
-        "Cleaning the litter from natural environments such as forests, banks of water, natural parks and other outdoor protected areas",
+        "Cleaning litter from natural environments such as forests, banks of water, natural parks and other outdoor protected areas",
         "Identifying regions where trash is improperly disposed and drawing attention of the concerned authority towards the situation",
         "Educating tourists and rural communities about the importance of properly disposing trash and providing them the means to collect and recycle the waste",
         "Promoting behaviors oriented to minimize the environmental impact of each individual without getting far from their comfort zone",
@@ -122,6 +122,44 @@
     }
   },
   "joinourteam": {
+    "joinus": {
+      "title": "join our team",
+      "p1": "You're looking for opportunities to test and improve your skills, gain work experience, or you simply like our concept?",
+      "p2": [
+        "Does your personality fit our {values-link}?",
+        "Do you have any talents/skills that can help us achieve our mission?",
+        "Would you like to develop those skills?",
+        "Are you interested in gaining hands-on experience in a certain position/department?",
+        "Do you like spending time outdoors?",
+        "Do you have the willingness to learn and the courage to test your ideas?"
+      ],
+      "p3": "If the answer is Yes, you're in the right place.",
+      "p4": "Welcome!"
+    },
+    "manyhands": {
+      "title": "Many hands make light work",
+      "p1": [
+        "We’re looking for volunteers for remote positions and environment clean-up projects.",
+        "As we just started our activity, we can offer many prospects. Check-out the list below and {email-link} if something piques your interest."
+      ],
+      "p2": "Maybe you like to write stories, or you’re good at planning and organizing, you have a passion for people, animals and nature, you’re creative, or you like to spend time outdoors and want to join us in our {tripandpick-link} campaigns.",
+      "p3": "It doesn't matter if you don't check all the boxes for a certain position. Tell us what you would like to do and how much time you can commit, and we will find a way to highlight your skills."
+    },
+    "whatsinit": {
+      "title": "What's in it for you",
+      "list": [
+        "Flexible schedule",
+        "Work from wherever you want",
+        "Free access to our events",
+        "Engage in brainstorming and your ideas will be taken into account. You can also propose campaigns and strategies, even business directions",
+        "Being at the onset of our activity, your contribution can be easily quantified to measure the value added to the organization’s growth",
+        "Work related expenditures such as transport, fuel, stationary, prints and others, are reimbursed",
+        "Based on the level of involvement and results, there is the possibility of being hired in the future",
+        "Opportunity to adhere as a member of the NGO",
+        "You’ll lead the change in society, labor market, employers and brands, towards a sustainable development"
+      ],
+      "p1": "You have nothing to lose, you can quit at any time you feel it no longer suits you or if we do not meet your expectations."
+    },
     "jobs": [
       {
         "title": "HR Specialist",
