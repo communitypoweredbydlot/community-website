@@ -28,10 +28,10 @@
       <NavigationList class="flex flex-col flex-grow justify-between" is-vertical="true" />
     </aside>
     <Navigation class="mt-4" @toggle-drawer="drawer = !drawer" />
-    <div class="lg:w-4/5 xl:w-3/5 xxl:w-1/2 lg:mx-auto mt-16 mb-auto mx-6">
+    <div class="lg:w-5/6 xl:w-3/4 xxl:w-1/2 lg:mx-auto mt-16 mb-auto mx-6">
       <nuxt />
     </div>
-    <Footer class="lg:w-4/5 xl:w-3/5 xxl:w-1/2 lg:mx-auto mt-6 mx-4" />
+    <Footer class="lg:w-4/5 xl:w-3/4 xxl:w-1/2 lg:mx-auto mt-6 mx-4" />
   </div>
 </template>
 
