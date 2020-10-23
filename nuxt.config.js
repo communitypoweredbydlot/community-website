@@ -75,6 +75,14 @@ export default {
         purgeLayersByDefault: true
       },
       theme: {
+        screens: {
+          xs: '340px',
+          sm: '640px',
+          md: '768px',
+          lg: '1024px',
+          xl: '1280px',
+          xxl: '1680px'
+        },
         extend: {
           fontFamily: {
             sans: ['Roboto', 'sans-serif'],
@@ -94,10 +102,6 @@ export default {
               '800': '#424242',
               '900': '#212121'
             }
-          },
-          screens: {
-            xs: '340px',
-            xxl: '1680px'
           }
         }
       }
