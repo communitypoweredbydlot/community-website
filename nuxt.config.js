@@ -31,7 +31,8 @@ export default {
   buildModules: [
     '@nuxt/typescript-build',
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/google-fonts'
+    '@nuxtjs/google-fonts',
+    '@nuxtjs/google-analytics'
   ],
   modules: [
     '@nuxtjs/pwa',
@@ -121,6 +122,9 @@ export default {
       locales: ['en', 'ro'],
       routesNameSeparator: '___'
     }
+  },
+  googleAnalytics: {
+    id: 'UA-179251811-1'
   },
   build: {
     babel: {
