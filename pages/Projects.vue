@@ -1,23 +1,35 @@
 <template>
   <article class="flex flex-col space-y-6">
     <div>
-      <h3 class="capitalize">
+      <h3 class="page-title capitalize">
         {{ $t('projects.title') }}
       </h3>
-      <p>{{ $t('projects.p1') }}</p>
-      <p>{{ $t('projects.p2') }}</p>
-      <p>{{ $t('projects.p3') }}</p>
+      <p class="paragraph">
+        {{ $t('projects.p1') }}
+      </p>
+      <p class="paragraph">
+        {{ $t('projects.p2') }}
+      </p>
+      <p class="paragraph">
+        {{ $t('projects.p3') }}
+      </p>
     </div>
     <div>
-      <h4>{{ $t('projects.tripandpick.title') }}</h4>
-      <i18n path="projects.tripandpick.p1.content" tag="p">
+      <h4 class="section-title">
+        {{ $t('projects.tripandpick.title') }}
+      </h4>
+      <i18n path="projects.tripandpick.p1.content" tag="p" class="paragraph">
         <template v-slot:tripandpick-hashtag>
           <a class="text-link" href="https://www.instagram.com/explore/tags/tripandpick">{{ $t('projects.tripandpick.p1.tripandpick-hashtag') }}</a>
         </template>
       </i18n>
-      <p>{{ $t('projects.tripandpick.p2') }}</p>
-      <p>{{ $t('projects.tripandpick.p3') }}</p>
-      <i18n path="projects.tripandpick.p4.content" tag="p">
+      <p class="paragraph">
+        {{ $t('projects.tripandpick.p2') }}
+      </p>
+      <p class="paragraph">
+        {{ $t('projects.tripandpick.p3') }}
+      </p>
+      <i18n path="projects.tripandpick.p4.content" tag="p" class="paragraph">
         <template v-slot:tripandpick-email-link>
           <a class="text-link" href="mailto:tripandpick@asociatiacommunity.ro">{{ $t('projects.tripandpick.p4.tripandpick-email-link') }}</a>
         </template>

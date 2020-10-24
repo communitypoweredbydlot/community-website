@@ -10,30 +10,22 @@
   .icon-link:hover {
     @apply text-dlot-teal;
   }
-}
 
-.paragraph {
-  @apply text-gray-700 leading-7;
-}
+  .paragraph {
+    @apply text-gray-700 leading-7;
+  }
 
-p {
-  @apply paragraph;
-}
+  .page-title {
+    @apply font-dlot-logo text-gray-800 leading-5 mb-6 font-bold text-xl;
+  }
 
-h3 {
-  @apply font-dlot-logo text-gray-800 leading-5 mb-2 font-bold text-xl;
-}
-
-h4 {
-  @apply font-dlot-logo text-gray-800 leading-5 mb-2 font-semibold text-lg;
-}
-
-h5 {
-  @apply font-dlot-logo text-gray-800 leading-5 mb-2 font-semibold text-base;
-}
-
-li {
-  @apply leading-7 text-gray-700;
+  .section-title {
+    @apply text-gray-800 leading-5 mb-4 font-semibold text-lg;
+  }
+  
+  .subsection-title {
+    @apply text-gray-800 leading-5 mb-2 font-semibold text-base;
+  }
 }
 
 ul > li::before {
@@ -50,4 +42,5 @@ ul > li::before {
 ul > li {
   position: relative;
   padding-left: 1.75em;
+  @apply leading-7 text-gray-700;
 }

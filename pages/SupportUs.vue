@@ -1,11 +1,13 @@
 <template>
   <article class="flex flex-col gap-6">
-    <h3>{{ $t('supportus.title') }}</h3>
     <div>
-      <h4>
+      <h3 class="page-title">
+        {{ $t('supportus.title') }}
+      </h3>
+      <h4 class="section-title">
         {{ $t('supportus.tell.title') }}
       </h4>
-      <p>
+      <p class="paragraph">
         {{ $t('supportus.tell.p1') }}
         <br>
         {{ $t('supportus.tell.p2') }}
@@ -18,9 +20,13 @@
       </p>
     </div>
     <div>
-      <h4>{{ $t('supportus.donate.title') }}</h4>
+      <h4 class="section-title">
+        {{ $t('supportus.donate.title') }}
+      </h4>
       <div class="flex flex-col gap-4">
-        <p>{{ $t('supportus.donate.p1') }}</p>
+        <p class="paragraph">
+          {{ $t('supportus.donate.p1') }}
+        </p>
         <div>
           <div class="flex flex-row justify-start">
             <span class="text-gray-600 text-sm">{{ $t('supportus.donate.name.label') }}</span>
@@ -87,14 +93,18 @@
       </div>
     </div>
     <div>
-      <h4>{{ $t('supportus.beavolunteer.title') }}</h4>
-      <i18n path="supportus.beavolunteer.p1.content" tag="p">
+      <h4 class="section-title">
+        {{ $t('supportus.beavolunteer.title') }}
+      </h4>
+      <i18n path="supportus.beavolunteer.p1.content" tag="p" class="paragraph">
         <a class="text-link" :href="'https://asociatiacommunity.ro/ro/joinourteam'">{{ $t("supportus.beavolunteer.p1.joinUs_label") }}</a>
       </i18n>
     </div>
     <div>
-      <h4>{{ $t('supportus.studies.title') }}</h4>
-      <i18n path="supportus.studies.p1.content" tag="p">
+      <h4 class="section-title">
+        {{ $t('supportus.studies.title') }}
+      </h4>
+      <i18n path="supportus.studies.p1.content" tag="p" class="paragraph">
         <a
           class="italic text-link"
           :href="'https://docs.google.com/forms/d/e/1FAIpQLScvUQDZPiALtKtzw9OITf2Wce78LhZYuzOYWR7KhFFDHnTvWg/viewform'"
@@ -104,8 +114,10 @@
       </i18n>
     </div>
     <div>
-      <h4>{{ $t('supportus.dumps.title') }}</h4>
-      <i18n path="supportus.dumps.p1.content" tag="p">
+      <h4 class="section-title">
+        {{ $t('supportus.dumps.title') }}
+      </h4>
+      <i18n path="supportus.dumps.p1.content" tag="p" class="paragraph">
         <template v-slot:messenger-link>
           <a class="text-link" :href="'https://www.messenger.com/t/poweredbydlot'">{{ $t("supportus.dumps.p1.messenger-link.label") }}</a>
         </template>
@@ -115,7 +127,9 @@
       </i18n>
     </div>
     <div>
-      <h4>{{ $t('supportus.live.title') }}</h4>
+      <h4 class="section-title">
+        {{ $t('supportus.live.title') }}
+      </h4>
       <ul>
         <li
           v-for="(value, index) in $t('supportus.live.list')"
@@ -127,7 +141,9 @@
       </ul>
     </div>
     <div class="flex flex-col">
-      <h4>{{ $t('supportus.followus.title') }}</h4>
+      <h4 class="section-title">
+        {{ $t('supportus.followus.title') }}
+      </h4>
       <div class="flex flex-row justify-start">
         <a
           class="h-6 w-6 icon-link"

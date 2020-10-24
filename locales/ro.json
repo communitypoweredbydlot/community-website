@@ -33,7 +33,7 @@
         "Încurajăm dragostea și acceptarea pentru toată lumea și pentru tot ce ne înconjoară",
         "Susținem influența culturală a muzicii"
       ],
-      "p2": "Ne asumăm un stil de viața echilibrat. Aspirăm spre o realitate în care tehnologia și natura se întrepatrund, atingând echilibrul dintre progres și spiritualitate."
+      "p2": "Ne asumăm un stil de viața echilibrat. Aspirăm spre o realitate în care tehnologia și natura se întrepătrund, atingând echilibrul dintre progres și spiritualitate."
     },
     "mission": {
       "title": "Misiune",
@@ -182,7 +182,7 @@
             "Crearea, implementarea și evaluarea politicilor și procedurilor departamentului de resurse umane",
             "Recrutarea și coordonarea interviurilor",
             "Realizarea și procesarea documentelor pentru noii voluntari și membri",
-            "Informarea aplicanților cu privire la responsabilitățile postului, beneficii, program, condiții de muncă, oportunități de promorvare etc",
+            "Informarea aplicanților cu privire la responsabilitățile postului, beneficii, program, condiții de muncă, oportunități de promorvare etc.",
             "Crearea și implementarea programelor de training și dezvoltare personală",
             "Evaluarea performanței membrilor și voluntarilor",
             "Centralizarea programului de lucru al voluntarilor și membrilor",
@@ -389,5 +389,19 @@
         "tripandpick-email-link": "scrie-ne"
       }
     }
+  },
+  "ourstory": {
+    "title": "povestea",
+    "paragraphs": [
+      "Pentru noi, timpul petrecut în natură este sursă inepuizabilă de satisfacție și energie pozitivă. Campând, făcând drumeții sau relaxându-ne în hamac, profităm de fiecare weekend pentru a scăpa de forfota urbană.",
+      "Am început prin a ne refugia în locuri ușor accesibile, pe jos sau cu bicicleta, dar agitația cotidiană și urbanizarea accelerată au distrus multe dintre oazele noastre de pace. Aglomerația s-a extins în parcuri, păduri periferice și zone de grătar, transformându-le în mușuroaie zgomotoase și murdare. Astfel, suntem constrânși să ne retragem tot mai departe de oraș, în speranța de a ne reuni cu natura nealterată.",
+      "Cu cât distanța este mai lungă, cu atât dezamăgirea este mai mare. Defrișările în masă, proprietățile private construite prin sacrificarea copacilor și pâlcurile de deșeuri trădează și de această dată natura.",
+      "Din cauza sistemelor deficitare de gestionare a deșeurilor din zonele rurale, malurile râurilor și pădurile sunt cele mai vulnerabile la depozitarea necontrolată a gunoaielor provenite din gospodăriile private. Zonele naturale de interes turistic se confruntă cu acceași prolemă a gestionării deficitare a deșeurilor.",
+      "Contiuând explorarea naturii sălbatice departe de civilizație, am decis să luăm cu noi în drumeții saci de gunoi, iar la întoarcere să \"facem curat\". Așa a început campania noastră, Trip and Pick.",
+      "Am întâlnit zone cu cantități atât de mari de gunoaie, încât ne era imposibil să le curățăm într-o singură zi. Mai mult, am fi avut nevoie de o autoutilitară pentru a transporta toate deșeurile. În lipsa unei forme legale de funcționare, precum și a resurselor financiare și umane, nu putem curăța multe dintre zonele cu probleme și nici nu putem contracta un camion de salubrizare.",
+      "Realitatea ne-a demonstrat că trebuie să acționam și să mergem dincolo de procesul de a strânge gunoaiele din natură. Pentru o dezvoltare sustenabilă a societății, extinderea comunității oamenilor responsabili este indispensabilă. Acest lucru este posibil prin educație și informare corectă, în special în zonele rurale.",
+      "Pentru că dorim să ne implicăm mai mult în protecția mediului, am fondat Asociația Community powered by DLOT.",
+      "Prin intermediul unor evenimente în natură, campanii educaționale precum și acțiuni de ecologizare, ne dorim să evidențiem impactul pe care omul îl are asupra naturii, importanța protejării acesteia și promovarea unui stil de viață sănătos, în armonie cu mediul înconjurător."
+    ]
   }
 }
