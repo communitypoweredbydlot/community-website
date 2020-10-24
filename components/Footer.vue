@@ -22,6 +22,7 @@
       </div>
       <div class="col-span-1 flex flex-col justify-start items-start order-2 sm:order-3">
         <div class="text-center mb-2">
+          
           {{ $t("email") }}
         </div>
         <div class="text-center">

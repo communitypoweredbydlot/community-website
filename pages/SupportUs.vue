@@ -97,7 +97,9 @@
         {{ $t('supportus.beavolunteer.title') }}
       </h4>
       <i18n path="supportus.beavolunteer.p1.content" tag="p" class="paragraph">
-        <a class="text-link" :href="'https://asociatiacommunity.ro/ro/joinourteam'">{{ $t("supportus.beavolunteer.p1.joinUs_label") }}</a>
+        <nuxt-link class="text-link" :to="localePath('/joinourteam')">
+          {{ $t("supportus.beavolunteer.p1.joinUs_label") }}
+        </nuxt-link>
       </i18n>
     </div>
     <div>
