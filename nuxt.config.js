@@ -124,7 +124,10 @@ export default {
     }
   },
   googleAnalytics: {
-    id: 'UA-179251811-1'
+    id: 'UA-179251811-1',
+    autoTracking: {
+      screenview: true
+    }
   },
   build: {
     babel: {
