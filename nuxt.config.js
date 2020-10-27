@@ -113,7 +113,9 @@ export default {
       Roboto: [200, 300, 400, 500, 600, 700],
       Comfortaa: [300, 400, 500, 600, 700]
     },
-    display: 'swap'
+    display: 'swap',
+    download: true,
+    overwriting: true
   },
   sitemap: {
     hostname: 'https://asociatiacommunity.ro',
