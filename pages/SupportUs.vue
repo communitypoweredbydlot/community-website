@@ -121,7 +121,7 @@
       </h4>
       <i18n path="supportus.dumps.p1.content" tag="p" class="paragraph">
         <template v-slot:messenger-link>
-          <a class="text-link" :href="'https://www.messenger.com/t/poweredbydlot'">{{ $t("supportus.dumps.p1.messenger-link.label") }}</a>
+          <a class="text-link" href="https://www.messenger.com/t/asociatiacommunity">{{ $t("supportus.dumps.p1.messenger-link.label") }}</a>
         </template>
         <template v-slot:email-link>
           <a class="text-link" href="mailto:tripandpick@asociatiacommunity.ro">{{ $t("supportus.dumps.p1.email-link.label") }}</a>
@@ -157,7 +157,7 @@
         </a>
         <a
           class="h-6 w-6 icon-link"
-          href="https://www.instagram.com/poweredbydlot/"
+          href="https://www.instagram.com/asociatiacommunity/"
           alt="Facebook"
           title="Facebook"
         >
@@ -165,7 +165,7 @@
         </a>
         <a
           class="h-6 w-6 icon-link"
-          href="https://www.facebook.com/poweredbydlot/"
+          href="https://www.facebook.com/asociatiacommunity/"
           alt="Instagram"
           title="Instagram"
         >
