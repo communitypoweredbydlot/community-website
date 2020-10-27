@@ -22,7 +22,6 @@
       </div>
       <div class="col-span-1 flex flex-col justify-start items-start order-2 sm:order-3">
         <div class="text-center mb-2">
-          
           {{ $t("email") }}
         </div>
         <div class="text-center">
@@ -34,9 +33,8 @@
           <img
             height="100"
             width="125"
-            src="https://poweredbydlot.com/wp-content/uploads/2019/11/logo-powered-by-Dlot-1-e1572971187212-216x139.jpg"
+            :src="require('~/assets/img/logo_powered_by_dlot.jpg')"
             alt="Powered by DLOT"
-            loading="lazy"
           >
         </nuxt-link>
       </div>

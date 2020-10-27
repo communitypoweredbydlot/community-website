@@ -32,7 +32,8 @@ export default {
     '@nuxt/typescript-build',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
-    '@nuxtjs/google-analytics'
+    '@nuxtjs/google-analytics',
+    '@aceforth/nuxt-optimized-images'
   ],
   modules: [
     '@nuxtjs/pwa',
