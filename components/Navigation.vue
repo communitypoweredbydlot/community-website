@@ -1,5 +1,5 @@
 <template>
-  <nav class="flex flex-row justify-between lg:w-4/5 xl:w-3/4 xxl:w-1/2 lg:mx-auto">
+  <nav class="flex flex-row justify-between w-full xl:w-3/4 xxl:w-2/3 xxxl:w-1/2 xl:mx-auto lg:px-6">
     <div class="flex items-center">
       <div class="block lg:hidden px-3 py-2">
         <button class="px-3 py-2 focus:outline-none" aria-label="Toggle Menu" @click="$emit('toggle-drawer')">

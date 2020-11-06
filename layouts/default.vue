@@ -24,14 +24,14 @@
       class="transform top-0 left-0 w-64 bg-white fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30"
       :class="drawer ? 'translate-x-0' : '-translate-x-full'"
     >
-      <Title class="mt-4 ml-4" />
+      <Title class="mt-4 ml-4 mb-4" />
       <NavigationList class="flex flex-col flex-grow justify-between" is-vertical="true" />
     </aside>
     <Navigation class="mt-4" @toggle-drawer="drawer = !drawer" />
-    <div class="lg:w-5/6 xl:w-3/4 xxl:w-1/2 lg:mx-auto mt-16 mb-auto mx-6">
+    <div class="w-full xl:w-3/4 xxl:w-2/3 xxxl:w-1/2 xl:mx-auto mt-12 md:mt-16 mb-auto px-6">
       <nuxt />
     </div>
-    <Footer class="lg:w-4/5 xl:w-3/4 xxl:w-1/2 lg:mx-auto mt-6 mx-4" />
+    <Footer class="w-full xl:w-3/4 xxl:w-2/3 xxxl:w-1/2 xl:mx-auto mt-6 px-6" />
   </div>
 </template>
 

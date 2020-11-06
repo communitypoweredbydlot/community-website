@@ -1,10 +1,10 @@
 <template>
   <article class="flex flex-col gap-6">
     <div>
-      <h3 class="page-title">
+      <h3 class="page-title-sm sm:page-title">
         {{ $t('supportus.title') }}
       </h3>
-      <h4 class="section-title">
+      <h4 class="section-title-sm sm:section-title">
         {{ $t('supportus.tell.title') }}
       </h4>
       <p class="paragraph">
@@ -20,7 +20,7 @@
       </p>
     </div>
     <div>
-      <h4 class="section-title">
+      <h4 class="section-title-sm sm:section-title">
         {{ $t('supportus.donate.title') }}
       </h4>
       <div class="flex flex-col gap-4">
@@ -93,7 +93,7 @@
       </div>
     </div>
     <div>
-      <h4 class="section-title">
+      <h4 class="section-title-sm sm:section-title">
         {{ $t('supportus.beavolunteer.title') }}
       </h4>
       <i18n path="supportus.beavolunteer.p1.content" tag="p" class="paragraph">
@@ -103,7 +103,7 @@
       </i18n>
     </div>
     <div>
-      <h4 class="section-title">
+      <h4 class="section-title-sm sm:section-title">
         {{ $t('supportus.studies.title') }}
       </h4>
       <i18n path="supportus.studies.p1.content" tag="p" class="paragraph">
@@ -116,7 +116,7 @@
       </i18n>
     </div>
     <div>
-      <h4 class="section-title">
+      <h4 class="section-title-sm sm:section-title">
         {{ $t('supportus.dumps.title') }}
       </h4>
       <i18n path="supportus.dumps.p1.content" tag="p" class="paragraph">
@@ -129,7 +129,7 @@
       </i18n>
     </div>
     <div>
-      <h4 class="section-title">
+      <h4 class="section-title-sm sm:section-title">
         {{ $t('supportus.live.title') }}
       </h4>
       <ul>
@@ -143,7 +143,7 @@
       </ul>
     </div>
     <div class="flex flex-col">
-      <h4 class="section-title">
+      <h4 class="section-title-sm sm:section-title">
         {{ $t('supportus.followus.title') }}
       </h4>
       <div class="flex flex-row justify-start">

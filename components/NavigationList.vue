@@ -4,8 +4,8 @@
       v-for="(item, index) in mainMenuItems"
       :key="index"
       :to="localePath(item.route)"
-      class="font-sans font-medium mt-0 text-gray-600 hover:text-dlot-teal uppercase whitespace-no-wrap"
-      :class="isVertical ? 'mt-4 ml-4': 'mt-0 mr-4'"
+      class="font-sans text-xs sm:text-base lg:font-medium text-gray-600 hover:text-dlot-teal uppercase"
+      :class="isVertical ? 'mt-1 sm:mt-2 ml-4': 'mt-0 mr-4'"
     >
       {{ $t(item.text) }}
     </nuxt-link>
