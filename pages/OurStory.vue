@@ -30,7 +30,7 @@
       height="auto"
       preload="none"
       :poster="require('~/assets/img/story_video_poster.jpg')"
-      class="rounded shadow mb-4"
+      class="rounded shadow mb-4 focus:outline-none"
     >
       <source
         src="https://poweredbydlot.com/wp-content/uploads/2020/07/VID_20191027_133137.mp4?_=1"
