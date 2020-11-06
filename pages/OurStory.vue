@@ -24,7 +24,7 @@
       {{ $t(`ourstory.paragraphs[${n + 2}]`) }}
     </p>
 
-    <video controls width="100%" height="auto" class="rounded shadow mb-4">
+    <video controls width="100%" height="auto" preload="none" class="rounded shadow mb-4">
       <source
         src="https://poweredbydlot.com/wp-content/uploads/2020/07/VID_20191027_133137.mp4?_=1"
         type="video/mp4"
