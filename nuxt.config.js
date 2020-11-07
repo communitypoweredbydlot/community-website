@@ -81,8 +81,8 @@ export default {
           xs: '340px',
           sm: '640px',
           md: '768px',
-          lg: '1024px',
-          xl: '1380px',
+          lg: '1180px',
+          xl: '1520px',
           xxl: '1680px',
           xxxl: '2560px'
         },

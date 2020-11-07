@@ -1,6 +1,6 @@
 <template>
   <article class="flex flex-col">
-    <h3 class="page-title-sm sm:page-title capitalize">
+    <h3 class="page-title-sm xl:page-title capitalize">
       {{ $t('ourstory.title') }}
     </h3>
 

@@ -4,7 +4,7 @@
       {{ $t('statement.summary') }}
     </p>
     <div class="flex flex-col">
-      <h4 class="section-title-sm sm:section-title">
+      <h4 class="section-title-sm xl:section-title">
         {{ $t('statement.vision.title') }}
       </h4>
       <p class="paragraph">
@@ -12,7 +12,7 @@
       </p>
     </div>
     <div class="flex flex-col">
-      <h4 class="section-title-sm sm:section-title">
+      <h4 class="section-title-sm xl:section-title">
         {{ $t('statement.values.title') }}
       </h4>
       <div>
@@ -33,7 +33,7 @@
       </div>
     </div>
     <div class="flex flex-col">
-      <h4 class="section-title-sm sm:section-title">{{ $t('statement.mission.title') }}</h4>
+      <h4 class="section-title-sm xl:section-title">{{ $t('statement.mission.title') }}</h4>
       <ul>
         <li
           v-for="(value, index) in $t('statement.mission.list')"

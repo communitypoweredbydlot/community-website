@@ -1,10 +1,10 @@
 <template>
   <div
-    class="relative font-medium text-gray-600"
+    class="relative font-medium lg:font-normal xl:font-medium text-base lg:text-sm xl:text-base text-gray-600"
     :class="[isOpen ? 'block' : 'inline-block']"
   >
     <button
-      class="relative z-10 inline-flex items-center block focus:outline-none font-medium py-2 px-4 rounded-md hover:text-dlot-teal"
+      class="relative z-10 inline-flex items-center block focus:outline-none font-medium lg:font-normal xl:font-medium text-base lg:text-sm xl:text-base py-2 px-4 rounded-md hover:text-dlot-teal"
       :class="{ 'shadow': isOpen }"
       @click.stop="isOpen = !isOpen"
     >

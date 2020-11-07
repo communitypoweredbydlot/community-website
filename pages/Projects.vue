@@ -1,7 +1,7 @@
 <template>
   <article class="flex flex-col space-y-6">
     <div>
-      <h3 class="page-title-sm sm:page-title capitalize">
+      <h3 class="page-title-sm xl:page-title capitalize">
         {{ $t('projects.title') }}
       </h3>
       <p class="paragraph">
@@ -15,7 +15,7 @@
       </p>
     </div>
     <div>
-      <h4 class="section-title-sm sm:section-title">
+      <h4 class="section-title-sm xl:section-title">
         {{ $t('projects.tripandpick.title') }}
       </h4>
       <i18n path="projects.tripandpick.p1.content" tag="p" class="paragraph">
