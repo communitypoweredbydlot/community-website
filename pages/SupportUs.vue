@@ -157,7 +157,7 @@
         </a>
         <a
           class="h-6 w-6 icon-link"
-          href="https://www.instagram.com/asociatiacommunity/"
+          href="https://www.facebook.com/asociatiacommunity/"
           alt="Facebook"
           title="Facebook"
         >
@@ -165,7 +165,7 @@
         </a>
         <a
           class="h-6 w-6 icon-link"
-          href="https://www.facebook.com/asociatiacommunity/"
+          href="https://www.instagram.com/asociatiacommunity/"
           alt="Instagram"
           title="Instagram"
         >
