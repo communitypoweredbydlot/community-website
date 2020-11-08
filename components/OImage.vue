@@ -2,7 +2,7 @@
   <picture>
     <source :srcSet="`${src}?webp`" type="image/webp" :class="cls">
     <source :srcSet="src" :type="type" :class="cls">
-    <img :src="src" :class="cls">
+    <img :src="src" :class="cls" :alt="alt">
   </picture>
 </template>
 
@@ -14,5 +14,6 @@ export default class OImage extends Vue {
   @Prop() readonly src!: string
   @Prop({ default: 'image/jpeg' }) readonly type!: string
   @Prop() readonly cls!: string
+  @Prop() readonly alt!: string
 }
 </script>

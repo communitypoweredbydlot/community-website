@@ -31,11 +31,11 @@
         </div>
         <div class="col-span-1 flex justify-start sm:justify-end items-start order-3 md:order-4">
           <nuxt-link :to="localePath('/')">
-            <img
-              class="dlot-logo-sm md:dlot-logo"
+            <o-image
+              cls="dlot-logo-sm md:dlot-logo"
               :src="require('~/assets/img/logo_powered_by_dlot.jpg')"
               alt="Powered by DLOT"
-            >
+            />
           </nuxt-link>
         </div>
       </div>
