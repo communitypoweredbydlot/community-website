@@ -38,10 +38,11 @@
         <expansion-panel
           v-for="(job, ji) in $t('joinourteam.jobs')"
           :key="ji"
+          :label-id="`bl-${ji}`"
           class="pb-1 pt-1"
         >
           <template v-slot:header>
-            <h4 class="paragraph">
+            <h4 :id="`bl-${ji}`" class="paragraph">
               {{ job.title }}
             </h4>
           </template>

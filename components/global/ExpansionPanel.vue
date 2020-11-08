@@ -3,6 +3,8 @@
     <header class="flex flex-row flex-wrap justify-start items-center">
       <button
         class="focus:outline-none"
+        :aria-expanded="!isHidden"
+        :aria-labelledby="labelId"
         @click="onClick"
       >
         <icon
@@ -25,13 +27,14 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from 'vue-property-decorator'
+import { Component, Prop, Vue } from 'vue-property-decorator'
 import { mdiChevronDown } from '@mdi/js'
 
 @Component
 export default class ExpansionPanel extends Vue {
   actionIcon = mdiChevronDown
   isHidden = true
+  @Prop() labelId!: String
 
   onClick (_header: any) {
     this.isHidden = !this.isHidden
