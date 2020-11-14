@@ -15,6 +15,16 @@
   },
   "email": "community@poweredbydlot.ro",
   "phone": "0757 473 517",
+  "time": {
+    "s": "secundă | secunde"
+  },
+  "404": {
+    "notfound": "pagina nu a fost găsită",
+    "sentences": [
+      "Ne pare rau! URL pe care l-ați introdus este greșit sau neactualizat.",
+      "Utilizați meniul pentru a naviga către o pagină existentă sau așteptați {timeout} și veți fi redirecționat către pagina principală."
+    ]
+  },
   "statement": {
     "summary": "Asociația Community powered by DLOT este o organizație non-profit focusată pe protecția naturii",
     "vision": {

@@ -15,6 +15,16 @@
   },
   "email": "community@poweredbydlot.com",
   "phone": "+40 757 473 517",
+  "time": {
+    "s": "second | seconds"
+  },
+  "404": {
+    "notfound": "page not found",
+    "sentences": [
+      "You must have taken a wrong turn somewhere.",
+      "Use the navigation menu to go to an existing page or wait and you will be redirected to the home page in {timeout}."
+    ]
+  },
   "statement": {
     "summary": "Asociația Community powered by DLOT is a non-profit organization focused on environmental protection",
     "vision": {
