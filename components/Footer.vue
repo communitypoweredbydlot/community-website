@@ -1,6 +1,6 @@
 <template>
-  <div class="font-sans border-gray-100">
-    <div class="border-t">
+  <div class="font-sans">
+    <div class="border-t border-gray-500 border-opacity-25">
       <div class="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-4 gap-2 md:gap-4 text-xs mt-2 mb-4 leading-4 text-gray-700">
         <div class="col-span-1 xs:col-span-2 sm:col-span-1 flex justify-center sm:justify-start items-start order-4 sm:order-1">
           <span class="font-dlot-logo">© {{ new Date().getFullYear() }} powered by DLOT™</span>
@@ -14,7 +14,7 @@
             >
               <nuxt-link
                 class="hover:text-dlot-teal"
-                :to="localePath(item.route)"
+                :to="item.route ? localePath(item.route) : `${$nuxt.$route.path}?${item.query}`"
                 exact
               >
                 {{ $t(item.text) }}
@@ -61,6 +61,10 @@ export default class Footer extends Vue {
     {
       text: 'nav.bottom.terms_and_conditions',
       route: '/termsandconditions/'
+    },
+    {
+      text: 'nav.bottom.cookie_preferences',
+      query: 'cookiePreferences'
     }
   ]
 }

@@ -150,8 +150,12 @@ export default {
   publicRuntimeConfig: {
     analytics: {
       config: {
-        id: 'UA-179251811-1'
-      }
+        id: 'UA-179251811-1',
+        params: {
+          send_page_view: false
+        }
+      },
+      bootstrap: false
     }
   }
 }

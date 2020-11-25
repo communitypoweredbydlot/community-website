@@ -32,6 +32,7 @@ module.exports = {
       },
       colors: {
         'dlot-teal': '#17a097',
+        'dlot-blue': '#0e6dd0',
         'dlot-blue-haze': '#876aa9',
         gray: {
           100: '#a5a4a4',

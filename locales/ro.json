@@ -11,7 +11,8 @@
     },
     "bottom": {
       "privacy_policy": "Confidențialitate",
-      "terms_and_conditions": "Termeni si condiții"
+      "terms_and_conditions": "Termeni si condiții",
+      "cookie_preferences": "Preferințe Cookie"
     }
   },
   "language": "Limbă",
@@ -26,6 +27,63 @@
       "Ne pare rau! URL pe care l-ați introdus este greșit sau neactualizat.",
       "Utilizați meniul pentru a naviga către o pagină existentă sau așteptați {timeout} și veți fi redirecționat către pagina principală."
     ]
+  },
+  "cookies": {
+    "headers": {
+      "service": "Serviciu",
+      "name": "Nume Cookie",
+      "description": "Descriere",
+      "expiration": "Termen de Expirare"
+    },
+    "i18n_redirect": {
+      "description": "Acest cookie este folosit pentru a stoca limba selectată.",
+      "expiration": "un an"
+    },
+    "cookie_consent": {
+      "description": "Acest cookie este folosit pentru a stoca preferințele cookie.",
+      "expiration": "șase luni"
+    },
+    "_ga": {
+      "description": "Acest cookie este folosit de către Google Analytics.",
+      "expiration": "doi ani"
+    },
+    "_gid": {
+      "description": "Acest cookie este folosit de către Google Analytics.",
+      "expiration": "o zi"
+    },
+    "_gat_gtag": {
+      "description": "Acest cookie este folosit de către Google Analytics.",
+      "expiration": "un minut"
+    }
+  },
+  "cookieconsent": {
+    "summary": [
+      {
+        "content": "Folosim cookie-uri funcționale și {optional} cookie-uri statistice pentru a-ți oferi cea mai bună experiență și pentru a înțelege cum să o îmbunătățim. {learnmore}",
+        "optional": "optional",
+        "learnmore": "Citește mai mult."
+      },
+      {
+        "content": "Poți să-ți modifici oricând preferințele apăsând {preferences} în partea de jos a site-ului. Pentru mai multe informații accesează {privacystatement}",
+        "preferences": "Preferințe Cookie",
+        "privacystatement": "Confidențialitate."
+      }
+    ],
+    "functional": {
+      "title": "Cookie-uri funcționale",
+      "lang_cookie": "Folosim un cookie pentru a ține minte limba pe care ai selectat-o în momentul în care schimbi pagina sau ne revizitezi.",
+      "always": "Activ întotdeauna"
+    },
+    "analytics": {
+      "title": "Cookie-uri statistice",
+      "ga": {
+        "content": "Folosim Google Analytics pentru a înțelege cum folosești site-ul astfel încât să-l putem îmbunătăți. {learnmore}",
+        "learnmore": "Citește mai mult."
+      }
+    },
+    "accept": "Accept",
+    "reject": "Refuz",
+    "save": "Salvează preferințele"
   },
   "statement": {
     "summary": "Asociația Community powered by DLOT este o organizație non-profit focusată pe protecția naturii",
@@ -873,7 +931,7 @@
   "privacypolicy": {
     "title": "POLITICA DE CONFIDENȚIALITATE A DATELOR",
     "summary": {
-      "content": "Dacă nu vrei să citești tot textul de mai jos (te înțelegem), iată un rezumat al informațiilor prezentate: nu colectăm date cu caracter personal decât în cazul în care ne contactezi. Folosim cookie-uri și tehnologii de monitorizare a performanței site-ului (Google analytics). Pentru orice informații legate de colectarea și procesarea datelor personale ne poți contacta la adresa {juridic}",
+      "content": "Dacă nu vrei să citești tot textul de mai jos (te înțelegem), iată un rezumat al informațiilor prezentate: nu colectăm date cu caracter personal decât în cazul în care ne contactezi. Folosim cookie-uri și tehnologii de monitorizare a performanței site-ului (Google Analytics). Pentru orice informații legate de colectarea și procesarea datelor personale ne poți contacta la adresa {juridic}",
       "map": {
         "juridic": {
           "link": "juridic@asociatiacommunity.ro",
@@ -958,7 +1016,7 @@
         "functional": {
           "title": "Cookie-uri funcționale",
           "content": [
-            "Acestea sunt esențiale pentru buna funcționare a site-ului, fiind setate pe dispozitivul tău la accesarea site-ului sau în urma acțiunilor efectuate în site, dupa caz. De exemplu, limba pe care ai selectat-o.",
+            "Acestea sunt esențiale pentru buna funcționare a site-ului, fiind setate pe dispozitivul tău la accesarea site-ului sau în urma acțiunilor efectuate în site, dupa caz. De exemplu limba selectată.",
             "Poți seta browser-ul pentru a bloca cookie-urile, însa în acest caz anumite secțiuni ale site-ului nu vor funcționa corect."
           ]
         },
