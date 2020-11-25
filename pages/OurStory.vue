@@ -7,7 +7,7 @@
     <p
       v-for="n in 3"
       :key="n - 1"
-      class="paragraph mb-4"
+      class="mb-4 paragraph-sm xl:paragraph "
     >
       {{ $t(`ourstory.paragraphs[${n - 1}]`) }}
     </p>
@@ -19,7 +19,7 @@
     <p
       v-for="n in 2"
       :key="n + 2"
-      class="paragraph mb-4"
+      class="mb-4 paragraph-sm xl:paragraph "
     >
       {{ $t(`ourstory.paragraphs[${n + 2}]`) }}
     </p>
@@ -41,7 +41,7 @@
     <o-image :src="require('~/assets/img/trip_and_pick.jpg')" cls="rounded shadow mb-4" alt="Man carying trash during a Trip and Pick trip." />
     <o-image :src="require('~/assets/img/trip_and_pick_challenge.jpg')" cls="rounded shadow mb-4" alt="Trash haul in trash bags after a Trip and Pick trip." />
 
-    <p class="paragraph mb-4">
+    <p class="mb-4 paragraph-sm xl:paragraph ">
       {{ $t(`ourstory.paragraphs[5]`) }}
     </p>
 
@@ -50,7 +50,7 @@
     <p
       v-for="n in 3"
       :key="n + 5"
-      class="paragraph mb-4"
+      class="mb-4 paragraph-sm xl:paragraph "
     >
       {{ $t(`ourstory.paragraphs[${n + 5}]`) }}
     </p>

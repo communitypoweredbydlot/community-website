@@ -17,7 +17,7 @@
     }
 
     .paragraph-sm {
-      @apply text-gray-700 leading-8 text-sm;
+      @apply text-gray-700 leading-6 text-sm;
     }
 
     .page-title {
@@ -25,7 +25,7 @@
     }
 
     .page-title-sm {
-      @apply font-dlot-logo text-gray-800 leading-5 mb-6 font-bold text-lg;
+      @apply font-dlot-logo text-gray-800 leading-5 mb-4 font-bold text-lg;
     }
 
     .section-title {
@@ -33,7 +33,7 @@
     }
 
     .section-title-sm {
-      @apply text-gray-800 leading-5 mb-4 font-semibold text-base;
+      @apply text-gray-800 leading-5 mb-4 text-base;
     }
 
     .subsection-title {

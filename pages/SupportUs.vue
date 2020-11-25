@@ -7,7 +7,7 @@
       <h4 class="section-title-sm xl:section-title">
         {{ $t('supportus.tell.title') }}
       </h4>
-      <p class="paragraph">
+      <p class="paragraph-sm xl:paragraph">
         {{ $t('supportus.tell.p1') }}
         <br>
         {{ $t('supportus.tell.p2') }}
@@ -24,39 +24,39 @@
         {{ $t('supportus.donate.title') }}
       </h4>
       <div class="flex flex-col gap-4">
-        <p class="paragraph">
+        <p class="paragraph-sm xl:paragraph">
           {{ $t('supportus.donate.p1') }}
         </p>
         <div>
           <div class="flex flex-row justify-start">
-            <span class="text-gray-600 text-sm">{{ $t('supportus.donate.name.label') }}</span>
+            <span class="text-gray-600 text-xs xl:text-sm">{{ $t('supportus.donate.name.label') }}</span>
           </div>
-          <div class="family-sans font-medium text-base text-gray-800">
+          <div class="family-sans font-medium text-sm xl:text-base text-gray-800">
             {{ $t('supportus.donate.name.value') }}
           </div>
         </div>
         <div>
-          <div class="text-gray-600 text-sm">
+          <div class="text-gray-600 text-xs xl:text-sm">
             {{ $t('supportus.donate.address.label') }}
           </div>
-          <div class="family-sans font-medium text-base text-gray-800">
+          <div class="family-sans font-medium text-sm xl:text-base text-gray-800">
             {{ $t('supportus.donate.address.value') }}
           </div>
         </div>
         <div>
-          <div class="text-gray-600 text-sm">
+          <div class="text-gray-600 text-xs xl:text-sm">
             {{ $t('supportus.donate.taxid.label') }}
           </div>
-          <div class="family-sans font-medium text-base text-gray-800">
+          <div class="family-sans font-medium text-sm xl:text-base text-gray-800">
             {{ $t('supportus.donate.taxid.value') }}
           </div>
         </div>
         <div>
-          <div class="text-gray-600 text-sm uppercase">
+          <div class="text-gray-600 text-xs xl:text-sm uppercase">
             {{ $t('supportus.donate.iban.label') }}
           </div>
           <div class="flex flex-row justify-start">
-            <span class="family-sans font-medium text-base text-gray-800">{{ $t('supportus.donate.iban.value') }}</span>
+            <span class="family-sans font-medium text-sm xl:text-base text-gray-800">{{ $t('supportus.donate.iban.value') }}</span>
             <button
               class="focus:outline-none icon-link ml-2 h-4 w-4"
               :title="$t('supportus.donate.iban.copyTooltip')"
@@ -67,26 +67,26 @@
           </div>
         </div>
         <div>
-          <div class="text-gray-600 text-sm">
+          <div class="text-gray-600 text-xs xl:text-sm">
             {{ $t('supportus.donate.bank.label') }}
           </div>
-          <div class="family-sans font-medium text-base text-gray-800">
+          <div class="family-sans font-medium text-sm xl:text-base text-gray-800">
             {{ $t('supportus.donate.bank.value') }}
           </div>
         </div>
         <div>
-          <div class="text-gray-600 text-sm">
+          <div class="text-gray-600 text-xs xl:text-sm">
             {{ $t('supportus.donate.currency.label') }}
           </div>
-          <div class="family-sans font-medium text-base text-gray-800 uppercase">
+          <div class="family-sans font-medium text-sm xl:text-base text-gray-800 uppercase">
             {{ $t('supportus.donate.currency.value') }}
           </div>
         </div>
         <div>
-          <div class="text-gray-600 text-sm">
+          <div class="text-gray-600 text-xs xl:text-sm">
             {{ $t('supportus.donate.bicswift.label') }}
           </div>
-          <div class="family-sans font-medium text-base text-gray-800">
+          <div class="family-sans font-medium text-sm xl:text-base text-gray-800">
             {{ $t('supportus.donate.bicswift.value') }}
           </div>
         </div>
@@ -96,7 +96,7 @@
       <h4 class="section-title-sm xl:section-title">
         {{ $t('supportus.beavolunteer.title') }}
       </h4>
-      <i18n path="supportus.beavolunteer.p1.content" tag="p" class="paragraph">
+      <i18n path="supportus.beavolunteer.p1.content" tag="p" class="paragraph-sm xl:paragraph">
         <nuxt-link class="text-link" :to="localePath('/joinourteam')">
           {{ $t("supportus.beavolunteer.p1.joinUs_label") }}
         </nuxt-link>
@@ -106,7 +106,7 @@
       <h4 class="section-title-sm xl:section-title">
         {{ $t('supportus.studies.title') }}
       </h4>
-      <i18n path="supportus.studies.p1.content" tag="p" class="paragraph">
+      <i18n path="supportus.studies.p1.content" tag="p" class="paragraph-sm xl:paragraph">
         <a
           class="italic text-link"
           :href="'https://docs.google.com/forms/d/e/1FAIpQLScvUQDZPiALtKtzw9OITf2Wce78LhZYuzOYWR7KhFFDHnTvWg/viewform'"
@@ -119,7 +119,7 @@
       <h4 class="section-title-sm xl:section-title">
         {{ $t('supportus.dumps.title') }}
       </h4>
-      <i18n path="supportus.dumps.p1.content" tag="p" class="paragraph">
+      <i18n path="supportus.dumps.p1.content" tag="p" class="paragraph-sm xl:paragraph">
         <template v-slot:messenger-link>
           <a class="text-link" href="https://www.messenger.com/t/asociatiacommunity">{{ $t("supportus.dumps.p1.messenger-link.label") }}</a>
         </template>
@@ -136,7 +136,7 @@
         <li
           v-for="(value, index) in $t('supportus.live.list')"
           :key="index"
-          class="mb-1"
+          class="mb-1 paragraph-sm xl:paragraph"
         >
           {{ value }}
         </li>

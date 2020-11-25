@@ -1,5 +1,3 @@
-import tailwindTypography from '@tailwindcss/typography'
-
 import en from './locales/en.json'
 import ro from './locales/ro.json'
 
@@ -57,7 +55,7 @@ export default {
       {
         code: 'ro',
         iso: 'ro',
-        name: 'Romana'
+        name: 'Română'
       }
     ],
     defaultLocale: 'ro',
@@ -66,47 +64,6 @@ export default {
       messages: {
         en,
         ro
-      }
-    }
-  },
-  tailwindcss: {
-    config: {
-      plugins: [tailwindTypography],
-      future: {
-        removeDeprecatedGapUtilities: true,
-        purgeLayersByDefault: true
-      },
-      theme: {
-        screens: {
-          xs: '340px',
-          sm: '640px',
-          md: '768px',
-          lg: '1180px',
-          xl: '1520px',
-          xxl: '1680px',
-          xxxl: '2560px'
-        },
-        extend: {
-          fontFamily: {
-            sans: ['Roboto', 'sans-serif'],
-            'dlot-logo': ['Comfortaa', 'sans-serif']
-          },
-          colors: {
-            'dlot-teal': '#16a99f',
-            'dlot-blue-haze': '#cdc3d9',
-            gray: {
-              '100': '#f5f5f5',
-              '200': '#eeeeee',
-              '300': '#e0e0e0',
-              '400': '#bdbdbd',
-              '500': '#9e9e9e',
-              '600': '#757575',
-              '700': '#616161',
-              '800': '#424242',
-              '900': '#212121'
-            }
-          }
-        }
       }
     }
   },
@@ -123,7 +80,7 @@ export default {
     hostname: 'https://asociatiacommunity.ro',
     gzip: true,
     i18n: {
-      locales: ['en', 'ro'],
+      locales: ['ro', 'en'],
       routesNameSeparator: '___'
     }
   },

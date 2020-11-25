@@ -1,4 +1,5 @@
 {
+  "name": "English",
   "nav": {
     "top": {
       "mission_statement": "Mission statement",
@@ -13,6 +14,7 @@
       "terms_and_conditions": "Terms and conditions"
     }
   },
+  "language": "Language",
   "email": "community@poweredbydlot.com",
   "phone": "+40 757 473 517",
   "time": {

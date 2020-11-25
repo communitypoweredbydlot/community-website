@@ -1,4 +1,5 @@
 {
+  "name": "Română",
   "nav": {
     "top": {
       "mission_statement": "Misiunea",
@@ -9,10 +10,11 @@
       "join_our_team": "Hai in echipa"
     },
     "bottom": {
-      "privacy_policy": "Politica de confidentialitate",
-      "terms_and_conditions": "Termeni si conditii"
+      "privacy_policy": "Confidențialitate",
+      "terms_and_conditions": "Termeni si condiții"
     }
   },
+  "language": "Limbă",
   "email": "community@poweredbydlot.ro",
   "phone": "0757 473 517",
   "time": {
