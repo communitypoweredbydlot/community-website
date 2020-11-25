@@ -11,7 +11,8 @@
     },
     "bottom": {
       "privacy_policy": "Privacy policy",
-      "terms_and_conditions": "Terms and conditions"
+      "terms_and_conditions": "Terms and conditions",
+      "cookie_preferences": "Cookie Preferences"
     }
   },
   "language": "Language",
@@ -26,6 +27,63 @@
       "You must have taken a wrong turn somewhere.",
       "Use the navigation menu to go to an existing page or wait and you will be redirected to the home page in {timeout}."
     ]
+  },
+  "cookies": {
+    "headers": {
+      "service": "Service Name",
+      "name": "Cookie Name",
+      "description": "Description",
+      "expiration": "Expiration"
+    },
+    "i18n_redirect": {
+      "description": "This cookie is used to store the selected langauge.",
+      "expiration": "one year"
+    },
+    "cookie_consent": {
+      "description": "This cookie is used to store cookie preferences.",
+      "expiration": "six months"
+    },
+    "_ga": {
+      "description": "This cookie is used by Google Analytics.",
+      "expiration": "two years"
+    },
+    "_gid": {
+      "description": "This cookie is used by Google Analytics.",
+      "expiration": "one day"
+    },
+    "_gat_gtag": {
+      "description": "This cookie is used by Google Analytics.",
+      "expiration": "one minute"
+    }
+  },
+  "cookieconsent": {
+    "summary": [
+      {
+        "content": "We use functional and {optional} third-party analytics cookies to ensure that we give you the best experience on our website and to understand how we can improve it. {learnmore}",
+        "optional": "optional",
+        "learnmore": "Learn more."
+      },
+      {
+        "content": "You can always update your selection by clicking {preferences} at the bottom of the page. For more information, see our {privacystatement}",
+        "preferences": "Cookie Preferences",
+        "privacystatement": "Privacy Statement."
+      }
+    ],
+    "functional": {
+      "title": "Functional cookies",
+      "lang_cookie": "We use a langauge preference cookie to remember the language you chose when switching pages or visiting back.",
+      "always": "Always active"
+    },
+    "analytics": {
+      "title": "Analytics cookies",
+      "ga": {
+        "content": "We use analytics cookies to understand how you use our website so we can make it better. {learnmore}",
+        "learnmore": "Learn more."
+      }
+    },
+    "accept": "accept",
+    "reject": "reject",
+    "save": "Save preferences"
   },
   "statement": {
     "summary": "Asociația Community powered by DLOT is a non-profit organization focused on environmental protection",

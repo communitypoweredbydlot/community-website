@@ -74,11 +74,52 @@
       <paragraph path="privacypolicy.cookies.classification.statistic.content" :to="1" />
       <paragraph>
         <i18n path="privacypolicy.cookies.classification.statistic.content[2].content">
-          <template #juridic>
+          <template #ga>
             <a :href="$t('privacypolicy.cookies.classification.statistic.content[2].map.ga.link')" class="text-link" target="_blank" rel="noopener noreferrer">{{ $t('privacypolicy.cookies.classification.statistic.content[2].map.ga.value') }}</a>
           </template>
         </i18n>
       </paragraph>
+
+      <div class="flex flex-row justify-center paragraph-xs lg:paragraph-sm mb-4">
+        <table class="table-auto">
+          <thead class="text-left border-b">
+            <tr>
+              <th class="py-2 pl-2">
+                {{ $t('cookies.headers.service') }}
+              </th>
+              <th class="py-2">
+                {{ $t('cookies.headers.name') }}
+              </th>
+              <th class="py-2">
+                {{ $t('cookies.headers.description') }}
+              </th>
+              <th class="py-2">
+                {{ $t('cookies.headers.expiration') }}
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              v-for="(cookie, index) in cookies"
+              :key="cookie.name"
+              :class="{ 'bg-blue-100' : index % 2 === 0 }"
+            >
+              <td class="py-2 pr-4 pl-2">
+                {{ cookie.service }}
+              </td>
+              <td class="py-2 pr-4">
+                <span class="rounded bg-gray-100 bg-opacity-25 p-1">{{ cookie.name }}</span>
+              </td>
+              <td class="py-2 pr-4">
+                {{ $t(`cookies.${cookie.name}.description`) }}
+              </td>
+              <td class="py-2">
+                {{ $t(`cookies.${cookie.name}.expiration`) }}
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
 
     <div>
@@ -134,9 +175,39 @@
             <template #juridic>
               <a :href="`mailto:${$t('privacypolicy.contact.content[0].map.juridic.link')}`" class="text-link">{{ $t('privacypolicy.contact.content[0].map.juridic.value') }}</a>
             </template>
-          </i18n>
+          </i18n><br>
         </template>
       </paragraph>
     </div>
   </article>
 </template>
+
+<script lang="ts">
+import { Component, Vue } from 'nuxt-property-decorator'
+
+@Component
+export default class PrivacyPolicy extends Vue {
+  cookies = [
+    {
+      service: 'Asociatia Community powered by DLOT',
+      name: 'i18n_redirect'
+    },
+    {
+      service: 'Asociatia Community powered by DLOT',
+      name: 'cookie_consent'
+    },
+    {
+      service: 'Google Analytics',
+      name: '_ga'
+    },
+    {
+      service: 'Google Analytics',
+      name: '_gid'
+    },
+    {
+      service: 'Google Analytics',
+      name: '_gat_gtag'
+    }
+  ]
+}
+</script>

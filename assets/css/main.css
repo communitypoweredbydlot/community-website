@@ -7,11 +7,23 @@
     @apply text-dlot-blue-haze;
   }
 
+  .text-link-neutral {
+    @apply text-dlot-blue font-normal cursor-pointer;
+  }
+
+  .text-link-neutral:hover {
+    @apply text-dlot-blue-haze;
+  }
+
   .icon-link:hover {
     @apply text-dlot-teal;
   }
 
   @responsive {
+    .paragraph-xs {
+      @apply text-gray-700 text-xs;
+    }
+
     .paragraph {
       @apply text-gray-700 leading-7;
     }

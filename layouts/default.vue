@@ -37,6 +37,9 @@
       <nuxt />
     </div>
     <Footer class="w-full lg:w-reading-small xl:w-reading-medium xxl:w-reading-large lg:mx-auto mt-6 px-6" />
+    <client-only>
+      <CookiePreferences />
+    </client-only>
   </div>
 </template>
 
