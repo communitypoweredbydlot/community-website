@@ -5,7 +5,7 @@ const meta = {
   name: 'Asociatia Community',
   title: 'Asociatia Community - powered by DLOT',
   description: 'Non-profit organization focused on environmental cleanup and education. Promoting environment friendly behaviours.',
-  image: '/og-community-home.jpg'
+  image: 'https://asociatiacommunity.ro/og-community-home.jpg'
 }
 
 export default {
