@@ -36,7 +36,7 @@ export default {
       { hid: 'twitter:description', name: 'twitter:description', content: meta.description }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
     ]
   },
   css: [
