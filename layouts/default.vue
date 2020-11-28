@@ -53,5 +53,9 @@ export default class App extends Vue {
   afterRouteChanged () {
     this.drawer = false
   }
+
+  head () {
+    return this.$nuxtI18nSeo()
+  }
 }
 </script>
