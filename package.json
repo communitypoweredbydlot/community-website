@@ -2,6 +2,7 @@
   "name": "communitywebsite",
   "version": "1.0.0",
   "private": true,
+  "license": "(MIT AND CC-BY-SA-4.0)",
   "scripts": {
     "dev": "nuxt-ts --hostname 0.0.0.0 --port 8080",
     "build": "nuxt-ts build",
