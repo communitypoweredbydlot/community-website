@@ -5,7 +5,7 @@ const meta = {
   name: 'Asociatia Community',
   title: 'Asociatia Community - powered by DLOT',
   description: 'Non-profit organization focused on environmental cleanup and education. Promoting environment friendly behaviours.',
-  image: 'https://asociatiacommunity.ro/og-community-home.jpg'
+  image: 'https://asociatiacommunity.ro/og_home.jpg'
 }
 
 export default {
@@ -28,10 +28,10 @@ export default {
       { hid: 'og:description', property: 'og:description', content: meta.description },
       { hid: 'og:site_name', property: 'og:site_name', content: meta.name },
       { hid: 'og:title', property: 'og:title', content: meta.title },
-      { hid: 'og:url', property: 'og:url', content: 'https://communitypoweredbydlot.github.io' },
+      { hid: 'og:url', property: 'og:url', content: 'https://asociatiacommunity.ro' },
       { hid: 'og:image', property: 'og:image', content: meta.image },
-      { hid: 'og:image:width', property: 'og:image:width', content: '900' },
-      { hid: 'og:image:height', property: 'og:image:height', content: '580' },
+      { hid: 'og:image:width', property: 'og:image:width', content: '1890' },
+      { hid: 'og:image:height', property: 'og:image:height', content: '1080' },
       { hid: 'og:image:alt', property: 'og:image:alt', content: meta.name },
       { hid: 'og:image:type', property: 'og:image:type', content: 'image/jpeg' },
       { hid: 'og:type', property: 'og:type', content: 'website' },

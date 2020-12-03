@@ -66,3 +66,20 @@
     </div>
   </article>
 </template>
+
+<script lang="ts">
+import { Component, Vue } from 'nuxt-property-decorator'
+
+import ogMetaFor from '@/lib/HeaderMeta'
+
+@Component
+export default class OurStory extends Vue {
+  head () {
+    return ogMetaFor({
+      route: this.$nuxt.$route.path,
+      img: '/og_joinourteam.jpg',
+      title: this.$t('joinourteam.joinus.title')
+    })
+  }
+}
+</script>

@@ -36,3 +36,20 @@
     <o-image :src="require('~/assets/img/dog_picking_up_trash.jpg')" cls="rounded shadow" alt="Dog playing with tarsh." />
   </article>
 </template>
+
+<script lang="ts">
+import { Component, Vue } from 'nuxt-property-decorator'
+
+import ogMetaFor from '@/lib/HeaderMeta'
+
+@Component
+export default class OurStory extends Vue {
+  head () {
+    return ogMetaFor({
+      route: this.$nuxt.$route.path,
+      img: '/og_ourstory.jpg',
+      title: this.$t('ourstory.title')
+    })
+  }
+}
+</script>

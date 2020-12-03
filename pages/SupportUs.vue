@@ -162,6 +162,8 @@
 import { Component, Vue } from 'nuxt-property-decorator'
 import { mdiContentCopy, mdiFacebook, mdiLinkedin, mdiInstagram } from '@mdi/js'
 
+import ogMetaFor from '@/lib/HeaderMeta'
+
 @Component
 export default class SupportUs extends Vue {
   iconCopy = mdiContentCopy
@@ -172,6 +174,14 @@ export default class SupportUs extends Vue {
   async copyToClipboard (v) {
     // @ts-ignore
     await this.$copyText(v)
+  }
+
+  head () {
+    return ogMetaFor({
+      route: this.$nuxt.$route.path,
+      img: '/og_supportus.jpg',
+      title: this.$t('supportus.title')
+    })
   }
 }
 </script>

@@ -22,3 +22,20 @@
     </div>
   </article>
 </template>
+
+<script lang="ts">
+import { Component, Vue } from 'nuxt-property-decorator'
+
+import ogMetaFor from '@/lib/HeaderMeta'
+
+@Component
+export default class Projects extends Vue {
+  head () {
+    return ogMetaFor({
+      route: this.$nuxt.$route.path,
+      img: '/og_projects.jpg',
+      title: this.$t('projects.title')
+    })
+  }
+}
+</script>
