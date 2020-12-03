@@ -40,7 +40,7 @@
         id="listbox-label"
         class="block text-sm font-medium text-gray-700"
       >
-        {{ $t('language')}}
+        {{ $t('language') }}
       </label>
       <div class="mt-1 relative">
         <button

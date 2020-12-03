@@ -29,7 +29,6 @@
       "@nuxt/types",
       "@nuxt/content",
       "@nuxtjs/axios",
-      "@nuxtjs/vuetify",
       "nuxt-i18n"
     ]
   },
