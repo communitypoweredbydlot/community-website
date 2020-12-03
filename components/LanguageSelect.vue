@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="hidden xs:block">
+    <div class="hidden lg:block">
       <div
         class="relative font-medium lg:font-normal xl:font-medium text-base lg:text-sm xl:text-base text-gray-600"
         :class="[isOpen ? 'block' : 'inline-block']"
@@ -35,7 +35,7 @@
         </div>
       </div>
     </div>
-    <div class="block xs:hidden">
+    <div class="block lg:hidden">
       <label
         id="listbox-label"
         class="block text-sm font-medium text-gray-700"

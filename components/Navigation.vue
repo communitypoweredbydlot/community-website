@@ -8,10 +8,10 @@
           </icon>
         </button>
       </div>
-      <Title class="text-base xl:text-xl" />
+      <Title class="text-xl" />
     </div>
     <NavigationList class="hidden lg:flex lg:flex-row items-center" />
-    <LanguageSelect class="hidden xs:block" />
+    <LanguageSelect class="hidden lg:block" />
   </nav>
 </template>
 
