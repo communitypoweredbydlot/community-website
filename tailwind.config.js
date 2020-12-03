@@ -1,7 +1,4 @@
-import tailwindTypography from '@tailwindcss/typography'
-
 module.exports = {
-  plugins: [tailwindTypography],
   future: {
     removeDeprecatedGapUtilities: true,
     purgeLayersByDefault: true
