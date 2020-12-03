@@ -1,28 +1,14 @@
 <template>
   <article class="flex flex-col">
-    <h3 class="page-title-sm xl:page-title capitalize">
-      {{ $t('ourstory.title') }}
-    </h3>
+    <page-title path="ourstory.title" />
 
-    <p
-      v-for="n in 3"
-      :key="n - 1"
-      class="mb-4 paragraph-sm xl:paragraph "
-    >
-      {{ $t(`ourstory.paragraphs[${n - 1}]`) }}
-    </p>
+    <paragraphs path="ourstory.paragraphs" :to="2" />
 
     <o-image :src="require('~/assets/img/private_property.jpg')" cls="rounded shadow mb-4" alt="Private property." />
     <o-image :src="require('~/assets/img/deforestation.jpg')" cls="rounded shadow mb-4" alt="Deforestation." />
     <o-image :src="require('~/assets/img/trash.jpg')" cls="rounded shadow mb-4" alt="Trash in water." />
 
-    <p
-      v-for="n in 2"
-      :key="n + 2"
-      class="mb-4 paragraph-sm xl:paragraph "
-    >
-      {{ $t(`ourstory.paragraphs[${n + 2}]`) }}
-    </p>
+    <paragraphs path="ourstory.paragraphs" :from="3" :to="4" />
 
     <video
       controls
@@ -41,20 +27,12 @@
     <o-image :src="require('~/assets/img/trip_and_pick.jpg')" cls="rounded shadow mb-4" alt="Man carying trash during a Trip and Pick trip." />
     <o-image :src="require('~/assets/img/trip_and_pick_challenge.jpg')" cls="rounded shadow mb-4" alt="Trash haul in trash bags after a Trip and Pick trip." />
 
-    <p class="mb-4 paragraph-sm xl:paragraph ">
-      {{ $t(`ourstory.paragraphs[5]`) }}
-    </p>
+    <paragraphs path="ourstory.paragraphs" :from="5" :to="5" />
 
     <o-image :src="require('~/assets/img/garbage_in_nature.jpg')" cls="rounded shadow mb-4" alt="Trash on the side of the road." />
 
-    <p
-      v-for="n in 3"
-      :key="n + 5"
-      class="mb-4 paragraph-sm xl:paragraph "
-    >
-      {{ $t(`ourstory.paragraphs[${n + 5}]`) }}
-    </p>
+    <paragraphs path="ourstory.paragraphs" :from="5" :to="7" />
 
-    <o-image :src="require('~/assets/img/dog_picking_up_trash.jpg')" cls="rounded shadow" alt="Dog palying with tarsh." />
+    <o-image :src="require('~/assets/img/dog_picking_up_trash.jpg')" cls="rounded shadow" alt="Dog playing with tarsh." />
   </article>
 </template>

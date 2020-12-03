@@ -7,9 +7,7 @@
       <h4 class="section-title-sm xl:section-title">
         {{ $t('statement.vision.title') }}
       </h4>
-      <p class="paragraph-sm xl:paragraph">
-        {{ $t('statement.vision.p1') }}
-      </p>
+      <paragraph path="statement.vision.p1" :margin-bottom="false" />
     </div>
     <div class="flex flex-col">
       <h4 class="section-title-sm xl:section-title">
@@ -28,9 +26,7 @@
             {{ value }}
           </li>
         </ul>
-        <p class="mt-2 paragraph-sm xl:paragraph">
-          {{ $t('statement.values.p2') }}
-        </p>
+        <paragraph path="statement.values.p2" :margin-bottom="false" class="mt-2" />
       </div>
     </div>
     <div class="flex flex-col">

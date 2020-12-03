@@ -138,7 +138,15 @@
       "title": "join our team",
       "p1": "You're looking for opportunities to test and improve your skills, gain work experience, or you simply like our concept?",
       "p2": [
-        "Does your personality fit our {values-link}?",
+        {
+          "content": "Does your personality fit our {values}?",
+          "map": {
+            "values": {
+              "link": "/",
+              "value": "values"
+            }
+          }
+        },
         "Do you have any talents/skills that can help us achieve our mission?",
         "Would you like to develop those skills?",
         "Are you interested in gaining hands-on experience in a certain position/department?",
@@ -374,9 +382,13 @@
   },
   "projects": {
     "title": "our projects",
-    "p1": "Hiking, trekking or just relaxing, the benefits of spending time in nature are enormous.",
-    "p2": "By protecting the planet and wildlife, we are protecting our future, as we cannot survive while the natural ecosystems collapse.",
-    "p3": "The data is visible, on our beaches, forests, lakes and mountains. From the city park to the Everest, the traces left by humans illustrate the problem. Yet, people are walking off these places empty handed.",
+    "general": {
+      "paragraphs": [
+        "Hiking, trekking or just relaxing, the benefits of spending time in nature are enormous.",
+        "By protecting the planet and wildlife, we are protecting our future, as we cannot survive while the natural ecosystems collapse.",
+        "The data is visible, on our beaches, forests, lakes and mountains. From the city park to the Everest, the traces left by humans illustrate the problem. Yet, people are walking off these places empty handed."
+      ]
+    },
     "tripandpick": {
       "title": "Trip & Pick",
       "p1": {
@@ -404,5 +416,612 @@
       "In order to find solutions to these issues we founded Community, a non-profit organization focused on environmental protection.",
       "Through various educational campaigns and events, we aim to create awareness around the impact of human lifestyle on nature and to promote means to improve the physical and mental health while living in harmony with the surroundings."
     ]
+  },
+  "terms": {
+    "title": "TERMS AND CONDITIONS",
+    "general": {
+      "title": "GENERAL TERMS",
+      "content": "Community powered by DLOT is a non-governmental, apolitical and non-profit Organization which is subject to Romanian legislation, applicable to this type of legal persona."
+    },
+    "purpose": {
+      "title": "PURPOSE AND OBJECTIVES",
+      "p1": "COMMUNITY POWERED BY DLOT aims to inform citizens about the impact that lifestyle has on the environment and to encourage actions to protect nature and improve the physical and mental health of any person, through recreation in nature and outdoor sports activities.",
+      "activities": {
+        "title": "Among the activities it will carry out are, but are not limited to:",
+        "list": [
+          "cleaning the litter from natural environments such as forests, banks of water, natural parks and other outdoor protected areas,",
+          "recreation activities in nature,",
+          "contracting companies specialized in collecting waste from harder to reach places, such as rural areas, hamlets, waterfronts or forests,",
+          "educating tourists and rural communities about the importance of properly disposing trash and providing them the means to collect and recycle the waste,",
+          "presentations and conferences for educating citizens regarding environmental protection and nature's health benefits,",
+          "organizing events and shows in order to raise funds to support clean-up actions,",
+          "identifying regions where trash is improperly disposed, such as in forests and waters, and drawing attention of the concerned authority towards the situation,",
+          "fitness and sports,",
+          "planting, care and maintenance of green spaces,",
+          "consulting in environmental issues."
+        ]
+      }
+    },
+    "governing": {
+      "title": "GOVERNING BODY",
+      "assembly": {
+        "title": "General Assembly",
+        "p1": "The General Assembly is the governing body composed of all the founding members, honorary and associate members and supporters.",
+        "powers": {
+          "title": "The general assembly has the following powers:",
+          "list": [
+            "establishing the strategy and general objectives of the Organization,",
+            "approving the budget of revenues and expenditures,",
+            "election and revocation of the members of the board of directors,",
+            "election and revocation of the censor / members of the censors commission,",
+            "establishment of subsidiaries,",
+            "modifying the Constitutive Act and Statute,",
+            "dissolution and liquidation of the Organization, as well as establishing the destination of the assets remaining after the liquidation,",
+            "any other attributions provided by law and Statute."
+          ]
+        },
+        "p2": "The General Assembly meets at least once a year and has the right to coordinate and control the Board of Directors, the censor / commission of censors, as well as the entire activity of the Organization.",
+        "situations": {
+          "title": "The Extraordinary General Assembly may be convened in the following situations:",
+          "list": [
+            "whenever necessary, at the initiative of the Board of Directors or its President or",
+            "at the written request of at least 1/3 of the total number of members."
+          ]
+        },
+        "paragraphs": [
+          "The General Assembly is legally constituted when the simple majority of the members of the Organization participates in the meeting and adopts valid decisions with the vote of at least half plus one of the number of members present.",
+          "The vote in the General Assembly is expressed freely, openly, except for the express situations when the secret ballot can be established. The decision to hold a secret ballot shall be determined by half plus one of the members.",
+          "The decisions taken by the General Assembly within the limits of the law, of the constitutive act and of the statute are binding even for the associated members who did not take part in the General Assembly or voted against.",
+          "Elections for the board of directors and for the censor / commission of censors take place once every 4 (four) years, except in cases of withdrawal or revocation, when they may be held at the next general meeting.",
+          "The activity reports of the Board of Directors and of the censor / commission of auditors, the activity programs, the competition calendars, the budgets of incomes and expenses and the balance sheets are debated and are submitted, annually, to the approval of the General Assembly.",
+          "The General Assembly is chaired by the president of the Organization or, failing that, by his substitute. On the occasion of each General Assembly, the minutes are drawn up with the manner of its development, with the debates that took place and with the decisions adopted.",
+          "The absent members take note of the debates from the minutes, the decisions taken being binding for the members who did not participate.",
+          "The decisions of the General Assembly, contrary to the law, the Constitutive Act or the Satute can be challenged in court by the members who did not take part in the General Assembly or by those who voted and asked to insert it in the minutes, within 15 days from the date when they became aware of the decision or from the date when the meeting took place, as the case may be."
+        ]
+      },
+      "board": {
+        "title": "Board of Directors",
+        "p1": "The Board of Directors ensures the execution of the decisions of the General Assembly.",
+        "components": {
+          "title": "It is composed as follows:",
+          "list": [
+            "a president,",
+            "two vice-presidents,",
+            "a secretary,",
+            "a specialist in Environmental Protection."
+          ]
+        },
+        "attributions": {
+          "title": "The Board of Directors has the following attributions:",
+          "list": [
+            "presents to the General Assembly activity reports, the execution of the budget of incomes and expenses, the balance sheet, the budget project of incomes and expenses, the programs of the Organization,",
+            "concludes legal acts in the name and on behalf of the Organization, through president or a proxy,",
+            "approves the Organizational chart and personnel policy of the Organization,",
+            "elaborates the internal regulation,",
+            "fulfills any other attributions and tasks established by the General Assembly."
+          ]
+        },
+        "paragraphs": [
+          "The members of the Board of Directors are elected by secret ballot of the General Assembly, for a term of 4 (four) years.",
+          "Within the Board of Directors, all members have the right to one deliberative vote.",
+          "The Board of Directors may empower persons with executive positions or other competent persons to conclude certain legal acts in the name or on behalf of the Organization or to fulfill any other attributions provided in the statute or established by the General Assembly or by the Board of Directors.",
+          "The Board of Directors meets whenever the needs of the Organization impose it and is convened, as a rule, 5 (five) days before by the president or his substitute who also exercises the management of its meetings.",
+          "The Board of Directors deliberates, validly, in the presence of at least 2/3 of its members and adopts decisions valid with one half plus one of the votes of those present."
+        ]
+      }
+    },
+    "departments": {
+      "title": "DEPARTMENTS",
+      "all": {
+        "list": [
+          "Social-Educational",
+          "PR and Communication",
+          "Fundraising - project writing",
+          "Human Resources and Accounting",
+          "IT",
+          "Managementul Proiectelor"
+        ]
+      },
+      "social": {
+        "title": "Attributions of the Social-Educational department",
+        "list": [
+          "organize events, courses and training regarding the protection of the environment and the health benefits of nature,",
+          "establish research groups on certain topics and publish the results in specialized journals in the country and abroad,",
+          "participate in conferences related to the fields of activity of the Organization,",
+          "organize social events for members and volunteers of the Organization,",
+          "organize environment clean-up actions."
+        ]
+      },
+      "pr": {
+        "title": "Attributions of the PR and Communication department",
+        "list": [
+          "identify possible collaborators and partners and establish a connection with them,",
+          "conclude partnership contracts,",
+          "maintain relationships with partners and communicate with them during the project development,",
+          "manage media relationship,",
+          "promote the Organization as well as its events and projects,",
+          "create promotional materials,",
+          "manage, update and create content for the Organization's blog and social media pages."
+        ]
+      },
+      "fundraising": {
+        "title": "Attributions of the fundraising - project writing department",
+        "list": [
+          "identify funding sources,",
+          "fundraising,",
+          "obtain sponsorship,",
+          "write projects - familiarization with the regulations of the financiers, completing the financing applications, the primary design of the projects",
+          "estimate and manage resources."
+        ]
+      },
+      "hr": {
+        "title": "Attributions of the Human Resources and Accounting department",
+        "list": [
+          "identify the need for human resources such as voluntary and internal staff of the Organization,",
+          "recruit volunteers and internal staff,",
+          "take over the applications for membership,",
+          "complete employment / accession formalities,",
+          "training volunteers and employees",
+          "carry out primary accounting,",
+          "make payment to suppliers of goods and services."
+        ]
+      },
+      "it": {
+        "title": "Attributions of the IT department",
+        "list": [
+          "resure the functionality of the website and email accounts,",
+          "identify software development opportunities,",
+          "maintain relationships with web service providers."
+        ]
+      },
+      "management": {
+        "title": "Attributions of the Project Management department",
+        "list": [
+          "identify potential projects,",
+          "identify the need for logistical and human resources in order to implement projects,",
+          "make budget estimates for activities,",
+          "plan and coordinate the activity of volunteers in order to organize the actions of the Organization,",
+          "plan and coordinate the activity of internal teams in order to achieve the assigned projects,",
+          "prepare the evaluation report of completed projects."
+        ]
+      },
+      "coordinators": {
+        "title": "Department coordinators",
+        "list": [
+          "coordinate the volunteers in carrying out the planned activities,",
+          "give their consent for the activities of the members of the respective department,",
+          "formulate a monthly activity report to be handed over to the management bodies,",
+          "have the right to propose the sanction of volunteers who refuse to fulfill their duties,",
+          "have the right to propose volunteers as members of the Organization,",
+          "have the right to propose amendments to the internal regulations."
+        ]
+      }
+    },
+    "members": {
+      "title": "MEMBERS",
+      "categories": {
+        "title": "Member categories",
+        "types": {
+          "title": "The Organization consists of the following categories of members:",
+          "list": [
+            "founding members - who participated in the founding of the Organization and contributed materially and morally to its founding and to the establishment of the initial social patrimony,",
+            "associate members - who are associated subsequently founding of the Organization and contribute morally and materially to the increase of its patrimony,",
+            "honorary members - persons or companies who have made a special contribution to the development of the Organization's activity on a moral and material level,",
+            "supporting members - persons or companies who support the Organization materially, by paying dues or by offering unpaid services in order to support the activity of the Organization."
+          ]
+        }
+      },
+      "acquisition": {
+        "title": "Acquiring membership",
+        "p1": "Any person or company who adheres to the statute of the Organization can be a member of COMMUNITY POWERED BY DLOT, committing that he/she/it will apply and respect unconditionally his statute as well as the legislation in force.",
+        "ways": {
+          "title": "The status of member of the Organization is acquired through the following ways:",
+          "list": [
+            "At the constitution, by signing the constitutive act.",
+            "Subsequently, by submitting in writing an application to express its will to join, and the application will be approved by the Board of Directors."
+          ]
+        },
+        "p2": "The quality of associate member, supporting member and that of honorary member is granted by the Board of Directors with majority vote.",
+        "asociate_criteria": {
+          "title": "The eligibility criteria for obtaining the quality of associate member are the following:",
+          "list": [
+            "actively participated in at least 3 actions of the Organization OR",
+            "has successfully coordinated at least 2 campaigns in the interest of the Organization."
+          ]
+        },
+        "honorary_criteria": {
+          "title": "The eligibility criteria for obtaining the honorary membership are the following:",
+          "list": [
+            "brings a major material contribution to the patrimony of the Organization OR",
+            "contributes to the increase of the notoriety and the presence in the media of the Organization."
+          ]
+        },
+        "supporting_criteria": {
+          "title": "The eligibility criteria for obtaining the status of supporting member are the following:",
+          "list": [
+            "holds an unpaid position within the Organization, other than volunteering OR",
+            "is actively involved in both internal and external activities of the Organization."
+          ]
+        },
+        "p3": "Membership is not transferable."
+      },
+      "loss": {
+        "title": "Loss of membership",
+        "loss_criteria": {
+          "title": "Loss of membership occurs in the following situations:",
+          "list": [
+            "cessation of the existence of the Organization,",
+            "loss of citizenship,",
+            "loss of exercise capacity,",
+            "resignation from membership,",
+            "violation of the obligations and duties provided in the Statute and in the regulation,",
+            "improper conduct, which causes moral and / or material damages to the Organization,",
+            "withdrawal of this quality by the Board of Directors for justified reasons."
+          ]
+        },
+        "p1": "The loss of the quality of members of the Organization is decided by the Board of Directors and is submitted to the vote in the General Assembly, which takes the decision by qualified majority. The person in question may challenge the decision within 15 working days from the communication of the decision before the General Assembly.",
+        "p2": "Associate members who retire or are excluded have no right over the social patrimony of the Organization, in case of dissolution.",
+        "p3": "Members who retire or are excluded have the obligation to submit a written report to the Board of Directors on the administration of any funds or property of the Organization within a maximum of 7 (seven) days from the date of validation of the decision to lose membership. In case of finding an irregularity, he/she will answer before the law."
+      },
+      "rights": {
+        "title": "The rights of members of the Organization",
+        "full": {
+          "title": "The rights of the members of the Organization are the following:",
+          "list": [
+            "to publish articles, studies and other works on behalf of the Organization,",
+            "to receive social and humanitarian aid, in case of need,",
+            "to propose activities, campaigns, solutions and changes regarding the purpose of the Organization and the functioning regulation,",
+            "to withdraw on request,",
+            "to be informed regarding the activities of the Organization,",
+            "to recommend new members and volunteers,",
+            "to hold positions for which they are qualified,",
+            "to participate in events organized by the Organization,",
+            "to address requests, proposals and complaints at any level of the Organization's management."
+          ]
+        },
+        "associate": {
+          "title": "Associate members' rights:",
+          "list": [
+            "to participate in the general meetings of the Organization,",
+            "to elect and be elected in the Board of Directors and in the Board of Auditors, if they have reached the age of 18, have the skills and abilities necessary to exercise the positions for which they are running,",
+            "the right to vote decisively in the General Assembly,",
+            "the right to advisory vote within the Board of Directors."
+          ]
+        },
+        "honorary": {
+          "title": "The rights of honorary members:",
+          "list": [
+            "to participate in the general meetings of the Organization,",
+            "to elect and be elected in the Board of Directors and in the Board of Auditors, if they have reached the age of 18, have the skills and abilities necessary to exercise the positions for which they are running,",
+            "the right to an advisory vote within the General Assembly and the Board of Directors."
+          ]
+        },
+        "supporting": {
+          "title": "The rights of supporters:",
+          "list": [
+            "to participate in the meetings of the General Assembly and of the Board of Directors of the Organization,",
+            "to elect and be elected in the Board of Directors and in the Board of Auditors, if they have reached the age of 18, have the necessary skills and abilities to exercise the positions for which they are running,",
+            "the right to vote decisively in the General Assembly,",
+            "the right to advisory vote within the Board of Directors."
+          ]
+        }
+      },
+      "obligations": {
+        "title": "The obligations of members of the Organization are the following:",
+        "list": [
+          "to express by vote his option towards the draft decisions of the General Assembly,",
+          "to respect, without reservations, the statute, the regulations and the norms of its internal functioning,",
+          "to comply with its financial and material obligations, according to the commitments it has assumed,",
+          "to defend, without reservations, the Organization and its interests,",
+          "to actively participate in the activities organized by the Organization and to contribute to their coordination,",
+          "to notify the Organization about the issues regarding the purpose and objectives of the Organization,",
+          "not to carry out within the Organization or on the occasion of the manifestations organized by the Organization, political propaganda activities towards other members of the Organization, or towards third parties, in professional connection with the Organization or foreigners of the Organization,",
+          "to pay the monetary contributions, on which they agreed,",
+          "to contribute to the increase of the general prestige of the Organization."
+        ]
+      }
+    },
+    "volunteers": {
+      "title": "VOLUNTEERS",
+      "p1": "Recruitment of volunteers is announced on the Organization's website as well as by other means in the real or virtual environment and it takes into account the principles of non-discrimination, equity and dignity and transparency.",
+      "rights": {
+        "title": "Volunteer rights:",
+        "list": [
+          "to carry out the volunteer activity in accordance with his capacity and availability,",
+          "to request the host Organization to issue the volunteer certificate accompanied by the activity report,",
+          "confidentiality and protection of personal data,",
+          "free time corresponding to the volunteer activity,",
+          "to be respected as a person and treated as a colleague with equal rights by the management and members of the Organization,",
+          "to actively participate in the elaboration and development of the programs in consideration of which he agreed by the contract and to propose projects and activities,",
+          "to benefit from guidance from the project coordinator / department,",
+          "to be reimbursed the expenses incurred for carrying out the activities,",
+          "to submit an application for registration as a member of the Organization."
+        ]
+      },
+      "obligations": {
+        "title": "Obligations of volunteers:",
+        "list": [
+          "to perform an activity of public interest, without remuneration,",
+          "to have a complementary conduct with the general objectives of volunteering,",
+          "to fulfill the tasks provided in the volunteer file, as well as the observance of the instructions stipulated in the volunteer protection file,",
+          "to keep the confidentiality of the information to which he has access within the volunteering activity, during the development of the volunteering contract and for a period of 2 years after its termination,",
+          "to announce at least 24 hours in advance the temporary unavailability to perform the volunteer activity in which he is involved,",
+          "to fulfill in time the tasks received from the project / program organizers,",
+          "to participate in the training courses offered by the organizers if they are necessary for the good fulfillment of the tasks,",
+          "to protect the goods he uses in volunteering activities,",
+          "to respect the rules and norms of behavior of the host Organization: politeness, kindness, civilized language, pro-activity, assertiveness,",
+          "to treat with respect the other volunteers and the members of the Organization,",
+          "not to communicate or spread in public defamatory statements about the Organization and / or its activity,",
+          "not to carry out within the Organization or on the occasion of the manifestations organized by the Organization, activities of political propaganda towards other members of the Organization, or towards third parties, in professional connection with the Organization or foreigners."
+        ]
+      }
+    },
+    "financial_contribution": {
+      "title": "FINANCIAL CONTRIBUTION",
+      "paragraphs": [
+        "The annual fee is in the amount of 200 lei. It can be paid in quarterly, half-yearly or annual installments.",
+        "For founding members, the membership fee is due to the Organization starting with the year following the establishment of the Organization.",
+        "Associate members must pay, in addition to the annual membership fee, a one-time entry fee to the Organization. The amount of the fee is 50 lei and is paid at the time of registration as a member in the constitutive act and statute.",
+        "Payment of the membership fee is mandatory to maintain membership.",
+        "Payment of membership fees confers voting status."
+      ]
+    },
+    "sanctions": {
+      "title": "SANCTIONS",
+      "members": {
+        "title": "Loss of membership",
+        "conditions": {
+          "title": "Loss of membership occurs in the following situations:",
+          "list": [
+            "cessation of the existence of the Organization,",
+            "loss of citizenship,",
+            "loss of exercise capacity,",
+            "resignation from membership,",
+            "violation of the obligations and duties provided in the Statute and in the regulation,",
+            "improper conduct, which causes moral and / or material damages to the Organization,",
+            "withdrawal of this quality by the Board of Directors for justified reasons."
+          ]
+        },
+        "p1": "The loss of the quality of members of the Organization is decided by the Board of Directors and is submitted to the vote in the General Assembly, which takes the decision by qualified majority. The person in question may challenge the decision within 15 working days from the communication of the decision before the General Assembly."
+      },
+      "volunteers": {
+        "title": "Sanctions for volunteers",
+        "p1": "The first deviation from the observance of the duties is sanctioned with verbal warning and justification of the deed before the Board of Directors.",
+        "p2": {
+          "title": "The second violation is sanctioned with written warning and with:",
+          "list": [
+            "payment or replacement in case of damaged goods and",
+            "public apologies if they threaten the dignity of a member or volunteer of the Organization."
+          ]
+        },
+        "p3": "The third deviation attracts the suspension.",
+        "p4": "The Board of Directors may resort to automatic suspension in case the name of the Organization is denigrated, or information leaks occur."
+      }
+    },
+    "final": {
+      "title": "FINAL PROVISIONS",
+      "p1": [
+        "This regulation applies only within the Organization and within its activities.",
+        "The regulations must be presented to all members and volunteers of the Organization and be signed by them."
+      ],
+      "p2": "Proposals to amend the regulations may be submitted by volunteers to the department coordinators and by members to the Board of Directors, and will be placed on the agenda for discussion in the General Assembly.",
+      "p3": [
+        "These regulations may be amended by decision of the General Assembly.",
+        "The rights over the name of the Organization, the visual identity such as logo and graphic elements, as well as over the concepts existing at the time founding of the Organization (Trip and Pick) belong to the company POWERED BY DLOT SRL."
+      ],
+      "p4": "Other intellectual property rights, such as graphics, texts, phrases, images, etc., are established by amending this regulation, at the request of the author.",
+      "p5": [
+        "Asociatia Community powered by DLOT reserves the right to amend the regulations periodically.",
+        "The changes will be notified to the members and volunteers, who have the obligation to sign the acknowledgment. This document will be amended within 24 hours from the date of approval of the amendments to the regulations."
+      ],
+      "p6": {
+        "content": "For any information regarding the regulation you can contact us by email, at {juridic}",
+        "map": {
+          "juridic": "juridic@asociatiacommunity.ro"
+        }
+      },
+      "p7": {
+        "content": "By using our site, contacting us by any physical or electronic means, registering as a volunteer or making a donation, you state that you have read, understood and agree to the {policy} and the Terms and Conditions described in this present document.",
+        "map": {
+          "policy": {
+            "link": "/en/privacypolicy",
+            "value": "Privacy Policy"
+          }
+        }
+      }
+    }
+  },
+  "privacypolicy": {
+    "title": "PRIVACY POLICY",
+    "summary": {
+      "content": "If you do not wish to read the entire below text (We can easily understand), it states that we do not collect your personal data unless you write us an e-mail; but we do use cookies and tracking technologies (Google analytics) to understand and improve users experience. If you have any further question do not hesitate to contact us at {juridic}",
+      "map": {
+        "juridic": {
+          "link": "juridic@asociatiacommunity.ro",
+          "value": "juridic@asociatiacommunity.ro"
+        }
+      }
+    },
+    "p1": "We understand that the collection of Personal data involves a great deal of trust on your part. We take this trust very seriously and make it our highest priority to ensure the security and confidentiality of the Personal data you provide us with.",
+    "p2": "The personal data that we collect from you shall be obtained, processed and transmitted in compliance with applicable data protection legislation, notably GDPR, where applicable.",
+    "p3": {
+      "content": "{personal} means any information relating to an identified or identifiable natural person; an identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person.",
+      "map": {
+        "personal": "Personal data"
+      }
+    },
+    "p4": {
+      "content": "Please note that term {consent} as used throughout this Privacy Policy means any freely given, specific, informed and unambiguous indication of which you, by a statement or by a clear affirmative action, signify agreement to the processing of Personal data relating to you.",
+      "map": {
+        "consent": "Consent"
+      }
+    },
+    "identity": {
+      "title": "Company identity:",
+      "p": "This website is managed by Asociatia Community powered by DLOT, headquartered in Cluj-Napoca, Romania, registered by the Ministry of Justice of Romania in the National NGO Registry, tax ID 42622580"
+    },
+    "type": {
+      "title": "WHAT INFORMATION WE COLLECT AND HOW WE USE IT:",
+      "contact": {
+        "title": "1. Information Provided When You Contact Us",
+        "what_when": [
+          "When you contact us we may collect the following information: Name, E-mail address, Phone Number.",
+          "We use this information only to get in touch with you, to answer your request. The information you provide us will be shared with the Company employees and service providers to the extent necessary to administrate our systems and/or accommodate your request."
+        ]
+      },
+      "donation": {
+        "title": "2. Information Provided When You make a donation",
+        "what_when": {
+          "transfer": {
+            "general": {
+              "content": "When you make a donation by {transfer} we collect and process information such as Name and IBAN.",
+              "map": {
+                "transfer": "direct bank transfer"
+              }
+            },
+            "for": "We use this information only for legal purposes, to comply with the financial regulation from our country."
+          },
+          "credit": {
+            "general": {
+              "content": "If you make a domation with {credit}, Payment data will be exclusively collected and processed by our Payment provider.",
+              "map": {
+                "credit": "your credit card"
+              }
+            },
+            "for": [
+              "You understand and explicitly agree that the Payment provider will act as data controller of your Payment data.",
+              "However, we will collect and process your name for to comply with the financial regulations and keep track of the incomes."
+            ]
+          }
+        }
+      },
+      "volunteer": {
+        "title": "3. Information provided when you registered as a volunteer",
+        "what_when": "When you register as a volunteer, personal data such as Name, email, phone numer, ID Card, and other information will be requested in order to complete paperworks. This information will be shared with the accounting and human resources departments and will be keept as required by legislation."
+      },
+      "passive": {
+        "title": "4. Passively Collected Information",
+        "what_when": [
+          "When you access our Site, we automatically collect information such as your computer’s Internet Protocol (“IP”) address, browser type, browser version, and the pages of our Site that you visit, the time and date of your visit, the time spent on those pages and other statistics.",
+          "We also collect information about you through social media sites you use to access our Site depending on the permissions you have given for access to your information.",
+          "We use passively collected information to monitor and maintain the performance of our Sites, analyze trends, usage and activities in connection with our services, validate users and ensure their technological compatibility with users, and optimize our marketing efforts."
+        ]
+      }
+    },
+    "cookies": {
+      "title": "COOKIES",
+      "general": [
+        "Cookies are files with small amount of data, which may include an anonymous unique identifier. Cookies are sent to your browser from a web site and stored on your computer’s hard drive.",
+        "We use cookies to remember users’ settings, market products and services to users, and for authentication purposes."
+      ],
+      "classification": {
+        "title": "The cookies we use may be classified in the following categories:",
+        "functional": {
+          "title": "Strictly necessary cookies",
+          "content": [
+            "Strictly Necessary Cookies enable you to move around our Website and use essential features. For example we use a Cookie to remeber your choice regarding the website language to allow you a smooth navigation across pages.",
+            "You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept these cookies, you may not be able to use some portions of our Site."
+          ]
+        },
+        "statistic": {
+          "title": "Statistic (analytical) cookies",
+          "content": [
+            "We use Google Analytics for website statistics.",
+            "With these analytical cookies we get insights in the usage of our website. We ask your permission to place analytical cookies.",
+            {
+              "content": "For more information, please read the {ga}.",
+              "map": {
+                "ga": {
+                  "link": "https://policies.google.com/privacy",
+                  "value": "Google Analytics Privacy Policy"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sharing": {
+      "title": "THIRD PARTIES DATA SHARING",
+      "content": [
+        "We share your data with our third party companies, such as the one providing us accounting services, in order to comply with the financial regulations. Third parties are obligated not to disclose or use it for any other purpose.",
+        "We can also disclose Personal Information if such action is necessary to protect and defend our rights or property, protect against legal liability, or as otherwise required or permitted by law."
+      ]
+    },
+    "links": {
+      "title": "LINKS TO OTHER SITES",
+      "content": "Our Service may contain links to other sites that are not operated by us. If you click on a third party link, you will be directed to that third party’s site. We strongly advise you to review the Privacy Policy of every site you visit. We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services."
+    },
+    "transfer": {
+      "title": "TRANSFER OF DATA",
+      "content": [
+        "Your information, including Personal Data, may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction.",
+        "Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.",
+        "We will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information."
+      ]
+    },
+    "security": {
+      "title": "SECURITY OF DATA",
+      "content": "The security of your data is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security."
+    },
+    "expiration": {
+      "title": "HOW LONG DO WE STORE YOUR DATA",
+      "content": [
+        "If you made a donation, keep your data, physical or electronic format, according to the legislation in force, in order to fulfill our fiscal obligations.",
+        "If you contacted us, through any electronic channel of communication, your personal information will be deleted as soon as your request has been solved."
+      ]
+    },
+    "rights": {
+      "title": "YOUR RIGHTS",
+      "general": [
+        {
+          "content": "You may request to access, correct, update or delete your Personal Information, by emailing us at {juridic} with information necessary for us to process your request.",
+          "map": {
+            "juridic": {
+              "link": "juridic@asociatiacommunity.ro",
+              "value": "juridic@asociatiacommunity.ro"
+            }
+          }
+        },
+        "We will respond to your request to access your Personal Information within 30 days. We may need to verify your identity before granting access to Personal Information in our custody or control."
+      ],
+      "all": {
+        "title": "You have the following rights with respect to the personal data you provide us:",
+        "list": [
+          "The right to information about the personal data we process.",
+          "The right to access your personal data.",
+          "The right to rectify inaccurate data and complete incomplete data.",
+          "The right to delete your data when it is no longer necessary for the purpose for which it was collected or when you will withdraw the consent to their use.",
+          "The right to oppose the processing of personal data.",
+          "The right to restrict their processing.",
+          "The right to data portability.",
+          "The right not to be the subject of a decision based exclusively on automatic processing, including the creation of profiles.",
+          "The right to withdraw consent with regard to the processing of personal data at any time (without affecting the legality of the processing prior to the withdrawal of the agreement).",
+          "The right to file a complaint with the National Supervisory Authority for Personal Data Processing."
+        ]
+      }
+    },
+    "update": {
+      "title": "PRIVACY POLICY UPDATE",
+      "content": [
+        "We may modify this Policy from time to time to comply with statutory data protection and privacy laws and will post the most current version on the website. You will be notified by email and you will be asked to Consent to these modifications before they become applicable if the changes are significant. Changes to this Privacy Policy are effective when they are posted on this page.",
+        "You are advised to review this Privacy Policy periodically for any changes."
+      ]
+    },
+    "contact": {
+      "title": "CONTACT US",
+      "content": [
+        {
+          "content": "If you have any questions about this Privacy Policy, please contact us by email at: {juridic}",
+          "map": {
+            "juridic": {
+              "link": "juridic@asociatiacommunity.ro",
+              "value": "juridic@asociatiacommunity.ro"
+            }
+          }
+        },
+        "By using the Platform or the Services, you acknowledge that you have read and understood this Policy and Consent to be bound by it and to comply with all applicable laws and regulations."
+      ]
+    }
   }
 }

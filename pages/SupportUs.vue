@@ -1,13 +1,9 @@
 <template>
   <article class="flex flex-col gap-6">
     <div>
-      <h3 class="page-title-sm xl:page-title">
-        {{ $t('supportus.title') }}
-      </h3>
-      <h4 class="section-title-sm xl:section-title">
-        {{ $t('supportus.tell.title') }}
-      </h4>
-      <p class="paragraph-sm xl:paragraph">
+      <page-title path="supportus.title" />
+      <section-title path="supportus.tell.title" :margin-bottom="false" />
+      <paragraph>
         {{ $t('supportus.tell.p1') }}
         <br>
         {{ $t('supportus.tell.p2') }}
@@ -17,16 +13,12 @@
         <a class="text-link" href="https://www.instagram.com/explore/tags/asociatiacommunity/?hl=en">#AsociatiaCommunity</a>
         <a class="text-link" href="https://www.instagram.com/explore/tags/communitypoweredbydlot/?hl=en">#CommunityPoweredByDlot</a>
         <a class="text-link" href="https://www.instagram.com/explore/tags/poweredbydlot/?hl=en">#PoweredByDlot</a>
-      </p>
+      </paragraph>
     </div>
     <div>
-      <h4 class="section-title-sm xl:section-title">
-        {{ $t('supportus.donate.title') }}
-      </h4>
+      <section-title path="supportus.donate.title" />
       <div class="flex flex-col gap-4">
-        <p class="paragraph-sm xl:paragraph">
-          {{ $t('supportus.donate.p1') }}
-        </p>
+        <paragraph path="supportus.donate.p1" :margin-bottom="false" />
         <div>
           <div class="flex flex-row justify-start">
             <span class="text-gray-600 text-xs xl:text-sm">{{ $t('supportus.donate.name.label') }}</span>
@@ -93,9 +85,7 @@
       </div>
     </div>
     <div>
-      <h4 class="section-title-sm xl:section-title">
-        {{ $t('supportus.beavolunteer.title') }}
-      </h4>
+      <section-title path="supportus.beavolunteer.title" />
       <i18n path="supportus.beavolunteer.p1.content" tag="p" class="paragraph-sm xl:paragraph">
         <nuxt-link class="text-link" :to="localePath('/joinourteam')">
           {{ $t("supportus.beavolunteer.p1.joinUs_label") }}
@@ -103,9 +93,7 @@
       </i18n>
     </div>
     <div>
-      <h4 class="section-title-sm xl:section-title">
-        {{ $t('supportus.studies.title') }}
-      </h4>
+      <section-title path="supportus.studies.title" />
       <i18n path="supportus.studies.p1.content" tag="p" class="paragraph-sm xl:paragraph">
         <a
           class="italic text-link"
@@ -116,9 +104,7 @@
       </i18n>
     </div>
     <div>
-      <h4 class="section-title-sm xl:section-title">
-        {{ $t('supportus.dumps.title') }}
-      </h4>
+      <section-title path="supportus.dumps.title" />
       <i18n path="supportus.dumps.p1.content" tag="p" class="paragraph-sm xl:paragraph">
         <template v-slot:messenger-link>
           <a class="text-link" href="https://www.messenger.com/t/asociatiacommunity">{{ $t("supportus.dumps.p1.messenger-link.label") }}</a>
@@ -129,9 +115,7 @@
       </i18n>
     </div>
     <div>
-      <h4 class="section-title-sm xl:section-title">
-        {{ $t('supportus.live.title') }}
-      </h4>
+      <section-title path="supportus.live.title" />
       <ul>
         <li
           v-for="(value, index) in $t('supportus.live.list')"
@@ -143,9 +127,7 @@
       </ul>
     </div>
     <div class="flex flex-col">
-      <h4 class="section-title-sm xl:section-title">
-        {{ $t('supportus.followus.title') }}
-      </h4>
+      <section-title path="supportus.followus.title" />
       <div class="flex flex-row justify-start">
         <a
           class="h-6 w-6 icon-link"

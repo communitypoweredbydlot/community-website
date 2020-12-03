@@ -56,13 +56,11 @@ export default {
   ],
   modules: [
     '@nuxtjs/pwa',
-    '@nuxt/content',
     'nuxt-i18n',
     '@nuxtjs/axios',
     '@nuxtjs/sitemap',
     'nuxt-clipboard2'
   ],
-  content: {},
   router: {
     linkExactActiveClass: 'text-dlot-teal'
   },

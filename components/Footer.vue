@@ -55,7 +55,7 @@ export default class Footer extends Vue {
     },
     {
       text: 'nav.bottom.terms_and_conditions',
-      route: '/termsandconditions'
+      route: '/TermsAndConditions'
     }
   ]
 }

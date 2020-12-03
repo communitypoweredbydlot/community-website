@@ -151,7 +151,15 @@
       "title": "apel pentru voluntari",
       "p1": "Vrei să-ți testezi și să-ți îmbunătățești abilitățile, să acumulezi experiență de muncă sau, pur și simplu îți place conceptul nostru?",
       "p2": [
-        "Personalitatea ta se potrivește cu {values-link} noastre?",
+        {
+          "content": "Personalitatea ta se potrivește cu {values} noastre?",
+          "map": {
+            "values": {
+              "link": "/",
+              "value": "valorile"
+            }
+          }
+        },
         "Ai talente/aptitudini care ne pot ajuta să ne îndeplinim scopul?",
         "Ai vrea să îți dezvolți acele abilități?",
         "Ești interesat să obții experiență de muncă pe o anumita poziție sau în cadrul unui anumit departament?",
@@ -385,9 +393,13 @@
   },
   "projects": {
     "title": "proiecte",
-    "p1": "Natura are un impact puternic asupra sănătății noastre fizice și psihice.",
-    "p2": "Protejând planeta și viața sălbatică, ne protejam viitorul. În caz contrar, prin prăbușirea ecosistemelor naturale, supraviețuirea rasei umane ar fi imposibilă.",
-    "p3": "Vedem gunoaie aruncate pe plaje, în munți, în păduri și ape... Cu toate acestea, observăm cum mulți trec apatici, fără să le adune.",
+    "general": {
+      "paragraphs": [
+        "Natura are un impact puternic asupra sănătății noastre fizice și psihice.",
+        "Protejând planeta și viața sălbatică, ne protejam viitorul. În caz contrar, prin prăbușirea ecosistemelor naturale, supraviețuirea rasei umane ar fi imposibilă.",
+        "Vedem gunoaie aruncate pe plaje, în munți, în păduri și ape... Cu toate acestea, observăm cum mulți trec apatici, fără să le adune."
+      ]
+    },
     "tripandpick": {
       "title": "Trip & Pick",
       "p1": {
@@ -415,5 +427,617 @@
       "Pentru că dorim să ne implicăm mai mult în protecția mediului, am fondat Asociația Community powered by DLOT.",
       "Prin intermediul unor evenimente în natură, campanii educaționale precum și acțiuni de ecologizare, ne dorim să evidențiem impactul pe care omul îl are asupra naturii, importanța protejării acesteia și promovarea unui stil de viață sănătos, în armonie cu mediul înconjurător."
     ]
+  },
+  "terms": {
+    "title": "TERMENI ȘI CONDIȚII",
+    "general": {
+      "title": "DISPOZIȚII GENERALE",
+      "content": "Asociaţia Community powered by DLOT este o asociaţie cu personalitate juridică, neguvernamentală, apolitică şi non-profit, care se supune legislaţiei române, aplicabilă acestui gen de persoană juridică."
+    },
+    "purpose": {
+      "title": "SCOPUL ȘI OBIECTIVELE ASOCIAȚIEI",
+      "p1": "Asociația COMMUNITY POWERED BY DLOT își propune să informeze cetațenii cu privire la impactul pe care îl are stilul de viață asupra mediului înconjurător și să încurajeze acțiuni de protejare a naturii și de îmbunătățire a sănătății fizice și psihice a oricărei persoane, prin activități de recreere și sport în aer liber.",
+      "activities": {
+        "title": "Printre activitățile pe care le desfășoară se numără, dar nu se limitează la:",
+        "list": [
+          "acțiuni de ecologizare",
+          "activități de recreere în natură",
+          "contractarea firmelor specializate în ridicarea deșeurilor din locurile mai greu accesibile, cum ar fi zone rurale, cătune, malurile apelor sau păduri,",
+          "prezentări și conferințe pentru educarea cetățenilor în ceea ce privește protejarea mediului și beneficiile naturii asupra sănătății,",
+          "promovarea inițiativelor cetațenești cu privire la implementarea mijloacelor de colectare a deșeurilor în mod selectiv,",
+          "organizarea de evenimente și spectacole în vederea strângerii de fonduri pentru susținerea activităților de ecologizare,",
+          "conștientizarea autorităților cu privire la locurile în care depozitarea deșeurilor se face în afara spațiilor special amenajate, cum ar fi în păduri și ape,",
+          "activitați de fitness și sporturi în aer liber,",
+          "plantarea, îngrijirea și întreținerea spațiilor verzi,",
+          "consultanță în probleme de mediu."
+      ]
+    }
+    },
+    "governing": {
+      "title": "ORGANE DE CONDUCERE",
+      "assembly": {
+        "title": "Adunarea Generală",
+        "p1": "Adunarea Generală este organul de conducere alcătuit din totalitatea membrilor fondatori, membrilor asociați şi membrilor susținători.",
+        "powers": {
+          "title": "Adunarea Generală are următoarele competenţe:",
+          "list": [
+            "stabilirea strategiei și a obiectivelor generale ale Asociației,",
+            "aprobarea bugetului de venituri și cheltuieli, precum și a bilanțului contabil al Asociației,",
+            "alegerea și revocarea membrilor Consiliului Director,",
+            "alegerea și revocarea cenzorului/membrilor comisiei de cenzori,",
+            "constituirea de filiale,",
+            "modificarea Actului Constitutiv și a Statutului,",
+            "dizolvarea și lichidarea Asociației, precum și stabilirea destinației bunurilor rămase după lichidare,",
+            "orice alte atribuții prevazute de lege și de Statut."
+          ]
+        },
+        "p2": "Adunarea Generală se întruneşte cel puţin o dată pe an şi are drept de coordonare şi de control asupra Consiliului Director, a cenzorului/comisiei de cenzori, precum şi a întregii activităţi a Asociaţiei.",
+        "situations": {
+          "title": "Adunarea Generală Extraordinară poate fi convocată în următoarele situaţii:",
+          "list": [
+            "ori de câte ori este nevoie, din iniţiativa Consiliului Director sau a Preşedintelui acestuia sau",
+            "la cererea scrisă a cel puţin 1/3 din numărul total de membri."
+          ]
+        },
+        "paragraphs": [
+          "Adunarea Generală este legal constituită când la şedinţă participă majoritatea simplă a membrilor Asociaţiei şi adoptă hotărâri valabile cu votul a cel puţin jumătate plus unu din numărul membrilor prezenţi.",
+          "Convocarea Adunării Generale, cu indicarea ordinii de zi, se va face cu cel puţin 10 zile înainte de data fixată pentru desfăşurarea acesteia, prin scrisoare, telefon, fax, e-mail sau orice alt mijloc electronic care permite confirmarea livrării mesajului. Convocatorul va cuprinde data şi locul desfășurării Adunării Generale și ordinea de zi a acesteia. La o a doua convocare, deciziile se iau cu majoritatea calificată (3/4) a celor prezenţi, indiferent de numărul lor. Un membru al Adunării Generale se consideră legal convocat dacă mesajul a fost direcționat către cele mai recente date de contact pe care respectivul membru le-a transmis asociației.",
+          "Calitatea de membru dă dreptul la un singur vot în cadrul Adunării Generale. Votul poate fi delegat unui alt membru prin procură scrisă sub semnătură privată. În acest caz, membrul delegat va lua decizii valabile şi pentru membrul delegatar. Membrii delegatari se consideră prezenţi pentru realizarea cvorumului. Un membru nu poate avea mai mult de o delegaţie.",
+          "Votul în cadrul Adunării Generale se exprimă liber, deschis, cu excepția situaţiillor exprese când se poate stabili votul secret.",
+          "Decizia de a realiza vot secret se stabilește de către jumătate plus unu din numărul membrilor.",
+          "Hotărârile luate de Adunarea Generală în limitele legii, ale Actului Constitutiv şi ale Statutului sunt obligatorii chiar şi pentru membrii asociaţi care nu au luat parte la Adunarea Generală sau au votat împotrivă.",
+          "Alegerile pentru Consiliul Director şi pentru cenzor/comisia de cenzori au loc o dată la 4 (patru) ani, cu excepţia cazurilor de retragere sau revocare, când se pot efectua la următoarea Adunare Generală.",
+          "Rapoartele de activitate ale Consiliului Director şi ale cenzorului/comisiei de cenzori, programele de activitate, calendarele competiţionale, bugetele de venituri şi cheltuieli şi bilanţurile contabile se dezbat şi se supun, anual, aprobării Adunării Generale.",
+          "Adunarea Generală este condusă de preşedintele Associaţiei sau, în lipsă, de înlocuitorul său.",
+          "Cu ocazia fiecărei Adunări Generale se întocmeşte procesul-verbal cu modul de desfăşurare a ei, cu dezbaterile care au avut loc şi cu hotărârile adoptate.",
+          "Membrii absenţi iau cunoştinţă de dezbateri din procesul-verbal hotărârile luate fiind obligatorii şi pentru membrii care nu au participat.",
+          "Hotărârile Adunării Generale, contrare legii, Actului Constitutiv sau Statutului pot fi atacate în justiţie de către membrii care nu au luat parte la Adunarea Generală sau de cei care au votat şi au cerut să se insereze aceasta în procesul-verbal, în termen de 15 zile de la data când au luat cunoştinţă despre hotărâre sau de la data când a avut loc şedinţa, după caz."
+        ]
+      },
+      "board": {
+        "title": "Consiliul Director",
+        "p1": "Consiliul Director asigură punerea în executare a hotărârilor Adunării Generale.",
+        "components": {
+          "title": "Acesta este alcătuit dupa cum urmează:",
+          "list": [
+            "un președinte,",
+            "doi vicepreședinți,",
+            "un secretar,",
+            "un specialist în Protecția Mediului."
+          ]
+        },
+        "attributions": {
+          "title": "Consiliul Director are următoarele atribuții:",
+          "list": [
+            "prezintă Adunării Generale rapoarte de activitate, execuţia bugetului de venituri şi cheltuieli, bilanţul, contabil, proiectul bugetului de venituri şi cheltuieli, proiectele programelor Asociaţiei,",
+            "încheie acte juridice în numele şi pe seama Asociaţiei, prin preşedinte sau un împuternicit,",
+            "aprobă organigrama şi politica de personal a Asociaţiei,",
+            "elaborează regulamentul intern,",
+            "îndeplineşte orice alte atribuţii şi sarcini stabilite de Adunarea Generală."
+          ]
+        },
+        "paragraphs": [
+          "Membrii consiliului director se aleg prin vot secret de Adunarea Generală, pentru un mandat de 4 (patru) ani.",
+          "În cadrul Consiliului Director, toţi membrii au dreptul la câte un vot cu caracter deliberativ.",
+          "Consiliul Director poate împuternici persoane cu funcţii executive sau alte persoane competente să încheie unele acte juridice în numele sau pe seama Asociaţiei sau să îndeplinească orice alte atribuţii prevăzute în statut sau stabilite de Adunarea Generală ori de Consiliul Director.",
+          "Consiliul Director se întruneşte ori de câte ori nevoile Asociaţiei o impun şi se convoacă, de regulă, cu 5 (cinci) zile înainte de către preşedinte sau înlocuitorul său care exercită şi conducerea şedinţelor acestuia.",
+          "Consiliul Director deliberează, în mod valabil, în prezenţa a cel puţin 2/3 din numărul membrilor săi şi adoptă hotărâri valabile cu o jumătate plus unu din voturile celor prezenţi.",
+          "Deliberările şi hotărârile Consiliului Director se consemnează în procese-verbale încheiate cu ocazia fiecărei şedinţe."
+        ]
+      }
+    },
+    "departments": {
+      "title": "DEPARTAMENTELE ASOCIAȚIEI",
+      "all": {
+        "list": [
+          "Educațional-Social",
+          "Comunicare-PR",
+          "Fundraising - scriere de proiecte",
+          "Resurse Umane și Contabilitate",
+          "IT",
+          "Managementul Proiectelor"
+        ]
+      },
+      "social": {
+        "title": "Atribuțiile departamentului Educațional-social",
+        "list": [
+          "organizează evenimente, cursuri şi traininguri în ceea ce privește protejarea mediului și beneficiile naturii asupra sănătății,",
+          "constituie grupuri de cercetare pe anumite teme şi publică rezultatele în reviste de specialitate din ţară şi străinătate,",
+          "participă la conferinţe cu tematică apropiată de domeniile de activitate ale Asociaţiei,",
+          "organizează evenimente de socializare pentru membrii și voluntarii Asociației,",
+          "organizează acțiuni de ecologizare."
+        ]
+      },
+      "pr": {
+        "title": "Atribuțiile departamentului de Comunicare - PR",
+        "list": [
+          "identifică posibili colaboratori și parteneri și stabilește legături cu aceștia,",
+          "încheie contracte de parteneriat,",
+          "menține relațiile cu partenerii și asigură comunicarea cu aceștia pe parcursul desfășurării proiectelor,",
+          "menține relațiile cu presa,",
+          "promovaează Asociația, evenimentele și proiectele acesteia,",
+          "creează materiale promoţionale,",
+          "administrează, actualiză și crează conținut pentru blog-ul Asociației și paginile de social media."
+        ]
+      },
+      "fundraising": {
+        "title": "Atribuțiile departamentului de Fundraising - scriere de Proiecte",
+        "list": [
+          "identifică surse de finanţare,",
+          "organizează strângeri de fonduri,",
+          "obţine sponsorizări,",
+          "scrie proiecte, completează cereri de finanțare, asigură elaborarea primară a proiectelor,",
+          "estimează și gestionează resursele."
+        ]
+      },
+      "hr": {
+        "title": "Atribuțiile departamentului de Resurse Umane și Contabilitate",
+        "list": [
+          "identifică necesarul de voluntari/personal intern al Asociației,",
+          "recrutează voluntari,",
+          "preia cererile de aderare,",
+          "realizează formalitățile de angajare/aderare,",
+          "asigură trainingul voluntarilor si angajaților,",
+          "realizează contabilitatea primară,",
+          "realizează plata furnizorilor de bunuri și servicii."
+        ]
+      },
+      "it": {
+        "title": "Atribuțiile departamentului IT",
+        "list": [
+          "asigură funcționalitatea website-ului și a conturilor de email,",
+          "identifică oportunități de dezvoltare software,",
+          "menține relația cu furnizorii de servicii web."
+        ]
+      },
+      "management": {
+        "title": "Atribuțiile departamentului de Management al Proiectelor",
+        "list": [
+          "identifică potențiale proiecte,",
+          "identifică necesarul resurselor logistice și umane în vederea implementării proiectelor,",
+          "realizează estimările de bugete pentru activități,",
+          "planifică și coordonează activitatea voluntarilor în vederea organizării acțiunilor Asociației,",
+          "planifică și coordonează activitatea echipelor interne în vederea realizării proiectelor alocate,",
+          "realizează raportul de evaluare a proiectelor încheiate."
+        ]
+      },
+      "coordinators": {
+        "title": "Coordonatorii departamentelor",
+        "list": [
+          "au obligaţia să coordoneze voluntarii în desfăşurarea activităţilor prevăzute,",
+          "îşi dau acordul pentru activităţile membrilor departamentelor respective,",
+          "formulează un raport de activitate lunar pe care îl înmâneză organelor de conducere,",
+          "au dreptul de a propune sacţionarea voluntarilor care refuză să-şi îndeplinească atribuţiile,",
+          "au dreptul de a propune voluntari ca membri ai Asociaţiei,",
+          "au dreptul de a propune modificarea regulamentului intern."
+        ]
+      }
+    },
+    "members": {
+      "title": "MEMBRII ASOCIAȚIEI",
+      "categories": {
+        "title": "Categorii de membri",
+        "types": {
+          "title": "Asociaţia se compune din următoarele categorii de membri:",
+          "list": [
+            "membri fondatori – care au participat la întemeierea Asociaţiei şi au contribuit material şi moral la fondarea ei şi la constituirea patrimoniului social iniţial,","Abilitatea de a comunica cu presa.",
+            "membri asociaţi – care se asociază ulterior fondării Asociaţiei şi contribuie moral şi material la sporirea patrimoniului ei,",
+            "membri de onoare – persoanele fizice şi juridice care au adus/aduc o contribuţie deosebită la dezvoltarea şi desfăşurarea activităţii Asociaţiei pe plan moral şi material,",
+            "membri susținători - persoanele fizice şi juridice care sprijină Asociația material, prin plata cotizației sau prin oferirea de servicii neremunerate în vederea susținerii activității Asociației."
+          ]
+        }
+      },
+      "acquisition": {
+        "title": "Dobândirea calității de membru",
+        "p1": "Poate fi membru al Asociaţiei COMMUNITY POWERED BY DLOT orice persoană fizică ce aderă la Statutul Asociaţiei, angajandu-se că va aplica şi va respecta în mod necondiţionat Statutul ei cât şi legislaţia în vigoare.",
+        "ways": {
+          "title": "Calitatea de membru al Asociaţiei se dobândeşte prin următoarele modalităţi:",
+          "list": [
+            "La constituire, prin semnarea actului constitutiv.",
+            "Ulterior prin depunerea în scris a unei cereri prin care să îşi exprime voinţa de aderare, urmând ca cererea să fie aprobată de către Consiliul Director."
+          ]
+        },
+        "p2": "Calitatea de membru asociat, susținător şi de onoare se acordă de Consiliul Director cu vot majoritar.",
+        "asociate_criteria": {
+          "title": "Criteriile de eligibilitate pentru obținerea calității de membru asociat sunt următoarele:",
+          "list": [
+            "a participat activ la cel puțin 3 acțiuni ale Asociației sau",
+            "a coordonat cu success cel puțin 2 campanii în interesul Asociației."
+          ]
+        },
+        "honorary_criteria": {
+          "title": "Criteriile de eligibilitate pentru obținerea calității de membru de onoare sunt următoarele:",
+          "list": [
+            "aduce o contribuție materială majoră la patrimoniul Asociației sau",
+            "contribuie la creșterea notorietății și prezentei în media, a Asociației."
+          ]
+        },
+        "supporting_criteria": {
+          "title": "Criteriile de eligibilitate pentru obținerea calității de membru susținător sunt următoarele:",
+          "list": [
+            "ocupă o funcție neremunerată în cadrul Asociației, alta decât cea de voluntar sau",
+            "se implică activ atât în activitățile interne cât și în cele externe ale Asociației."
+          ]
+        },
+        "p3": "Calitatea de membru nu se transmite."
+      },
+      "loss": {
+        "title": "Pierderea calităţii de membru",
+        "loss_criteria": {
+          "title": "Pierderea calităţii de membru al Asociaţiei se produce în următoarele situaţii:",
+          "list": [
+            "încetarea existenţei Asociaţiei,",
+            "pierderea cetăţeniei,",
+            "pierderea capacităţii de exerciţiu,",
+            "nerespectarea de către asociat a obligaţiilor care îi incumba prin Actul Constitutiv şi Statut,",
+            "la cererea scrisă a membrului, caz în care decizia de retragere se comunică în scris celorlalţi membri,",
+            "încălcarea obligaţiilor şi îndatoririlor prevăzute in Statut si in regulament,",
+            "conduită necorespunzătoare, prin care se aduc prejudicii morale şi/sau materiale Asociaţiei,",
+            "retragerea acestei calităţi de către Consiliul Director din motive întemeiate."
+          ]
+        },
+        "p1": "Sancţiunea excluderii se hotărăşte de către Consiliul Director şi se supune la vot în Adunarea Generală, care ia decizia cu majoritate calificată. Persoana în cauză poate contesta decizia în termen de 15 zile lucrătoare de la comunicarea deciziei în faţa Adunării Generale.",
+        "p2": "Membrii asociaţi care se retrag sau sunt excluşi nu au nici un drept asupra patrimoniului social al Asociaţiei, în caz de dizolvare.",
+        "p3": "Membrii care se retrag sau sunt excluşi au obligaţia de a depune un raport scris către Consiliul Director asupra administrării eventualelor fonduri sau proprietăţi ale Asociaţiei în maximum 7 (şapte) zile de la data validării hotărârii de pierdere a calităţii de membru. În cazul constatării unei neregularităţi, acesta va răspunde în faţa legii."
+      },
+      "rights": {
+        "title": "Drepturile membrilor Asociației",
+        "full": {
+          "title": "Drepturile membrilor Asociaţiei sunt următoarele:",
+          "list": [
+            "de a publica articole, studii şi alte lucrări în numele Asociaţiei,",
+            "de a primi ajutoare sociale şi umanitare, în caz de nevoie,",
+            "de a propune activități, campanii, soluții si modificări ale regulamentului de funcționare si în ceea ce privește scopul Asociației,",
+            "de retragere la cerere,",
+            "de a fi informați în ceea ce privește activitățile Asociației,",
+            "de a recomanda primirea de noi membri și voluntari,",
+            "de a ocupa, în cadrul Asociației, funcții pentru care sunt calificați,",
+            "de a participa la manifestările organizate de Asociație,",
+            "de a adresa cereri, propuneri și reclamații la orice nivel al conducerii Asociației."
+          ]
+        },
+        "associate": {
+          "title": "Drepturile membrilor asociați:",
+          "list": [
+            "să participe la Adunările Generale ale Asociaţiei,",
+            "să aleagă şi să fie aleşi în Consiliul director şi în comisia de cenzori, dacă au împlinit vârsta de 18 ani, au aptitudinile şi capacităţile necesare exercitării funcţiilor la care candidează,",
+            "dreptul la vot decisiv în cadrul Adunării Generale,",
+            "dreptul la vot consultativ în cadrul Consiliului Director."
+          ]
+        },
+        "honorary": {
+          "title": "Drepturile membrilor onorifici:",
+          "list": [
+            "să participe la Adunările Generale ale Asociaţiei,",
+            "să aleagă şi să fie aleşi în Consiliul director şi în Comisia de cenzori, dacă au împlinit vârsta de 18 ani, au aptitudinile şi capacităţile necesare exercitării funcţiilor pentru care candidează,",
+            "dreptul la vot consultativ în cadrul Adunării Generale și a Consiliului Director."
+          ]
+        },
+        "supporting": {
+          "title": "Drepturile membrilor susținători:",
+          "list": [
+            "să participe la ședințele Adunării Generale și a Consiliului Director ale Asociaţiei,",
+            "să aleagă şi să fie aleşi în Consiliul Director şi în Comisia de cenzori, dacă au împlinit vârsta de 18 ani, au aptitudinile şi capacităţile necesare exercitării funcţiilor la care candidează,",
+            "dreptul la vot decisiv în cadrul Adunării Generale,",
+            "dreptul la vot consultativ in cadrul a Consiliului Director."
+          ]
+        }
+      },
+      "obligations": {
+        "title": "Obligaţiile membrilor Asociaţiei sunt următoarele:",
+        "list": [
+          "să îşi exprime prin vot opţiunea faţă de proiectele de hotărâri ale Adunării Generale,",
+          "să respecte, fără rezerve, Statutul, regulamentele şi normele de funcţionare internă ale Asociației,",
+          "să respecte, fără rezerve hotărârile Adunării Generale şi pe cele ale Consiliului Director,",
+          "să-şi respecte obligaţiile financiare şi materiale, potrivit angajamentelor pe care şi le-a asumat,",
+          "să apere, fără rezerve, Asociaţia şi interesele ei,",
+          "să participe în mod activ la activitățile organizate de Asociație și să contribuie la organizarea acestora,",
+          "să sesizeze Asociaţia despre problemele care privesc scopul şi obiectivele Asociaţiei,",
+          "să nu desfăşoare în cadrul Asociaţiei sau cu ocazia manifestărilor organizate de Asociaţie, activităţi de propagandă politică faţă de alţi membri ai Asociaţiei, sau faţă de terţe persoane, aflate în legătură profesională cu Asociaţia sau străine de Asociaţie,",
+          "să plătească contribuţiile băneşti, asupra cărora şi-au dat acordul,",
+          "să contribuie la cresterea prestigiului general al Asociatiei."
+        ]
+      }
+    },
+    "volunteers": {
+      "title": "VOLUNTARII ASOCIAȚIEI",
+      "p1": "Recrutarea voluntarilor este anunțată pe site-ul Asociației precum și prin alte mijloace în mediul real sau virtual și are în vedere principiile non-discriminării, echității și demnității și transparenței.",
+      "rights": {
+        "title": "Drepturile voluntarilor:",
+        "list": [
+          "de a desfăşura activitatea de voluntariat în concordanţă cu capacitatea şi disponibilitatea,",
+          "de a solicita organizaţiei gazdă eliberarea certificatului de voluntariat însoţit de raportul de activitate,",
+          "la confidenţialitatea şi protecţia datelor personale,",
+          "la timp liber corespunzător cu activitatea de voluntariat,",
+          "de a fi respectat ca şi persoană şi tratat ca şi coleg cu drepturi egale de conducerea organizaţiei și membrii Asociației,",
+          "de a participa activ la elaborarea şi derularea programelor în considerarea cărora a încheiat contractul și de a propune proiecte și activități,",
+          "de a beneficia de îndrumare şi orientare din partea coordonatorului de proiect/departament,",
+          "de a i se rambursa cheltuielile efectuate pentru derularea activităţilor,",
+          "de a depune cerere pentru înscrierea ca membru al Asociaţiei."
+        ]
+      },
+      "obligations": {
+        "title": "Obligațiile voluntarilor:",
+        "list": [
+          "să presteze o activitate de interes public, fără remuneraţie,",
+          "să aibă o conduită complementară cu obiectivele generale ale voluntariatului,",
+          "să îndeplinească sarcinile prevăzute în fişa de voluntariat, precum şi respectarea instrucţiunilor stipulate în fişa de protecţie a voluntarului,",
+          "să păstreze confidenţialitatea informaţiilor la care are acces în cadrul activităţii de voluntariat, pe perioada desfăşurării contractului de voluntariat şi pe o perioada de 2 ani după încetarea acestuia,",
+          "să anunţe cu minim 24 de ore înainte indisponibilitatea temporară de a presta activitatea de voluntariat în care este implicat,",
+          "să îndeplinească la timp sarcinile primite din partea organizatorilor proiectului/programului,",
+          "să participe la cursurile de instruire oferite de către organizatori dacă acestea sunt necesare pentru buna îndeplinire a sarcinilor,",
+          "să ocrotească bunurile pe care le foloseşte în cadrul activităţilor de voluntariat,",
+          "să respecte regulile şi normele de comportament ale organizaţiei gazdă: politețe, amabilitate, limbaj civilizat, proactivitate, asertivitate,",
+          "să îi trateze cu respect pe ceilalți voluntari și membrii ai Asociației,",
+          "să nu comunice sau să răspândească în public afirmaţii defăimătoare la adresa Asociaţiei și sau a activităţii acesteia,",
+          "să nu desfăşoare în cadrul Asociaţiei sau cu ocazia manifestărilor organizate de Asociaţie, activităţi de propagandă politică faţă de alţi membri ai asociaţiei, sau faţă de terţe persoane, aflate în legătură profesională cu Asociaţia sau străine de Asociaţie."
+        ]
+      }
+    },
+    "financial_contribution": {
+      "title": "COTIZAŢIA",
+      "paragraphs": [
+        "Taxa anuala este in cuantum de 200 lei. Aceasta se poate plăti în cote trimestriale, semestriale sau anuale.",
+        "Pentru membri fondatori cotizaţia se datorează Asociaţiei începând cu anul următor înființării.",
+        "Membrii asociați trebuie să plătească, suplimentar față de cotizația anuală, o taxă de aderare, o singură dată la înscrierea în Asociație.",
+        "Cuantumul taxei de aderare este de 50 lei și se achită în momentul înscrierii ca membru în AC și Statut.",
+        "Plata cotizaţiei este obligatorie pentru menţinerea calităţii de membru.",
+        "Plata cotizaţiei conferă statutul de membru cu drept de vot."
+      ]
+    },
+    "sanctions": {
+      "title": "PREVEDERI ȘI SANCȚIUNI",
+      "members": {
+        "title": "Pierderea calității de membru",
+        "conditions": {
+          "title": "Pierderea calității de membru al Asociației se face în următoarele condiții:",
+          "list": [
+            "încetarea existenţei Asociaţiei,",
+            "pierderea cetățeniei,",
+            "pierderea capacităţii de exerciţiu,",
+            "renunţarea la calitatea de membru,",
+            "încălcarea obligaţiilor şi îndatoririlor prevăzute în Statut și în regulament,",
+            "conduita necorespunzătoare, prin care se aduc prejudicii morale şi/sau materiale Asociaţiei,",
+            "retragerea acestei calităţi de către Consiliul Director pentru motive întemeiate."
+          ]
+        },
+        "p1": "Pierderea calităţii de membru al Asociaţiei se hotărăşte de către Consiliul Director şi se supune la vot în Adunarea Generală, care ia decizia cu majoritate calificată. Persoana în cauză poate contesta decizia în termen de 15 zile lucrătoare de la comunicarea deciziei în faţa Adunării Generale."
+      },
+      "volunteers": {
+        "title": "Sancţiuni ale voluntarilor",
+        "p1": "Prima abatere de la respectarea îndatoririlor se sancționează cu atenționare verbală şi justifcarea faptei în faţa Consiliului Director.",
+        "p2": {
+          "title": "A doua abatere se sanţionează cu atenționare scrisă și cu:",
+          "list": [
+            "plata sau înlocuirea în cazul bunurilor deteriorate și",
+            "scuze publice dacă atentează la demnitatea unui membru sau voluntar al Asociaţiei."
+          ]
+        },
+        "p3": "A treia abatere atrage suspendarea.",
+        "p4": "Consiliul Director poate apela la suspendarea automată în cazul în care numele Asociaţiei este denigrat sau au loc scurgeri de informaţii."
+      }
+    },
+    "final": {
+      "title": "DISPOZIŢII FINALE",
+      "p1": [
+        "Prezentul regulament se aplică numai în interiorul Asociației și în cadrul activităților acesteia.",
+        "Regulamentul trebuie să fie prezentat tuturor membrilor şi voluntarilor Asociației şi să fie semnat de aceştia."
+      ],
+      "p2": "Propunerile de modificare a regulamentului pot fi întaitate de voluntari către coordonatorii de departamente și de membrii către Consiliul Director, urmând a intra pe ordinea de zi pentru discuții în Adunarea Generală.",
+      "p3": [
+        "Prezentul regulament poate fi modificat la decizia Adunării Generale.",
+        "Drepturile asupra numelui Asociației, a identității vizuale precum logo și elemente de grafică, precum si asupra conceptelor existente în momentul înființării Asociației (Trip and Pick) aparțin societății POWERED BY DLOT SRL."
+      ],
+      "p4": "Alte drepturile de proprietate intelectuală, precum elementele de grafică, texte, sintagme, imagini etc, se stabilesc prin modificarea acestui regulament, la cererea autorului.",
+      "p5": [
+        "Asociația Community powered by DLOT își rezervă dreptul de a modifica regulamentul periodic.",
+        "Modificarile vor fi aduse la cunoștința membrilor și voluntarilor, aceștia având obligația de a semna luarea la cunoștință. Prezentul documentul va fi modificat în termen de 24 ore de la data aprobării modificărilor regulamentului."
+      ],
+      "p6": {
+        "content": "Pentru orice informații cu privire la regulament ne poți contacta pe mail, la adresa {juridic}",
+        "map": {
+          "juridic": "juridic@asociatiacommunity.ro"
+        }
+      },
+      "p7": {
+        "content": "Prin utilizarea site-ului nostru, contactarea noastră prin orice mijloc fizic sau electronic, înscrierea ca voluntar sau prin realizarea unei donații, declari că ai citit, ai înțeles și ești de acord cu {policy} a datelor cu caracter personal precum și cu Termenii și Condițiile descrise în acest document.",
+        "map": {
+          "policy": {
+            "link": "/privacypolicy",
+            "value": "Politica de Confidențialitate"
+          }
+        }
+      }
+    }
+  },
+  "privacypolicy": {
+    "title": "POLITICA DE CONFIDENȚIALITATE A DATELOR",
+    "summary": {
+      "content": "Dacă nu vrei să citești tot textul de mai jos (te înțelegem), iată un rezumat al informațiilor prezentate: nu colectăm date cu caracter personal decât în cazul în care ne contactezi. Folosim cookie-uri și tehnologii de monitorizare a performanței site-ului (Google analytics). Pentru orice informații legate de colectarea și procesarea datelor personale ne poți contacta la adresa {juridic}",
+      "map": {
+        "juridic": {
+          "link": "juridic@asociatiacommunity.ro",
+          "value": "juridic@asociatiacommunity.ro"
+        }
+      }
+    },
+    "p1": "Colectarea și procesarea datelor cu caracter personal implică multă responsabilitate și îți mulțumim pentru încredere. Te asigurăm că protecția datelor tale este o sarcină foarte importantă pentru noi.",
+    "p2": "Colectăm și procesam datele tale personale în conformitate cu Legea nr. 190/2018 privind măsuri de punere în aplicare a Regulamentului (UE) 2016/679 al Parlamentului European şi al Consiliului din 27 aprilie 2016 privind protecţia persoanelor fizice în ceea ce priveşte prelucrarea datelor cu caracter personal. (GDPR)",
+    "p3": {
+      "content": "{personal} sunt orice informații care pot duce la identificarea unei anumite persoane, cum ar fi numele, adresa de email, domiciliul, precum și date biometrice, medicale, CNP etc.",
+      "map": {
+        "personal": "Datele cu caracter personal"
+      }
+    },
+    "p4": {
+      "content": "Termenul {consent} folosit în acest document înseamnă manifestarea voinței libere, specifice, informate și lipsită de ambiguitate prin care îți exprimi neechivoc acordul ca datele tale cu caracter personal să fie procesate în conformitate cu aceasta politică de confidențialitate.",
+      "map": {
+        "consent": "Consimțământ"
+      }
+    },
+    "identity": {
+      "title": "Identitatea companiei:",
+      "p": "Acest website este proprietatea Asociației Community powered by DLOT, cu sediul în Cluj-Napoca, România, înregistratâ în Registrul Național al Asociațiilor și Fundațiilor la Ministerul Justiției, cod de identificare fiscală 42622580"
+    },
+    "type": {
+      "title": "CE CATEGORII DE DATE CU CARACTER PERSONAL COLECTĂM ȘI SCOPUL ÎN CARE LE PRELUCRAM:",
+      "contact": {
+        "title": "1. Informații pe care ni le oferi atunci când ne contactezi",
+        "what_when": [
+          "Colectăm numele, adresa de email și orice altă informație ne oferi prin intermediul mijlocului de comunicare pe care îl alegi.",
+          "Folosim aceste date doar pentru a-ți răspunde la solicitare. Informațiile pe care ni le furnizezi vor fi împărtășite angajaților companiei și furnizorilor de servicii în masura în care este necesar pentru administrarea sistemelor noastre și/sau pentru a satisface solicitarea ta."
+        ]
+      },
+      "donation": {
+        "title": "2. Informații pe care ni le oferi atunci când faci o donație",
+        "what_when": {
+          "transfer": {
+            "general": {
+              "content": "În cazul în care faci o donație {transfer} colectăm Nume si IBAN.",
+              "map": {
+                "transfer": "prin transfer bancar"
+              }
+            },
+            "for": "Folosim aceste informații doar pentru a ne conforma legislației fiscale din România."
+          },
+          "credit": {
+            "general": {
+              "content": "În cazul în care faci o donație cu {credit}, prin intermediul site-ului nostru, datele plații sunt procesate de către furnizorul de servicii de plata online.",
+              "map": {
+                "credit": "cardul de credit"
+              }
+            },
+            "for": [
+              "Nu colectam informații cu privire la tipul cardului, numarul acestuia, datele de expirare, codul CVV, parole sau alte informații sensibile introduse în momentul realizarii plații. Informațiile cardului tău sunt transmise procesorului de plăți sub forma criptată.",
+              "Colectam însă numele tau pentru a ține evidența contabilă a încasarilor Asociației și pentru a ne conforma legislatției fiscale în vigoare."
+            ]
+          }
+        }
+      },
+      "volunteer": {
+        "title": "3. Informații pe care le colectam atunci când te înscri ca voluntar",
+        "what_when": "În cazul în care te înscri ca voluntar, colectăm informații personale precum nume, adresa email, telefon, datele cărții de identitate și alte informații necesare realizării contractului de voluntariat. Aceste informații sunt împărtășite în cadrul departamentelor de resurse umane și contabilitate și vor fi pastrate conform legislatiei în vigoare."
+      },
+      "passive": {
+        "title": "4. Informații colectate pasiv",
+        "what_when": [
+          "Când accesezi site-ul nostru, colectăm în mod automat informații precum: adresa de IP, tipul și versiunea browserului, paginile site-ului pe care le vizitezi precum și timpul petrecut pe site-ul nostru.",
+          "De asemenea, colectăm informații prin intermediul site-urilor de socializare pe care le utilizezi pentru a accesa Site-ul nostru, în funcție de permisiunile pe care le-ai setat.",
+          "Folosim aceste date pentru a monitoriza performanța site-ului nostru și a îmbunătăți experiența pe care ți-o oferim atunci când ne vizitezi."
+        ]
+      }
+    },
+    "cookies": {
+      "title": "COOKIE-URI",
+      "general": [
+        "Cookie-urile sunt fișiere de mici dimensiumi care pot conține un identificator unic anonim. Acestea sunt stocate pe dispozitivul de pe care accesezi internetul.",
+        "Folosim cookie-uri pentru realizarea unor statistici anonime cu privire la modul în care folosești site-ul nostru și pentru a îmbunătăți experiența de navigare."
+      ],
+      "classification": {
+        "title": "Cookie-urile pe care le folosim pot fi clasificate în urmatoarele categorii:",
+        "functional": {
+          "title": "Cookie-uri funcționale",
+          "content": [
+            "Acestea sunt esențiale pentru buna funcționare a site-ului, fiind setate pe dispozitivul tău la accesarea site-ului sau în urma acțiunilor efectuate în site, dupa caz. De exemplu, limba pe care ai selectat-o.",
+            "Poți seta browser-ul pentru a bloca cookie-urile, însa în acest caz anumite secțiuni ale site-ului nu vor funcționa corect."
+          ]
+        },
+        "statistic": {
+          "title": "Cookie-uri statistice (analitice)",
+          "content": [
+            "Folosim Google Analytics pentru analiza comportamentului utilizatorului.",
+            "Aceste cookie ne spun daca ai mai vizitat acest site până acum, ce pagini accesezi, cât timp petreci pe site-ul nostru, precum și limba, regiunea, tipul browserului și al device-ului.",
+            {
+              "content": "Pentru mai multe informații te rugăm să accesezi {ga}.",
+              "map": {
+                "ga": {
+                  "link": "https://policies.google.com/privacy",
+                  "value": "Politica de confidențialitate Google Analytics"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sharing": {
+      "title": "SCHIMBUL DE DATE",
+      "content": [
+        "Transmitem datele tale furnizorului de servicii de contabilitate sau departamentului de resurse umane în vederea îndeplinirii obligațiilor fiscale și a celor cu privire la legislatia muncii.",
+        "În cazul in care ne revine o obligație legală sau dacă este necesar pentru a ne apăra un interes legitim, putem de asemenea divulga anumite date cu caracter personal unor autorităti publice.",
+        "Totodata, putem divulga datele tale în cazul în care acestea sunt solicitate de către autoritățile legii."
+      ]
+    },
+    "links": {
+      "title": "LINKURI CĂTRE ALTE WEBSITE-URI",
+      "content": "Site-ul nostru poate conține linkuri către alte site-uri care nu sunt administrate de către noi. Îti recomandăm să citești cu atenție Politica de Confidențialitate a fiecărui site pe care îl vizitezi. Nu avem control și nu ne asumăm răspunderea pentru conținutul, politicile și practicile terților."
+    },
+    "transfer": {
+      "title": "TRANSFERUL DATELOR",
+      "content": [
+        "Datele tale pot fi transferate și stocate pe computere din afara regiunii sau țării, în care legile privind protecția datelor pot diferi de cele din jurisdicția ta.",
+        "Prin furnizarea informațiilor tale personale îți oferi consimțământul cu privire la modul în care datele tale sunt procesate și asupra acestei Politici de Confidențialitate a datelor."
+      ]
+    },
+    "security": {
+      "title": "SECURITATEA DATELOR",
+      "content": "Utilizăm securitatea corespunzatoare pe baza tipului și a gradului de confidențialitate a datelor care sunt stocate. Ca în cazul oricarui sistem bazat pe internet, există întotdeauna riscul de acces neautorizat."
+    },
+    "expiration": {
+      "title": "CÂT TIMP PĂSTRĂM DATELE TALE CU CARACTER PERSONAL",
+      "content": [
+        "În cazul în care ai facut o donație prin transfer bancar sau prin intermediul serviciului de plați online, păstrăm datele tale, în format fizic sau electronic, conform legislației în vigoare, pentru a ne îndeplini obligațiile fiscale.",
+        "În cazul în care ne-ai contactat păstrăm datele tale până la finalizarea solicitării."
+      ]
+    },
+    "rights": {
+      "title": "DREPTURILE TALE",
+      "general": [
+        {
+          "content": "Pentru a accesa, corecta, modifica sau șterge datele cu caracter personal te rugăm să ne contactezi la adresa de email {juridic}",
+          "map": {
+            "juridic": {
+              "link": "juridic@asociatiacommunity.ro",
+              "value": "juridic@asociatiacommunity.ro"
+            }
+          }
+        },
+        "Vom răspunde solicitării tale în termen de maxim 30 zile. Va fi nevoie să îți verificăm identitatea înaite de a-și oferi control asupra datelor."
+      ],
+      "all": {
+        "title": "Conform regulamentului general privind protecția datelor, ai o serie de drepturi în legatura cu datele tale cu caracter personal.",
+        "list": [
+          "Dreptul de a fi informat cu privire la tipul de date pe care le colectăm și scopul procesarii.",
+          "Dreptul de a avea acces la datele tale.",
+          "Dreptul de a rectifica datele.",
+          "Dreptul de a șterge datele tale atunci când scopul colectării acestora a fost îndeplinit.",
+          "Dreptul de a te opune procesării datelor tale.",
+          "Dreptul de a îti retrage consimțământul cu privire la procesarea datelor tale.",
+          "Dreptul de a depune o plângere la Autoritatea Naționala de Supraveghere a Prelucrării Datelor cu Caracter Personal în cazul în care ți-au fost încălcate drepturile."
+        ]
+      }
+    },
+    "update": {
+      "title": "MODIFICĂRI ALE POLITICII DE CONFIDENȚIALITATE A DATELOR",
+      "content": [
+        "Ne rezervăm dreptul de a actualiza și modifica periodic aceastp Politicp de Confidențialitate, pentru a reflecta orice modificări ale modului în care prelucram datele tale cu caracter personal sau orice modificări ale cerințelor legale.",
+        "În cazul oricărei astfel de modificari, vom afișa pe website-ul nostru versiunea modificată a Politicii de Confidențialitate, motiv pentru care te rugăm să verifici periodic conținutul acesteia."
+      ]
+    },
+    "contact": {
+      "title": "CONTACTEAZĂ-NE",
+      "content": [
+        {
+          "content": "Pentru orice informații legate de această Politică de Confientțalitatte te rugăm să ne contactezi la adresa {juridic}",
+          "map": {
+            "juridic": {
+              "link": "juridic@asociatiacommunity.ro",
+              "value": "juridic@asociatiacommunity.ro"
+            }
+          }
+        },
+        "Prin utilizarea site-ului nostru declari că ai citit și ai înțeles această Politică de confidentțialitate a datelor cu caracter personal și îți exprimi acordul cu privire la felul în care colectăm și procesam datele cu caracter personal."
+      ]
+    }
   }
 }
