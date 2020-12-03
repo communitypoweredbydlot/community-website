@@ -51,11 +51,11 @@ export default class Footer extends Vue {
   transparencyAndGdprMenuItems = [
     {
       text: 'nav.bottom.privacy_policy',
-      route: '/privacypolicy'
+      route: '/privacypolicy/'
     },
     {
       text: 'nav.bottom.terms_and_conditions',
-      route: '/TermsAndConditions'
+      route: '/termsandconditions/'
     }
   ]
 }

@@ -87,7 +87,7 @@
     <div>
       <section-title path="supportus.beavolunteer.title" />
       <i18n path="supportus.beavolunteer.p1.content" tag="p" class="paragraph-sm xl:paragraph">
-        <nuxt-link class="text-link" :to="localePath('/joinourteam')">
+        <nuxt-link class="text-link" :to="localePath('/joinourteam/')">
           {{ $t("supportus.beavolunteer.p1.joinUs_label") }}
         </nuxt-link>
       </i18n>

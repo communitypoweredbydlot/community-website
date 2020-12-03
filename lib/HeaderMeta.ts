@@ -6,7 +6,7 @@ const ogMetaFor = ({ route, img, title }) => {
   return {
     meta: [
       { hid: 'og:title', property: 'og:title', content: properTitle },
-      { hid: 'og:url', property: 'og:url', content: `${baseUrl}${route}` },
+      { hid: 'og:url', property: 'og:url', content: `${baseUrl}${route}/` },
       { hid: 'og:image', property: 'og:image', content: imagePath },
       { hid: 'og:image:alt', property: 'og:image:alt', content: properTitle },
       { hid: 'twitter:image', name: 'twitter:image', content: imagePath },

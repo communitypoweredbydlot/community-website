@@ -27,19 +27,19 @@ export default class NavigationList extends Vue {
     },
     {
       text: 'nav.top.our_story',
-      route: '/ourstory'
+      route: '/ourstory/'
     },
     {
       text: 'nav.top.projects',
-      route: '/projects'
+      route: '/projects/'
     },
     {
       text: 'nav.top.support_us',
-      route: '/supportus'
+      route: '/supportus/'
     },
     {
       text: 'nav.top.join_our_team',
-      route: '/joinourteam'
+      route: '/joinourteam/'
     }
   ]
 }
