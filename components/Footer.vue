@@ -1,5 +1,5 @@
 <template>
-  <div class="font-sans border-gray-400">
+  <div class="font-sans border-gray-100">
     <div class="border-t">
       <div class="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-4 gap-2 md:gap-4 text-xs mt-2 mb-4 leading-4 text-gray-700">
         <div class="col-span-1 xs:col-span-2 sm:col-span-1 flex justify-center sm:justify-start items-start order-4 sm:order-1">

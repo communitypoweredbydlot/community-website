@@ -1,6 +1,6 @@
 @layer utilities {
   .text-link {
-    @apply text-dlot-teal;
+    @apply text-dlot-teal font-medium cursor-pointer;
   }
 
   .text-link:hover {
