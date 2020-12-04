@@ -30,11 +30,13 @@ export default {
   },
   pwa: {
     meta: {
-      name: 'Asociatia Community',
+      name: meta.name,
       theme_color: '#17a097'
     },
     manifest: {
-      short_name: 'Community'
+      name: meta.name,
+      short_name: 'Community',
+      description: meta.description
     },
     workbox: {
       clientsClaim: false
