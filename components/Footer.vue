@@ -33,8 +33,10 @@
           <nuxt-link :to="localePath('/')">
             <o-image
               cls="dlot-logo-sm md:dlot-logo"
-              :src="require('~/assets/img/logo_powered_by_dlot.jpg')"
+              :src="require('~/assets/img/logo_powered_by_dlot.jpg?resize&sizes[]=100&sizes[]=125&format=webp')"
               alt="Powered by DLOT"
+              width="125"
+              height="79.99"
             />
           </nuxt-link>
         </div>

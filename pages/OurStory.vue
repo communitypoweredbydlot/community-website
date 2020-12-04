@@ -4,9 +4,9 @@
 
     <paragraphs path="ourstory.paragraphs" :to="2" />
 
-    <o-image :src="require('~/assets/img/private_property.jpg')" cls="rounded shadow mb-4" alt="Private property." />
-    <o-image :src="require('~/assets/img/deforestation.jpg')" cls="rounded shadow mb-4" alt="Deforestation." />
-    <o-image :src="require('~/assets/img/trash.jpg')" cls="rounded shadow mb-4" alt="Trash in water." />
+    <o-image :src="require('~/assets/img/private_property.jpg?resize&format=webp')" cls="rounded shadow mb-4" alt="Private property." width="1080" height="810" />
+    <o-image :src="require('~/assets/img/deforestation.jpg?resize&format=webp')" cls="rounded shadow mb-4" alt="Deforestation." width="1080" height="810" />
+    <o-image :src="require('~/assets/img/trash.jpg?resize&format=webp')" cls="rounded shadow mb-4" alt="Trash in water." width="1080" height="810" />
 
     <paragraphs path="ourstory.paragraphs" :from="3" :to="4" />
 
@@ -24,16 +24,16 @@
       >
     </video>
 
-    <o-image :src="require('~/assets/img/trip_and_pick.jpg')" cls="rounded shadow mb-4" alt="Man carying trash during a Trip and Pick trip." />
-    <o-image :src="require('~/assets/img/trip_and_pick_challenge.jpg')" cls="rounded shadow mb-4" alt="Trash haul in trash bags after a Trip and Pick trip." />
+    <o-image :src="require('~/assets/img/trip_and_pick.jpg?resize&format=webp')" cls="rounded shadow mb-4" alt="Man carying trash during a Trip and Pick trip." width="1080" height="810" />
+    <o-image :src="require('~/assets/img/trip_and_pick_challenge.jpg?resize&format=webp')" cls="rounded shadow mb-4" alt="Trash haul in trash bags after a Trip and Pick trip." width="1080" height="810" />
 
     <paragraphs path="ourstory.paragraphs" :from="5" :to="5" />
 
-    <o-image :src="require('~/assets/img/garbage_in_nature.jpg')" cls="rounded shadow mb-4" alt="Trash on the side of the road." />
+    <o-image :src="require('~/assets/img/garbage_in_nature.jpg?resize&format=webp')" cls="rounded shadow mb-4" alt="Trash on the side of the road." width="1080" height="810" />
 
     <paragraphs path="ourstory.paragraphs" :from="5" :to="7" />
 
-    <o-image :src="require('~/assets/img/dog_picking_up_trash.jpg')" cls="rounded shadow" alt="Dog playing with tarsh." />
+    <o-image :src="require('~/assets/img/dog_picking_up_trash.jpg?resize&format=webp')" cls="rounded shadow" alt="Dog playing with tarsh." width="1080" height="810" />
   </article>
 </template>
 

@@ -46,10 +46,12 @@
 
     .dlot-logo {
       width: 125px;
+      height: auto;
     }
 
     .dlot-logo-sm {
       width: 100px;
+      height: auto;
     }
   }
 
@@ -70,4 +72,9 @@ ul > li {
   position: relative;
   padding-left: 1.75em;
   @apply leading-7 text-gray-700;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }

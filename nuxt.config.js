@@ -13,6 +13,21 @@ export default {
   generate: {
     fallback: true
   },
+  optimizedImages: {
+    optimizeImages: true,
+    responsive: {
+      sizes: [
+        300,
+        360,
+        425,
+        768,
+        896,
+        1080,
+        1280
+      ],
+      quality: 75
+    }
+  },
   head: {
     titleTemplate: '%s - ' + meta.name,
     title: meta.name,

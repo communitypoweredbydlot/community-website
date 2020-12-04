@@ -15,7 +15,7 @@
 import { Component, Prop, Vue } from 'nuxt-property-decorator'
 
 @Component
-export default class LanguageSelect extends Vue {
+export default class Icon extends Vue {
   @Prop() tooltip!: string
 }
 </script>
