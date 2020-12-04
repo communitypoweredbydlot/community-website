@@ -28,6 +28,18 @@ export default {
       quality: 75
     }
   },
+  pwa: {
+    meta: {
+      name: 'Asociatia Community',
+      theme_color: '#17a097'
+    },
+    manifest: {
+      short_name: 'Community'
+    },
+    workbox: {
+      clientsClaim: false
+    }
+  },
   head: {
     titleTemplate: '%s - ' + meta.name,
     title: meta.name,
