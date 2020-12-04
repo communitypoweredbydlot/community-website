@@ -10,7 +10,7 @@
             <div
               v-for="(item, index) in transparencyAndGdprMenuItems"
               :key="index"
-              class="text-start mb-2"
+              class="text-start mb-3 lg:mb-2"
             >
               <nuxt-link
                 class="hover:text-dlot-teal"
@@ -22,7 +22,7 @@
           </div>
         </div>
         <div class="col-span-1 flex flex-col justify-start items-center xs:items-end sm:items-start order-2 md:order-3">
-          <div class="text-center mb-2">
+          <div class="text-center mb-3 lg:mb-2">
             {{ $t("email") }}
           </div>
           <div class="text-center">
