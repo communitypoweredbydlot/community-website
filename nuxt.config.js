@@ -13,11 +13,6 @@ export default {
   generate: {
     fallback: true
   },
-  pwa: {
-    icon: {
-      fileName: 'favicon.png'
-    }
-  },
   head: {
     titleTemplate: '%s - ' + meta.name,
     title: meta.name,
