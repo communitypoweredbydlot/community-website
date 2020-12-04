@@ -92,6 +92,7 @@ export default {
     linkExactActiveClass: 'text-dlot-teal'
   },
   i18n: {
+    baseUrl: 'https://www.asociatiacommunity.ro',
     locales: [
       {
         code: 'en',
@@ -124,7 +125,7 @@ export default {
     overwriting: true
   },
   sitemap: {
-    hostname: 'https://asociatiacommunity.ro',
+    hostname: 'https://wwww.asociatiacommunity.ro',
     gzip: true,
     i18n: {
       locales: ['ro', 'en'],
