@@ -130,55 +130,18 @@
     </div>
     <div class="flex flex-col">
       <section-title path="supportus.followus.title" />
-      <div class="flex flex-row justify-start">
-        <a
-          class="h-6 w-6 icon-link"
-          href="https://www.linkedin.com/showcase/community-powered-by-dlot/"
-          alt="Linkedin"
-          title="Linkedin"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <icon>{{ iconLinkedin }}</icon>
-        </a>
-        <a
-          class="h-6 w-6 icon-link"
-          href="https://www.facebook.com/asociatiacommunity/"
-          alt="Facebook"
-          title="Facebook"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <icon>{{ iconFacebook }}</icon>
-        </a>
-        <a
-          class="h-6 w-6 icon-link"
-          href="https://www.instagram.com/asociatiacommunity/"
-          alt="Instagram"
-          title="Instagram"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <icon>{{ iconInstagram }}</icon>
-        </a>
-      </div>
+      <social-icons class="justify-start" />
     </div>
   </article>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator'
-import { mdiContentCopy, mdiFacebook, mdiLinkedin, mdiInstagram } from '@mdi/js'
 
 import ogMetaFor from '@/lib/HeaderMeta'
 
 @Component
 export default class SupportUs extends Vue {
-  iconCopy = mdiContentCopy
-  iconFacebook = mdiFacebook
-  iconLinkedin = mdiLinkedin
-  iconInstagram = mdiInstagram
-
   async copyToClipboard (v) {
     // @ts-ignore
     await this.$copyText(v)
