@@ -13,21 +13,6 @@ export default {
   generate: {
     fallback: true
   },
-  optimizedImages: {
-    optimizeImages: true,
-    responsive: {
-      sizes: [
-        300,
-        360,
-        425,
-        768,
-        896,
-        1080,
-        1280
-      ],
-      quality: 75
-    }
-  },
   pwa: {
     meta: {
       name: meta.name,
@@ -80,15 +65,15 @@ export default {
   buildModules: [
     '@nuxt/typescript-build',
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/google-fonts',
-    '@aceforth/nuxt-optimized-images'
+    '@nuxtjs/google-fonts'
   ],
   modules: [
     '@nuxtjs/pwa',
     'nuxt-i18n',
     '@nuxtjs/axios',
     '@nuxtjs/sitemap',
-    'nuxt-clipboard2'
+    'nuxt-clipboard2',
+    '@nuxt/image'
   ],
   router: {
     linkExactActiveClass: 'text-dlot-teal'
@@ -133,6 +118,23 @@ export default {
       locales: ['ro', 'en'],
       routesNameSeparator: '___'
     }
+  },
+  image: {
+    ipx: {
+      dir: '~/assets/img',
+      sharp: {
+        quality: 75
+      }
+    },
+    sizes: [
+      300,
+      360,
+      425,
+      768,
+      896,
+      1080,
+      1280
+    ]
   },
   build: {
     babel: {

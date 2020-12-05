@@ -38,10 +38,10 @@
 import { Component } from 'nuxt-property-decorator'
 import { mdiWeb } from '@mdi/js'
 
-import LSB from '@/components/common/LanguageSelect'
+import LSL from '@/components/common/LanguageSelectLogic'
 
 @Component
-export default class CompactLanguageSelect extends LSB {
+export default class CompactLanguageSelect extends LSL {
   languageSelectionIcon = mdiWeb
 }
 </script>

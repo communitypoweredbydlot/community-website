@@ -33,10 +33,10 @@
       </div>
     </aside>
     <Navigation class="mt-4" @toggle-drawer="drawer = !drawer" />
-    <div class="w-full lg:w-reading-small xl:w-reading-medium xxl:reading-large lg:mx-auto mt-12 md:mt-16 mb-auto px-6" width="20 rem">
+    <div class="w-full lg:w-reading-small xl:w-reading-medium xxl:w-reading-large lg:mx-auto mt-12 md:mt-16 mb-auto px-6" width="20 rem">
       <nuxt />
     </div>
-    <Footer class="w-full lg:w-reading-small xl:w-reading-medium xxl:reading-large lg:mx-auto mt-6 px-6" />
+    <Footer class="w-full lg:w-reading-small xl:w-reading-medium xxl:w-reading-large lg:mx-auto mt-6 px-6" />
   </div>
 </template>
 

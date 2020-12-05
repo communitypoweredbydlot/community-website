@@ -31,9 +31,11 @@
         </div>
         <div class="hidden sm:flex sm:justify-end items-start col-span-1 order-3 md:order-4">
           <a href="https://poweredbydlot.com/" target="_blank" rel="noopener noreferrer">
-            <o-image
-              cls="dlot-logo-sm md:dlot-logo"
-              :src="require('~/assets/img/logo_powered_by_dlot.jpg?resize&sizes[]=100&sizes[]=125&format=webp')"
+            <nuxt-image
+              class="dlot-logo-sm md:dlot-logo"
+              src="/logo_powered_by_dlot.jpg"
+              responsive
+              format="webp"
               alt="Powered by DLOT"
               width="125"
               height="79.99"

@@ -54,10 +54,10 @@
 import { Component } from 'nuxt-property-decorator'
 import { mdiUnfoldMoreHorizontal } from '@mdi/js'
 
-import LSB from '@/components/common/LanguageSelect'
+import LSL from '@/components/common/LanguageSelectLogic'
 
 @Component
-export default class LanguageSelect extends LSB {
+export default class LanguageSelect extends LSL {
   languageSelectionIcon = mdiUnfoldMoreHorizontal
 }
 </script>

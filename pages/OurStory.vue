@@ -4,9 +4,36 @@
 
     <paragraphs path="ourstory.paragraphs" :to="2" />
 
-    <o-image :src="require('~/assets/img/private_property.jpg?resize&format=webp')" cls="rounded shadow mb-4" alt="Private property." width="1080" height="810" />
-    <o-image :src="require('~/assets/img/deforestation.jpg?resize&format=webp')" cls="rounded shadow mb-4" alt="Deforestation." width="1080" height="810" />
-    <o-image :src="require('~/assets/img/trash.jpg?resize&format=webp')" cls="rounded shadow mb-4" alt="Trash in water." width="1080" height="810" />
+    <nuxt-image
+      src="/private_property.jpg"
+      :sizes="sizes"
+      responsive
+      format="webp"
+      class="rounded shadow mb-4"
+      alt="Private property."
+      width="1080"
+      height="810"
+    />
+    <nuxt-image
+      src="/deforestation.jpg"
+      :sizes="sizes"
+      responsive
+      format="webp"
+      class="rounded shadow mb-4"
+      alt="Deforestation."
+      width="1080"
+      height="810"
+    />
+    <nuxt-image
+      src="/trash.jpg"
+      :sizes="sizes"
+      responsive
+      format="webp"
+      class="rounded shadow mb-4"
+      alt="Trash in water."
+      width="1080"
+      height="810"
+    />
 
     <paragraphs path="ourstory.paragraphs" :from="3" :to="4" />
 
@@ -24,16 +51,52 @@
       >
     </video>
 
-    <o-image :src="require('~/assets/img/trip_and_pick.jpg?resize&format=webp')" cls="rounded shadow mb-4" alt="Man carying trash during a Trip and Pick trip." width="1080" height="810" />
-    <o-image :src="require('~/assets/img/trip_and_pick_challenge.jpg?resize&format=webp')" cls="rounded shadow mb-4" alt="Trash haul in trash bags after a Trip and Pick trip." width="1080" height="810" />
+    <nuxt-image
+      src="trip_and_pick.jpg"
+      :sizes="sizes"
+      responsive
+      format="webp"
+      class="rounded shadow mb-4"
+      alt="Man carying trash during a Trip and Pick trip."
+      width="1080"
+      height="810"
+    />
+    <nuxt-image
+      src="trip_and_pick_challenge.jpg"
+      :sizes="sizes"
+      responsive
+      format="webp"
+      class="rounded shadow mb-4"
+      alt="Trash haul in trash bags after a Trip and Pick trip."
+      width="1080"
+      height="810"
+    />
 
     <paragraphs path="ourstory.paragraphs" :from="5" :to="5" />
 
-    <o-image :src="require('~/assets/img/garbage_in_nature.jpg?resize&format=webp')" cls="rounded shadow mb-4" alt="Trash on the side of the road." width="1080" height="810" />
+    <nuxt-image
+      src="/garbage_in_nature.jpg"
+      :sizes="sizes"
+      responsive
+      format="webp"
+      class="rounded shadow mb-4"
+      alt="Trash on the side of the road."
+      width="1080"
+      height="810"
+    />
 
     <paragraphs path="ourstory.paragraphs" :from="5" :to="7" />
 
-    <o-image :src="require('~/assets/img/dog_picking_up_trash.jpg?resize&format=webp')" cls="rounded shadow" alt="Dog playing with tarsh." width="1080" height="810" />
+    <nuxt-image
+      src="/dog_picking_up_trash.jpg"
+      :sizes="sizes"
+      responsive
+      format="webp"
+      class="rounded shadow"
+      alt="Dog playing with tarsh."
+      width="1080"
+      height="810"
+    />
   </article>
 </template>
 
@@ -44,6 +107,8 @@ import ogMetaFor from '@/lib/HeaderMeta'
 
 @Component
 export default class OurStory extends Vue {
+  sizes: string = '300:300,360:360,425:425,768:768,896,896:1080,1280'
+
   head () {
     return ogMetaFor({
       route: this.$nuxt.$route.path,

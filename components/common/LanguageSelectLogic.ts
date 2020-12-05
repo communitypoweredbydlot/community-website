@@ -1,7 +1,7 @@
 import { Component, Watch, Vue } from 'nuxt-property-decorator'
 
 @Component
-export default class LanguageSelect extends Vue {
+export default class LanguageSelectLogic extends Vue {
   isOpen = false
 
   get availableLocales () {
