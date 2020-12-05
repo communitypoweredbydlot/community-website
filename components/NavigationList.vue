@@ -4,8 +4,9 @@
       v-for="(item, index) in mainMenuItems"
       :key="index"
       :to="localePath(item.route)"
-      class="font-sans text-base lg:text-xs xl:text-base lg:font-medium text-gray-600 hover:text-dlot-teal uppercase"
-      :class="isVertical ? 'mt-2 ml-4': 'mt-0 mr-4 xxl:mr-4'"
+      class="font-sans text-base lg:text-xxs xl:text-xs text-gray-600 tracking-wide hover:text-dlot-teal uppercase"
+      :class="isVertical ? 'mt-2 ml-4': 'mt-0 mr-2'"
+      exact
     >
       {{ $t(item.text) }}
     </nuxt-link>
@@ -43,3 +44,10 @@ export default class NavigationList extends Vue {
   ]
 }
 </script>
+
+<style lang="postcss" scoped>
+.nuxt-link-active {
+  @apply border-b border-dlot-teal;
+}
+</style>
+zs

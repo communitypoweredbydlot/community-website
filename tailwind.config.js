@@ -49,6 +49,9 @@ module.exports = {
         'reading-small': '56rem',
         'reading-medium': '68rem',
         'reading-large': '80rem'
+      },
+      fontSize: {
+        xxs: '0.6rem'
       }
     }
   },

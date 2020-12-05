@@ -1,31 +1,31 @@
 <template>
   <div
-    class="relative font-medium lg:font-normal xl:font-medium text-base lg:text-sm xl:text-base text-gray-600"
+    class="relative font-normal text-xxs xl:text-xs text-gray-600 mr-2"
     :class="[isOpen ? 'block' : 'inline-block']"
   >
     <button
-      class="relative z-10 inline-flex items-center block focus:outline-none font-medium lg:font-normal xl:font-medium text-base lg:text-sm xl:text-base py-2 px-4 rounded-md hover:text-dlot-teal"
+      class="relative z-10 inline-flex items-center block focus:outline-none font-normal text-xxs xl:text-xs mt-2 py-2 px-2 rounded-md hover:text-dlot-teal"
       :class="{ 'shadow': isOpen }"
       @click.stop="isOpen = !isOpen"
     >
       <icon
-        class="h-4 w-4"
+        class="h-3 w-3"
       >
         {{ languageSelectionIcon }}
       </icon>
-      <span class="ml-1 uppercase">
+      <span class="ml-1 uppercase" style="line-height: 0.25;">
         {{ $i18n.locale }}
       </span>
     </button>
     <div
       v-click-outside="onClickOutside"
-      class="absolute right-0 mt-2 py-2 w-48 bg-white rounded-md shadow z-20"
+      class="absolute right-0 mt-2 py-2 w-14 bg-white rounded-md shadow z-20"
       :class="isOpen ? '' : 'hidden'"
     >
       <nuxt-link
         v-for="locale in availableLocales"
         :key="locale.code"
-        class="py-2 px-4 block whitespace-no-wrap bg-white hover:text-dlot-teal"
+        class="px-2 block whitespace-no-wrap bg-white hover:text-dlot-teal"
         :to="switchLocalePath(locale.code)"
       >
         {{ locale.name }}

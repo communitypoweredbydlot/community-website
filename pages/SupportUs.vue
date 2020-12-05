@@ -137,11 +137,15 @@
 
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator'
+import { mdiContentCopy } from '@mdi/js'
 
 import ogMetaFor from '@/lib/HeaderMeta'
 
+
 @Component
 export default class SupportUs extends Vue {
+  iconCopy = mdiContentCopy
+
   async copyToClipboard (v) {
     // @ts-ignore
     await this.$copyText(v)
