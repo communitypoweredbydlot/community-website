@@ -23,7 +23,7 @@
         </div>
         <div class="col-span-1 flex flex-col justify-start items-center xs:items-end sm:items-start order-2 md:order-3">
           <div class="text-center mb-3 lg:mb-2">
-            {{ $t("email") }}
+            <a :href="`mailto:${$t('email')}`">{{ $t("email") }}</a>
           </div>
           <div class="text-center">
             {{ $t("phone") }}
