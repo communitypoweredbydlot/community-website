@@ -26,7 +26,7 @@
             <a :href="`mailto:${$t('email')}`">{{ $t("email") }}</a>
           </div>
           <div class="text-center">
-            {{ $t("phone") }}
+            <a :href="`tel:${$t('phone')}`">{{ $t("phone") }}</a>
           </div>
         </div>
         <div class="hidden sm:flex sm:justify-end items-start col-span-1 order-3 md:order-4">
