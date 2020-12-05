@@ -16,7 +16,7 @@
 
       <i18n path="projects.tripandpick.p4.content" tag="p" class="paragraph-sm xl:paragraph">
         <template v-slot:tripandpick-email-link>
-          <a class="text-link" href="mailto:tripandpick@asociatiacommunity.ro">{{ $t('projects.tripandpick.p4.tripandpick-email-link') }}</a>
+          <a class="text-link" :href="`mailto:${$t('projects.tripandpick.p4.tripandpick-email-link.link')}`">{{ $t('projects.tripandpick.p4.tripandpick-email-link.value') }}</a>
         </template>
       </i18n>
     </div>

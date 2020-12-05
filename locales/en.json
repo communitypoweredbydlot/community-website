@@ -109,6 +109,10 @@
         "content": "Point out locations where the trash is improperly disposed so we can investigate the issue and find solutions. Contact us by email at {email-link} or social {messenger-link}.",
         "messenger-link": {
           "label": "media chat"
+        },
+        "email-link": {
+          "link": "tripandpick@asociatiacommunity.com",
+          "value": "tripandpick@asociatiacommunity.com"
         }
       }
     },
@@ -398,8 +402,11 @@
       "p2": "Even if it’s only a few things (cigarette butts or candy wrappers), or even one item, it counts.",
       "p3": "Next time you take a trip outside the urban area, bring some garbage bags with you and pick up the litter found along the route.",
       "p4": {
-        "content": "You can also join us in our trips. Explore the events calendar below and {tripandpick-email-link} for details",
-        "tripandpick-email-link": "write-us"
+        "content": "If you want to find out about how you can join us in our trips write us at {tripandpick-email-link}.",
+        "tripandpick-email-link": {
+          "link": "tripandpick@asociatiacommunity.com",
+          "value": "tripandpick@asociatiacommunity.com"
+        }
       }
     }
   },

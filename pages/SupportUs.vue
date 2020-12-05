@@ -112,7 +112,7 @@
           <a class="text-link" href="https://www.messenger.com/t/asociatiacommunity" target="_blank" rel="noopener noreferrer">{{ $t("supportus.dumps.p1.messenger-link.label") }}</a>
         </template>
         <template v-slot:email-link>
-          <a class="text-link" href="mailto:tripandpick@asociatiacommunity.ro">{{ $t("supportus.dumps.p1.email-link.label") }}</a>
+          <a class="text-link" :href="`mailto:${$t('supportus.dumps.p1.email-link.link')}`">{{ $t("supportus.dumps.p1.email-link.value") }}</a>
         </template>
       </i18n>
     </div>

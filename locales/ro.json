@@ -121,7 +121,8 @@
           "label": "media chat"
         },
         "email-link": {
-          "label": "tripandpick@asociatiacommunity.ro"
+          "link": "tripandpick@asociatiacommunity.ro",
+          "value": "tripandpick@asociatiacommunity.ro"
         }
       }
     },
@@ -409,8 +410,11 @@
       "p2": "Fiecare efort contează, chiar dacă se rezumă doar la câteva ambalaje sau chiștoace de țigară.",
       "p3": "Când ieși în aer liber, nu uita să iei cu tine saci de gunoi. Alătură-te campaniei noastre și strânge gunoiul pe care îl întâlnești în drumul tău.",
       "p4": {
-        "content": "Mai jos găsești un calendar cu următoarele noastre drumeții. Dacă vrei să afli detalii despre cum poți să ni te alături {tripandpick-email-link}",
-        "tripandpick-email-link": "scrie-ne"
+        "content": "Dacă vrei să afli detalii despre cum poți să ni te alături in drumetii scrie-ne pe adresa {tripandpick-email-link}.",
+        "tripandpick-email-link": {
+          "link": "tripandpick@asociatiacommunity.ro",
+          "value": "tripandpick@asociatiacommunity.ro"
+        }
       }
     }
   },
