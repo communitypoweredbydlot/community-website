@@ -17,7 +17,24 @@
       </paragraph>
       <paragraph path="joinourteam.joinus.p3" />
       <paragraph path="joinourteam.joinus.p4" />
+
       <paragraph path="joinourteam.manyhands.title" class="italic" />
+      <paragraph path="joinourteam.manyhands.p1" :to="0">
+        <br>
+        <i18n path="joinourteam.manyhands.p1[1].content">
+          <template #team>
+            <a :href="`mailto:${$t('joinourteam.manyhands.p1[1].map.team.link')}`" class="text-link">{{ $t('joinourteam.manyhands.p1[1].map.team.value') }}</a>
+          </template>
+        </i18n>
+      </paragraph>
+      <paragraph>
+        <i18n path="joinourteam.manyhands.p2.content">
+          <template #tripandpick>
+            <a :href="`mailto:${$t('joinourteam.manyhands.p2.map.tripandpick.link')}`" class="text-link">{{ $t('joinourteam.manyhands.p2.map.tripandpick.value') }}</a>
+          </template>
+        </i18n>
+      </paragraph>
+      <paragraph path="joinourteam.manyhands.p3" />
     </div>
     <div>
       <list path="joinourteam.whatsinit" section :margin-bottom="false" />

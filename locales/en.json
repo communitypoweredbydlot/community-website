@@ -54,7 +54,7 @@
         "identifying regions where trash is improperly disposed and drawing attention of the concerned authority towards the situation,",
         "educating tourists and rural communities about the importance of properly disposing trash and providing them the means to collect and recycle the waste,",
         "promoting behaviors oriented to minimize the environmental impact of each individual without getting far from their comfort zone,",
-        "achieving a healthy and balanced lifestyle by spending time outdoors and protecting nature,"
+        "achieving a healthy and balanced lifestyle by spending time outdoors and protecting nature."
       ]
     }
   },
@@ -164,9 +164,25 @@
       "title": "Many hands make light work",
       "p1": [
         "We’re looking for volunteers for remote positions and environment clean-up projects.",
-        "As we just started our activity, we can offer many prospects. Check-out the list below and {email-link} if something piques your interest."
+        {
+          "content": "As we just started our activity, we can offer many prospects. Check-out the list below and write us at {team} if something piques your interest.",
+          "map": {
+            "team": {
+              "link": "team@asociatiacommunity.com",
+              "value": "team@asociatiacommunity.com"
+            }
+          }
+        }
       ],
-      "p2": "Maybe you like to write stories, or you’re good at planning and organizing, you have a passion for people, animals and nature, you’re creative, or you like to spend time outdoors and want to join us in our {tripandpick-link} campaigns.",
+      "p2": {
+        "content": "Maybe you like to write stories, or you’re good at planning and organizing, you have a passion for people, animals and nature, you’re creative, or you like to spend time outdoors and want to join us in our {tripandpick} campaigns.",
+        "map": {
+          "tripandpick": {
+            "link": "tripandpick@asociatiacommunity.com",
+            "value": "tripandpick@asociatiacommunity.com"
+          }
+        }
+      },
       "p3": "It doesn't matter if you don't check all the boxes for a certain position. Tell us what you would like to do and how much time you can commit, and we will find a way to highlight your skills."
     },
     "whatsinit": {

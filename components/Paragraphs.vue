@@ -24,7 +24,7 @@ export default class Paragraphs extends Vue {
   get lines () {
     const val = this.$t(this.path)
     const ls = !Array.isArray(val) ? [val] : val
-    return ls.slice(this.from, this.to ? (this.to + 1) : ls.length)
+    return ls.slice(this.from, this.to !== undefined ? (this.to + 1) : ls.length)
   }
 }
 </script>
