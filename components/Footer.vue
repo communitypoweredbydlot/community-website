@@ -30,7 +30,7 @@
           </div>
         </div>
         <div class="hidden sm:flex sm:justify-end items-start col-span-1 order-3 md:order-4">
-          <nuxt-link :to="localePath('/')">
+          <a href="https://poweredbydlot.com/">
             <o-image
               cls="dlot-logo-sm md:dlot-logo"
               :src="require('~/assets/img/logo_powered_by_dlot.jpg?resize&sizes[]=100&sizes[]=125&format=webp')"
@@ -38,7 +38,7 @@
               width="125"
               height="79.99"
             />
-          </nuxt-link>
+          </a>
         </div>
       </div>
     </div>
