@@ -25,6 +25,7 @@
     "nuxt-property-decorator": "^2.8.8",
     "vue-class-component": "^7.2.6",
     "vue-clipboard2": "^0.3.1",
+    "vue-gtag": "^1.10.0",
     "vue-property-decorator": "^9.1.2"
   },
   "devDependencies": {
@@ -34,7 +35,6 @@
     "@nuxtjs/eslint-config": "^3.1.0",
     "@nuxtjs/eslint-config-typescript": "^3.0.0",
     "@nuxtjs/eslint-module": "^2.0.0",
-    "@nuxtjs/google-analytics": "^2.4.0",
     "@nuxtjs/google-fonts": "^1.2.0",
     "@nuxtjs/tailwindcss": "^3.2.0",
     "@vue/test-utils": "^1.1.1",

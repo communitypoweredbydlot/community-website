@@ -73,14 +73,14 @@ export default {
   ],
   plugins: [
     '@/plugins/global-components.ts',
-    '@/plugins/on-click-outside.ts'
+    '@/plugins/on-click-outside.ts',
+    '@/plugins/analytics.client.ts'
   ],
   components: true,
   buildModules: [
     '@nuxt/typescript-build',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
-    '@nuxtjs/google-analytics',
     '@aceforth/nuxt-optimized-images'
   ],
   modules: [
@@ -134,12 +134,6 @@ export default {
       routesNameSeparator: '___'
     }
   },
-  googleAnalytics: {
-    id: 'UA-179251811-1',
-    autoTracking: {
-      screenview: true
-    }
-  },
   build: {
     babel: {
       presets ({ _isServer }) {
@@ -148,6 +142,13 @@ export default {
             '@nuxt/babel-preset-app', { loose: true }
           ]
         ]
+      }
+    }
+  },
+  publicRuntimeConfig: {
+    analytics: {
+      config: {
+        id: 'UA-179251811-1'
       }
     }
   }
