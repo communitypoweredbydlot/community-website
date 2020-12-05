@@ -78,3 +78,5 @@ img {
   width: 100%;
   height: auto;
 }
+
+html { margin-left: calc(100vw - 100%); }
