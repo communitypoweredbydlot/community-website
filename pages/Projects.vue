@@ -8,7 +8,7 @@
       <section-title path="projects.tripandpick.title" />
       <i18n path="projects.tripandpick.p1.content" tag="p" class="paragraph-sm xl:paragraph">
         <template v-slot:tripandpick-hashtag>
-          <a class="text-link" href="https://www.instagram.com/explore/tags/tripandpick">{{ $t('projects.tripandpick.p1.tripandpick-hashtag') }}</a>
+          <a class="text-link" href="https://www.instagram.com/explore/tags/tripandpick" target="_blank" rel="noopener noreferrer">{{ $t('projects.tripandpick.p1.tripandpick-hashtag') }}</a>
         </template>
       </i18n>
       <paragraph path="projects.tripandpick.p2" :margin-bottom="false" />

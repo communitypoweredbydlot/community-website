@@ -8,11 +8,11 @@
         <br>
         {{ $t('supportus.tell.p2') }}
         <br>
-        <a class="text-link" href="https://www.instagram.com/explore/tags/tripandpick/?hl=en">#TripAndPick</a>
-        <a class="text-link" href="https://www.instagram.com/explore/tags/tripandpickchallenge/?hl=en">#TripandPickChallenge</a>
-        <a class="text-link" href="https://www.instagram.com/explore/tags/asociatiacommunity/?hl=en">#AsociatiaCommunity</a>
-        <a class="text-link" href="https://www.instagram.com/explore/tags/communitypoweredbydlot/?hl=en">#CommunityPoweredByDlot</a>
-        <a class="text-link" href="https://www.instagram.com/explore/tags/poweredbydlot/?hl=en">#PoweredByDlot</a>
+        <a class="text-link" href="https://www.instagram.com/explore/tags/tripandpick/?hl=en" target="_blank" rel="noopener noreferrer">#TripAndPick</a>
+        <a class="text-link" href="https://www.instagram.com/explore/tags/tripandpickchallenge/?hl=en" target="_blank" rel="noopener noreferrer">#TripandPickChallenge</a>
+        <a class="text-link" href="https://www.instagram.com/explore/tags/asociatiacommunity/?hl=en" target="_blank" rel="noopener noreferrer">#AsociatiaCommunity</a>
+        <a class="text-link" href="https://www.instagram.com/explore/tags/communitypoweredbydlot/?hl=en" target="_blank" rel="noopener noreferrer">#CommunityPoweredByDlot</a>
+        <a class="text-link" href="https://www.instagram.com/explore/tags/poweredbydlot/?hl=en" target="_blank" rel="noopener noreferrer">#PoweredByDlot</a>
       </paragraph>
     </div>
     <div>
@@ -98,6 +98,8 @@
         <a
           class="italic text-link"
           :href="'https://docs.google.com/forms/d/e/1FAIpQLScvUQDZPiALtKtzw9OITf2Wce78LhZYuzOYWR7KhFFDHnTvWg/viewform'"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           {{ $t("supportus.studies.p1.form_label") }}
         </a>
@@ -107,7 +109,7 @@
       <section-title path="supportus.dumps.title" />
       <i18n path="supportus.dumps.p1.content" tag="p" class="paragraph-sm xl:paragraph">
         <template v-slot:messenger-link>
-          <a class="text-link" href="https://www.messenger.com/t/asociatiacommunity">{{ $t("supportus.dumps.p1.messenger-link.label") }}</a>
+          <a class="text-link" href="https://www.messenger.com/t/asociatiacommunity" target="_blank" rel="noopener noreferrer">{{ $t("supportus.dumps.p1.messenger-link.label") }}</a>
         </template>
         <template v-slot:email-link>
           <a class="text-link" href="mailto:tripandpick@asociatiacommunity.ro">{{ $t("supportus.dumps.p1.email-link.label") }}</a>
@@ -134,6 +136,8 @@
           href="https://www.linkedin.com/showcase/community-powered-by-dlot/"
           alt="Linkedin"
           title="Linkedin"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <icon>{{ iconLinkedin }}</icon>
         </a>
@@ -142,6 +146,8 @@
           href="https://www.facebook.com/asociatiacommunity/"
           alt="Facebook"
           title="Facebook"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <icon>{{ iconFacebook }}</icon>
         </a>
@@ -150,6 +156,8 @@
           href="https://www.instagram.com/asociatiacommunity/"
           alt="Instagram"
           title="Instagram"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <icon>{{ iconInstagram }}</icon>
         </a>

@@ -122,7 +122,7 @@
       </i18n>
       <i18n path="terms.final.p7.content" tag="p" class="paragraph-sm xl:paragraph">
         <template #policy>
-          <a :href="$t('terms.final.p7.map.policy.link')" class="text-link">
+          <a :href="$t('terms.final.p7.map.policy.link')" class="text-link" target="_blank" rel="noopener noreferrer">
             {{ $t('terms.final.p7.map.policy.value') }}
           </a>
         </template>

@@ -75,7 +75,7 @@
       <paragraph>
         <i18n path="privacypolicy.cookies.classification.statistic.content[2].content">
           <template #juridic>
-            <a :href="$t('privacypolicy.cookies.classification.statistic.content[2].map.ga.link')" class="text-link">{{ $t('privacypolicy.cookies.classification.statistic.content[2].map.ga.value') }}</a>
+            <a :href="$t('privacypolicy.cookies.classification.statistic.content[2].map.ga.link')" class="text-link" target="_blank" rel="noopener noreferrer">{{ $t('privacypolicy.cookies.classification.statistic.content[2].map.ga.value') }}</a>
           </template>
         </i18n>
       </paragraph>

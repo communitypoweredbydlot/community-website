@@ -15,7 +15,7 @@
       </h4>
       <div>
         <i18n path="statement.values.p1.content" tag="p" class="mb-2 paragraph-sm xl:paragraph">
-          <a class="text-link" :href="'https://www.poweredbydlot.com'">{{ $t("statement.values.p1.poweredBy_label") }}</a>
+          <a class="text-link" :href="'https://www.poweredbydlot.com'" target="_blank" rel="noopener noreferrer">{{ $t("statement.values.p1.poweredBy_label") }}</a>
         </i18n>
         <ul>
           <li
