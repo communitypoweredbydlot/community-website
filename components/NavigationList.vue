@@ -9,7 +9,6 @@
     >
       {{ $t(item.text) }}
     </nuxt-link>
-    <LanguageSelect class="block lg:hidden m-4 mt-6" />
   </div>
 </template>
 

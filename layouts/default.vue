@@ -26,6 +26,7 @@
     >
       <Title class="mt-4 ml-4 mb-4 text-xl" />
       <NavigationList class="flex flex-col flex-grow justify-between" is-vertical="true" />
+      <LanguageSelect class="m-4 mt-6" />
     </aside>
     <Navigation class="mt-4" @toggle-drawer="drawer = !drawer" />
     <div class="w-full lg:w-reading-small xl:w-reading-medium xxl:reading-large lg:mx-auto mt-12 md:mt-16 mb-auto px-6" width="20 rem">

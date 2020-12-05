@@ -11,7 +11,7 @@
       <Title class="text-xl" />
     </div>
     <NavigationList class="hidden lg:flex lg:flex-row items-center" />
-    <LanguageSelect class="hidden lg:block" />
+    <CompactLanguageSelect class="hidden lg:block" />
   </nav>
 </template>
 
