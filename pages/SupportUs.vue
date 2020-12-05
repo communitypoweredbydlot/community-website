@@ -131,7 +131,7 @@
       <div class="flex flex-row justify-start">
         <a
           class="h-6 w-6 icon-link"
-          href="https://www.linkedin.com/company/poweredbydlot/"
+          href="https://www.linkedin.com/showcase/community-powered-by-dlot/"
           alt="Linkedin"
           title="Linkedin"
         >
