@@ -89,7 +89,7 @@ import { Component, Vue } from 'nuxt-property-decorator'
 import ogMetaFor from '@/lib/HeaderMeta'
 
 @Component
-export default class OurStory extends Vue {
+export default class JoinOurTeam extends Vue {
   head () {
     return ogMetaFor({
       route: this.$nuxt.$route.path,
