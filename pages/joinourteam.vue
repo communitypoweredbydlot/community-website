@@ -47,9 +47,9 @@
           class="pb-1 pt-1"
         >
           <template v-slot:header>
-            <p :id="`bl-${ji}`" class="paragraph-sm xl:paragraph">
+            <nuxt-link :id="`bl-${ji}`" :to="{ 'path': $nuxt.$route.path, 'hash': `${anchor(job.title)}`}" class="paragraph-sm xl:paragraph">
               {{ job.title }}
-            </p>
+            </nuxt-link>
           </template>
           <template v-slot:content>
             <p class="paragraph-sm xl:paragraph">
@@ -96,6 +96,19 @@ export default class JoinOurTeam extends Vue {
       img: '/og_joinourteam.jpg',
       title: this.$t('joinourteam.joinus.title')
     })
+  }
+
+  get currentLink (): String | null {
+    const link = this.$nuxt.$route.hash
+    console.log(link)
+    if (link) {
+      return link
+    }
+    return null
+  }
+
+  anchor (s: String) {
+    return `#${s.toLowerCase().replace(/\s/g, '')}`
   }
 }
 </script>
