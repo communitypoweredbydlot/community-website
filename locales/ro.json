@@ -154,7 +154,8 @@
       "iban": {
         "label": "iban",
         "value": "RO40BTRLRONCRT0543520201",
-        "copyTooltip": "Copiază IBAN în clipboard"
+        "copyTooltip": "Copiază IBAN în clipboard",
+        "copySuccess": "Codul a fost copiat în clipboard."
       },
       "currency": {
         "label": "Monedă",

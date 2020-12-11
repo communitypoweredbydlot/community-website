@@ -15,8 +15,10 @@
     @apply text-dlot-blue-haze;
   }
 
-  .icon-link:hover {
-    @apply text-dlot-teal;
+  @media(hover: hover) and (pointer: fine) {
+    .icon-link:hover {
+      @apply text-dlot-teal;
+    }
   }
 
   @responsive {

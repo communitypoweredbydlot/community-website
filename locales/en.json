@@ -149,7 +149,8 @@
       },
       "iban": {
         "label": "iban",
-        "copyTooltip": "Copy IBAN to the clipboard"
+        "copyTooltip": "Copy IBAN to the clipboard",
+        "copySuccess": "The code was copied to your clipboard."
       },
       "currency": {
         "label": "Currency"

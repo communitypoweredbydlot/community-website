@@ -47,15 +47,22 @@
           <div class="text-gray-600 text-xs xl:text-sm uppercase">
             {{ $t('supportus.donate.iban.label') }}
           </div>
-          <div class="flex flex-row justify-start">
+          <div class="flex flex-row justify-start overflow-y-hidden">
             <span class="family-sans font-medium text-sm xl:text-base text-gray-800">{{ $t('supportus.donate.iban.value') }}</span>
             <button
-              class="focus:outline-none icon-link ml-2 h-4 w-4"
+              class="focus:outline-none icon-link ml-2 h-5 w-6 lg:h-4 lg:w-4"
+              :class="{ 'text-dlot-teal' : isCopySuccesss }"
               :title="$t('supportus.donate.iban.copyTooltip')"
               @click="copyToClipboard($t('supportus.donate.iban.value'))"
             >
               <icon>{{ iconCopy }}</icon>
             </button>
+            <span
+              class="ml-2 text-xs text-dlot-teal transition duration-500 ease-in-out transform"
+              :class="isCopySuccesss ? 'translate-y-0 opacity-100' : 'translate-y-3 opacity-0'"
+            >
+              {{ $t('supportus.donate.iban.copySuccess') }}
+            </span>
           </div>
         </div>
         <div>
@@ -141,14 +148,16 @@ import { mdiContentCopy } from '@mdi/js'
 
 import ogMetaFor from '@/lib/HeaderMeta'
 
-
 @Component
 export default class SupportUs extends Vue {
   iconCopy = mdiContentCopy
+  isCopySuccesss = false
 
   async copyToClipboard (v) {
     // @ts-ignore
     await this.$copyText(v)
+    this.isCopySuccesss = true
+    setTimeout(() => { this.isCopySuccesss = false }, 3000)
   }
 
   head () {
