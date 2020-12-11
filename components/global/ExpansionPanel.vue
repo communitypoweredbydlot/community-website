@@ -1,14 +1,17 @@
 <template>
   <article>
-    <header class="flex flex-row flex-wrap justify-start items-center">
+    <header
+      class="flex flex-row flex-wrap justify-start items-center cursor-pointer"
+      @click="onClick"
+    >
       <button
         class="focus:outline-none"
         :aria-expanded="!isHidden"
         :aria-labelledby="labelId"
-        @click="onClick"
       >
         <icon
-          class="h-6 w-6 cursor-pointer hover:text-dlot-teal"
+          class="h-6 w-6 hover:text-dlot-teal"
+          :class="{ 'text-dlot-teal': !isHidden }"
         >
           {{ actionIcon }}
         </icon>
