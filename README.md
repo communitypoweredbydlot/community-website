@@ -1,4 +1,5 @@
 # Asociatia Community powered by DLOT Website
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/communitypoweredbydlot/community-website/issues)
 [![License][code-license-src]][code-license-href]
 [![License: CC BY-SA 4.0][content-license-src]][content-license-href]
 
