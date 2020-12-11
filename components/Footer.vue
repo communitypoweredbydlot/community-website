@@ -15,6 +15,7 @@
               <nuxt-link
                 class="hover:text-dlot-teal"
                 :to="localePath(item.route)"
+                exact
               >
                 {{ $t(item.text) }}
               </nuxt-link>
@@ -64,9 +65,3 @@ export default class Footer extends Vue {
   ]
 }
 </script>
-
-<style scoped>
-a {
-  color:inherit;
-}
-</style>
