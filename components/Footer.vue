@@ -2,9 +2,7 @@
   <div class="font-sans">
     <div class="border-t border-gray-500 border-opacity-25">
       <div class="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-4 gap-2 md:gap-4 text-xs mt-2 mb-4 leading-4 text-gray-700">
-        <div class="col-span-1 xs:col-span-2 sm:col-span-1 flex justify-center sm:justify-start items-start order-4 sm:order-1">
-          <span class="font-dlot-logo">© {{ new Date().getFullYear() }} powered by DLOT™</span>
-        </div>
+        <copyright class="col-span-1 xs:col-span-2 sm:col-span-1 flex flex-col text-center sm:text-left justify-center sm:justify-start order-4 sm:order-1 font-dlot-logo" />
         <div class="col-span-1 flex flex-col justify-start sm:items-end order-1 md:order-2">
           <div class="flex flex-row xs:flex-col justify-between xs:justify-start items-start">
             <div

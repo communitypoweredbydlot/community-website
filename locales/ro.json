@@ -18,6 +18,15 @@
   "language": "Limbă",
   "email": "info@asociatiacommunity.ro",
   "phone": "0749 875 712",
+  "license": {
+    "content": "Cu excepția locurilor în care se menționează altfel, conținutul acestui site este licențiat sub o licență {name}.",
+    "map": {
+      "name": {
+        "link": "https://creativecommons.org/licenses/by-sa/4.0/deed.ro",
+        "value": "Creative Commons Attribution Share Alike 4.0 International"
+      }
+    }
+  },
   "time": {
     "s": "secundă | secunde"
   },

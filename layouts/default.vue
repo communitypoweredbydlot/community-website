@@ -27,9 +27,12 @@
       <Title class="mt-4 ml-4 mb-4 text-xl" />
       <NavigationList class="flex flex-col flex-grow justify-between" is-vertical="true" />
       <LanguageSelect class="m-4 mt-6" />
-      <div class="my-4 mx-auto text-center text-xs leading-4 text-gray-700 absolute inset-x-0 bottom-0">
-        <social-icons class="justify-center my-4 mx-auto" />
-        <span class="font-dlot-logo">© {{ new Date().getFullYear() }} powered by DLOT™</span>
+      <div class="my-4 mx-auto font-dlot-logo text-center text-xs leading-4 text-gray-700 absolute inset-x-0 bottom-0">
+        <copyright class="flex flex-col justify-center mx-2">
+          <template>
+            <social-icons class="justify-center my-4 mx-auto" />
+          </template>
+        </copyright>
       </div>
     </aside>
     <Navigation class="mt-4" @toggle-drawer="drawer = !drawer" />

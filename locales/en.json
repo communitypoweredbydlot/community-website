@@ -18,6 +18,15 @@
   "language": "Language",
   "email": "info@asociatiacommunity.com",
   "phone": "+40 749 875 712",
+  "license": {
+    "content": "Except where otherwise noted, content on this site is licensed under a {name}.",
+    "map": {
+      "name": {
+        "link": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "value": "Creative Commons Attribution Share Alike 4.0 International"
+      }
+    }
+  },
   "time": {
     "s": "second | seconds"
   },
