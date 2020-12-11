@@ -50,4 +50,3 @@ export default class NavigationList extends Vue {
   @apply border-b border-dlot-teal;
 }
 </style>
-zs
