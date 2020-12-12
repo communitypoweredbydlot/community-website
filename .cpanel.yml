@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - /opt/cpanel/ea-nodejs10/bin/npm run build
+    - /opt/cpanel/ea-nodejs10/bin/npm run start
+    
