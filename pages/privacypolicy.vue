@@ -189,11 +189,11 @@ import { Component, Vue } from 'nuxt-property-decorator'
 export default class PrivacyPolicy extends Vue {
   cookies = [
     {
-      service: 'Asociatia Community powered by DLOT',
+      service: 'Asociația Community powered by DLOT',
       name: 'i18n_redirect'
     },
     {
-      service: 'Asociatia Community powered by DLOT',
+      service: 'Asociația Community powered by DLOT',
       name: 'cookie_consent'
     },
     {
