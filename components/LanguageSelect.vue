@@ -38,7 +38,7 @@
             <nuxt-link
               v-for="locale in availableLocales"
               :key="locale.code"
-              class="relative py-2 pl-3 pr-9 bg-white hover:text-dlot-teal"
+              class="relative flex-grow py-2 px-3 bg-white hover:text-dlot-teal"
               :to="switchLocalePath(locale.code)"
             >
               {{ locale.name }}
