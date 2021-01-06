@@ -156,6 +156,14 @@
         "label": "Currency"
       }
     },
+    "redirectincometax": {
+      "title": "If you have earned taxable income in Romania, redirect 3.5% of your income tax.",
+      "p1": "By filling in and submitting the 230 form, you exercise your right to decide that a percentage of 3.5% of the income tax should not reach the state, but be redirected to an NGO of your choice.",
+      "p2": {
+        "content": "Find out more about redirecting 3.5% of your income tax {0}",
+        "redirect_label": "here."
+      }
+    },
     "beavolunteer": {
       "title": "Volunteer",
       "p1": {
@@ -1114,5 +1122,8 @@
         "By using the Platform or the Services, you acknowledge that you have read and understood this Policy and Consent to be bound by it and to comply with all applicable laws and regulations."
       ]
     }
+  },
+  "redirectincometax": {
+    "title": "Redirect Income Tax"
   }
 }

@@ -166,6 +166,14 @@
         "value": "BTRLRO22"
       }
     },
+    "redirectincometax": {
+      "title": "Redirecționează 3.5% din impozitul pe venit",
+      "p1": "Prin completarea și depunerea formularului 230, îți exerciți dreptul de a decide ca un procent de 3.5% din impozitul pe venit să nu ajungă la stat ci să fie redirecționat către un ONG pe care îl alegi tu.",
+      "p2": {
+        "content": "Află mai multe detalii despre redirecționarea a 3.5% din impozitul pe venit {0}",
+        "redirect_label": "aici."
+      }
+    },
     "beavolunteer": {
       "title": "Vino în echipa de volntari",
       "p1": {
@@ -1127,5 +1135,8 @@
         "Prin utilizarea site-ului nostru declari că ai citit și ai înțeles această Politică de confidentțialitate a datelor cu caracter personal și îți exprimi acordul cu privire la felul în care colectăm și procesam datele cu caracter personal."
       ]
     }
+  },
+  "redirectincometax": {
+    "title": "Redirecționare impozit"
   }
 }
