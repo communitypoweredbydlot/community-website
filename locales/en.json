@@ -156,7 +156,7 @@
         "label": "Currency"
       }
     },
-    "redirectincometax": {
+    "incometax": {
       "title": "If you have earned taxable income in Romania, redirect 3.5% of your income tax.",
       "p1": "By filling in and submitting the 230 form, you exercise your right to decide that a percentage of 3.5% of the income tax should not reach the state, but be redirected to an NGO of your choice.",
       "p2": {
@@ -1123,7 +1123,39 @@
       ]
     }
   },
-  "redirectincometax": {
-    "title": "Redirect Income Tax"
+  "incometax": {
+    "title": "Redirect Income Tax",
+    "p1": {
+      "content": "According to the Fiscal Code ( {0}), taxpayers can direct a percentage of 3.5% of the annual income tax for the support non-profit entities, religious units, as well as fo granting of private scholarships.",
+      "law_label": "law 227/2015"
+    },
+    "p2": "Depending on the nature of the income, the option is exercised by completing and submitting a form to the competent central tax authority.",
+    "faq": {
+      "q1": {
+        "question": "Do I have to calculate the 3.5% share and write it in the form?",
+        "answer": "You do not have to write anything in that field. The amount will be calculated and transferred by the tax authority according to the declared income."
+      },
+      "q2": {
+        "question": "What should I do if I receive a notification from ANAF regarding the redirection of the 3.5% of the tax?",
+        "answer": [
+          "ANAF sends letters to all taxpayers who did not personally submit the 230 form.",
+          "Check the data of the beneficiary passed on the application submitted on your behalf and if they correspond to your option you do not have to do anything.",
+          "If there is an irregularity and you did not opt ​​for that beneficiary, we recommend that you contact the tax unit because it may be a fraud, someone filled in the form on your behalf.",
+          "If you filled in a form and then changed your mind and submitted another one, the letter from ANAF will ask you to confirm the final option."
+        ]
+      },
+      "q3": {
+        "question": "Is it mandatory to check the box 'Option to distribute the amount for a period of 2 years'?",
+        "answer": "No. If you want this form to be valid for only one year, do not check the box."
+      },
+      "q4": {
+        "question": "Is 2020 the correct date on the form?",
+        "answer": "Yes. The form applies for income earned in the year prior to submission."
+      },
+      "q5": {
+        "question": "How can I redirect 3.5% of my income if I have PFA or have earned rental income, intellectual property rights or foreign income?",
+        "answer": "Taxpayers taxed in real system who had income from independent / agricultural activities, intellectual property rights and the transfer of use of assets and have the obligation to submit the Single Declaration can choose the destination of the amount of 3.5% of tax by completing section 6 of the 'Single Declaration on income tax and social contributions due by individuals '."
+      }
+    }
   }
 }

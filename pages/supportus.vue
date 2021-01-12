@@ -92,12 +92,12 @@
       </div>
     </div>
     <div>
-      <section-title path="supportus.redirectincometax.title" />
+      <section-title path="supportus.incometax.title" />
       <paragraph>
-        {{ $t('supportus.redirectincometax.p1') }}
-        <i18n path="supportus.redirectincometax.p2.content" tag="p" class="paragraph-sm xl:paragraph">
-          <nuxt-link class="text-link" :to="localePath('/redirectincometax')">
-            {{ $t("supportus.redirectincometax.p2.redirect_label") }}
+        {{ $t('supportus.incometax.p1') }}
+        <i18n path="supportus.incometax.p2.content" tag="p" class="paragraph-sm xl:paragraph">
+          <nuxt-link class="text-link" :to="localePath('/incometax')">
+            {{ $t("supportus.incometax.p2.redirect_label") }}
           </nuxt-link>
         </i18n>
       </paragraph>

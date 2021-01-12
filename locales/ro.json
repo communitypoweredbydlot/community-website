@@ -166,7 +166,7 @@
         "value": "BTRLRO22"
       }
     },
-    "redirectincometax": {
+    "incometax": {
       "title": "Redirecționează 3.5% din impozitul pe venit",
       "p1": "Prin completarea și depunerea formularului 230, îți exerciți dreptul de a decide ca un procent de 3.5% din impozitul pe venit să nu ajungă la stat ci să fie redirecționat către un ONG pe care îl alegi tu.",
       "p2": {
@@ -1136,7 +1136,39 @@
       ]
     }
   },
-  "redirectincometax": {
-    "title": "Redirecționare impozit"
+  "incometax": {
+    "title": "Redirecționare impozit",
+    "p1": {
+      "content": "Conform legii 227/2015 ( {0}) din Codul Fiscal, contribuabilii pot direcționa un procent de 3,5% din impozitul pe venit anual datorat pentru susținerea entitaților nonprofit, a unităților de cult, precum și pentru acordarea de burse private.",
+      "law_label": "link lege"
+    },
+    "p2": "În funcție de natura venitului, opțiunea se exercită prin completarea și depunerea la organul fiscal central competent a unui formular.",
+    "faq": {
+      "q1": {
+        "question": "Trebuie să calculez eu cât înseamnă cota de 3,5% și să scriu în Cerere?",
+        "answer": "Nu trebuie să scrii nimic în câmpul respectiv. Sumă va fi calculată și virată de organul fiscal în funcție de venitul declarat."
+      },
+      "q2": {
+        "question": "Ce trebuie să fac dacă primesc notificare de la ANAF cu privire la redirecționarea celor 3.5% din impozit?",
+        "answer": [
+          "ANAF trimite scrisori tuturor contribuabililor care nu depun personal formularul 230.",
+          "Verifică datele beneficiarului trecut pe cererea depusă în numele tău iar dacă acestea corespund opțiunii tale nu trebuie să faci nimic.",
+          "Dacă există neregului și nu ai optat pentru acel beneficiar, îți recomandăm să te adresezi unității fiscal deoarece poate fi vorba despre o fraudă, cineva a completat formularul în numele tău.",
+          "Dacă ai completat un formular iar apoi te-ai razgandit și ai mai depus unul, prin scrisoarea de la ANAF ți se va cere să confirmi opțiunea finală."
+        ]
+      },
+      "q3": {
+        "question": "E obligatoriu să bifez căsuța “Opțiune privind distribuirea sumei pentru o perioadă de 2 ani”?",
+        "answer": "Nu. Dacă dorești ca acest formular să aibă valabilitate doar pentru un an, nu bifa căsuța."
+      },
+      "q4": {
+        "question": "Este corect trecut anul 2020?",
+        "answer": "Da. Formularul se aplică pentru veniturile realizate în anul anterior depunerii."
+      },
+      "q5": {
+        "question": "Cum pot redirecționa 3.5% din venit dacă am PFA sau am realizat venituri din chirii, drepturi de proprietate intelectuală sau venituri din străinătate?",
+        "answer": "Contribuabilii impusi in sistem real care au avut venituri din activități independente/agricole, drepturi de proprietate intelectuală și cedarea folosinței bunurilor și au obligația depunerii Declarației Unice pot allege destinația sumei de 3.5% din impozit completând secțiunea 6 a „Declarației unice privind impozitul pe venit si contributiile sociale datorate de persoanele fizice”."
+      }
+    }
   }
 }
