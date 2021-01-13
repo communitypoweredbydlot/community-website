@@ -1143,12 +1143,65 @@
       "law_label": "link lege"
     },
     "p2": "În funcție de natura venitului, opțiunea se exercită prin completarea și depunerea la organul fiscal central competent a unui formular.",
+    "form": {
+      "title": "Formularul 230 „Cerere privind destinatia sumei reprezentand pana la 3,5% din impozitul anual datorat”",
+      "p1": "Formularul are caracter optional și se depune de către persoanele fizice care doresc să redirecţioneze o sumă din impozitul anual datorat, pentru susţinerea entităţilor, a unităţilor de cult, precum şi pentru acordarea de burse private, conform legii şi care au realizat în anul anterior venituri impozabile în România:",
+      "list": [
+        "din salarii şi asimilate salariilor;",
+        "din pensii (pensia trebuie să aibă o valoare de minim 2.000 lei lunar brut);",
+        "venituri din activităţi independente/activităţi agricole, impuse pe bază de normă de venit;",
+        "venituri din activităţi independente realizate în baza contractelor de activitate sportivă, pentru care impozitul se reţine la sursă;",
+        "venituri din drepturi de proprietate intelectuală, altele decât cele pentru care venitul net se determină în sistem real."
+      ]
+    },
+    "procedure": {
+      "title": "Ce trebuie să fac?",
+      "download": {
+        "content": "Descarcă formularul 230 {0}.",
+        "form_label": "aici"
+      },
+      "p1": "Completează-l cu datele tale, semnează-l și alege una din metodele de mai jos pentru trimiterea acestuia către ANAF:",
+      "options": {
+        "o1": "în format hârtie la registratura organului fiscal competent de care aparții. ",
+        "o2": {
+          "content": "prin poștă, cu scrisoare recomandată cu confirmare de primire, către unitatea ANAF de care aparții. Vezi {0} lista administrațiilor fiscale",
+          "administrations_label": "aici"
+        },
+        "o3": "electronic, prin serviciul Spațiul Privat Virtual.",
+        "o4": "prin poștă/curier la adresa noastră. Noi vom depune formularele la unitățile fiscale teritoriale. "
+      },
+      "gdpr": {
+        "content": "Dacă alegi să ne trimiți nouă formularul, este necesar să completezi și acordul pentru protecția datelor personale, ce poate fi descărcat de {0}. Trimite apoi ambele formulare, completate și semnate, la adresa: str. CALEA FLORESTI nr. 60, bl. A2, sc. I, et. III, ap.12, Cluj-Napoca, cod poștal 400522,  jud. Cluj, România.",
+        "document_label": "aici"
+      }
+    },
+    "deadline": {
+      "title": "Până când pot trimite formularul?",
+      "p1": {
+        "content": "Potrivit Legii 296/2020 ({0}), termenul anual de depunere a formularului la unitățile fiscal este data de 25 mai. ",
+        "link_label": "link lege"
+      },
+      "p2": "Dacă alegi să trimiți formularul către noi, termenul limită este 1 mai, pentru ca noi să avem timp să le verificăm/centralizăm/depunem."
+    },
+    "howto": {
+      "title" : "Cum se completează formularul? ",
+      "p1": "Poți alege oricare din metodele de mai jos:",
+      "list": [
+        "Descarcă formularul și completează-l digital folosind aplicația Adobe Reader, conform video-ului de mai jos. Printează apoi formularul și semnează-l. ",
+        "Descarca formularul, printează-l, completează-l de mâna și semnează-l."
+      ],
+      "p2": "Aici găsesti instrucțiunile de completare precum și un model de formular completat. "
+    },
     "faq": {
       "q1": {
         "question": "Trebuie să calculez eu cât înseamnă cota de 3,5% și să scriu în Cerere?",
         "answer": "Nu trebuie să scrii nimic în câmpul respectiv. Sumă va fi calculată și virată de organul fiscal în funcție de venitul declarat."
       },
       "q2": {
+        "question": "Am completat deja o cerere pentru un ONG/unitate de cult însă m-am răzgândit. Pot să schimb opțiunea?",
+        "answer": "Da. Poți completa un alt formular. Dacă formularele nu sunt depuse personal de către tine, ANAF îți va trimite o notificare prin care îți va cere să confirmi alegerea. Această procedură se realizează pentru combaterea fraudelor."
+      },
+      "q3": {
         "question": "Ce trebuie să fac dacă primesc notificare de la ANAF cu privire la redirecționarea celor 3.5% din impozit?",
         "answer": [
           "ANAF trimite scrisori tuturor contribuabililor care nu depun personal formularul 230.",
@@ -1157,15 +1210,15 @@
           "Dacă ai completat un formular iar apoi te-ai razgandit și ai mai depus unul, prin scrisoarea de la ANAF ți se va cere să confirmi opțiunea finală."
         ]
       },
-      "q3": {
+      "q4": {
         "question": "E obligatoriu să bifez căsuța “Opțiune privind distribuirea sumei pentru o perioadă de 2 ani”?",
         "answer": "Nu. Dacă dorești ca acest formular să aibă valabilitate doar pentru un an, nu bifa căsuța."
       },
-      "q4": {
+      "q5": {
         "question": "Este corect trecut anul 2020?",
         "answer": "Da. Formularul se aplică pentru veniturile realizate în anul anterior depunerii."
       },
-      "q5": {
+      "q6": {
         "question": "Cum pot redirecționa 3.5% din venit dacă am PFA sau am realizat venituri din chirii, drepturi de proprietate intelectuală sau venituri din străinătate?",
         "answer": "Contribuabilii impusi in sistem real care au avut venituri din activități independente/agricole, drepturi de proprietate intelectuală și cedarea folosinței bunurilor și au obligația depunerii Declarației Unice pot allege destinația sumei de 3.5% din impozit completând secțiunea 6 a „Declarației unice privind impozitul pe venit si contributiile sociale datorate de persoanele fizice”."
       }
