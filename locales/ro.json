@@ -1139,13 +1139,18 @@
   "incometax": {
     "title": "Redirecționare impozit",
     "p1": {
-      "content": "Conform legii 227/2015 ( {0}) din Codul Fiscal, contribuabilii pot direcționa un procent de 3,5% din impozitul pe venit anual datorat pentru susținerea entitaților nonprofit, a unităților de cult, precum și pentru acordarea de burse private.",
-      "law_label": "link lege"
+      "content": "Conform {document} din Codul Fiscal, contribuabilii pot direcționa un procent de 3,5% din impozitul pe venit anual datorat pentru susținerea entitaților nonprofit, a unităților de cult, precum și pentru acordarea de burse private.",
+      "map": {
+        "document":{
+          "link": "http://static.anaf.ro/static/10/Anaf/legislatie/L_227_2015.htm",
+          "label": "legii 227/2015"
+        }
+      }
     },
     "p2": "În funcție de natura venitului, opțiunea se exercită prin completarea și depunerea la organul fiscal central competent a unui formular.",
     "form": {
-      "title": "Formularul 230 „Cerere privind destinatia sumei reprezentand pana la 3,5% din impozitul anual datorat”",
-      "p1": "Formularul are caracter optional și se depune de către persoanele fizice care doresc să redirecţioneze o sumă din impozitul anual datorat, pentru susţinerea entităţilor, a unităţilor de cult, precum şi pentru acordarea de burse private, conform legii şi care au realizat în anul anterior venituri impozabile în România:",
+      "title": "Formularul 230 „Cerere privind destinația sumei reprezentând până la 3,5% din impozitul anual datorat”",
+      "p1": "Formularul are caracter opțional și se depune de către persoanele fizice care doresc să redirecţioneze o sumă din impozitul anual datorat, pentru susţinerea entităţilor, a unităţilor de cult, precum şi pentru acordarea de burse private, conform legii şi care au realizat în anul anterior venituri impozabile în România:",
       "list": [
         "din salarii şi asimilate salariilor;",
         "din pensii (pensia trebuie să aibă o valoare de minim 2.000 lei lunar brut);",
@@ -1157,29 +1162,49 @@
     "procedure": {
       "title": "Ce trebuie să fac?",
       "download": {
-        "content": "Descarcă formularul 230 {0}.",
-        "form_label": "aici"
+        "content": "Descarcă formularul 230 {form}.",
+        "map" : {
+          "form": {
+            "link": "#blank",
+            "label": "aici"
+          }
+        }
       },
       "p1": "Completează-l cu datele tale, semnează-l și alege una din metodele de mai jos pentru trimiterea acestuia către ANAF:",
       "options": {
         "o1": "în format hârtie la registratura organului fiscal competent de care aparții. ",
         "o2": {
-          "content": "prin poștă, cu scrisoare recomandată cu confirmare de primire, către unitatea ANAF de care aparții. Vezi {0} lista administrațiilor fiscale",
-          "administrations_label": "aici"
+          "content": "prin poștă, cu scrisoare recomandată cu confirmare de primire, către unitatea ANAF de care aparții. Vezi {administrations} lista administrațiilor fiscale",
+          "map": {
+            "administrations": {
+              "link": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/telefoane_judete/Regiuni.htm",
+              "label": "aici"
+            }
+          }
         },
         "o3": "electronic, prin serviciul Spațiul Privat Virtual.",
         "o4": "prin poștă/curier la adresa noastră. Noi vom depune formularele la unitățile fiscale teritoriale. "
       },
       "gdpr": {
-        "content": "Dacă alegi să ne trimiți nouă formularul, este necesar să completezi și acordul pentru protecția datelor personale, ce poate fi descărcat de {0}. Trimite apoi ambele formulare, completate și semnate, la adresa: str. CALEA FLORESTI nr. 60, bl. A2, sc. I, et. III, ap.12, Cluj-Napoca, cod poștal 400522,  jud. Cluj, România.",
-        "document_label": "aici"
+        "content": "Dacă alegi să ne trimiți nouă formularul, este necesar să completezi și acordul pentru protecția datelor personale, ce poate fi descărcat de {document}. Trimite apoi ambele formulare, completate și semnate, la adresa: str. CALEA FLORESTI nr. 60, bl. A2, sc. I, et. III, ap.12, Cluj-Napoca, cod poștal 400522,  jud. Cluj, România.",
+        "map": {
+          "document": {
+            "link": "#blank",
+            "label": "aici"
+          }
+        }
       }
     },
     "deadline": {
       "title": "Până când pot trimite formularul?",
       "p1": {
-        "content": "Potrivit Legii 296/2020 ({0}), termenul anual de depunere a formularului la unitățile fiscal este data de 25 mai. ",
-        "link_label": "link lege"
+        "content": "Potrivit {law}, termenul anual de depunere a formularului la unitățile fiscal este data de 25 mai. ",
+        "map": {
+          "law": {
+            "value": "legii 296/2020",
+            "link": "http://cdep.ro/pls/proiecte/upl_pck.proiect?idp=18123"
+          }         
+        }
       },
       "p2": "Dacă alegi să trimiți formularul către noi, termenul limită este 1 mai, pentru ca noi să avem timp să le verificăm/centralizăm/depunem."
     },

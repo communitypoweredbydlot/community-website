@@ -1,7 +1,7 @@
 <template>
   <div>
-      <section-title :path="`${qanda}.question`" :margin-bottom="false" />
-      <paragraphs :path="`${qanda}.answer`" :marginBottom="false" />
+    <section-title :path="`${qanda}.question`" :margin-bottom="false" />
+    <paragraphs :path="`${qanda}.answer`" :margin-bottom="false" />
   </div>
 </template>
 

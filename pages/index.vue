@@ -30,7 +30,9 @@
       </div>
     </div>
     <div class="flex flex-col">
-      <h4 class="section-title-sm xl:section-title">{{ $t('statement.mission.title') }}</h4>
+      <h4 class="section-title-sm xl:section-title">
+        {{ $t('statement.mission.title') }}
+      </h4>
       <ul>
         <li
           v-for="(value, index) in $t('statement.mission.list')"
