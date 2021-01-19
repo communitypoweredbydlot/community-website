@@ -1,5 +1,5 @@
 # Asociatia Community powered by DLOT Website
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/communitypoweredbydlot/community-website/issues)
+[![contributions welcome][contributions-welcome-src]][contributions-welcome-href]
 [![License][code-license-src]][code-license-href]
 [![License: CC BY-SA 4.0][content-license-src]][content-license-href]
 
@@ -31,3 +31,6 @@ The source code used to format and display the content of this website is licens
 
 [content-license-src]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
 [content-license-href]: https://creativecommons.org/licenses/by-sa/4.0/
+
+[contributions-welcome-src]: https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat
+[contributions-welcome-href]: https://github.com/communitypoweredbydlot/community-website/issues
