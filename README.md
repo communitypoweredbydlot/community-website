@@ -2,6 +2,7 @@
 [![contributions welcome][contributions-welcome-src]][contributions-welcome-href]
 [![License][code-license-src]][code-license-href]
 [![License: CC BY-SA 4.0][content-license-src]][content-license-href]
+[![semantic-release][semantic-release-src]][semantic-release-href]
 
 
 ## Development
@@ -34,3 +35,6 @@ The source code used to format and display the content of this website is licens
 
 [contributions-welcome-src]: https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat
 [contributions-welcome-href]: https://github.com/communitypoweredbydlot/community-website/issues
+
+[semantic-release-src]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
+[semantic-release-href]: https://github.com/semantic-release/semantic-release
