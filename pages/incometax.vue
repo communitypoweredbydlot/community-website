@@ -85,11 +85,13 @@
       </ul>
       <paragraph path="incometax.howto.p2" :margin-bottom="false" />
     </div>
-    <faq qanda="incometax.faq.q1" />
-    <faq qanda="incometax.faq.q2" />
-    <faq qanda="incometax.faq.q3" />
-    <faq qanda="incometax.faq.q4" />
-    <faq qanda="incometax.faq.q5" />
+    <div
+      v-for="(qanda,i) in $t('incometax.faq')"
+      :key="i"
+    >
+      <section-title :literal="qanda.question" :margin-bottom="false" />
+      <paragraphs :literal="qanda.answer" :margin-bottom="false" />
+    </div>
   </article>
 </template>
 
