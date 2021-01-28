@@ -105,7 +105,7 @@ export default class IncomeTax extends Vue {
   head () {
     return ogMetaFor({
       route: this.$nuxt.$route.path,
-      img: '/og_supportus.jpg',
+      img: '/og_incometax.jpg',
       title: this.$t('incometax.title')
     })
   }
