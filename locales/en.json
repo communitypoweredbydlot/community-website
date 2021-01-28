@@ -1139,10 +1139,10 @@
       "title": "Form 230 'Application for the destination of the amount representing up to 3.5% of the annual tax due'",
       "p1": "The form is optional and can be submitted by individuals who wish to redirect an amount of annual tax due, to support entities, religious units, as well as for granting private scholarships, according to law and who have earned taxable income in the previous year in Romania:",
       "list": [
-        "from salaries and assimilated to salaries;",
-        "from pensions (the pension must have a gross value of at least 2,000 lei per month);",
-        "incomes from independent activities / agricultural activities, imposed on the basis of income norm;",
-        "income from independent activities based on sports activity contracts, for which the tax is withheld at source;",
+        "from salaries and assimilated to salaries,",
+        "from pensions (the pension must have a gross value of at least 2,000 lei per month),",
+        "incomes from independent activities / agricultural activities, imposed on the basis of income norm,",
+        "income from independent activities based on sports activity contracts, for which the tax is withheld at source,",
         "income from intellectual property rights, other than those for which the net income is determined in the real system."
       ]
     },
@@ -1161,7 +1161,7 @@
       "options": {
         "o1": "in paper format at the registry of the competent fiscal body to which you belong.",
         "o2": {
-          "content": "by mail, as registered letter with acknowledgment of receipt, to the ANAF unit to which you belong. See {administrations} the list of tax administrations",
+          "content": "by mail, as registered letter with acknowledgment of receipt, to the ANAF unit to which you belong. See {administrations} the list of tax administrations.",
           "map": {
             "administrations": {
               "link": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/telefoane_judete/Regiuni.htm",

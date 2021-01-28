@@ -1152,10 +1152,10 @@
       "title": "Formularul 230 „Cerere privind destinația sumei reprezentând până la 3,5% din impozitul anual datorat”",
       "p1": "Formularul are caracter opțional și se depune de către persoanele fizice care doresc să redirecţioneze o sumă din impozitul anual datorat, pentru susţinerea entităţilor, a unităţilor de cult, precum şi pentru acordarea de burse private, conform legii şi care au realizat în anul anterior venituri impozabile în România:",
       "list": [
-        "din salarii şi asimilate salariilor;",
-        "din pensii (pensia trebuie să aibă o valoare de minim 2.000 lei lunar brut);",
-        "venituri din activităţi independente/activităţi agricole, impuse pe bază de normă de venit;",
-        "venituri din activităţi independente realizate în baza contractelor de activitate sportivă, pentru care impozitul se reţine la sursă;",
+        "din salarii şi asimilate salariilor,",
+        "din pensii (pensia trebuie să aibă o valoare de minim 2.000 lei lunar brut),",
+        "venituri din activităţi independente/activităţi agricole, impuse pe bază de normă de venit,",
+        "venituri din activităţi independente realizate în baza contractelor de activitate sportivă, pentru care impozitul se reţine la sursă,",
         "venituri din drepturi de proprietate intelectuală, altele decât cele pentru care venitul net se determină în sistem real."
       ]
     },
@@ -1174,7 +1174,7 @@
       "options": {
         "o1": "în format hârtie la registratura organului fiscal competent de care aparții. ",
         "o2": {
-          "content": "prin poștă, cu scrisoare recomandată cu confirmare de primire, către unitatea ANAF de care aparții. Vezi {administrations} lista administrațiilor fiscale",
+          "content": "prin poștă, cu scrisoare recomandată cu confirmare de primire, către unitatea ANAF de care aparții. Vezi {administrations} lista administrațiilor fiscale.",
           "map": {
             "administrations": {
               "link": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/telefoane_judete/Regiuni.htm",
@@ -1203,7 +1203,7 @@
           "law": {
             "value": "legii 296/2020",
             "link": "http://cdep.ro/pls/proiecte/upl_pck.proiect?idp=18123"
-          }         
+          }
         }
       },
       "p2": "Dacă alegi să trimiți formularul către noi, termenul limită este 1 mai, pentru ca noi să avem timp să le verificăm/centralizăm/depunem."
