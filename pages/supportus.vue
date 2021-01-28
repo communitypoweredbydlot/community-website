@@ -92,6 +92,15 @@
       </div>
     </div>
     <div>
+      <section-title path="supportus.incometax.title" />
+      <paragraph path="supportus.incometax.p1" :margin-bottom="false" />
+      <i18n path="supportus.incometax.p2.content" tag="p" class="paragraph-sm xl:paragraph">
+        <nuxt-link class="text-link" :to="localePath('/incometax')">
+          {{ $t("supportus.incometax.p2.redirect_label") }}
+        </nuxt-link>
+      </i18n>
+    </div>
+    <div>
       <section-title path="supportus.beavolunteer.title" />
       <i18n path="supportus.beavolunteer.p1.content" tag="p" class="paragraph-sm xl:paragraph">
         <nuxt-link class="text-link" :to="localePath('/joinourteam/')">
