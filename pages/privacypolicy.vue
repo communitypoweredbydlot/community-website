@@ -58,6 +58,10 @@
       <subsection-title path="privacypolicy.type.volunteer.title" />
       <paragraphs path="privacypolicy.type.volunteer.what_when" />
 
+      <subsection-title path="privacypolicy.type.form230.title" />
+      <list path="privacypolicy.type.form230.what_when[0]" />
+      <list path="privacypolicy.type.form230.what_when[1]" />
+
       <subsection-title path="privacypolicy.type.passive.title" />
       <paragraphs path="privacypolicy.type.passive.what_when" />
     </div>
@@ -124,7 +128,17 @@
 
     <div>
       <section-title path="privacypolicy.sharing.title" />
-      <paragraph path="privacypolicy.sharing.content" />
+      <paragraph path="privacypolicy.sharing.content[0]" />
+      <paragraph path="privacypolicy.sharing.content" :from="1" :to="2" :margin-bottom="false" />
+      <paragraph>
+        <i18n path="privacypolicy.sharing.content[3].content">
+          <template #policy>
+            <a :href="$t('privacypolicy.sharing.content[3].map.policy.link')" class="text-link" target="_blank" rel="noopener noreferrer">{{ $t('privacypolicy.sharing.content[3].map.policy.value') }}</a>
+          </template>
+        </i18n>
+      </paragraph>
+      <paragraph path="privacypolicy.sharing.content" :from="4" :to="5" />
+      <paragraph path="privacypolicy.sharing.content" :from="6" />
     </div>
 
     <div>
@@ -139,7 +153,7 @@
 
     <div>
       <section-title path="privacypolicy.security.title" />
-      <paragraph path="privacypolicy.security.content" />
+      <paragraphs path="privacypolicy.security.content" />
     </div>
 
     <div>

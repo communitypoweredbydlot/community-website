@@ -14,6 +14,7 @@
       width="1080"
       height="810"
     />
+
     <nuxt-image
       src="/deforestation.jpg"
       :sizes="sizes"

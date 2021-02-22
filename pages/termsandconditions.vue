@@ -3,130 +3,122 @@
     <div>
       <page-title path="terms.title" />
       <section-title path="terms.general.title" />
-      <paragraph path="terms.general.content" :margin-bottom="false" />
+      <paragraphs path="terms.general.content" />
     </div>
     <div>
-      <section-title path="terms.purpose.title" />
-      <paragraph path="terms.purpose.p1" />
-      <list path="terms.purpose.activities" />
+      <section-title path="terms.donations.title" />
+      <paragraph path="terms.donations.p1" />
+      <paragraph>
+        <i18n path="terms.donations.p2.content">
+          <template #email>
+            <a :href="`mailto:${$t('terms.donations.p2.map.email')}`" class="text-link">
+              {{ $t('terms.donations.p2.map.email') }}<!--
+         --></a>
+          </template>
+        </i18n>
+      </paragraph>
+      <list path="terms.donations.p3" />
+      <paragraph path="terms.donations.p4" />
+      <paragraph path="terms.donations.p5" />
+      <paragraph path="terms.donations.p6" />
     </div>
     <div>
-      <section-title path="terms.governing.title" />
-      <div>
-        <subsection-title path="terms.governing.assembly.title" />
-        <paragraph path="terms.governing.assembly.p1" :margin-bottom="false" />
-        <list path="terms.governing.assembly.powers" />
-        <paragraph path="terms.governing.assembly.p2" />
-        <list path="terms.governing.assembly.situations" />
-        <paragraph
-          v-for="i in $t('terms.governing.assembly.paragraphs').length"
-          :key="i"
-          :path="`terms.governing.assembly.paragraphs[${i - 1}]`"
-          :margin-bottom="i < $t('terms.governing.assembly.paragraphs').length"
-        />
-      </div>
-      <div>
-        <subsection-title path="terms.governing.board.title" class="mt-6" />
-        <paragraph path="terms.governing.board.p1" :margin-bottom="false" />
-        <list path="terms.governing.board.components" />
-        <list path="terms.governing.board.attributions" />
-        <paragraph
-          v-for="i in $t('terms.governing.board.paragraphs').length"
-          :key="i"
-          :path="`terms.governing.board.paragraphs[${i - 1}]`"
-          :margin-bottom="i < $t('terms.governing.board.paragraphs').length "
-        />
-      </div>
+      <section-title path="terms.copyright.title" />
+      <paragraph path="terms.copyright.p1" />
+      <paragraph>
+        <i18n path="license.content">
+          <template #name>
+            <a :href="$t('license.map.name.link')" class="text-link" target="_blank" rel="noopener noreferrer">
+              {{ $t('license.map.name.value') }}<!--
+        --></a>
+          </template>
+        </i18n>
+      </paragraph>
     </div>
     <div>
-      <section-title path="terms.departments.title" />
-      <list path="terms.departments.all" subsection />
-      <list path="terms.departments.social" subsection />
-      <list path="terms.departments.pr" subsection />
-      <list path="terms.departments.fundraising" subsection />
-      <list path="terms.departments.hr" subsection />
-      <list path="terms.departments.it" subsection />
-      <list path="terms.departments.management" subsection />
-      <list path="terms.departments.coordinators" subsection />
+      <section-title path="terms.data_protection.title" />
+      <paragraph path="terms.data_protection.p1" />
+      <paragraph>
+        <i18n path="terms.data_protection.p2.content">
+          <template #privacy>
+            <nuxt-link
+              :to="localePath(`${$t('terms.data_protection.p2.map.privacy.link')}`)"
+              class="text-link"
+            >
+              {{ $t('terms.data_protection.p2.map.privacy.value') }}<!--
+         --></nuxt-link>
+          </template>
+        </i18n>
+      </paragraph>
     </div>
     <div>
-      <section-title path="terms.members.title" />
-
-      <subsection-title path="terms.members.categories.title" />
-      <list path="terms.members.categories.types" />
-
-      <subsection-title path="terms.members.acquisition.title" />
-      <paragraph path="terms.members.acquisition.p1" />
-      <list path="terms.members.acquisition.ways" subsection />
-      <paragraph path="terms.members.acquisition.p2" />
-      <list path="terms.members.acquisition.asociate_criteria" subsection />
-      <list path="terms.members.acquisition.honorary_criteria" subsection />
-      <list path="terms.members.acquisition.supporting_criteria" subsection />
-      <paragraph path="terms.members.acquisition.p3" />
-
-      <subsection-title path="terms.members.loss.title" />
-      <list path="terms.members.loss.loss_criteria" subsection />
-      <paragraph path="terms.members.loss.p1" />
-      <paragraph path="terms.members.loss.p2" />
-      <paragraph path="terms.members.loss.p3" />
-
-      <subsection-title path="terms.members.rights.title" />
-      <list path="terms.members.rights.full" subsection />
-      <list path="terms.members.rights.associate" subsection />
-      <list path="terms.members.rights.honorary" subsection />
-      <list path="terms.members.rights.supporting" subsection />
-
-      <list path="terms.members.obligations" subsection />
+      <section-title path="terms.cookie_policy.title" />
+      <paragraph path="terms.cookie_policy.p1" />
+      <paragraph>
+        <i18n path="terms.cookie_policy.p2.content">
+          <template #cookie>
+            <nuxt-link
+              :to="localePath(`${$t('terms.cookie_policy.p2.map.cookie.link')}`)"
+              class="text-link"
+            >
+              {{ $t('terms.cookie_policy.p2.map.cookie.value') }}<!--
+         --></nuxt-link>
+          </template>
+        </i18n>
+      </paragraph>
     </div>
     <div>
-      <section-title path="terms.volunteers.title" />
-      <paragraph path="terms.volunteers.p1" />
-      <list path="terms.volunteers.rights" subsection />
-      <list path="terms.volunteers.obligations" subsection />
+      <section-title path="terms.internal_regulations.title" />
+      <paragraph>
+        <i18n path="terms.internal_regulations.p1.content">
+          <template #regulation>
+            <nuxt-link
+              :to="localePath(`${$t('terms.internal_regulations.p1.map.regulation.link')}`)"
+              class="text-link"
+            >
+              {{ $t('terms.internal_regulations.p1.map.regulation.value') }}<!--
+         --></nuxt-link>
+          </template>
+        </i18n>
+      </paragraph>
     </div>
     <div>
-      <section-title path="terms.financial_contribution.title" />
-      <paragraph
-        v-for="i in $t('terms.financial_contribution.paragraphs').length"
-        :key="i"
-        :path="`terms.financial_contribution.paragraphs[${i - 1}]`"
-        :margin-bottom="i < $t('terms.financial_contribution.paragraphs').length"
-      />
+      <section-title path="terms.applicable_law.title" />
+      <paragraphs path="terms.applicable_law.paragraphs" />
     </div>
     <div>
-      <section-title path="terms.sanctions.title" />
-
-      <subsection-title path="terms.sanctions.members.title" />
-      <list path="terms.sanctions.members.conditions" />
-      <paragraph path="terms.sanctions.members.p1" />
-
-      <subsection-title path="terms.sanctions.volunteers.title" />
-      <paragraph path="terms.sanctions.volunteers.p1" />
-      <list path="terms.sanctions.volunteers.p2" />
-      <paragraph path="terms.sanctions.volunteers.p3" />
-      <paragraph path="terms.sanctions.volunteers.p4" />
-    </div>
-    <div>
-      <section-title path="terms.final.title" />
-      <paragraph path="terms.final.p1" />
-      <paragraph path="terms.final.p2" />
-      <paragraph path="terms.final.p3" />
-      <paragraph path="terms.final.p4" />
-      <paragraph path="terms.final.p5" />
-      <i18n path="terms.final.p6.content" tag="p" class="paragraph-sm xl:paragraph mb-4">
-        <template #juridic>
-          <a :href="`mailto:${$t('terms.final.p6.map.juridic')}`" class="text-link">
-            {{ $t('terms.final.p6.map.juridic') }}
-          </a>
-        </template>
-      </i18n>
-      <i18n path="terms.final.p7.content" tag="p" class="paragraph-sm xl:paragraph">
-        <template #policy>
-          <a :href="$t('terms.final.p7.map.policy.link')" class="text-link" target="_blank" rel="noopener noreferrer">
-            {{ $t('terms.final.p7.map.policy.value') }}
-          </a>
-        </template>
-      </i18n>
+      <section-title path="terms.final_clauses.title" />
+      <paragraph path="terms.final_clauses.p1" />
+      <paragraph path="terms.final_clauses.p2" />
+      <paragraph>
+        <i18n path="terms.final_clauses.p3.content">
+          <template #privacy>
+            <nuxt-link
+              :to="localePath(`${$t('terms.final_clauses.p3.map.privacy.link')}`)"
+              class="text-link"
+            >
+              {{ $t('terms.final_clauses.p3.map.privacy.value') }}
+            </nuxt-link>
+          </template>
+          <template #cookie>
+            <nuxt-link
+              :to="localePath(`${$t('terms.final_clauses.p3.map.cookie.link')}`)"
+              class="text-link"
+            >
+              {{ $t('terms.final_clauses.p3.map.cookie.value') }}
+            </nuxt-link>
+          </template>
+        </i18n>
+      </paragraph>
+      <paragraph>
+        <i18n path="terms.final_clauses.p4.content">
+          <template #email>
+            <a :href="`mailto:${$t('terms.final_clauses.p4.map.email')}`" class="text-link">
+              {{ $t('terms.final_clauses.p4.map.email') }}<!--
+         --></a>
+          </template>
+        </i18n>
+      </paragraph>
     </div>
   </article>
 </template>

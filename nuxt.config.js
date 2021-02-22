@@ -51,6 +51,12 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
+    ],
+    script: [
+      {
+        src: 'https://sdk.paylike.io/3.js',
+        defer: true
+      }
     ]
   },
   css: [
@@ -65,14 +71,14 @@ export default {
   buildModules: [
     '@nuxt/typescript-build',
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/google-fonts'
+    '@nuxtjs/google-fonts',
+    '@nuxt/image'
   ],
   modules: [
     '@nuxtjs/pwa',
     'nuxt-i18n',
     '@nuxtjs/sitemap',
-    'nuxt-clipboard2',
-    '@nuxt/image'
+    'nuxt-clipboard2'
   ],
   router: {
     linkExactActiveClass: 'text-dlot-teal'
@@ -146,6 +152,9 @@ export default {
         }
       },
       bootstrap: false
+    },
+    paylike: {
+      publicKey: 'b16ac12c-5de2-482a-8bfe-6914d1193f58'
     }
   }
 }
