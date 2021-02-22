@@ -134,7 +134,30 @@
     },
     "donate": {
       "title": "Donează",
-      "p1": "Ne poți ajuta financiar donând o sumă la alegere",
+      "p1": "Ne poți ajuta financiar donând o sumă la alegere, prin plata directă cu cardul",
+      "p2": "sau prin transfer bancar folosind datele de mai jos.",
+      "button": {
+        "label": "Donează"
+      },
+      "popup": {
+        "title": "Asociația Community powered by DLOT",
+        "description": "Îți mulțumim pentru donație. Folosim sumele primite doar în scopul desfășurării activității asociației.",
+        "placeholder": {
+          "name": "Ion Pop"
+        }
+      },
+      "legalNotice": [
+        {
+          "content": "Prin folosirea metodei de donaţii online, eşti de acord cu {terms}, aplicate exclusiv în cazul donaţiilor efectuate online.",
+          "map": {
+            "terms":{
+              "link": "/termsandconditions",
+              "label": "Termenii și Condițiile"
+            }
+          }
+        },
+        "Acceptul tău cu privire la termeni şi condiţii de utilizare şi politici contabile reprezintă întreaga inţelegere (contractul) dintre părţi."
+      ],
       "name": {
         "label": "Nume",
         "value": "ASOCIATIA COMMUNITY POWERED BY DLOT"
@@ -524,8 +547,8 @@
       "Prin intermediul unor evenimente în natură, campanii educaționale precum și acțiuni de ecologizare, ne dorim să evidențiem impactul pe care omul îl are asupra naturii, importanța protejării acesteia și promovarea unui stil de viață sănătos, în armonie cu mediul înconjurător."
     ]
   },
-  "terms": {
-    "title": "TERMENI ȘI CONDIȚII",
+  "regulation": {
+    "title": "REGULAMENT INTERN",
     "general": {
       "title": "DISPOZIȚII GENERALE",
       "content": "Asociaţia Community powered by DLOT este o asociaţie cu personalitate juridică, neguvernamentală, apolitică şi non-profit, care se supune legislaţiei române, aplicabilă acestui gen de persoană juridică."
@@ -1014,8 +1037,33 @@
         "title": "3. Informații pe care le colectam atunci când te înscri ca voluntar",
         "what_when": "În cazul în care te înscri ca voluntar, colectăm informații personale precum nume, adresa email, telefon, datele cărții de identitate și alte informații necesare realizării contractului de voluntariat. Aceste informații sunt împărtășite în cadrul departamentelor de resurse umane și contabilitate și vor fi pastrate conform legislației în vigoare."
       },
+      "form230": {
+        "title": "4. Informații pe care le procesăm atunci când colectăm formularele 230 în vederea depunerii acestora la sediile ANAF",
+        "what_when": [
+          {
+            "title": "Pentru întocmirea documentului prin ”Cererea privind destinaţia sumei reprezentând 2% sau 3,5 % din impozitul anual pe veniturile din salarii și din pensii, Formularul 230”:",
+            "list": [
+              "Nume și prenume,",
+              "Inițiala tatălui,",
+              "CNP,",
+              "Adresa locativă / de corespondență",
+              "Telefon,",
+              "Adresa de e-mail,",
+              "Semnătură."
+            ]
+          },
+          {
+            "title": "Pentru întocmirea borderoului pentru depunerea la ANAF CLUJ, pentru contribuabil și în numele acestuia, a ”Cererii privind destinaţia sumei reprezentând 2% sau 3,5 % din impozitul anual pe veniturile din salarii și din pensii, Formularul 230” și a documentului de împuternicire semnat de dvs.: ",
+            "list": [
+              "Nume și prenume,",
+              "CNP,",
+              "Localitatea de reședință."
+            ]
+          }
+        ]
+      },
       "passive": {
-        "title": "4. Informații colectate pasiv",
+        "title": "5. Informații colectate pasiv",
         "what_when": [
           "Când accesezi site-ul nostru, colectăm în mod automat informații precum: adresa de IP, tipul și versiunea browserului, paginile site-ului pe care le vizitezi precum și timpul petrecut pe site-ul nostru.",
           "De asemenea, colectăm informații prin intermediul site-urilor de socializare pe care le utilizezi pentru a accesa Site-ul nostru, în funcție de permisiunile pe care le-ai setat.",
@@ -1060,6 +1108,19 @@
       "title": "SCHIMBUL DE DATE",
       "content": [
         "Transmitem datele tale furnizorului de servicii de contabilitate sau departamentului de resurse umane în vederea îndeplinirii obligațiilor fiscale și a celor cu privire la legislatia muncii.",
+        "Folosim serviciile PayLike pentru procesarea donațiilor online.",
+        "Când inițiezi o plată prin intermediul site-ului nostru, procesatorul colectează informații despre instrumentul tău de plată, de ex. detaliile cardului de plată. Scopul procesării este de a efectua donația pe care ai inițiat-o.",
+        {
+          "content": "Politica de protecție a datelor cu caracter personal a celor de la PayLike o găsești {policy}.",
+          "map": {
+            "policy": {
+              "link": "https://paylike.ro/privacy/end-users",
+              "value": "aici"
+            }
+          }
+        },
+        "Datele pe care ni le furnizezi prin completarea formularului 230 sunt comunicate către sediul ANAF căruia îi aparții.",
+        "Putem divulga informațiile dvs. Personale oricăruia dintre angajații noștri desemnați în baza Deciziei Consiliului Director, să depună la ANAF CLUJ ”Cererea privind destinaţia sumei reprezentând 2% sau 3,5 % din impozitul anual pe veniturile din salarii și din pensii, Formularul 230”.",
         "În cazul in care ne revine o obligație legală sau dacă este necesar pentru a ne apăra un interes legitim, putem de asemenea divulga anumite date cu caracter personal unor autorităti publice.",
         "Totodata, putem divulga datele tale în cazul în care acestea sunt solicitate de către autoritățile legii."
       ]
@@ -1077,7 +1138,13 @@
     },
     "security": {
       "title": "SECURITATEA DATELOR",
-      "content": "Utilizăm securitatea corespunzatoare pe baza tipului și a gradului de confidențialitate a datelor care sunt stocate. Ca în cazul oricarui sistem bazat pe internet, există întotdeauna riscul de acces neautorizat."
+      "content": [
+        "Utilizăm securitatea corespunzatoare pe baza tipului și a gradului de confidențialitate a datelor care sunt stocate. Ca în cazul oricarui sistem bazat pe internet, există întotdeauna riscul de acces neautorizat.",
+        "Nu suntem responsabili pentru vulnerabilități ale unor sisteme care nu sunt sub controlul nostru.",
+        "Pentru efectuarea plăţilor folosim serviciile procesatorului de plăţi Paylike. Orice informaţii privitoare la plăţi sunt criptate, folosind tehnologia HTTPS cu criptare TSL 1.3 și 3-D secure",
+        "Formularele de informare a persoanei vizate și de exprimare a acordului pentru prelucrarea datelor cu caracter personal se stochează la sediul Asociației COMMUNITY POWERED BY DLOT o perioadă de 3 ani de la data efectuării / obținerii acestora, după care, se distrug.",
+        "Borderoul pentru depunerea la ANAF CLUJ, a ”Cererii privind destinaţia sumei reprezentând 2% sau 3,5 % din impozitul anual pe veniturile din salarii și din pensii, Formularul 230” se stochează la sediul Asociației COMMUNITY POWERED BY DLOT timp de 5 ani, după care se distrug."
+      ]
     },
     "expiration": {
       "title": "CÂT TIMP PĂSTRĂM DATELE TALE CU CARACTER PERSONAL",
@@ -1248,5 +1315,110 @@
         "answer": "Contribuabilii impusi în sistem real care au avut venituri din activități independente/agricole, drepturi de proprietate intelectuală și cedarea folosinței bunurilor și au obligația depunerii Declarației Unice pot alege destinația sumei de 3.5% din impozit completând secțiunea 6 a „Declarației unice privind impozitul pe venit și contribuțiile sociale datorate de persoanele fizice”."
       }
     ]
+  },
+  "terms": {
+    "title": "TERMENI ȘI CONDIȚII",
+    "general": {
+      "title": "1. Cadru general",
+      "content": [
+        "Website-ul https://www.asociatiacommunity.ro/ este proprietatea Asociației Community powered by DLOT, cu sediul în municipiul Cluj-Napoca, strada Calea Florești, nr. 60, bloc A2, scara I, etaj III, apartament 12, județul Cluj, cod fiscal 42622580, asociaţie cu personalitate juridică, neguvernamentală, apolitică şi non-profit, care se supune legislaţiei române, aplicabilă acestui gen de persoană juridică.",
+        "Prin utilizarea site-ului https://www.asociatiacommunity.ro/ îți exprimi acordul cu privire la termenii și condițiile de mai jos.",
+        "Folosim această platformă pentru prezentarea activității asociației Community powered by DLOT."
+      ]
+    },
+    "donations": {
+      "title": "2. Donații",
+      "p1": "Site-ul permite setarea de donații recurente sau individuale prin intermediul serviciului PayLike.",
+      "p2": {
+        "content": "Ai dreptul de a-ți retrage donaţia făcută online în termen de 14 zile de la data efectuării ei. Pentru a solicita returnarea sumei donate te rugăm să ne contactezi la adresa {email}.",
+        "map": {
+          "email": "juridic@asociatiacommunity.ro"
+        }
+      },
+      "p3": {
+        "title": "E-mailul trebuie să conțină următoarele informații:",
+        "list": [
+          "Numele complet al titularului contului din care s-a făcut donația,",
+          "Dovada efectuării donației (extras emis de bancă sau descărcat prin intermediul serviciilor de online banking, care să cuprindă informații cu privire la numărul, data și ora tranzacției precum și codul IBAN al contului de unde s-a făcut donația)."
+        ]
+      },
+      "p4": "Solicitarea returnării sumei donate o poate face doar titularul contului din care s-a realizat plata.",
+      "p5": "Returnarea banilor se va face în termen de 14 zile de la data solicitării, în contul bancar din care s-a făcut plata.",
+      "p6": "Returul sumelor se va face integral acolo unde este posibil acest lucru. În cazul în care din rațiuni logistice independente de noi (ex: comisioane bancare) returul sumei implică eventuale costuri pentru Asociația Community powered by DLOT, acestea vor fi scăzute din suma inițială ce a fost donată."
+    },
+    "copyright": {
+      "title": "3. Drepturi de proprietate",
+      "p1": "Informațiile existente pe acest site aparțin Asociației Community powered by DLOT."
+    },
+    "data_protection": {
+      "title": "4. Protecția datelor cu caracter personal",
+      "p1": "Colectăm și procesăm datele tale personale în conformitate cu Legea nr. 190/2018 privind măsuri de punere în aplicare a Regulamentului (UE) 2016/679 al Parlamentului European şi al Consiliului din 27 aprilie 2016 privind protecţia persoanelor fizice în ceea ce priveşte prelucrarea datelor cu caracter personal (GDPR).",
+      "p2": {
+        "content": "Lista completa a datelor pe care le colectam o gasesti in {privacy}.",
+        "map": {
+          "privacy": {
+            "link": "/privacypolicy",
+            "value": "Politica de protecție a datelor cu character personal"
+          }
+        }
+      }
+    },
+    "cookie_policy": {
+      "title": "5. Politica de cookie",
+      "p1": "Folosim cookie-uri pentru realizarea unor statistici anonime cu privire la modul în care folosești site-ul nostru și pentru a îmbunătăți experiența de navigare. ",
+      "p2": {
+        "content": "Pentru mai multe informații cu privire la tipurile de cookie pe care le folosim te rugăm să parcurgi {cookie}.",
+        "map": {
+          "cookie": {
+            "link": "/privacypolicy",
+            "value": "Politica de cookie"
+          }
+        }
+      }
+    },
+    "internal_regulations": {
+      "title": "6. Regulamentul intern al asociației",
+      "p1": {
+        "content": "Regulamentul intern al Asociației poate fi consultat {regulation}.",
+        "map": {
+          "regulation": {
+            "link": "/internalregulation",
+            "value": "aici"
+          }
+        }
+      }
+    },
+    "applicable_law": {
+      "title": "7. Legea aplicabilă – jurisdicția",
+      "paragraphs": [
+        "Prin utilizarea sistemului de plăți online în vederea efectuarii de donații prin sisteme de plată electronice, declari că ai luat la cunoștință asupra faptului că legile române vor guverna Termenii și Condițiile de mai sus.",
+        "În cazul unor eventuale conflicte între Asociația Community powered by DLOT și donatorii/sponsorii/colaboratorii săi, se va încerca mai întâi rezolvarea acestora pe cale amiabila în minim 30 de zile lucrătoare de la data la care ni s-au adus la cunoștință.",
+        "Dacă rezolvarea pe cale amiabilă nu va fi posibilă, conflictul va fi soluționat de către instanța competentă în conformitate cu legile române în vigoare."
+      ]
+    },
+    "final_clauses": {
+      "title": "8. Clauze finale",
+      "p1": "Ne rezervăm dreptul de a actualiza și modifica periodic Termenii și condițiile pentru a reflecta orice modificări ale modului de utilizare al site-ului nostru, prelucrarea datelor cu caracter personal sau orice modificări ale cerințelor legale. ",
+      "p2": "În cazul oricărei astfel de modificări, vom afișa pe website-ul nostru versiunea modificată, motiv pentru care te rugăm să verifici periodic conținutul acesteia.",
+      "p3": {
+        "content": "Prin utilizarea site-ului nostru declari că ai citit, ai înțeles și îți exprimi acordul cu privire la Termenii și Condițiile de mai sus, precum și cu privire la {privacy} și {cookie}.",
+        "map": {
+          "privacy": {
+            "link": "/privacypolicy",
+            "value": "Politica de protecție a datelor cu character personal"
+          },
+          "cookie": {
+            "link": "/privacypolicy",
+            "value": "Politica de Cookie"
+          }
+        }
+      },
+      "p4": {
+        "content": "Pentru orice informații te rugăm să ne contactezi la adresa {email}.",
+        "map": {
+          "email": "juridic@asociatiacommunity.ro"
+        }
+      }
+    }
   }
 }
