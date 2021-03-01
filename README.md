@@ -1,4 +1,5 @@
 # Asociatia Community powered by DLOT Website
+[![Hits][hits-src]][hits-href]
 [![contributions welcome][contributions-welcome-src]][contributions-welcome-href]
 [![License][code-license-src]][code-license-href]
 [![License: CC BY-SA 4.0][content-license-src]][content-license-href]
@@ -34,3 +35,6 @@ The source code used to format and display the content of this website is licens
 
 [contributions-welcome-src]: https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat
 [contributions-welcome-href]: https://github.com/communitypoweredbydlot/community-website/issues
+
+[hits-src]: https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fcommunitypoweredbydlot%2Fcommunity-website&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false
+[hits-href]: https://hits.seeyoufarm.com
