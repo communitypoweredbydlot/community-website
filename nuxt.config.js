@@ -70,7 +70,6 @@ export default {
   modules: [
     '@nuxtjs/pwa',
     'nuxt-i18n',
-    '@nuxtjs/axios',
     '@nuxtjs/sitemap',
     'nuxt-clipboard2',
     '@nuxt/image'
@@ -137,15 +136,6 @@ export default {
     ]
   },
   build: {
-    babel: {
-      presets ({ _isServer }) {
-        return [
-          [
-            '@nuxt/babel-preset-app', { loose: true }
-          ]
-        ]
-      }
-    }
   },
   publicRuntimeConfig: {
     analytics: {
