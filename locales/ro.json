@@ -149,11 +149,11 @@
       },
       "bank": {
         "label": "Bancă",
-        "value": "Banca Transilvania"
+        "value": "BCR"
       },
       "iban": {
         "label": "iban",
-        "value": "RO40BTRLRONCRT0543520201",
+        "value": "RO44RNCB0298169443980001",
         "copyTooltip": "Copiază IBAN în clipboard",
         "copySuccess": "Codul a fost copiat în clipboard."
       },
@@ -163,7 +163,7 @@
       },
       "bicswift": {
         "label": "BIC/SWIFT",
-        "value": "BTRLRO22"
+        "value": "RNCBROBU"
       }
     },
     "incometax": {
