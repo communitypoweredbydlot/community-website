@@ -11,17 +11,17 @@
 
 ```sh
 # install dependencies
-$ npm install
+$ yarn
 
 # serve with hot reload
-$ npm run dev
+$ yarn dev
 
 # build for production and launch server
-$ npm run build
-$ npm run start
+$ yarn build
+$ yarn start
 
 # generate static project
-$ npm run generate
+$ yarn generate
 ```
 
 ## LICENSE
