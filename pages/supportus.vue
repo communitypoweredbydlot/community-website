@@ -50,12 +50,14 @@
           <div class="flex flex-row justify-start overflow-y-hidden">
             <span class="family-sans font-medium text-sm xl:text-base text-gray-800">{{ $t('supportus.donate.iban.value') }}</span>
             <button
-              class="focus:outline-none icon-link ml-2 h-5 w-6 lg:h-4 lg:w-4"
+              class="focus:outline-none icon-link ml-2"
               :class="{ 'text-dlot-teal' : isCopySuccesss }"
               :title="$t('supportus.donate.iban.copyTooltip')"
               @click="copyToClipboard($t('supportus.donate.iban.value'))"
             >
-              <icon>{{ iconCopy }}</icon>
+              <icon class="h-6 w-6 lg:h-4 lg:w-4">
+                {{ iconCopy }}
+              </icon>
             </button>
             <span
               class="ml-2 text-xs text-dlot-teal transition duration-500 ease-in-out transform"
