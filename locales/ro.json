@@ -98,7 +98,7 @@
     "summary": "Asociația Community powered by DLOT este o organizație non-profit focusată pe protecția naturii",
     "vision": {
       "title": "Viziune",
-      "p1": "Ne dorim o lume în care oamenii coexistă în armonie; în care tehnologia este folosită pentru protejarea naturii și a vieții sălbatice, o lume in care fiecare dintre noi beneficiază de aer curat, apă, hrană și adăpost; o lume bazată pe o relație profundă între om și natură."
+      "p1": "Ne dorim o lume în care oamenii coexistă în armonie; în care tehnologia este folosită pentru protejarea naturii și a vieții sălbatice, o lume în care fiecare dintre noi beneficiază de aer curat, apă, hrană și adăpost; o lume bazată pe o relație profundă între om și natură."
     },
     "values": {
       "title": "Valori",
@@ -119,8 +119,8 @@
       "list": [
         "colectarea și sortarea adecvată a gunoiului din mediile naturale precum: păduri, maluri de ape, parcuri și alte zone protejate,",
         "identificarea regiunilor în care deșeurile sunt depozitate în mod necorespunzător și sesizarea autorităților pentru rezolvarea problemei,",
-        "informarea turiștilor și a comunitatilor rurale despre importanța strângerii și sortarii adecvate a deșeurilor, punând la dispoziție mijloacele necesare pentru colectare și reciclare,",
-        "promovarea unui stil de viață sustenabil, fără îndepartarea individului de zona sa de confort,",
+        "informarea turiștilor și a comunităților rurale despre importanța strângerii și sortării adecvate a deșeurilor, punând la dispoziție mijloacele necesare pentru colectare și reciclare,",
+        "promovarea unui stil de viață sustenabil, fără îndepărtarea individului de zona sa de confort,",
         "încurajarea petrecerii timpului în aer liber și protejarea naturii."
       ]
     }
@@ -130,7 +130,7 @@
     "tell": {
       "title": "Spune și altora",
       "p1": "Împărtășește cu alții povestea noastră, atrage atenția asupra importanței protejării naturii.",
-      "p2": "Urmarește si folosește hastag-urile noastre pe social media."
+      "p2": "Urmarește și folosește hastag-urile noastre pe social media."
     },
     "donate": {
       "title": "Donează",
@@ -175,9 +175,9 @@
       }
     },
     "beavolunteer": {
-      "title": "Vino în echipa de volntari",
+      "title": "Vino în echipa de voluntari",
       "p1": {
-        "content": "Căutăm voluntri care să ocupe poziții remote în cadrul asociației și/sau care să se alăture proiectelor noastre de curățare a mediului. Află mai multe detalii {0}",
+        "content": "Căutăm voluntari care să ocupe poziții remote în cadrul asociației și/sau care să se alăture proiectelor noastre de curățare a mediului. Află mai multe detalii {0}",
         "joinUs_label": "aici."
       }
     },
@@ -192,7 +192,7 @@
     "dumps": {
       "title": "Scoate la iveală deșeurile depozitate ilegal",
       "p1": {
-        "content": "Identifică zonele unde gunoaiele nu sunt gestionate corect pentru ca noi să putem investiga situația și să gasim soluții. Contactează-ne prin email la adresa {email-link} sau pe social {messenger-link}.",
+        "content": "Identifică zonele unde gunoaiele nu sunt gestionate corect pentru ca noi să putem investiga situația și să găsim soluții. Contactează-ne prin email la adresa {email-link} sau pe social {messenger-link}.",
         "messenger-link": {
           "label": "media chat"
         },
@@ -203,7 +203,7 @@
       }
     },
     "live": {
-      "title": "Trăieste-ți viața powered by DLOT",
+      "title": "Trăiește-ți viața powered by DLOT",
       "list": [
         "Respectă natura și viața sălbatică.",
         "Fii bun cu toți și tot ceea ce te înconjoară.",
@@ -211,10 +211,10 @@
         "Reciclează.",
         "Renunță la articolele de unică folosință.",
         "Spune nu cumpărăturilor de tip fast-fashion. Investește în bunuri durabile.",
-        "Cumpară produse de la producători locali.",
+        "Cumpără produse de la producători locali.",
         "Cultivă legume sau crește plante ornamentale.",
         "Redu consumul de carne.",
-        "Înlocuieste mașina cu o plimbare pe jos sau cu bicicleta.",
+        "Înlocuiește mașina cu o plimbare pe jos sau cu bicicleta.",
         "Nu irosi mâncarea.",
         "Susține artiștii mai puțin cunoscuți."
       ]
@@ -239,7 +239,7 @@
         },
         "Ai talente/aptitudini care ne pot ajuta să ne îndeplinim scopul?",
         "Ai vrea să îți dezvolți acele abilități?",
-        "Ești interesat să obții experiență de muncă pe o anumita poziție sau în cadrul unui anumit departament?",
+        "Ești interesat să obții experiență de muncă pe o anumită poziție sau în cadrul unui anumit departament?",
         "Îți place să petreci timp în aer liber?",
         "Îți dorești să înveți lucruri noi și ai curajul să îți pui în practică ideile?"
       ],
@@ -277,7 +277,7 @@
         "Program flexibil.",
         "Lucrezi de unde vrei.",
         "Ai acces gratuit la evenimentele noastre.",
-        "Participi la brainstorm-uri, iar ideile tale sunt luate în considerare. Poți să propui campanii, strategii, chiar și directii de business.",
+        "Participi la brainstorm-uri, iar ideile tale sunt luate în considerare. Poți să propui campanii, strategii, chiar și direcții de business.",
         "Fiind la început de drum, activitatea ta poate fi ușor cuantificată pentru a demonstra rezultatele contribuției tale în dezvoltarea asociației.",
         "Cheltuielile în interesul asociației sunt decontate (ex transport, consumabile, print).",
         "În funcție de nivelul de implicare și rezultate, există posibilitatea de a fi angajat în viitor.",
@@ -337,10 +337,10 @@
             "Creativitate.",
             "Abilități de creare a textelor creative.",
             "Abilități de analiză a datelor.",
-            "Cunostințe în gestionarea platformelor de social media precum Facebook, Linkedin, Instagram.",
-            "Cunostințe în utilizarea Microsoft Office sau alte programe similare.",
+            "Cunoștințe în gestionarea platformelor de social media precum Facebook, Linkedin, Instagram, TikTok.",
+            "Cunoștințe în utilizarea Microsoft Office sau alte programe similare.",
             "Computer personal cu conexiune la internet.",
-            "Abilități de muncă în echipa."
+            "Abilități de muncă în echipă."
           ]
         }
       },
@@ -409,7 +409,7 @@
           "list": [
             "Trasarea obiectivelor și propunerea de proiecte de cercetare.",
             "Formularea și implementarea metodologiei de cercetare (chestionare, observații, interviuri, focus grupuri, experimente, consultare literatură de specialitate).",
-            "Replicarea, evaluarea și imbunătațirea strategiilor de cercetare.",
+            "Replicarea, evaluarea și îmbunătațirea strategiilor de cercetare.",
             "Testarea, personalizarea și implementarea de noi metode și proceduri.",
             "Propunerea tehnicilor de îmbunătățire a calității cercetării.",
             "Contribuirea la scrierea și publicarea lucrărilor de specialitate, a prezentărilor și a altor documente științifice."
@@ -419,11 +419,11 @@
           "label": "Cerințe",
           "list": [
             "Abilități de comunicare scrisă și verbală (Română și Engleză).",
-            "Cunoașterea princiiplor, conceptelor, practicilor și metodelor de cercetare.",
-            "Atenție la detalii si abilități de organizare.",
-            "Aptitudini matematice, analitice si statistice.",
-            "Cunoștințe in utilizarea Google Docs, Survey Monkey sau a altor platforme de sondaj.",
-            "Cunoștințe in utilizarea Microsoft Office sau alte programe similare.",
+            "Cunoașterea principiilor, conceptelor, practicilor și metodelor de cercetare.",
+            "Atenție la detalii și abilități de organizare.",
+            "Aptitudini matematice, analitice și statistice.",
+            "Cunoștințe în utilizarea Google Docs, Survey Monkey sau a altor platforme de sondaj.",
+            "Cunoștințe în utilizarea Microsoft Office sau alte programe similare.",
             "Computer personal cu conexiune la internet.",
             "Abilități de muncă în echipă."
           ]
@@ -444,10 +444,10 @@
         "requirements": {
           "label": "Cerințe",
           "list": [
-            "Abilități de compoziție vizuala.",
+            "Abilități de compoziție vizuală.",
             "Capacitate de a oferi și a primi critici constructive.",
             "Abilități creative.",
-            "Cunoștințe în utilizarea programelor de design grafic (CAdobe PhotoShop, Illustrator, Sketch, InDesign, sau altele).",
+            "Cunoștințe în utilizarea programelor de design grafic (Adobe PhotoShop, Illustrator, Sketch, InDesign, sau altele).",
             "Atenție la detalii.",
             "Computer personal cu conexiune la internet.",
             "Abilități de muncă în echipă."
@@ -470,15 +470,15 @@
         "requirements": {
           "label": "Cerințe",
           "list": [
-            "Abilități de comunicare scrisă și verbala (Română și Engleză).",
+            "Abilități de comunicare scrisă și verbală (Română și Engleză).",
             "Abilitatea de a comunica cu presa.",
             "Creativitate.",
-            "Abilități de a vorbi în public",
-            "Comeptențe în administrarea situatiilor de criza.",
-            "Atentie la detalii.",
-            "Cunostinte în utilizarea Microsoft Office sau alte programe similare.",
+            "Abilități de a vorbi în public.",
+            "Comeptențe în administrarea situațiilor de criză.",
+            "Atenție la detalii.",
+            "Cunoștințe în utilizarea Microsoft Office sau alte programe similare.",
             "Computer personal cu conexiune la internet.",
-            "Abilități de munca în echipă."
+            "Abilități de muncă în echipă."
           ]
         }
       }
@@ -500,9 +500,9 @@
         "tripandpick-hashtag": "#TripAndPick"
       },
       "p2": "Fiecare efort contează, chiar dacă se rezumă doar la câteva ambalaje sau chiștoace de țigară.",
-      "p3": "Când ieși în aer liber, nu uita să iei cu tine saci de gunoi. Alătură-te campaniei noastre și strânge gunoiul pe care îl întâlnești în drumul tău.",
+      "p3": "Când ieși în aer liber, nu uita să iei cu tine saci de gunoi. Acceptă provocarea noastră și strânge gunoiul pe care îl întâlnești în drumul tău.",
       "p4": {
-        "content": "Dacă vrei să afli detalii despre cum poți să ni te alături in drumetii scrie-ne pe adresa {tripandpick-email-link}.",
+        "content": "Dacă vrei să afli detalii despre cum poți să ni te alături în drumeții, scrie-ne pe adresa {tripandpick-email-link}.",
         "tripandpick-email-link": {
           "link": "tripandpick@asociatiacommunity.ro",
           "value": "tripandpick@asociatiacommunity.ro"
@@ -516,10 +516,10 @@
       "Pentru noi, timpul petrecut în natură este sursă inepuizabilă de satisfacție și energie pozitivă. Campând, făcând drumeții sau relaxându-ne în hamac, profităm de fiecare weekend pentru a scăpa de forfota urbană.",
       "Am început prin a ne refugia în locuri ușor accesibile, pe jos sau cu bicicleta, dar agitația cotidiană și urbanizarea accelerată au distrus multe dintre oazele noastre de pace. Aglomerația s-a extins în parcuri, păduri periferice și zone de grătar, transformându-le în mușuroaie zgomotoase și murdare. Astfel, suntem constrânși să ne retragem tot mai departe de oraș, în speranța de a ne reuni cu natura nealterată.",
       "Cu cât distanța este mai lungă, cu atât dezamăgirea este mai mare. Defrișările în masă, proprietățile private construite prin sacrificarea copacilor și pâlcurile de deșeuri trădează și de această dată natura.",
-      "Din cauza sistemelor deficitare de gestionare a deșeurilor din zonele rurale, malurile râurilor și pădurile sunt cele mai vulnerabile la depozitarea necontrolată a gunoaielor provenite din gospodăriile private. Zonele naturale de interes turistic se confruntă cu acceași prolemă a gestionării deficitare a deșeurilor.",
+      "Din cauza sistemelor deficitare de gestionare a deșeurilor din zonele rurale, malurile râurilor și pădurile sunt cele mai vulnerabile la depozitarea necontrolată a gunoaielor provenite din gospodăriile private. Zonele naturale de interes turistic se confruntă cu aceeași problemă a gestionării deficitare a deșeurilor.",
       "Contiuând explorarea naturii sălbatice departe de civilizație, am decis să luăm cu noi în drumeții saci de gunoi, iar la întoarcere să \"facem curat\". Așa a început campania noastră, Trip and Pick.",
       "Am întâlnit zone cu cantități atât de mari de gunoaie, încât ne era imposibil să le curățăm într-o singură zi. Mai mult, am fi avut nevoie de o autoutilitară pentru a transporta toate deșeurile. În lipsa unei forme legale de funcționare, precum și a resurselor financiare și umane, nu putem curăța multe dintre zonele cu probleme și nici nu putem contracta un camion de salubrizare.",
-      "Realitatea ne-a demonstrat că trebuie să acționam și să mergem dincolo de procesul de a strânge gunoaiele din natură. Pentru o dezvoltare sustenabilă a societății, extinderea comunității oamenilor responsabili este indispensabilă. Acest lucru este posibil prin educație și informare corectă, în special în zonele rurale.",
+      "Realitatea ne-a demonstrat că trebuie să acționăm și să mergem dincolo de procesul de a strânge gunoaiele din natură. Pentru o dezvoltare sustenabilă a societății, extinderea comunității oamenilor responsabili este indispensabilă. Acest lucru este posibil prin educație și informare corectă, în special în zonele rurale.",
       "Pentru că dorim să ne implicăm mai mult în protecția mediului, am fondat Asociația Community powered by DLOT.",
       "Prin intermediul unor evenimente în natură, campanii educaționale precum și acțiuni de ecologizare, ne dorim să evidențiem impactul pe care omul îl are asupra naturii, importanța protejării acesteia și promovarea unui stil de viață sănătos, în armonie cu mediul înconjurător."
     ]
@@ -532,7 +532,7 @@
     },
     "purpose": {
       "title": "SCOPUL ȘI OBIECTIVELE ASOCIAȚIEI",
-      "p1": "Asociația COMMUNITY POWERED BY DLOT își propune să informeze cetațenii cu privire la impactul pe care îl are stilul de viață asupra mediului înconjurător și să încurajeze acțiuni de protejare a naturii și de îmbunătățire a sănătății fizice și psihice a oricărei persoane, prin activități de recreere și sport în aer liber.",
+      "p1": "Asociația COMMUNITY POWERED BY DLOT își propune să informeze cetățenii cu privire la impactul pe care îl are stilul de viață asupra mediului înconjurător și să încurajeze acțiuni de protejare a naturii și de îmbunătățire a sănătății fizice și psihice a oricărei persoane, prin activități de recreere și sport în aer liber.",
       "activities": {
         "title": "Printre activitățile pe care le desfășoară se numără, dar nu se limitează la:",
         "list": [
@@ -540,7 +540,7 @@
           "activități de recreere în natură",
           "contractarea firmelor specializate în ridicarea deșeurilor din locurile mai greu accesibile, cum ar fi zone rurale, cătune, malurile apelor sau păduri,",
           "prezentări și conferințe pentru educarea cetățenilor în ceea ce privește protejarea mediului și beneficiile naturii asupra sănătății,",
-          "promovarea inițiativelor cetațenești cu privire la implementarea mijloacelor de colectare a deșeurilor în mod selectiv,",
+          "promovarea inițiativelor cetățenești cu privire la implementarea mijloacelor de colectare a deșeurilor în mod selectiv,",
           "organizarea de evenimente și spectacole în vederea strângerii de fonduri pentru susținerea activităților de ecologizare,",
           "conștientizarea autorităților cu privire la locurile în care depozitarea deșeurilor se face în afara spațiilor special amenajate, cum ar fi în păduri și ape,",
           "activitați de fitness și sporturi în aer liber,",
@@ -571,7 +571,7 @@
         "situations": {
           "title": "Adunarea Generală Extraordinară poate fi convocată în următoarele situaţii:",
           "list": [
-            "ori de câte ori este nevoie, din iniţiativa Consiliului Director sau a Preşedintelui acestuia sau",
+            "ori de câte ori este nevoie, din iniţiativa Consiliului Director sau a Preşedintelui acestuia",
             "la cererea scrisă a cel puţin 1/3 din numărul total de membri."
           ]
         },
@@ -594,7 +594,7 @@
         "title": "Consiliul Director",
         "p1": "Consiliul Director asigură punerea în executare a hotărârilor Adunării Generale.",
         "components": {
-          "title": "Acesta este alcătuit dupa cum urmează:",
+          "title": "Acesta este alcătuit după cum urmează:",
           "list": [
             "un președinte,",
             "doi vicepreședinți,",
@@ -605,7 +605,7 @@
         "attributions": {
           "title": "Consiliul Director are următoarele atribuții:",
           "list": [
-            "prezintă Adunării Generale rapoarte de activitate, execuţia bugetului de venituri şi cheltuieli, bilanţul, contabil, proiectul bugetului de venituri şi cheltuieli, proiectele programelor Asociaţiei,",
+            "prezintă Adunării Generale rapoarte de activitate, execuţia bugetului de venituri şi cheltuieli, bilanţul contabil, proiectul bugetului de venituri şi cheltuieli, proiectele programelor Asociaţiei,",
             "încheie acte juridice în numele şi pe seama Asociaţiei, prin preşedinte sau un împuternicit,",
             "aprobă organigrama şi politica de personal a Asociaţiei,",
             "elaborează regulamentul intern,",
@@ -673,7 +673,7 @@
           "recrutează voluntari,",
           "preia cererile de aderare,",
           "realizează formalitățile de angajare/aderare,",
-          "asigură trainingul voluntarilor si angajaților,",
+          "asigură trainingul voluntarilor și al angajaților,",
           "realizează contabilitatea primară,",
           "realizează plata furnizorilor de bunuri și servicii."
         ]
@@ -694,7 +694,7 @@
           "realizează estimările de bugete pentru activități,",
           "planifică și coordonează activitatea voluntarilor în vederea organizării acțiunilor Asociației,",
           "planifică și coordonează activitatea echipelor interne în vederea realizării proiectelor alocate,",
-          "realizează raportul de evaluare a proiectelor încheiate."
+          "realizează raportul de evaluare al proiectelor încheiate."
         ]
       },
       "coordinators": {
@@ -716,7 +716,7 @@
         "types": {
           "title": "Asociaţia se compune din următoarele categorii de membri:",
           "list": [
-            "membri fondatori – care au participat la întemeierea Asociaţiei şi au contribuit material şi moral la fondarea ei şi la constituirea patrimoniului social iniţial,","Abilitatea de a comunica cu presa.",
+            "membri fondatori – care au participat la întemeierea Asociaţiei şi au contribuit material şi moral la fondarea ei şi la constituirea patrimoniului social iniţial,",
             "membri asociaţi – care se asociază ulterior fondării Asociaţiei şi contribuie moral şi material la sporirea patrimoniului ei,",
             "membri de onoare – persoanele fizice şi juridice care au adus/aduc o contribuţie deosebită la dezvoltarea şi desfăşurarea activităţii Asociaţiei pe plan moral şi material,",
             "membri susținători - persoanele fizice şi juridice care sprijină Asociația material, prin plata cotizației sau prin oferirea de servicii neremunerate în vederea susținerii activității Asociației."
@@ -725,7 +725,7 @@
       },
       "acquisition": {
         "title": "Dobândirea calității de membru",
-        "p1": "Poate fi membru al Asociaţiei COMMUNITY POWERED BY DLOT orice persoană fizică ce aderă la Statutul Asociaţiei, angajandu-se că va aplica şi va respecta în mod necondiţionat Statutul ei cât şi legislaţia în vigoare.",
+        "p1": "Poate fi membru al Asociaţiei COMMUNITY POWERED BY DLOT orice persoană fizică ce aderă la Statutul Asociaţiei, angajându-se că va aplica şi va respecta în mod necondiţionat Statutul ei cât şi legislaţia în vigoare.",
         "ways": {
           "title": "Calitatea de membru al Asociaţiei se dobândeşte prin următoarele modalităţi:",
           "list": [
@@ -783,7 +783,7 @@
           "list": [
             "de a publica articole, studii şi alte lucrări în numele Asociaţiei,",
             "de a primi ajutoare sociale şi umanitare, în caz de nevoie,",
-            "de a propune activități, campanii, soluții si modificări ale regulamentului de funcționare si în ceea ce privește scopul Asociației,",
+            "de a propune activități, campanii, soluții si modificări ale regulamentului de funcționare și în ceea ce privește scopul Asociației,",
             "de retragere la cerere,",
             "de a fi informați în ceea ce privește activitățile Asociației,",
             "de a recomanda primirea de noi membri și voluntari,",
@@ -796,7 +796,7 @@
           "title": "Drepturile membrilor asociați:",
           "list": [
             "să participe la Adunările Generale ale Asociaţiei,",
-            "să aleagă şi să fie aleşi în Consiliul director şi în comisia de cenzori, dacă au împlinit vârsta de 18 ani, au aptitudinile şi capacităţile necesare exercitării funcţiilor la care candidează,",
+            "să aleagă şi să fie aleşi în Consiliul director şi în comisia de cenzori, dacă au împlinit vârsta de 18 ani, au aptitudinile şi capacităţile necesare exercitării funcţiilor pentru care candidează,",
             "dreptul la vot decisiv în cadrul Adunării Generale,",
             "dreptul la vot consultativ în cadrul Consiliului Director."
           ]
@@ -813,7 +813,7 @@
           "title": "Drepturile membrilor susținători:",
           "list": [
             "să participe la ședințele Adunării Generale și a Consiliului Director ale Asociaţiei,",
-            "să aleagă şi să fie aleşi în Consiliul Director şi în Comisia de cenzori, dacă au împlinit vârsta de 18 ani, au aptitudinile şi capacităţile necesare exercitării funcţiilor la care candidează,",
+            "să aleagă şi să fie aleşi în Consiliul Director şi în Comisia de cenzori, dacă au împlinit vârsta de 18 ani, au aptitudinile şi capacităţile necesare exercitării funcţiilor pentru care candidează,",
             "dreptul la vot decisiv în cadrul Adunării Generale,",
             "dreptul la vot consultativ in cadrul a Consiliului Director."
           ]
@@ -858,7 +858,7 @@
           "să presteze o activitate de interes public, fără remuneraţie,",
           "să aibă o conduită complementară cu obiectivele generale ale voluntariatului,",
           "să îndeplinească sarcinile prevăzute în fişa de voluntariat, precum şi respectarea instrucţiunilor stipulate în fişa de protecţie a voluntarului,",
-          "să păstreze confidenţialitatea informaţiilor la care are acces în cadrul activităţii de voluntariat, pe perioada desfăşurării contractului de voluntariat şi pe o perioada de 2 ani după încetarea acestuia,",
+          "să păstreze confidenţialitatea informaţiilor la care are acces în cadrul activităţii de voluntariat, pe perioada desfăşurării contractului de voluntariat şi pe o perioadă de 2 ani după încetarea acestuia,",
           "să anunţe cu minim 24 de ore înainte indisponibilitatea temporară de a presta activitatea de voluntariat în care este implicat,",
           "să îndeplinească la timp sarcinile primite din partea organizatorilor proiectului/programului,",
           "să participe la cursurile de instruire oferite de către organizatori dacă acestea sunt necesare pentru buna îndeplinire a sarcinilor,",
@@ -919,10 +919,10 @@
         "Prezentul regulament se aplică numai în interiorul Asociației și în cadrul activităților acesteia.",
         "Regulamentul trebuie să fie prezentat tuturor membrilor şi voluntarilor Asociației şi să fie semnat de aceştia."
       ],
-      "p2": "Propunerile de modificare a regulamentului pot fi întaitate de voluntari către coordonatorii de departamente și de membrii către Consiliul Director, urmând a intra pe ordinea de zi pentru discuții în Adunarea Generală.",
+      "p2": "Propunerile de modificare a regulamentului pot fi înaintate de voluntari către coordonatorii de departamente și de membrii către Consiliul Director, urmând a intra pe ordinea de zi pentru discuții în Adunarea Generală.",
       "p3": [
         "Prezentul regulament poate fi modificat la decizia Adunării Generale.",
-        "Drepturile asupra numelui Asociației, a identității vizuale precum logo și elemente de grafică, precum si asupra conceptelor existente în momentul înființării Asociației (Trip and Pick) aparțin societății POWERED BY DLOT SRL."
+        "Drepturile asupra numelui Asociației, a identității vizuale precum logo și elemente de grafică, precum și asupra conceptelor existente în momentul înființării Asociației (Trip and Pick) aparțin societății POWERED BY DLOT SRL."
       ],
       "p4": "Alte drepturile de proprietate intelectuală, precum elementele de grafică, texte, sintagme, imagini etc, se stabilesc prin modificarea acestui regulament, la cererea autorului.",
       "p5": [
@@ -981,7 +981,7 @@
         "title": "1. Informații pe care ni le oferi atunci când ne contactezi",
         "what_when": [
           "Colectăm numele, adresa de email și orice altă informație ne oferi prin intermediul mijlocului de comunicare pe care îl alegi.",
-          "Folosim aceste date doar pentru a-ți răspunde la solicitare. Informațiile pe care ni le furnizezi vor fi împărtășite angajaților companiei și furnizorilor de servicii în masura în care este necesar pentru administrarea sistemelor noastre și/sau pentru a satisface solicitarea ta."
+          "Folosim aceste date doar pentru a-ți răspunde la solicitare. Informațiile pe care ni le furnizezi vor fi împărtășite angajaților companiei și furnizorilor de servicii în măsura în care este necesar pentru administrarea sistemelor noastre și/sau pentru a satisface solicitarea ta."
         ]
       },
       "donation": {
@@ -1005,14 +1005,14 @@
             },
             "for": [
               "Nu colectam informații cu privire la tipul cardului, numarul acestuia, datele de expirare, codul CVV, parole sau alte informații sensibile introduse în momentul realizarii plații. Informațiile cardului tău sunt transmise procesorului de plăți sub forma criptată.",
-              "Colectam însă numele tau pentru a ține evidența contabilă a încasarilor Asociației și pentru a ne conforma legislatției fiscale în vigoare."
+              "Colectăm însă numele tău pentru a ține evidența contabilă a încasarilor Asociației și pentru a ne conforma legislației fiscale în vigoare."
             ]
           }
         }
       },
       "volunteer": {
         "title": "3. Informații pe care le colectam atunci când te înscri ca voluntar",
-        "what_when": "În cazul în care te înscri ca voluntar, colectăm informații personale precum nume, adresa email, telefon, datele cărții de identitate și alte informații necesare realizării contractului de voluntariat. Aceste informații sunt împărtășite în cadrul departamentelor de resurse umane și contabilitate și vor fi pastrate conform legislatiei în vigoare."
+        "what_when": "În cazul în care te înscri ca voluntar, colectăm informații personale precum nume, adresa email, telefon, datele cărții de identitate și alte informații necesare realizării contractului de voluntariat. Aceste informații sunt împărtășite în cadrul departamentelor de resurse umane și contabilitate și vor fi pastrate conform legislației în vigoare."
       },
       "passive": {
         "title": "4. Informații colectate pasiv",
@@ -1034,7 +1034,7 @@
         "functional": {
           "title": "Cookie-uri funcționale",
           "content": [
-            "Acestea sunt esențiale pentru buna funcționare a site-ului, fiind setate pe dispozitivul tău la accesarea site-ului sau în urma acțiunilor efectuate în site, dupa caz. De exemplu limba selectată.",
+            "Acestea sunt esențiale pentru buna funcționare a site-ului, fiind setate pe dispozitivul tău la accesarea site-ului sau în urma acțiunilor efectuate în site, după caz. De exemplu limba selectată.",
             "Poți seta browser-ul pentru a bloca cookie-urile, însa în acest caz anumite secțiuni ale site-ului nu vor funcționa corect."
           ]
         },
@@ -1066,7 +1066,7 @@
     },
     "links": {
       "title": "LINKURI CĂTRE ALTE WEBSITE-URI",
-      "content": "Site-ul nostru poate conține linkuri către alte site-uri care nu sunt administrate de către noi. Îti recomandăm să citești cu atenție Politica de Confidențialitate a fiecărui site pe care îl vizitezi. Nu avem control și nu ne asumăm răspunderea pentru conținutul, politicile și practicile terților."
+      "content": "Site-ul nostru poate conține linkuri către alte site-uri care nu sunt administrate de către noi. Îți recomandăm să citești cu atenție Politica de Confidențialitate a fiecărui site pe care îl vizitezi. Nu avem control și nu ne asumăm răspunderea pentru conținutul, politicile și practicile terților."
     },
     "transfer": {
       "title": "TRANSFERUL DATELOR",
@@ -1098,17 +1098,17 @@
             }
           }
         },
-        "Vom răspunde solicitării tale în termen de maxim 30 zile. Va fi nevoie să îți verificăm identitatea înaite de a-și oferi control asupra datelor."
+        "Vom răspunde solicitării tale în termen de maxim 30 zile. Va fi nevoie să îți verificăm identitatea înainte de a-ți oferi control asupra datelor."
       ],
       "all": {
-        "title": "Conform regulamentului general privind protecția datelor, ai o serie de drepturi în legatura cu datele tale cu caracter personal.",
+        "title": "Conform regulamentului general privind protecția datelor, ai o serie de drepturi în legătură cu datele tale cu caracter personal.",
         "list": [
-          "Dreptul de a fi informat cu privire la tipul de date pe care le colectăm și scopul procesarii.",
+          "Dreptul de a fi informat cu privire la tipul de date pe care le colectăm și scopul procesării acestora.",
           "Dreptul de a avea acces la datele tale.",
           "Dreptul de a rectifica datele.",
           "Dreptul de a șterge datele tale atunci când scopul colectării acestora a fost îndeplinit.",
           "Dreptul de a te opune procesării datelor tale.",
-          "Dreptul de a îti retrage consimțământul cu privire la procesarea datelor tale.",
+          "Dreptul de a îți retrage consimțământul cu privire la procesarea datelor tale.",
           "Dreptul de a depune o plângere la Autoritatea Naționala de Supraveghere a Prelucrării Datelor cu Caracter Personal în cazul în care ți-au fost încălcate drepturile."
         ]
       }
@@ -1116,15 +1116,15 @@
     "update": {
       "title": "MODIFICĂRI ALE POLITICII DE CONFIDENȚIALITATE A DATELOR",
       "content": [
-        "Ne rezervăm dreptul de a actualiza și modifica periodic aceastp Politicp de Confidențialitate, pentru a reflecta orice modificări ale modului în care prelucram datele tale cu caracter personal sau orice modificări ale cerințelor legale.",
-        "În cazul oricărei astfel de modificari, vom afișa pe website-ul nostru versiunea modificată a Politicii de Confidențialitate, motiv pentru care te rugăm să verifici periodic conținutul acesteia."
+        "Ne rezervăm dreptul de a actualiza și modifica periodic această Politică de Confidențialitate, pentru a reflecta orice modificări ale modului în care prelucrăm datele tale cu caracter personal sau orice modificări ale cerințelor legale.",
+        "În cazul oricărei astfel de modificări, vom afișa pe website-ul nostru versiunea modificată a Politicii de Confidențialitate, motiv pentru care te rugăm să verifici periodic conținutul acesteia."
       ]
     },
     "contact": {
       "title": "CONTACTEAZĂ-NE",
       "content": [
         {
-          "content": "Pentru orice informații legate de această Politică de Confientțalitatte te rugăm să ne contactezi la adresa {juridic}",
+          "content": "Pentru orice informații legate de această Politică de Confiențialitate te rugăm să ne contactezi la adresa {juridic}",
           "map": {
             "juridic": {
               "link": "juridic@asociatiacommunity.ro",
@@ -1132,7 +1132,7 @@
             }
           }
         },
-        "Prin utilizarea site-ului nostru declari că ai citit și ai înțeles această Politică de confidentțialitate a datelor cu caracter personal și îți exprimi acordul cu privire la felul în care colectăm și procesam datele cu caracter personal."
+        "Prin utilizarea site-ului nostru declari că ai citit și ai înțeles această Politică de confidențialitate a datelor cu caracter personal și îți exprimi acordul cu privire la felul în care colectăm și procesam datele cu caracter personal."
       ]
     }
   },
@@ -1227,11 +1227,11 @@
         "answer": "Da. Poți completa un alt formular. Dacă formularele nu sunt depuse personal de către tine, ANAF îți va trimite o notificare prin care îți va cere să confirmi alegerea. Această procedură se realizează pentru combaterea fraudelor."
       },
       {
-        "question": "Ce trebuie să fac dacă primesc notificare de la ANAF cu privire la redirecționarea celor 3.5% din impozit?",
+        "question": "Ce trebuie să fac dacă primesc notificare de la ANAF cu privire la redirecționarea a 3.5% din impozit?",
         "answer": [
           "ANAF trimite scrisori tuturor contribuabililor care nu depun personal formularul 230.",
           "Verifică datele beneficiarului trecut pe cererea depusă în numele tău iar dacă acestea corespund opțiunii tale nu trebuie să faci nimic.",
-          "Dacă există neregului și nu ai optat pentru acel beneficiar, îți recomandăm să te adresezi unității fiscal deoarece poate fi vorba despre o fraudă, cineva a completat formularul în numele tău.",
+          "Dacă există nereguli și nu ai optat pentru acel beneficiar, îți recomandăm să te adresezi unității fiscale deoarece poate fi vorba despre o fraudă, cineva a completat formularul în numele tău.",
           "Dacă ai completat un formular iar apoi te-ai razgandit și ai mai depus unul, prin scrisoarea de la ANAF ți se va cere să confirmi opțiunea finală."
         ]
       },
@@ -1245,7 +1245,7 @@
       },
       {
         "question": "Cum pot redirecționa 3.5% din venit dacă am PFA sau am realizat venituri din chirii, drepturi de proprietate intelectuală sau venituri din străinătate?",
-        "answer": "Contribuabilii impusi in sistem real care au avut venituri din activități independente/agricole, drepturi de proprietate intelectuală și cedarea folosinței bunurilor și au obligația depunerii Declarației Unice pot alege destinația sumei de 3.5% din impozit completând secțiunea 6 a „Declarației unice privind impozitul pe venit si contributiile sociale datorate de persoanele fizice”."
+        "answer": "Contribuabilii impusi în sistem real care au avut venituri din activități independente/agricole, drepturi de proprietate intelectuală și cedarea folosinței bunurilor și au obligația depunerii Declarației Unice pot alege destinația sumei de 3.5% din impozit completând secțiunea 6 a „Declarației unice privind impozitul pe venit și contribuțiile sociale datorate de persoanele fizice”."
       }
     ]
   }
