@@ -127,6 +127,6 @@
 import { Component, Vue } from 'nuxt-property-decorator'
 
 @Component
-export default class SupportUs extends Vue {
+export default class TermsAndConditions extends Vue {
 }
 </script>
