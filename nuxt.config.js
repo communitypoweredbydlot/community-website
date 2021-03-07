@@ -154,7 +154,7 @@ export default {
       bootstrap: false
     },
     paylike: {
-      publicKey: 'b16ac12c-5de2-482a-8bfe-6914d1193f58'
+      publicKey: 'beba541f-e7cb-4e85-a873-02a52e6f3fae'
     }
   }
 }
