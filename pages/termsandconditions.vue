@@ -80,7 +80,7 @@
     </div>
     <div>
       <section-title path="terms.volunteers.title" />
-      <paragraph p1="terms.volunteers.p1" />
+      <paragraph path="terms.volunteers.p1" />
       <list path="terms.volunteers.rights" subsection />
       <list path="terms.volunteers.obligations" subsection />
     </div>
