@@ -35,7 +35,15 @@
       height="810"
     />
 
-    <paragraphs path="ourstory.paragraphs" :from="3" :to="4" />
+    <paragraphs path="ourstory.paragraphs" :from="3" :to="3" />
+
+    <paragraph :margin-bottom="false">
+      <i18n path="ourstory.tripandpick.content" tag="p" class="paragraph-sm xl:paragraph">
+        <template #tripandpick>
+          <a class="text-link" :href="$t('ourstory.tripandpick.map.tripandpick.link')" target="_blank" rel="noopener noreferrer">{{ $t('ourstory.tripandpick.map.tripandpick.value') }}</a>
+        </template>
+      </i18n>
+    </paragraph>
 
     <video
       controls

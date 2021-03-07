@@ -27,6 +27,9 @@
           <div class="text-center">
             <a :href="`tel:${$t('phone')}`">{{ $t("phone") }}</a>
           </div>
+          <div class="text-center">
+            <social-icons class="my-1" />
+          </div>
         </div>
         <div class="hidden sm:flex sm:justify-end items-start col-span-1 order-3 md:order-4">
           <a href="https://poweredbydlot.com/" target="_blank" rel="noopener noreferrer">

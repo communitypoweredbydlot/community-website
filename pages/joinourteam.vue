@@ -32,7 +32,7 @@
       <paragraph>
         <i18n path="joinourteam.manyhands.p2.content">
           <template #tripandpick>
-            <a :href="`mailto:${$t('joinourteam.manyhands.p2.map.tripandpick.link')}`" class="text-link">{{ $t('joinourteam.manyhands.p2.map.tripandpick.value') }}</a>
+            <a :href="$t('joinourteam.manyhands.p2.map.tripandpick.link')" class="text-link" target="_blank" rel="noopener noreferrer">{{ $t('joinourteam.manyhands.p2.map.tripandpick.value') }}</a>
           </template>
         </i18n>
       </paragraph>
