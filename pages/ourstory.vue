@@ -14,6 +14,7 @@
       width="1080"
       height="810"
     />
+
     <nuxt-image
       src="/deforestation.jpg"
       :sizes="sizes"
@@ -85,7 +86,7 @@
       height="810"
     />
 
-    <paragraphs path="ourstory.paragraphs" :from="5" :to="7" />
+    <paragraphs path="ourstory.paragraphs" :from="6" :to="8" />
 
     <nuxt-image
       src="/dog_picking_up_trash.jpg"

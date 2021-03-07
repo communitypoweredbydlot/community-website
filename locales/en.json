@@ -129,12 +129,35 @@
     "title": "Call for Supporters",
     "tell": {
       "title": "Spread the word",
-      "p1": "Share our concept, educate others, raise awareness about the importance of protecting the envronment and keeping nature clean.",
+      "p1": "Share our concept, educate others, raise awareness about the importance of protecting the environment and keeping nature clean.",
       "p2": "Follow and use the hastags"
     },
     "donate": {
       "title": "Donate",
-      "p1": "You can help us financially by donating an amount of your choice",
+      "p1": "You can help us financially by donating an amount of your choice by direct card payment",
+      "p2": "or through a bank transfers using the details below.",
+      "button": {
+        "label": "Donate"
+      },
+      "popup": {
+        "title": "Asociația Community powered by DLOT",
+        "description": "Thank you for your contribution. We use donations only for the purpose of carrying out our organizationțs activity.",
+        "placeholder": {
+          "name": "John Doe"
+        }
+      },
+      "legalNotice": [
+        {
+          "content": "By using the online donation methods you agree with our {terms}, applicable exclusively in the case of online donations.",
+          "map": {
+            "terms":{
+              "link": "/termsandconditions",
+              "label": "Terms and Conditions"
+            }
+          }
+        },
+        "Your acceptance of the terms and conditions and accounting policy represents the whole understanding (contract) between the parties."
+      ],
       "name": {
         "label": "Name"
       },
@@ -284,8 +307,8 @@
           "list": [
             "Create, implement, and evaluate human resource department policies and procedures.",
             "Recruit and coordinate interviewing.",
-            "Ensuring new hire paperwork is completed and processed.",
-            "Informing job applicants of job duties, responsibilities, benefits, schedules, working conditions, promotion opportunities, etc.",
+            "Ensure new hire paperwork is completed and processed.",
+            "Inform job applicants of job duties, responsibilities, benefits, schedules, working conditions, promotion opportunities, etc.",
             "Design and implement effective training and development plans.",
             "Perform employee performance evaluations.",
             "Keep track of staff schedule and working hours.",
@@ -328,7 +351,7 @@
             "Copywriting skills.",
             "Data analysis skills.",
             "Computer skills using Microsoft Office or other similar software.",
-            "Knowledge of social media platforms such as Facebook, Twitter, LinkedIn and Instagram.",
+            "Knowledge of social media platforms such as Facebook, Twitter, LinkedIn, Instagram and TikTok.",
             "Personal computer with internet connection.",
             "Team player."
           ]
@@ -516,8 +539,8 @@
       "Through various educational campaigns and events, we aim to create awareness around the impact of human lifestyle on nature and to promote means to improve the physical and mental health while living in harmony with the surroundings."
     ]
   },
-  "terms": {
-    "title": "TERMS AND CONDITIONS",
+  "regulation": {
+    "title": "INTERNAL REGULATION",
     "general": {
       "title": "GENERAL TERMS",
       "content": "Community powered by DLOT is a non-governmental, apolitical and non-profit Organization which is subject to Romanian legislation, applicable to this type of legal persona."
@@ -998,8 +1021,33 @@
         "title": "3. Information provided when you registered as a volunteer",
         "what_when": "When you register as a volunteer, personal data such as Name, email, phone numer, ID Card, and other information will be requested in order to complete paperworks. This information will be shared with the accounting and human resources departments and will be keept as required by legislation."
       },
+      "form230": {
+        "title": "4. Information we process when we collect “Application regarding the destination of the amount representing 2% or 3.5% of the annual income tax from salaries and pensions, Form 230”",
+        "what_when": [
+          {
+            "title": "We collect the following data:",
+            "list": [
+              "Name and surname,",
+              "Father's initial,",
+              "CNP,",
+              "Home / mailing address",
+              "Telephone,",
+              "Email Address,",
+              "Signature."
+            ]
+          },
+          {
+            "title": "In order to submit the “Application regarding the destination of the amount representing 2% or 3.5% of the annual income tax from salaries and pensions, Form 230” to ANAF we also collect the following data:",
+            "list": [
+              "Name and surname,",
+              "CNP,",
+              "Home address."
+            ]
+          }
+        ]
+      },
       "passive": {
-        "title": "4. Passively Collected Information",
+        "title": "5. Passively Collected Information",
         "what_when": [
           "When you access our Site, we automatically collect information such as your computer’s Internet Protocol (“IP”) address, browser type, browser version, and the pages of our Site that you visit, the time and date of your visit, the time spent on those pages and other statistics.",
           "We also collect information about you through social media sites you use to access our Site depending on the permissions you have given for access to your information.",
@@ -1044,6 +1092,19 @@
       "title": "THIRD PARTIES DATA SHARING",
       "content": [
         "We share your data with our third party companies, such as the one providing us accounting services, in order to comply with the financial regulations. Third parties are obligated not to disclose or use it for any other purpose.",
+        "We use PayLike's services to process online donations.",
+        "When you initiate a payment through our web-site, the processor collects information about your payment instrument, e.g. payment card details. The purpose of the processing is to make the donation you initiated.",
+        {
+          "content": "PayLike's personal data protection policy can be found {policy}.",
+          "map": {
+            "policy": {
+              "link": "https://paylike.io/privacy/end-users",
+              "value": "here"
+            }
+          }
+        },
+        "The data you provide us by filling in the 230 form are communicated to the ANAF headquarters to which you belong.",
+        "We may disclose your personal information to any of our employees appointed on the basis of the Decision of the Board of Directors, to submit to ANAF CLUJ ”Application for the destination of the amount representing 2% or 3.5% of annual tax on income from salaries and pensions, Form 230”.",
         "We can also disclose Personal Information if such action is necessary to protect and defend our rights or property, protect against legal liability, or as otherwise required or permitted by law."
       ]
     },
@@ -1061,7 +1122,13 @@
     },
     "security": {
       "title": "SECURITY OF DATA",
-      "content": "The security of your data is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security."
+      "content": [
+        "The security of your data is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security.",
+        "We are not responsible for vulnerabilities in systems that are not under our control.",
+        "We use PayLike as the payment processor for donations. Any payment information is encrypted using HTTPS technology with TSL 1.3 and 3-D secure encryption.",
+        "The GDPR forms which you have filled in to express your agreement for the processing of personal data shall be stored at our headquarters for 3 years from the date of their performance / obtaining, after which they shall be destroyed.",
+        "The tally-sheets associated with the “Application regarding the destination of the amount representing 2% or 3.5% of the annual tax on income from salaries and pensions, Form 230” is stored at tour for 5 years, after which are destroyed."
+      ]
     },
     "expiration": {
       "title": "HOW LONG DO WE STORE YOUR DATA",
@@ -1238,5 +1305,107 @@
         "answer": "Taxpayers taxed in real system who had income from independent / agricultural activities, intellectual property rights and the transfer of use of assets and have the obligation to submit the Single Declaration can choose the destination of the amount of 3.5% of tax by completing section 6 of the 'Single Declaration on income tax and social contributions due by individuals."
       }
     ]
+  },
+  "terms": {
+    "title": "TERMS AND CONDITIONS",
+    "general": {
+      "title": "1. General terms",
+      "content": [
+        "The website https://www.asociatiacommunity.ro/ is owned by Asociața Community powered by DLOT, located in Cluj-Napoca, Calea Florești, no. 60, Cluj county, Romania, tax ID 42622580, a non-governmental, apolitical and non-profit Organization which is subject to Romanian legislation, applicable to this type of legal entity.",
+        "By using our website https://www.asociatiacommunity.ro you acknowledge and agree with the Terms and Conditions below."
+      ]
+    },
+    "donations": {
+      "title": "2. Donations",
+      "p1": "The web-site allows the setting of recurring or individual donations through PayLike service.",
+      "p2": {
+        "content": "You have the right to withdraw your donation made online within 14 days from the date it was made. To request the return of the donated amount, please contact us at {email}.",
+        "map": {
+          "email": "juridic@asociatiacommunity.ro"
+        }
+      },
+      "p3": {
+        "title": "The email must contain the following information:",
+        "list": [
+          "The full name of the account holder from whom the donation was made,",
+          "Proof of donation (statement issued by the bank or downloaded through online banking services, including information on the number, date and time of the transaction and the IBAN code of the account from where the donation was made)."
+        ]
+      },
+      "p4": "The request for the return of the donated amount can be made only by the holder of the account from which the payment was made.",
+      "p5": "The money will be returned within 14 days from the date of the request, in the bank account from which the payment was made.",
+      "p6": "The return of the amounts will be made in full where possible. If for logistical reasons independent of us (eg bank fees) the return of the amount involves any costs for Asociația Community powered by DLOT, they will be deducted from the initial amount that was donated."
+    },
+    "copyright": {
+      "title": "3. Copyright",
+      "p1": "All information on this site belongs to Asociația Community powered by DLOT."
+    },
+    "data_protection": {
+      "title": "4. Personal data protection",
+      "p1": "We collect and process your personal data in accordance with Law no. 190/2018 on measures for the implementation of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of individuals with regard to the processing of personal data (GDPR).",
+      "p2": {
+        "content": "A complete list of the data we collect can be found in our {privacy}.",
+        "map": {
+          "link": "/privacypolicy",
+          "value": "privacy policy"
+        }
+      }
+    },
+    "cookie_policy": {
+      "title": "5. Cookie policy",
+      "p1": "We use cookies to remember users’ settings, market products and services to users, and for authentication purposes.",
+      "p2": {
+        "content": "For more information on the cookies we use, please read the {cookie}.",
+        "map": {
+          "cookie": {
+            "link": "/privacypolicy",
+            "value": "Cookie policy"
+          }
+        }
+      }
+    },
+    "internal_regulations": {
+      "title": "6. Internal regulations",
+      "p1": {
+        "content": "Read our internal regulations {regulation}.",
+        "map": {
+          "regulation": {
+            "link": "/internalregulation",
+            "value": "here"
+          }
+        }
+      }
+    },
+    "applicable_law": {
+      "title": "7. Applicable law",
+      "paragraphs": [
+        "By using the online payment system in order to make donations through electronic payment systems, you declare that you have taken note of the fact that the Romanian laws will govern the above Terms and Conditions.",
+        "In case of possible conflicts between Asociația Community powered by DLOT and its donors / sponsors / collaborators, we will first try to resolve them amicably in at least 30 working days from the date on which they were brought to our attention.",
+        "If the amicable settlement will not be possible, the dispute will be resolved by the competent court in accordance with the Romanian laws."
+      ]
+    },
+    "final_clauses": {
+      "title": "8. Final clauses",
+      "p1": "We reserve the right to periodically update and change the Terms and Conditions to reflect any changes to the use of our site, the processing of personal data or any changes to legal requirements.",
+      "p2": "In case of any such changes, we will display the modified version on our website, for which reason please check its content periodically.",
+      "p3": {
+        "content": "By using our site you declare that you have read, understood and express your agreement on the above Terms and Conditions, as well as on our {privacy} and {cookie} Policies.",
+        "map": {
+          "privacy": {
+            "link": "/privacypolicy",
+            "value": "Privacy"
+          },
+          "cookie": {
+            "link": "/privacypolicy",
+            "value": "Cookie"
+          }
+        }
+      },
+      "p4": {
+        "content": "For any information please contact us at {email}.",
+        "map": {
+          "email": "juridic@asociatiacommunity.ro"
+        }
+      }
+    }
   }
 }
