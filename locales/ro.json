@@ -290,8 +290,8 @@
         "content": "Îți place să scrii, ești bun la planificare și organizare, ai o pasiune pentru oameni, animale și natură, ești creativ sau îți place să petreci timp în aer liber și vrei să te alături campaniei noastre de {tripandpick}?",
         "map": {
           "tripandpick": {
-            "link": "tripandpick@asociatiacommunity.ro",
-            "value": "tripandpick@asociatiacommunity.ro"
+            "link": "https://www.instagram.com/explore/tags/tripandpick",
+            "value": "#TripAndPick"
           }
         }
       },
@@ -548,7 +548,16 @@
       "Realitatea ne-a demonstrat că trebuie să acționăm și să mergem dincolo de procesul de a strânge gunoaiele din natură. Pentru o dezvoltare sustenabilă a societății, extinderea comunității oamenilor responsabili este indispensabilă. Acest lucru este posibil prin educație și informare corectă, în special în zonele rurale.",
       "Pentru că dorim să ne implicăm mai mult în protecția mediului, am fondat Asociația Community powered by DLOT.",
       "Prin intermediul unor evenimente în natură, campanii educaționale precum și acțiuni de ecologizare, ne dorim să evidențiem impactul pe care omul îl are asupra naturii, importanța protejării acesteia și promovarea unui stil de viață sănătos, în armonie cu mediul înconjurător."
-    ]
+    ],
+    "tripandpick": {
+      "content": "Contiuând explorarea naturii sălbatice departe de civilizație, am decis să luăm cu noi în drumeții saci de gunoi, iar la întoarcere să \"facem curat\". Așa a început campania noastră, {tripandpick}.",
+      "map": {
+        "tripandpick": {
+          "link": "https://www.instagram.com/explore/tags/tripandpick",
+          "value": "Trip And Pick"
+        }
+      }
+    }
   },
   "regulation": {
     "title": "REGULAMENT INTERN",
@@ -572,8 +581,8 @@
           "activitați de fitness și sporturi în aer liber,",
           "plantarea, îngrijirea și întreținerea spațiilor verzi,",
           "consultanță în probleme de mediu."
-      ]
-    }
+        ]
+      }
     },
     "governing": {
       "title": "ORGANE DE CONDUCERE",
@@ -1236,7 +1245,7 @@
     "p1": {
       "content": "Conform {document} din Codul Fiscal, contribuabilii pot direcționa un procent de 3,5% din impozitul pe venit anual datorat pentru susținerea entitaților nonprofit, a unităților de cult, precum și pentru acordarea de burse private.",
       "map": {
-        "document":{
+        "document": {
           "link": "http://static.anaf.ro/static/10/Anaf/legislatie/L_227_2015.htm",
           "label": "legii 227/2015"
         }
@@ -1258,7 +1267,7 @@
       "title": "Ce trebuie să fac?",
       "download": {
         "content": "Descarcă formularul 230 {form}.",
-        "map" : {
+        "map": {
           "form": {
             "link": "https://static.anaf.ro/static/10/Anaf/formulare/230_OPANAF_15_2021.pdf",
             "label": "aici"
@@ -1284,7 +1293,7 @@
         "content": "Dacă alegi să ne trimiți nouă formularul, este necesar să completezi și acordul pentru protecția datelor personale, ce poate fi descărcat de {document}. Trimite apoi ambele formulare, completate și semnate, la adresa: str. CALEA FLORESTI nr. 60, bl. A2, sc. I, et. III, ap.12, Cluj-Napoca, cod poștal 400522,  jud. Cluj, România.",
         "map": {
           "document": {
-            "link": "/GDPR_formular_230.pdf",
+            "link": "/forms/form230_gdpr.pdf",
             "label": "aici"
           }
         }
@@ -1304,13 +1313,33 @@
       "p2": "Dacă alegi să trimiți formularul către noi, termenul limită este 1 mai, pentru ca noi să avem timp să le verificăm/centralizăm/depunem."
     },
     "howto": {
-      "title" : "Cum se completează formularul? ",
+      "title": "Cum se completează formularul? ",
       "p1": "Poți alege oricare din metodele de mai jos:",
-      "list": [
-        "Descarcă formularul și completează-l digital folosind aplicația Adobe Reader, conform video-ului de mai jos. Printează apoi formularul și semnează-l. ",
-        "Descarca formularul, printează-l, completează-l de mâna și semnează-l."
-      ],
-      "p2": "Aici găsesti instrucțiunile de completare precum și un model de formular completat. "
+      "options": {
+        "o1": {
+          "content": "Descarcă formularul și completează-l digital folosind aplicația Adobe Reader, conform {video}. Printează apoi formularul și semnează-l.",
+          "map": {
+            "video": {
+              "value": "video-ului",
+              "link": "https://user-images.githubusercontent.com/69460413/109929959-bf085180-7ccf-11eb-9765-827d2085c965.mp4"
+            }
+          }
+        },
+        "o2": "Descarca formularul, printează-l, completează-l de mâna și semnează-l."
+      },
+      "p2": {
+        "content": "{here} găsesti instrucțiunile de completare precum și un model de {filled_form}.",
+        "map": {
+          "here": {
+            "value": "Aici",
+            "link": "/forms/form230_fill_instructions.pdf"
+          },
+          "filled_form": {
+            "value": "formular completat",
+            "link": "/forms/form230_model.pdf"
+          }
+        }
+      }
     },
     "faq": [
       {

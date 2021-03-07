@@ -280,8 +280,8 @@
         "content": "Maybe you like to write stories, or you’re good at planning and organizing, you have a passion for people, animals and nature, you’re creative, or you like to spend time outdoors and want to join us in our {tripandpick} campaigns.",
         "map": {
           "tripandpick": {
-            "link": "tripandpick@asociatiacommunity.com",
-            "value": "tripandpick@asociatiacommunity.com"
+            "link": "https://www.instagram.com/explore/tags/tripandpick",
+            "value": "#TripAndPick"
           }
         }
       },
@@ -540,7 +540,16 @@
       "Many of the things we saw on our trips show the need to go further than just picking up others trash. For a sustainable development of society, expansion of the community of responsible people is indispensable. This is only possible through education and proper information, especially in rural areas.",
       "In order to find solutions to these issues we founded Community, a non-profit organization focused on environmental protection.",
       "Through various educational campaigns and events, we aim to create awareness around the impact of human lifestyle on nature and to promote means to improve the physical and mental health while living in harmony with the surroundings."
-    ]
+    ],
+    "tripandpick": {
+      "content": "We continued our search for hidden gems away from civilization and we decided to take some garbage bags with us, to pick-up the litter found on the way back. This is how our campaign, {tripandpick}, has started.",
+      "map": {
+        "tripandpick": {
+          "link": "https://www.instagram.com/explore/tags/tripandpick",
+          "value": "Trip And Pick"
+        }
+      }
+    }
   },
   "regulation": {
     "title": "INTERNAL REGULATION",
@@ -1223,7 +1232,7 @@
     "p1": {
       "content": "According to the Fiscal Code {document} , taxpayers can direct a percentage of 3.5% of the annual income tax for the support non-profit entities, religious units, as well as fo granting of private scholarships.",
       "map": {
-        "document":{
+        "document": {
           "link": "http://static.anaf.ro/static/10/Anaf/legislatie/L_227_2015.htm",
           "label": "law 227/2015"
         }
@@ -1245,7 +1254,7 @@
       "title": "What to do?",
       "download": {
         "content": "Download the form {form}.",
-        "map" : {
+        "map": {
           "form": {
             "link": "https://static.anaf.ro/static/10/Anaf/formulare/230_OPANAF_15_2021.pdf",
             "label": "here"
@@ -1271,7 +1280,7 @@
         "content": "If you choose to send us the form, it is necessary to fill in and sign the agreement for the protection of personal data, which can be downloaded {document}. Afterwards, send both forms, completed and signed, to the address: str. CALEA FLORESTI no. 60, pp. A2, sc. I, et. III, ap.12, Cluj-Napoca, postal code 400522, Cluj County, Romania.",
         "map": {
           "document": {
-            "link": "/GDPR_formular_230.pdf",
+            "link": "/forms/form230_gdpr.pdf",
             "label": "here"
           }
         }
@@ -1282,7 +1291,7 @@
       "p1": {
         "content": "According to {law}, the annual deadline for submitting the form to the fiscal units is May 25th.",
         "map": {
-          "law" : {
+          "law": {
             "value": "Law 296/2020",
             "link": "http://cdep.ro/pls/proiecte/upl_pck.proiect?idp=18123"
           }
@@ -1291,13 +1300,33 @@
       "p2": "If you choose to send the form to us, the deadline is May 1st, so that we have time to check / centralize / submit them."
     },
     "howto": {
-      "title" : "How to fill in the form?",
+      "title": "How to fill in the form?",
       "p1": "You can choose any of the following methods:",
-      "list": [
-        "Download the form and fill it in digitally using the Adobe Reader application, according to the video below, then print the form and sign it.",
-        "Download the form, print it, fill it in by hand and sign it."
-      ],
-      "p2": "Here you will find the completion instructions as well as a completed form template."
+      "options": {
+        "o1": {
+          "content": "Download the form and fill it in digitally using the Adobe Reader application, according to the {video}, then print the form and sign it.",
+          "map": {
+            "video": {
+              "value": "video",
+              "link": "https://user-images.githubusercontent.com/69460413/109929959-bf085180-7ccf-11eb-9765-827d2085c965.mp4"
+            }
+          }
+        },
+        "o2": "Download the form, print it, fill it in by hand and sign it."
+      },
+      "p2": {
+        "content": "{here} you will find the completion instructions as well as a {filled_form}.",
+        "map": {
+          "here": {
+            "value": "Here",
+            "link": "/forms/form230_fill_instructions.pdf"
+          },
+          "filled_form": {
+            "value": "completed form template",
+            "link": "/forms/form230_model.pdf"
+          }
+        }
+      }
     },
     "faq": [
       {
