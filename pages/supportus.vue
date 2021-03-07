@@ -308,9 +308,3 @@ export default class SupportUs extends Vue {
   }
 }
 </script>
-
-<style scoped>
-.blurred {
-  filter: blur(8px)
-}
-</style>
