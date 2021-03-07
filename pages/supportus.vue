@@ -46,7 +46,7 @@
         <div class="flex flex-col gap-4">
           <paragraph path="supportus.donate.legalNotice" :from="1">
             <template #before>
-              <i18n path="supportus.donate.legalNotice[0].content" tag="p">
+              <i18n path="supportus.donate.legalNotice[0].content">
                 <template #terms>
                   <nuxt-link class="text-link" :to="localePath(`${$t('supportus.donate.legalNotice[0].map.terms.link')}`)">
                     {{ $t("supportus.donate.legalNotice[0].map.terms.label") }}<!--
