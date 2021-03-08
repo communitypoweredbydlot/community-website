@@ -1174,7 +1174,7 @@
         "content": "Descarcă formularul 230 {form}.",
         "map": {
           "form": {
-            "link": "https://static.anaf.ro/static/10/Anaf/formulare/230_OPANAF_15_2021.pdf",
+            "link": "/forms/form230_community.pdf",
             "label": "aici"
           }
         }
@@ -1226,7 +1226,7 @@
           "map": {
             "video": {
               "value": "video-ului",
-              "link": "https://user-images.githubusercontent.com/69460413/109929959-bf085180-7ccf-11eb-9765-827d2085c965.mp4"
+              "link": "/forms/form230_video.mp4"
             }
           }
         },
