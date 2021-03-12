@@ -212,7 +212,7 @@
           tag="p"
           class="paragraph-sm xl:paragraph"
         >
-          <template #:messenger-link>
+          <template #messenger-link>
             <a
               class="text-link"
               href="https://www.messenger.com/t/asociatiacommunity"
@@ -220,7 +220,7 @@
               rel="noopener noreferrer"
             >{{ $t("supportus.dumps.p1.messenger-link.label") }}</a>
           </template>
-          <template #:email-link>
+          <template #email-link>
             <a
               class="text-link"
               :href="`mailto:${$t('supportus.dumps.p1.email-link.link')}`"
