@@ -1053,6 +1053,16 @@
           "We also collect information about you through social media sites you use to access our Site depending on the permissions you have given for access to your information.",
           "We use passively collected information to monitor and maintain the performance of our Sites, analyze trends, usage and activities in connection with our services, validate users and ensure their technological compatibility with users, and optimize our marketing efforts."
         ]
+      },
+      "event": {
+        "title": "6. Information we collect when you subscribe to our events",
+        "what_when": [{
+          "title": "To have a clear idea on the number of participants to our events and a database with the most active volunteers. We need this reports in case of future incentives and also to check compliance with the necessary conditions for acquiring membership. We do not carry out email marketing campaigns.",
+          "list": [
+            "name and surname,",
+            "email address."
+          ]
+        }]
       }
     },
     "cookies": {
@@ -1105,6 +1115,15 @@
         },
         "The data you provide us by filling in the 230 form are communicated to the ANAF headquarters to which you belong.",
         "We may disclose your personal information to any of our employees appointed on the basis of the Decision of the Board of Directors, to submit to ANAF CLUJ ”Application for the destination of the amount representing 2% or 3.5% of annual tax on income from salaries and pensions, Form 230”.",
+        {
+          "content": "We use Mailchimp to collect event registration data. Learn more about Mailchimp's privacy practices {policy}.",
+          "map": {
+            "policy": {
+              "link": "https://mailchimp.com/legal/privacy/",
+              "value": "here"
+            }
+          }
+        },
         "We can also disclose Personal Information if such action is necessary to protect and defend our rights or property, protect against legal liability, or as otherwise required or permitted by law."
       ]
     },
@@ -1134,7 +1153,13 @@
       "title": "HOW LONG DO WE STORE YOUR DATA",
       "content": [
         "If you made a donation, keep your data, physical or electronic format, according to the legislation in force, in order to fulfill our fiscal obligations.",
-        "If you contacted us, through any electronic channel of communication, your personal information will be deleted as soon as your request has been solved."
+        "If you contacted us, through any electronic channel of communication, your personal information will be deleted as soon as your request has been solved.",
+        {
+          "content": "We keep the data you provided when you subscribed to our events for an indefinite period of time. You can withdraw your consent and request to delete your data anytime through an email at {juridic}.",
+          "map": {
+            "juridic": "juridic@asociatiacommunity.ro"
+          }
+        }
       ]
     },
     "rights": {

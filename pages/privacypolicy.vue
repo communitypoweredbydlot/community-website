@@ -64,6 +64,9 @@
 
       <subsection-title path="privacypolicy.type.passive.title" />
       <paragraphs path="privacypolicy.type.passive.what_when" />
+
+      <subsection-title path="privacypolicy.type.event.title" />
+      <list path="privacypolicy.type.event.what_when[0]" />
     </div>
 
     <div>
@@ -138,7 +141,14 @@
         </i18n>
       </paragraph>
       <paragraph path="privacypolicy.sharing.content" :from="4" :to="5" />
-      <paragraph path="privacypolicy.sharing.content" :from="6" />
+      <paragraph>
+        <i18n path="privacypolicy.sharing.content[6].content">
+          <template #policy>
+            <a :href="$t('privacypolicy.sharing.content[6].map.policy.link')" class="text-link" target="_blank" rel="noopener noreferrer">{{ $t('privacypolicy.sharing.content[6].map.policy.value') }}</a>
+          </template>
+        </i18n>
+      </paragraph>
+      <paragraph path="privacypolicy.sharing.content" :from="7" />
     </div>
 
     <div>
@@ -158,7 +168,14 @@
 
     <div>
       <section-title path="privacypolicy.expiration.title" />
-      <paragraph path="privacypolicy.expiration.content" />
+      <paragraph path="privacypolicy.expiration.content" :from="0" :to="1">
+        <br>
+        <i18n path="privacypolicy.expiration.content[2].content">
+          <template #juridic>
+            <a :href="`mailto:${$t('privacypolicy.expiration.content[2].map.juridic')}`" class="text-link">{{ $t('privacypolicy.expiration.content[2].map.juridic') }}</a>
+          </template>
+        </i18n>
+      </paragraph>
     </div>
 
     <div>

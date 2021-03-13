@@ -1069,6 +1069,16 @@
           "De asemenea, colectăm informații prin intermediul site-urilor de socializare pe care le utilizezi pentru a accesa Site-ul nostru, în funcție de permisiunile pe care le-ai setat.",
           "Folosim aceste date pentru a monitoriza performanța site-ului nostru și a îmbunătăți experiența pe care ți-o oferim atunci când ne vizitezi."
         ]
+      },
+      "event": {
+        "title": "6. Informații pe care le colectăm atunci când te înscri la un eveniment",
+        "what_when": [{
+          "title": "Pentru a avea o listă clară a numărului de participanți la evenimente precum și pentru a avea o situație cu cei mai activi voluntari, în eventualitatea premierii acestora sau verificării îndeplinirii condițiilor pentru aderarea membrilor asociați. Nu desfășurăm campanii de email marketing.",
+          "list": [
+            "nume și prenume,",
+            "adresa de email."
+          ]
+        }]
       }
     },
     "cookies": {
@@ -1121,6 +1131,15 @@
         },
         "Datele pe care ni le furnizezi prin completarea formularului 230 sunt comunicate către sediul ANAF căruia îi aparții.",
         "Putem divulga informațiile dvs. Personale oricăruia dintre angajații noștri desemnați în baza Deciziei Consiliului Director, să depună la ANAF CLUJ ”Cererea privind destinaţia sumei reprezentând 2% sau 3,5 % din impozitul anual pe veniturile din salarii și din pensii, Formularul 230”.",
+        {
+          "content": "Folosim Mailchimp pentru colectarea datelor în cazul înscrierii la evenimente. Află mai multe despre Politica de confidențialitate Mailchimp {policy}.",
+          "map": {
+            "policy": {
+              "link": "https://mailchimp.com/legal/privacy/",
+              "value": "aici"
+            }
+          }
+        },
         "În cazul in care ne revine o obligație legală sau dacă este necesar pentru a ne apăra un interes legitim, putem de asemenea divulga anumite date cu caracter personal unor autorităti publice.",
         "Totodata, putem divulga datele tale în cazul în care acestea sunt solicitate de către autoritățile legii."
       ]
@@ -1150,7 +1169,13 @@
       "title": "CÂT TIMP PĂSTRĂM DATELE TALE CU CARACTER PERSONAL",
       "content": [
         "În cazul în care ai facut o donație prin transfer bancar sau prin intermediul serviciului de plați online, păstrăm datele tale, în format fizic sau electronic, conform legislației în vigoare, pentru a ne îndeplini obligațiile fiscale.",
-        "În cazul în care ne-ai contactat păstrăm datele tale până la finalizarea solicitării."
+        "În cazul în care ne-ai contactat păstrăm datele tale până la finalizarea solicitării.",
+        {
+          "content": "Datele furnizate vor fi păstrate de către asociație pe o perioadă nedeterminată. Poți oricând să îți retragi acordul de procesare al datelor tale și să soliciți ștergea acestora din baza noastră de date prin intermediul unui mail la adresa {juridic}.",
+          "map": {
+            "juridic": "juridic@asociatiacommunity.ro"
+          }
+        }
       ]
     },
     "rights": {
@@ -1419,6 +1444,47 @@
           "email": "juridic@asociatiacommunity.ro"
         }
       }
+    }
+  },
+  "trpconsent": {
+    "title": "Formular înscriere eveniment",
+    "form": {
+      "mandatory": "indică un câmp obligatoriu",
+      "name": "Nume complet",
+      "email": "Adresă de e-mail",
+      "safe": "Datele tale sunt în siguranță",
+      "confirm": [
+        "Te rugăm să confirmi că ești de acord cu colectarea datelor dale personale.",
+        "Prin înscrierea la eveniment declari că ai luat la cunoștință faptul că organizatorul, partenerii organizatorului sau presa acreditată au dreptul de a înregistra şi fotografia evenimentul și că există posibilitatea de a apărea în astfel de materiale."
+      ],
+      "checkbox": {
+        "collect": {
+          "content": "Sunt de acord ca Asociația Community powered by DLOT să colecteze și să stocheze datele mele personale conform {policy}.",
+          "map": {
+            "policy": {
+              "link": "/privacypolicy",
+              "value": "”Politicii de Protecție a datelor cu caracter personal”"
+            }
+          }
+        },
+        "media": "Îmi exprim acordul ca organizatorul să folosească materialele foto/video, să le publice online sau offline, pe diverse canale, şi să le utilizeze în campanii de promovare și prezentare ale asociației, fără a emite pretenţii asupra drepturilor cu privire la respectivele materiale sau recompense de orice fel."
+      },
+      "unsubscribe": {
+        "content": "Poți să te dezabonezi oricând accesând linkul din cadrul email-urilor noastre. Mai multe informații despre protecția datelor cu caracter personal găsești pe site-ul nostru. Ne poți contacta oricând cu privire la datele tale personale, la adresa de email {juridic}",
+        "map": {
+          "juridic": "juridic@asociatiacommunity.ro"
+        }
+      },
+      "mailchimp": {
+        "content": "Folosim Mailchimp pentru colectarea datelor. Prin trimiterea acestui formular îți exprimi acordul cu privire la procesarea datelor tale de către Asociația Community powered by DLOT, prin intermediul platformei Mailchimp. {legal}.",
+        "map": {
+          "legal": {
+            "link": "https://mailchimp.com/legal/",
+            "value": "Află mai multe despre politica Mailchimp de protecție a datelor personale"
+          }
+        }
+      },
+      "submit": "Trimite"
     }
   }
 }
