@@ -148,15 +148,18 @@
       },
       "legalNotice": [
         {
-          "content": "By using the online donation methods you agree with our {terms}, applicable exclusively in the case of online donations.",
+          "content": "By using the online donation methods I declare that I have read and agree to {terms} and that I agree that my data will be processed in accordance with the {policy}.",
           "map": {
             "terms":{
               "link": "/termsandconditions",
               "label": "Terms and Conditions"
+            },
+            "policy": {
+              "link": "/privacypolicy",
+              "label": "Privacy Policy"
             }
           }
-        },
-        "Your acceptance of the terms and conditions and accounting policy represents the whole understanding (contract) between the parties."
+        }
       ],
       "name": {
         "label": "Name"
