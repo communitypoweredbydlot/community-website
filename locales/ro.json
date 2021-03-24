@@ -148,15 +148,18 @@
       },
       "legalNotice": [
         {
-          "content": "Prin folosirea metodei de donaţii online, eşti de acord cu {terms}, aplicate exclusiv în cazul donaţiilor efectuate online.",
+          "content": "Prin folosirea metodei de donaţii online declar că am citit și sunt de acord cu {terms} si imi exprim acordul ca datele mele să fie procesate conform {policy}.",
           "map": {
-            "terms":{
+            "terms": {
               "link": "/termsandconditions",
               "label": "Termenii și Condițiile"
+            },
+            "policy": {
+              "link": "/privacypolicy",
+              "label": "Politicii de prelucrare a datelor cu caracter personal"
             }
           }
-        },
-        "Acceptul tău cu privire la termeni şi condiţii de utilizare şi politici contabile reprezintă întreaga inţelegere (contractul) dintre părţi."
+        }
       ],
       "name": {
         "label": "Nume",

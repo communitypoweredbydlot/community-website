@@ -44,20 +44,14 @@
       <div>
         <section-title path="supportus.donate.title" />
         <div class="flex flex-col gap-4">
-          <paragraph path="supportus.donate.legalNotice" :from="1">
-            <template #before>
-              <i18n path="supportus.donate.legalNotice[0].content">
-                <template #terms>
-                  <nuxt-link class="text-link" :to="localePath(`${$t('supportus.donate.legalNotice[0].map.terms.link')}`)">
-                    {{ $t("supportus.donate.legalNotice[0].map.terms.label") }}<!--
-              --></nuxt-link>
-                </template>
-              </i18n>
-            </template>
-          </paragraph>
           <paragraph path="supportus.donate.p1" :margin-bottom="false" />
           <div>
-            <button class="inline-flex items-center rounded shadow border border-gray-100 border-opacity-25 cursor-pointer px-2 py-1 animate-bounce hover:bg-gray-100 hover:bg-opacity-25" @click="donate">
+            <button
+              class="inline-flex items-center rounded shadow border border-gray-100 border-opacity-25 px-2 py-1"
+              :class="isAcceptedTermsAndPrivacyPolicy ? 'animate-bounce cursor-pointer hover:bg-gray-100 hover:bg-opacity-25': 'cursor-not-allowed opacity-50'"
+              :disabled="!isAcceptedTermsAndPrivacyPolicy"
+              @click="donate"
+            >
               <icon class="w-4 h-4 mr-2 text-red-500 hover:text-red-600">
                 {{ iconHeart }}
               </icon>
@@ -65,6 +59,25 @@
                 {{ $t("supportus.donate.button.label") }}
               </span>
             </button>
+            <div class="flex flex-row items-baseline justify-start space-x-2 mt-2">
+              <input v-model="isAcceptedTermsAndPrivacyPolicy" type="checkbox">
+              <paragraph path="supportus.donate.legalNotice" :from="1" :margin-bottom="false">
+                <template #before>
+                  <i18n path="supportus.donate.legalNotice[0].content">
+                    <template #terms>
+                      <nuxt-link class="text-link" :to="localePath(`${$t('supportus.donate.legalNotice[0].map.terms.link')}`)">
+                        {{ $t("supportus.donate.legalNotice[0].map.terms.label") }}<!--
+                  --></nuxt-link>
+                    </template>
+                    <template #policy>
+                      <nuxt-link class="text-link" :to="localePath(`${$t('supportus.donate.legalNotice[0].map.policy.link')}`)">
+                        {{ $t("supportus.donate.legalNotice[0].map.policy.label") }}<!--
+                  --></nuxt-link>
+                    </template>
+                  </i18n>
+                </template>
+              </paragraph>
+            </div>
           </div>
           <paragraph path="supportus.donate.p2" :margin-bottom="false" />
           <div>
@@ -264,6 +277,7 @@ export default class SupportUs extends Vue {
   isCopySuccesss = false
   isPaylikeLoaded = false
   paylike!: any
+  isAcceptedTermsAndPrivacyPolicy = false
 
   async copyToClipboard (v) {
     // @ts-ignore
@@ -294,7 +308,13 @@ export default class SupportUs extends Vue {
             name: 'amount',
             required: true
           }
-        ]
+        ],
+        custom: {
+          AcceptedTermsAndPrivacyPolicy: this.isAcceptedTermsAndPrivacyPolicy
+        }
+      },
+      () => {
+        this.isAcceptedTermsAndPrivacyPolicy = false
       }
     )
   }
