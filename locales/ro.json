@@ -130,7 +130,7 @@
     "tell": {
       "title": "Spune și altora",
       "p1": "Împărtășește cu alții povestea noastră, atrage atenția asupra importanței protejării naturii.",
-      "p2": "Urmarește și folosește hastag-urile noastre pe social media."
+      "p2": "Urmărește și folosește hastag-urile noastre pe social media."
     },
     "donate": {
       "title": "Donează",
@@ -148,7 +148,7 @@
       },
       "legalNotice": [
         {
-          "content": "Prin folosirea metodei de donaţii online declar că am citit și sunt de acord cu {terms} si imi exprim acordul ca datele mele să fie procesate conform {policy}.",
+          "content": "Prin folosirea metodei de donații online declar că am citit și sunt de acord cu {terms} si îmi exprim acordul ca datele mele să fie procesate conform {policy}.",
           "map": {
             "terms": {
               "link": "/termsandconditions",
@@ -167,7 +167,7 @@
       },
       "address": {
         "label": "Adresă",
-        "value": "Calea Floresti 60, 400522, Cluj-Napoca, Romania"
+        "value": "Calea Florești 60, 400522, Cluj-Napoca, România"
       },
       "taxid": {
         "label": "Cod fiscal",
@@ -181,7 +181,7 @@
         "label": "iban",
         "value": "RO44RNCB0298169443980001",
         "copyTooltip": "Copiază IBAN în clipboard",
-        "copySuccess": "Codul a fost copiat în clipboard."
+        "copySuccess": "Codul a fost copiat în clip board."
       },
       "currency": {
         "label": "Monedă",
@@ -321,7 +321,7 @@
             "Crearea, implementarea și evaluarea politicilor și procedurilor departamentului de resurse umane.",
             "Recrutarea și coordonarea interviurilor.",
             "Realizarea și procesarea documentelor pentru noii voluntari și membri.",
-            "Informarea aplicanților cu privire la responsabilitățile postului, beneficii, program, condiții de muncă, oportunități de promorvare etc.",
+            "Informarea aplicanților cu privire la responsabilitățile postului, beneficii, program, condiții de muncă, oportunități de promovare etc.",
             "Crearea și implementarea programelor de training și dezvoltare personală.",
             "Evaluarea performanței membrilor și voluntarilor.",
             "Centralizarea programului de lucru al voluntarilor și membrilor.",
@@ -332,7 +332,7 @@
           "label": "Cerințe",
           "list": [
             "Cunoștințe în ceea ce privește legislația muncii.",
-            "Întelegerea procesului de recrutare.",
+            "Înțelegerea procesului de recrutare.",
             "Abilități de comunicare verbală și în scris.",
             "Abilități de rezolvare a problemelor și management al echipelor.",
             "Cunoștințe în utilizarea Microsoft Office sau alte programe similare.",
@@ -353,7 +353,7 @@
             "Analiza succesului campaniilor pe platformele de socializare.",
             "Participarea la conferințe și work-shop-uri educaționale în domeniul marketing digital.",
             "Informarea cu privire la cele mai bune practici și tehnologii ale canalelor de socializare.",
-            "Analiza și îmbunătațirea implicării publicului."
+            "Analiza și îmbunătățirea implicării publicului."
           ]
         },
         "requirements": {
@@ -391,7 +391,7 @@
             "Abilități de comunicare scrisă și verbală (Română și Engleză).",
             "Abilitatea de a construi relații, a motiva și inspira diverse grupuri.",
             "Atenție la detalii si abilități de organizare.",
-            "Întelegerea metodologiei de comunicare și implicare a publicului.",
+            "Înțelegerea metodologiei de comunicare și implicare a publicului.",
             "Abilități de rezolvare a problemelor.",
             "Cunoștințe în utilizarea Microsoft Office sau alte programe similare.",
             "Computer personal cu conexiune la internet.",
@@ -435,7 +435,7 @@
           "list": [
             "Trasarea obiectivelor și propunerea de proiecte de cercetare.",
             "Formularea și implementarea metodologiei de cercetare (chestionare, observații, interviuri, focus grupuri, experimente, consultare literatură de specialitate).",
-            "Replicarea, evaluarea și îmbunătațirea strategiilor de cercetare.",
+            "Replicarea, evaluarea și îmbunătățirea strategiilor de cercetare.",
             "Testarea, personalizarea și implementarea de noi metode și proceduri.",
             "Propunerea tehnicilor de îmbunătățire a calității cercetării.",
             "Contribuirea la scrierea și publicarea lucrărilor de specialitate, a prezentărilor și a altor documente științifice."
@@ -497,10 +497,10 @@
           "label": "Cerințe",
           "list": [
             "Abilități de comunicare scrisă și verbală (Română și Engleză).",
-            "Abilitatea de a comunica cu presa.",
+            "Abilitatea de a comunică cu presa.",
             "Creativitate.",
             "Abilități de a vorbi în public.",
-            "Comeptențe în administrarea situațiilor de criză.",
+            "Competențe în administrarea situațiilor de criză.",
             "Atenție la detalii.",
             "Cunoștințe în utilizarea Microsoft Office sau alte programe similare.",
             "Computer personal cu conexiune la internet.",
@@ -543,7 +543,7 @@
       "Am început prin a ne refugia în locuri ușor accesibile, pe jos sau cu bicicleta, dar agitația cotidiană și urbanizarea accelerată au distrus multe dintre oazele noastre de pace. Aglomerația s-a extins în parcuri, păduri periferice și zone de grătar, transformându-le în mușuroaie zgomotoase și murdare. Astfel, suntem constrânși să ne retragem tot mai departe de oraș, în speranța de a ne reuni cu natura nealterată.",
       "Cu cât distanța este mai lungă, cu atât dezamăgirea este mai mare. Defrișările în masă, proprietățile private construite prin sacrificarea copacilor și pâlcurile de deșeuri trădează și de această dată natura.",
       "Din cauza sistemelor deficitare de gestionare a deșeurilor din zonele rurale, malurile râurilor și pădurile sunt cele mai vulnerabile la depozitarea necontrolată a gunoaielor provenite din gospodăriile private. Zonele naturale de interes turistic se confruntă cu aceeași problemă a gestionării deficitare a deșeurilor.",
-      "Contiuând explorarea naturii sălbatice departe de civilizație, am decis să luăm cu noi în drumeții saci de gunoi, iar la întoarcere să \"facem curat\". Așa a început campania noastră, Trip and Pick.",
+      "Continuând explorarea naturii sălbatice departe de civilizație, am decis să luăm cu noi în drumeții saci de gunoi, iar la întoarcere să \"facem curat\". Așa a început campania noastră, Trip and Pick.",
       "Am întâlnit zone cu cantități atât de mari de gunoaie, încât ne era imposibil să le curățăm într-o singură zi. Mai mult, am fi avut nevoie de o autoutilitară pentru a transporta toate deșeurile. În lipsa unei forme legale de funcționare, precum și a resurselor financiare și umane, nu putem curăța multe dintre zonele cu probleme și nici nu putem contracta un camion de salubrizare.",
       "Realitatea ne-a demonstrat că trebuie să acționăm și să mergem dincolo de procesul de a strânge gunoaiele din natură. Pentru o dezvoltare sustenabilă a societății, extinderea comunității oamenilor responsabili este indispensabilă. Acest lucru este posibil prin educație și informare corectă, în special în zonele rurale.",
       "Pentru că dorim să ne implicăm mai mult în protecția mediului, am fondat Asociația Community powered by DLOT.",
@@ -1315,7 +1315,7 @@
     "faq": [
       {
         "question": "Trebuie să calculez eu cât înseamnă cota de 3,5% și să scriu în Cerere?",
-        "answer": "Nu trebuie să scrii nimic în câmpul respectiv. Sumă va fi calculată și virată de organul fiscal în funcție de venitul declarat."
+        "answer": "Nu trebuie să scrii nimic în câmpul respectiv. Suma va fi calculată și virată de organul fiscal în funcție de venitul declarat."
       },
       {
         "question": "Am completat deja o cerere pentru un ONG/unitate de cult însă m-am răzgândit. Pot să schimb opțiunea?",
