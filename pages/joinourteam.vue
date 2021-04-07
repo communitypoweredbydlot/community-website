@@ -11,8 +11,8 @@
                 :to="localePath(`${$t('joinourteam.joinus.p2[0].map.values.link')}`)"
                 class="text-link"
               >
-                {{ $t('joinourteam.joinus.p2[0].map.values.value') }}
-              </nuxt-link>
+                {{ $t('joinourteam.joinus.p2[0].map.values.value') }}<!--
+              --></nuxt-link>
             </template>
           </i18n> <br>
         </template>

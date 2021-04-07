@@ -245,7 +245,7 @@
       "p1": "You're looking for opportunities to test and improve your skills, gain work experience, or you simply like our concept?",
       "p2": [
         {
-          "content": "Does your personality fit our {values}?",
+          "content": "Does your personality fit our {values}?",
           "map": {
             "values": {
               "link": "/",
