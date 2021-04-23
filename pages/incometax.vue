@@ -75,27 +75,23 @@
       <section-title path="incometax.howto.title" />
       <paragraph path="incometax.howto.p1" :margin-bottom="false" />
       <ul>
-        <li class="mb-1 paragraph-sm xl:paragraph">
-          <i18n path="incometax.howto.options.o1.content" tag="p" class="paragraph-sm xl:paragraph">
-            <template #video>
-              <a class="text-link" :href="$t('incometax.howto.options.o1.map.video.link')" target="_blank" rel="noopener noreferrer">{{ $t('incometax.howto.options.o1.map.video.value') }}</a>
-            </template>
-          </i18n>
-        </li>
+        <i18n path="incometax.howto.options.o1.content" tag="li" class="mb-1 paragraph-sm xl:paragraph">
+          <template #video>
+            <a class="text-link" :href="$t('incometax.howto.options.o1.map.video.link')" target="_blank" rel="noopener noreferrer">{{ $t('incometax.howto.options.o1.map.video.value') }}</a>
+          </template>
+        </i18n>
         <li class="mb-1 paragraph-sm xl:paragraph">
           {{ $t('incometax.howto.options.o2') }}
         </li>
       </ul>
-      <paragraph :margin-bottom="false">
-        <i18n path="incometax.howto.p2.content" tag="p" class="paragraph-sm xl:paragraph">
-          <template #here>
-            <a class="text-link" :href="($t('incometax.howto.p2.map.here.link'))" target="_blank" rel="noopener noreferrer">{{ $t('incometax.howto.p2.map.here.value') }}</a>
-          </template>
-          <template #filled_form>
-            <a class="text-link" :href="$t('incometax.howto.p2.map.filled_form.link')" target="_blank" rel="noopener noreferrer">{{ $t('incometax.howto.p2.map.filled_form.value') }}</a>
-          </template>
-        </i18n>
-      </paragraph>
+      <i18n path="incometax.howto.p2.content" tag="p" class="paragraph-sm xl:paragraph">
+        <template #here>
+          <a class="text-link" :href="($t('incometax.howto.p2.map.here.link'))" target="_blank" rel="noopener noreferrer">{{ $t('incometax.howto.p2.map.here.value') }}</a>
+        </template>
+        <template #filled_form>
+          <a class="text-link" :href="$t('incometax.howto.p2.map.filled_form.link')" target="_blank" rel="noopener noreferrer">{{ $t('incometax.howto.p2.map.filled_form.value') }}</a>
+        </template>
+      </i18n>
     </div>
     <div
       v-for="(qanda,i) in $t('incometax.faq')"
