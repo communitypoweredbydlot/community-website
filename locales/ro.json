@@ -1,4 +1,11 @@
 {
+  "404": {
+    "notfound": "pagina nu a fost găsită",
+    "sentences": [
+      "Ne pare rau! URL pe care l-ați introdus este greșit sau neactualizat.",
+      "Utilizați meniul pentru a naviga către o pagină existentă sau așteptați {timeout} și veți fi redirecționat către pagina principală."
+    ]
+  },
   "name": "Română",
   "nav": {
     "top": {
@@ -29,13 +36,6 @@
   },
   "time": {
     "s": "secundă | secunde"
-  },
-  "404": {
-    "notfound": "pagina nu a fost găsită",
-    "sentences": [
-      "Ne pare rau! URL pe care l-ați introdus este greșit sau neactualizat.",
-      "Utilizați meniul pentru a naviga către o pagină existentă sau așteptați {timeout} și veți fi redirecționat către pagina principală."
-    ]
   },
   "cookies": {
     "headers": {
@@ -1315,18 +1315,10 @@
     "howto": {
       "title": "Cum se completează formularul? ",
       "p1": "Poți alege oricare din metodele de mai jos:",
-      "options": {
-        "o1": {
-          "content": "Descarcă formularul și completează-l digital folosind aplicația Adobe Reader, conform {video}. Printează apoi formularul și semnează-l.",
-          "map": {
-            "video": {
-              "value": "video-ului",
-              "link": "/forms/form230_video.mp4"
-            }
-          }
-        },
-        "o2": "Descarca formularul, printează-l, completează-l de mâna și semnează-l."
-      },
+      "options": [
+        "Descarcă formularul și completează-l digital folosind aplicația Adobe Reader. Printează apoi formularul și semnează-l.",
+        "Descarca formularul, printează-l, completează-l de mâna și semnează-l."
+      ],
       "p2": {
         "content": "{here} găsesti instrucțiunile de completare precum și un model de {filled_form}.",
         "map": {

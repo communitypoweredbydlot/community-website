@@ -1,4 +1,11 @@
 {
+  "404": {
+    "notfound": "page not found",
+    "sentences": [
+      "You must have taken a wrong turn somewhere.",
+      "Use the navigation menu to go to an existing page or wait and you will be redirected to the home page in {timeout}."
+    ]
+  },
   "name": "English",
   "nav": {
     "top": {
@@ -29,13 +36,6 @@
   },
   "time": {
     "s": "second | seconds"
-  },
-  "404": {
-    "notfound": "page not found",
-    "sentences": [
-      "You must have taken a wrong turn somewhere.",
-      "Use the navigation menu to go to an existing page or wait and you will be redirected to the home page in {timeout}."
-    ]
   },
   "cookies": {
     "headers": {
@@ -1302,18 +1302,10 @@
     "howto": {
       "title": "How to fill in the form?",
       "p1": "You can choose any of the following methods:",
-      "options": {
-        "o1": {
-          "content": "Download the form and fill it in digitally using the Adobe Reader application, according to the {video}, then print the form and sign it.",
-          "map": {
-            "video": {
-              "value": "video",
-              "link": "/forms/form230_video.mp4"
-            }
-          }
-        },
-        "o2": "Download the form, print it, fill it in by hand and sign it."
-      },
+      "options": [
+        "Download the form and fill it in digitally using Adobe Reader, then print the form and sign it.",
+        "Download the form, print it, fill it in by hand and sign it."
+      ],
       "p2": {
         "content": "{here} you will find the completion instructions as well as a {filled_form}.",
         "map": {

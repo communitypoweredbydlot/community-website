@@ -69,13 +69,12 @@
       <section-title path="incometax.howto.title" />
       <paragraph path="incometax.howto.p1" :margin-bottom="false" />
       <ul>
-        <i18n path="incometax.howto.options.o1.content" tag="li" class="mb-1 paragraph-sm xl:paragraph">
-          <template #video>
-            <a class="text-link" :href="$t('incometax.howto.options.o1.map.video.link')" target="_blank" rel="noopener noreferrer">{{ $t('incometax.howto.options.o1.map.video.value') }}</a>
-          </template>
-        </i18n>
-        <li class="mb-1 paragraph-sm xl:paragraph">
-          {{ $t('incometax.howto.options.o2') }}
+        <li
+          v-for="(o,i) in $t('incometax.howto.options')"
+          :key="i"
+          class="mb-1 paragraph-sm xl:paragraph"
+        >
+          {{ o }}
         </li>
       </ul>
       <i18n path="incometax.howto.p2.content" tag="p" class="paragraph-sm xl:paragraph">
