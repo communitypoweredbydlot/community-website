@@ -1,7 +1,7 @@
 <template>
   <div class="text-sm">
     <nuxt-link
-      v-for="(item, index) in mainMenuItems"
+      v-for="(item, index) in mainMenuItems.filter(item => !item.hidden)"
       :key="index"
       :to="localePath(item.route)"
       class="font-sans text-base lg:text-xxs xl:text-xs text-gray-600 tracking-wide hover:text-dlot-teal uppercase"
@@ -39,7 +39,9 @@ export default class NavigationList extends Vue {
     },
     {
       text: 'nav.top.join_our_team',
-      route: '/joinourteam/'
+      route: '/joinourteam/',
+      // Hidden untill the recruitment process is no longer on hold, see https://github.com/communitypoweredbydlot/management/issues/44
+      hidden: true
     }
   ]
 }
