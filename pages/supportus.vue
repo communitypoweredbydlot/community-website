@@ -187,7 +187,8 @@
           </nuxt-link>
         </i18n>
       </div>
-      <div>
+      <!-- Hidden untill the recruitment process is no longer on hold, see https://github.com/communitypoweredbydlot/management/issues/44 -->
+      <div v-if="false">
         <section-title path="supportus.beavolunteer.title" />
         <i18n
           path="supportus.beavolunteer.p1.content"

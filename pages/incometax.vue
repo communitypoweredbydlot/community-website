@@ -2,12 +2,12 @@
   <article class="flex flex-col gap-6">
     <div>
       <page-title path="incometax.title" />
+      <i18n path="incometax.p1.content" tag="p" class="paragraph-sm xl:paragraph">
+        <template #document>
+          <a class="text-link" :href="$t('incometax.p1.map.document.link')" target="_blank" rel="noopener noreferrer">{{ $t('incometax.p1.map.document.label') }}</a>
+        </template>
+      </i18n>
       <paragraph>
-        <i18n path="incometax.p1.content" tag="p" class="paragraph-sm xl:paragraph">
-          <template #document>
-            <a class="text-link" :href="$t('incometax.p1.map.document.link')" target="_blank" rel="noopener noreferrer">{{ $t('incometax.p1.map.document.label') }}</a>
-          </template>
-        </i18n>
         {{ $t("incometax.p2") }}
       </paragraph>
     </div>
@@ -26,13 +26,11 @@
     </div>
     <div>
       <section-title path="incometax.procedure.title" />
-      <paragraph :margin-bottom="false">
-        <i18n path="incometax.procedure.download.content" tag="p" class="paragraph-sm xl:paragraph">
-          <template #form>
-            <a class="text-link" :href="$t('incometax.procedure.download.map.form.link')" target="_blank" rel="noopener noreferrer">{{ $t('incometax.procedure.download.map.form.label') }}</a>
-          </template>
-        </i18n>
-      </paragraph>
+      <i18n path="incometax.procedure.download.content" tag="p" class="paragraph-sm xl:paragraph">
+        <template #form>
+          <a class="text-link" :href="$t('incometax.procedure.download.map.form.link')" target="_blank" rel="noopener noreferrer">{{ $t('incometax.procedure.download.map.form.label') }}</a>
+        </template>
+      </i18n>
       <paragraph path="incometax.procedure.p1" :margin-bottom="false" />
       <ul>
         <li class="mb-1 paragraph-sm xl:paragraph">
@@ -52,23 +50,19 @@
           {{ $t("incometax.procedure.options.o4") }}
         </li>
       </ul>
-      <paragraph :margin-bottom="false">
-        <i18n path="incometax.procedure.gdpr.content" tag="p" class="paragraph-sm xl:paragraph">
-          <template #document>
-            <a class="text-link" :href="$t('incometax.procedure.gdpr.map.document.link')" target="_blank" rel="noopener noreferrer">{{ $t('incometax.procedure.gdpr.map.document.label') }}</a>
-          </template>
-        </i18n>
-      </paragraph>
+      <i18n path="incometax.procedure.gdpr.content" tag="p" class="paragraph-sm xl:paragraph">
+        <template #document>
+          <a class="text-link" :href="$t('incometax.procedure.gdpr.map.document.link')" target="_blank" rel="noopener noreferrer">{{ $t('incometax.procedure.gdpr.map.document.label') }}</a>
+        </template>
+      </i18n>
     </div>
     <div>
       <section-title path="incometax.deadline.title" />
-      <paragraph :margin-bottom="false">
-        <i18n path="incometax.deadline.p1.content" tag="p" class="paragraph-sm xl:paragraph">
-          <template #law>
-            <a class="text-link" :href="$t('incometax.deadline.p1.map.law.link')" target="_blank" rel="noopener noreferrer">{{ $t('incometax.deadline.p1.map.law.value') }}</a>
-          </template>
-        </i18n>
-      </paragraph>
+      <i18n path="incometax.deadline.p1.content" tag="p" class="paragraph-sm xl:paragraph">
+        <template #law>
+          <a class="text-link" :href="$t('incometax.deadline.p1.map.law.link')" target="_blank" rel="noopener noreferrer">{{ $t('incometax.deadline.p1.map.law.value') }}</a>
+        </template>
+      </i18n>
       <paragraph path="incometax.deadline.p2" :margin-bottom="false" />
     </div>
     <div>
@@ -76,14 +70,21 @@
       <paragraph path="incometax.howto.p1" :margin-bottom="false" />
       <ul>
         <li
-          v-for="(value, index) in $t('incometax.howto.list')"
-          :key="index"
+          v-for="(o,i) in $t('incometax.howto.options')"
+          :key="i"
           class="mb-1 paragraph-sm xl:paragraph"
         >
-          {{ value }}
+          {{ o }}
         </li>
       </ul>
-      <paragraph path="incometax.howto.p2" :margin-bottom="false" />
+      <i18n path="incometax.howto.p2.content" tag="p" class="paragraph-sm xl:paragraph">
+        <template #here>
+          <a class="text-link" :href="($t('incometax.howto.p2.map.here.link'))" target="_blank" rel="noopener noreferrer">{{ $t('incometax.howto.p2.map.here.value') }}</a>
+        </template>
+        <template #filled_form>
+          <a class="text-link" :href="$t('incometax.howto.p2.map.filled_form.link')" target="_blank" rel="noopener noreferrer">{{ $t('incometax.howto.p2.map.filled_form.value') }}</a>
+        </template>
+      </i18n>
     </div>
     <div
       v-for="(qanda,i) in $t('incometax.faq')"
