@@ -216,6 +216,8 @@
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator'
 
+import ogMetaFor from '@/lib/HeaderMeta'
+
 @Component
 export default class PrivacyPolicy extends Vue {
   cookies = [
@@ -240,5 +242,13 @@ export default class PrivacyPolicy extends Vue {
       name: '_gat_gtag'
     }
   ]
+
+  head () {
+    return ogMetaFor({
+      route: this.$nuxt.$route.path,
+      img: '/og_home.jpg',
+      title: this.$t('privacypolicy.title')
+    })
+  }
 }
 </script>
