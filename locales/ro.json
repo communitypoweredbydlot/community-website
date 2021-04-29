@@ -1302,7 +1302,7 @@
     "deadline": {
       "title": "Până când pot trimite formularul?",
       "p1": {
-        "content": "Potrivit {law}, termenul anual de depunere a formularului la unitățile fiscal este data de 25 mai. ",
+        "content": "Potrivit {law}, termenul anual de depunere a formularului la unitățile fiscale este data de 25 mai.",
         "map": {
           "law": {
             "value": "legii 296/2020",
@@ -1348,7 +1348,7 @@
           "ANAF trimite scrisori tuturor contribuabililor care nu depun personal formularul 230.",
           "Verifică datele beneficiarului trecut pe cererea depusă în numele tău iar dacă acestea corespund opțiunii tale nu trebuie să faci nimic.",
           "Dacă există nereguli și nu ai optat pentru acel beneficiar, îți recomandăm să te adresezi unității fiscale deoarece poate fi vorba despre o fraudă, cineva a completat formularul în numele tău.",
-          "Dacă ai completat un formular iar apoi te-ai razgandit și ai mai depus unul, prin scrisoarea de la ANAF ți se va cere să confirmi opțiunea finală."
+          "Dacă ai completat un formular iar apoi te-ai răzgândit și ai mai depus unul, prin scrisoarea de la ANAF ți se va cere să confirmi opțiunea finală."
         ]
       },
       {
@@ -1361,7 +1361,7 @@
       },
       {
         "question": "Cum pot redirecționa 3.5% din venit dacă am PFA sau am realizat venituri din chirii, drepturi de proprietate intelectuală sau venituri din străinătate?",
-        "answer": "Contribuabilii impusi în sistem real care au avut venituri din activități independente/agricole, drepturi de proprietate intelectuală și cedarea folosinței bunurilor și au obligația depunerii Declarației Unice pot alege destinația sumei de 3.5% din impozit completând secțiunea 6 a „Declarației unice privind impozitul pe venit și contribuțiile sociale datorate de persoanele fizice”."
+        "answer": "Contribuabilii impuși în sistem real care au avut venituri din activități independente/agricole, drepturi de proprietate intelectuală și cedarea folosinței bunurilor și au obligația depunerii Declarației Unice pot alege destinația sumei de 3.5% din impozit completând secțiunea 6 a „Declarației unice privind impozitul pe venit și contribuțiile sociale datorate de persoanele fizice”."
       }
     ]
   },
