@@ -4,6 +4,7 @@ const ogMetaFor = ({ route, img, title }) => {
   const imagePath = `${baseUrl}${img}`
   const properTitle = title.charAt(0).toUpperCase() + title.slice(1)
   return {
+    title: properTitle,
     meta: [
       { hid: 'og:title', property: 'og:title', content: properTitle },
       { hid: 'og:url', property: 'og:url', content: `${baseUrl}${route}/` },

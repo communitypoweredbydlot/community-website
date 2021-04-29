@@ -126,7 +126,16 @@
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator'
 
+import ogMetaFor from '@/lib/HeaderMeta'
+
 @Component
 export default class TermsAndConditions extends Vue {
+  head () {
+    return ogMetaFor({
+      route: this.$nuxt.$route.path,
+      img: '/og_home.jpg',
+      title: this.$t('terms.title')
+    })
+  }
 }
 </script>
