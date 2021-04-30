@@ -16,4 +16,4 @@ jobs:
           artifact: e2e-test-results
           name: E2E Tests
           path: '*.xml'
-          reporter: java-junit
+          reporter: jest-junit
