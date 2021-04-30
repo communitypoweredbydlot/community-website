@@ -14,6 +14,6 @@ jobs:
       - uses: dorny/test-reporter@v1
         with:
           artifact: e2e-test-results
-          name: E2E Tests
+          name: E2E Test Report
           path: '*.xml'
           reporter: jest-junit
