@@ -34,10 +34,8 @@ jobs:
         env:
           FOLIO_JUNIT_OUTPUT_NAME: test-results/e2e/junit.xml
         
-      - name: Publish test report
-        uses: mikepenz/action-junit-report@v2
+      - uses: actions/upload-artifact@v2
+        if: success() || failure()
         with:
-          report_paths: '**/test-results/e2e/junit.xml'
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          
-      
+          name: test-results
+          path: test-results/e2e/junit.xml
