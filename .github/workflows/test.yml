@@ -1,4 +1,4 @@
-name: tests
+name: 'Test'
 
 on:
   push:
@@ -22,20 +22,20 @@ jobs:
       - name: Install dependencies
         run: |
           yarn install
-      
+
       - name: Generate static website
         run: yarn generate
-        
+
       - name: Serve static website
         run: yarn start &
-      
+
       - name: Launch tests
         run: yarn e2e-test
         env:
           FOLIO_JUNIT_OUTPUT_NAME: test-results/e2e/junit.xml
-        
+
       - uses: actions/upload-artifact@v2
         if: success() || failure()
         with:
-          name: test-results
+          name: e2e-test-results
           path: test-results/e2e/junit.xml
