@@ -1,0 +1,19 @@
+name: 'Test Report'
+
+on:
+  workflow_run:
+    workflows: ['Test']
+    types:
+      - completed
+
+jobs:
+  e2e-report:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: dorny/test-reporter@v1
+        with:
+          artifact: e2e-test-results
+          name: E2E Tests
+          path: '*.xml'
+          reporter: jest-junit
