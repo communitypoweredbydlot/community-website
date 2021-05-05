@@ -1,5 +1,35 @@
 import { Page } from 'playwright'
 
+export const commonContextOptions = {
+  viewport: { height: 1260, width: 2560 },
+  storageState: {
+    cookies: [
+      { name: 'cookie-consent', value: '%7B%22analytics%22%3Atrue%7D', domain: 'localhost', path: '/' }
+    ]
+  }
+}
+
+export function visuallyCompareSuiteWith ({ it, expect }, baseUrl, language) {
+  const visuallyCompareUrl = visuallyCompareWith(expect)
+  const url = language === 'ro' ? baseUrl : `${baseUrl}${language}/`
+
+  const pages = [
+    '',
+    'ourstory',
+    'projects',
+    'supportus',
+    'termsandconditions',
+    'termsandconditions?cookiePreferences',
+    'incometax'
+  ]
+
+  for (const p of pages) {
+    it(`should correctly display ${p} in ${language.toUpperCase()}`, async ({ page, browserName }) => {
+      await visuallyCompareUrl(page, `${url}${p}`, language, browserName)
+    })
+  }
+}
+
 export const visuallyCompareWith = expect => async (page: Page, url: string, language: string, browserName: string) => {
   await page.goto(url)
   await page.goto(url)

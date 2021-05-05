@@ -1,51 +1,33 @@
-import { folio } from '@playwright/test'
-import { visuallyCompareWith } from './visual-compare'
+import { visuallyCompareWith, commonContextOptions } from './visual-compare'
+import { buildContextWithOptions } from './context'
 
-const fixtures = folio.extend()
+const visuallyCompareSuiteWithContext = ({ describe, it, expect }, language: string) => {
+  describe(`pages visual comparison ${language.toUpperCase()}`, () => {
+    const pages = [
+      '',
+      'ourstory',
+      'projects',
+      'supportus',
+      'termsandconditions',
+      'termsandconditions?cookiePreferences',
+      'incometax'
+    ]
 
-fixtures.contextOptions.override(async ({ contextOptions }, runTest) => {
-  await runTest({
-    ...Object.assign(contextOptions, {
-      locale: 'ro_RO',
-      viewport: { height: 1260, width: 2560 },
-      storageState: {
-        cookies: [
-          { name: 'cookie-consent', value: '%7B%22analytics%22%3Atrue%7D', domain: 'localhost', path: '/' }
-        ]
-      }
-    })
+    for (const p of pages) {
+      const baseUrl = 'http://localhost:3000/'
+      const url = language === 'ro' ? baseUrl : `${baseUrl}${language}/`
+      const visuallyCompareUrl = visuallyCompareWith(expect)
+      it(`should correctly display ${p} in ${language.toUpperCase()}`, async ({ page, browserName }) => {
+        await visuallyCompareUrl(page, `${url}${p}`, language, browserName)
+      })
+    }
   })
-})
-const { it, describe, expect } = fixtures.build()
+}
 
-const visuallyCompareUrl = visuallyCompareWith(expect)
+const buildCommonContextWithOptions = (specificOptions?: any) =>
+  buildContextWithOptions(specificOptions ? Object.assign(commonContextOptions, specificOptions) : commonContextOptions)
 
-describe('pages visual comparison', () => {
-  it('should correctly display Home Page in RO', async ({ page, browserName }) => {
-    await visuallyCompareUrl(page, 'http://localhost:3000/', 'ro', browserName)
-  })
-
-  it('should correctly display Our Story in RO', async ({ page, browserName }) => {
-    await visuallyCompareUrl(page, 'http://localhost:3000/ourstory', 'ro', browserName)
-  })
-
-  it('should correctly display Projects in RO', async ({ page, browserName }) => {
-    await visuallyCompareUrl(page, 'http://localhost:3000/projects', 'ro', browserName)
-  })
-
-  it('should correctly display Support us in RO', async ({ page, browserName }) => {
-    await visuallyCompareUrl(page, 'http://localhost:3000/supportus', 'ro', browserName)
-  })
-
-  it('should correctly display Privacy Policy in RO', async ({ page, browserName }) => {
-    await visuallyCompareUrl(page, 'http://localhost:3000/privacypolicy', 'ro', browserName)
-  })
-
-  it('should correctly display Terms And Conditions in RO', async ({ page, browserName }) => {
-    await visuallyCompareUrl(page, 'http://localhost:3000/termsandconditions', 'ro', browserName)
-  })
-
-  it('should correctly display Cookie Preferences in RO', async ({ page, browserName }) => {
-    await visuallyCompareUrl(page, 'https://www.asociatiacommunity.ro/termsandconditions?cookiePreferences', 'ro', browserName)
-  })
-})
+Object.entries({
+  en: buildCommonContextWithOptions(),
+  ro: buildCommonContextWithOptions({ locale: 'ro_RO' })
+}).forEach(([language, context]) => visuallyCompareSuiteWithContext(context, language))
