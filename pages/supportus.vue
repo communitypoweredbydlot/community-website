@@ -60,7 +60,7 @@
               </span>
             </button>
             <div class="flex flex-row items-baseline justify-start space-x-2 mt-2">
-              <input v-model="isAcceptedTermsAndPrivacyPolicy" type="checkbox">
+              <checkbox v-model="isAcceptedTermsAndPrivacyPolicy" />
               <paragraph path="supportus.donate.legalNotice" :from="1" :margin-bottom="false">
                 <template #before>
                   <i18n path="supportus.donate.legalNotice[0].content">
