@@ -1,16 +1,9 @@
-import { folio } from '@playwright/test'
+import { test, expect } from '@playwright/test'
 
-const fixtures = folio.extend()
+test.describe('main navigation', () => {
+  test.use({ locale: 'ro_RO' })
 
-fixtures.contextOptions.override(async ({ contextOptions }, runTest) => {
-  await runTest({
-    ...Object.assign(contextOptions, { locale: 'ro_RO' })
-  })
-})
-const { it, describe, expect } = fixtures.build()
-
-describe('main navigation', () => {
-  it('should navigate to the correct pages in RO', async ({ page }) => {
+  test('should navigate to the correct pages in RO', async ({ page }) => {
     await page.goto('http://localhost:3000/')
     expect(page.url()).toBe('http://localhost:3000/')
 
@@ -31,7 +24,7 @@ describe('main navigation', () => {
     await page.waitForSelector('h3 >> text=Implică-te')
   })
 
-  it('should navigate to the correct pages in EN', async ({ page }) => {
+  test('should navigate to the correct pages in EN', async ({ page }) => {
     await page.goto('http://localhost:3000/en/')
     // there is an initial redirect going on depending on the locale of the browser
     expect(page.url()).toBe('http://localhost:3000/')
