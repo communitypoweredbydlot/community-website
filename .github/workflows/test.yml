@@ -17,11 +17,11 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       - uses: bahmutov/npm-install@v1
-      - uses: microsoft/playwright-github-action@v1
 
       - name: Install dependencies
         run: |
           yarn install
+          yarn playwright install-deps chromium 
 
       - name: Generate static website
         run: yarn generate
@@ -32,7 +32,7 @@ jobs:
       - name: Launch tests
         run: yarn e2e-test
         env:
-          FOLIO_JUNIT_OUTPUT_NAME: test-results/e2e/junit.xml
+          PLAYWRIGHT_JUNIT_OUTPUT_NAME: test-results/e2e/junit.xml
 
       - uses: actions/upload-artifact@v2
         if: success() || failure()
