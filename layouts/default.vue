@@ -66,7 +66,7 @@ export default class App extends Vue {
   }
 
   head () {
-    return this.$nuxtI18nSeo()
+    return this.$nuxtI18nHead({ addDirAttribute: true, addSeoAttributes: true })
   }
 }
 </script>
