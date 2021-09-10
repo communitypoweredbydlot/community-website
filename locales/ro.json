@@ -148,7 +148,7 @@
       },
       "legalNotice": [
         {
-          "content": "Prin folosirea metodei de donații online declar că am citit și sunt de acord cu {terms} si îmi exprim acordul ca datele mele să fie procesate conform {policy}.",
+          "content": "Prin folosirea metodei de donații online declar că am citit și sunt de acord cu {terms} și îmi exprim acordul ca datele mele să fie procesate conform {policy}.",
           "map": {
             "terms": {
               "link": "/termsandconditions",
@@ -163,7 +163,7 @@
       ],
       "name": {
         "label": "Nume",
-        "value": "ASOCIATIA COMMUNITY POWERED BY DLOT"
+        "value": "ASOCIAȚIA COMMUNITY POWERED BY DLOT"
       },
       "address": {
         "label": "Adresă",
