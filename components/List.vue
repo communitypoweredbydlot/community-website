@@ -17,7 +17,7 @@
     >
       {{ $t(`${path}.title`) }}
     </h4>
-    <ul :class="{ 'mb-4': marginBottom }">
+    <ul class="list-disc list-inside" :class="{ 'mb-4': marginBottom }">
       <li
         v-for="(l, index) in $t(`${path}.list`)"
         :key="index"
