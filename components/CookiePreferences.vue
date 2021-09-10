@@ -200,40 +200,25 @@ export default class CookiePreferences extends Vue {
 </script>
 
 <style lang="postcss" scoped>
+
 .button-group > button {
-  @apply border border-gray-100 rounded rounded-r-none rounded-l-none border-l-0 border-r-0 duration-200 ease-in-out transition shadow;
+   @apply border border-gray-100 rounded rounded-r-none rounded-l-none border-l-0 border-r-0 duration-200 ease-in-out transition shadow;
 }
 
 .button-group > :first-child {
-  @apply border border-gray-100 rounded rounded-r-none shadow;
+   @apply border border-gray-100 rounded rounded-r-none shadow;
 }
 
 .button-group > :last-child {
-  @apply border border-gray-100 rounded rounded-l-none border-l-0 shadow;
+   @apply border border-gray-100 rounded rounded-l-none border-l-0 shadow;
 }
 
 .button-single {
-  @apply text-dlot-blue py-1 px-2 border border-gray-100  rounded shadow;
-}
-
-.button-single:hover {
-  @apply bg-dlot-blue text-white border-transparent;
-}
-
-.button-single:focus {
-  @apply outline-none;
+  @apply text-dlot-blue py-1 px-2 border border-gray-100 rounded shadow hover:bg-dlot-blue hover:text-white hover:border-transparent focus:outline-none;
 }
 
 .button-save {
-  @apply button-single text-dlot-teal;
-}
-
-.button-save:hover {
-  @apply bg-dlot-teal text-white border-transparent;
-}
-
-.button-save:focus {
-  @apply outline-none;
+  @apply text-dlot-teal py-1 px-2 border border-gray-100 rounded shadow hover:bg-dlot-teal hover:text-white hover:border-transparent focus:outline-none;
 }
 
 .disabled {
