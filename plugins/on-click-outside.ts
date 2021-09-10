@@ -3,7 +3,7 @@ import Vue from 'vue'
 Vue.directive('click-outside', {
   bind (el: any, binding, vnode: any) {
     el.clickOutsideEvent = function (event) {
-      if (!(el === event.target || el.contains(event.target))) {
+      if (!(el === event.target || el.contains(event.target)) && binding.expression) {
         vnode.context[binding.expression](event)
       }
     }
