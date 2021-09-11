@@ -57,7 +57,7 @@
             <p class="paragraph-sm xl:paragraph">
               {{ job.attributions.label }}
             </p>
-            <ul class="list-disc list-inside">
+            <ul class="ulist">
               <li
                 v-for="(attribution, ai) in job.attributions.list"
                 :key="ai"
@@ -69,7 +69,7 @@
             <p class="paragraph-sm xl:paragraph">
               {{ job.requirements.label }}
             </p>
-            <ul class="list-disc list-inside">
+            <ul class="ulist">
               <li
                 v-for="(requirement, ri) in job.requirements.list"
                 :key="ri"

@@ -1,3 +1,5 @@
+@tailwind utilities;
+
 @layer utilities {
   .text-link {
     @apply text-dlot-teal font-medium cursor-pointer hover:text-dlot-blue-haze;
@@ -5,6 +7,10 @@
 
   .text-link-neutral {
     @apply text-dlot-blue font-normal cursor-pointer hover:text-dlot-blue-haze;
+  }
+
+  .ulist {
+    @apply list-disc marker:text-gray-100 marker:text-opacity-50 ml-4;
   }
 
   @media(hover: hover) and (pointer: fine) {
