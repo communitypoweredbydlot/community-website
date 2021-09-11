@@ -17,7 +17,7 @@
         <i18n path="statement.values.p1.content" tag="p" class="mb-2 paragraph-sm xl:paragraph">
           <a class="text-link" :href="'https://www.poweredbydlot.com'" target="_blank" rel="noopener noreferrer">{{ $t("statement.values.p1.poweredBy_label") }}</a>
         </i18n>
-        <ul class="list-disc list-inside">
+        <ul class="ulist">
           <li
             v-for="(value, index) in $t('statement.values.list')"
             :key="index"
@@ -33,7 +33,7 @@
       <h4 class="section-title-sm xl:section-title">
         {{ $t('statement.mission.title') }}
       </h4>
-      <ul class="list-disc list-inside">
+      <ul class="ulist">
         <li
           v-for="(value, index) in $t('statement.mission.list')"
           :key="index"

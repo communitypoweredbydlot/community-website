@@ -14,7 +14,7 @@
     <div>
       <section-title path="incometax.form.title" />
       <paragraph path="incometax.form.p1" :margin-bottom="false" />
-      <ul class="list-disc list-inside">
+      <ul class="ulist">
         <li
           v-for="(value, index) in $t('incometax.form.list')"
           :key="index"
@@ -32,7 +32,7 @@
         </template>
       </i18n>
       <paragraph path="incometax.procedure.p1" :margin-bottom="false" />
-      <ul class="list-disc list-inside">
+      <ul class="ulist">
         <li class="mb-1 paragraph-sm xl:paragraph">
           {{ $t("incometax.procedure.options.o1") }}
         </li>
@@ -66,7 +66,7 @@
     <div>
       <section-title path="incometax.howto.title" />
       <paragraph path="incometax.howto.p1" :margin-bottom="false" />
-      <ul class="list-disc list-inside">
+      <ul class="ulist">
         <li
           v-for="(o,i) in $t('incometax.howto.options')"
           :key="i"
