@@ -12,7 +12,7 @@
         aria-haspopup="listbox"
         aria-expanded="true"
         aria-labelledby="listbox-label"
-        class="relative shadow w-full bg-white pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+        class="relative shadow w-full bg-white pl-3 pr-10 py-2 text-left cursor-default focus:outline-none sm:text-sm"
         @click.stop="isOpen = !isOpen"
       >
         <span class="flex items-center">
