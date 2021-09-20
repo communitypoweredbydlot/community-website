@@ -14,7 +14,7 @@
     <div>
       <section-title path="incometax.form.title" />
       <paragraph path="incometax.form.p1" :margin-bottom="false" />
-      <ul>
+      <ul class="ulist">
         <li
           v-for="(value, index) in $t('incometax.form.list')"
           :key="index"
@@ -32,17 +32,15 @@
         </template>
       </i18n>
       <paragraph path="incometax.procedure.p1" :margin-bottom="false" />
-      <ul>
+      <ul class="ulist">
         <li class="mb-1 paragraph-sm xl:paragraph">
           {{ $t("incometax.procedure.options.o1") }}
         </li>
-        <li class="mb-1 paragraph-sm xl:paragraph">
-          <i18n path="incometax.procedure.options.o2.content" tag="p" class="paragraph-sm xl:paragraph">
-            <template #administrations>
-              <a class="text-link" :href="$t('incometax.procedure.options.o2.map.administrations.link')" target="_blank" rel="noopener noreferrer">{{ $t('incometax.procedure.options.o2.map.administrations.label') }}</a>
-            </template>
-          </i18n>
-        </li>
+        <i18n path="incometax.procedure.options.o2.content" tag="li" class="mb-1 paragraph-sm xl:paragraph">
+          <template #administrations>
+            <a class="text-link" :href="$t('incometax.procedure.options.o2.map.administrations.link')" target="_blank" rel="noopener noreferrer">{{ $t('incometax.procedure.options.o2.map.administrations.label') }}</a>
+          </template>
+        </i18n>
         <li class="mb-1 paragraph-sm xl:paragraph">
           {{ $t("incometax.procedure.options.o3") }}
         </li>
@@ -68,7 +66,7 @@
     <div>
       <section-title path="incometax.howto.title" />
       <paragraph path="incometax.howto.p1" :margin-bottom="false" />
-      <ul>
+      <ul class="ulist">
         <li
           v-for="(o,i) in $t('incometax.howto.options')"
           :key="i"

@@ -1,18 +1,16 @@
+@tailwind utilities;
+
 @layer utilities {
   .text-link {
-    @apply text-dlot-teal font-medium cursor-pointer;
-  }
-
-  .text-link:hover {
-    @apply text-dlot-blue-haze;
+    @apply text-dlot-teal font-medium cursor-pointer hover:text-dlot-blue-haze;
   }
 
   .text-link-neutral {
-    @apply text-dlot-blue font-normal cursor-pointer;
+    @apply text-dlot-blue font-normal cursor-pointer hover:text-dlot-blue-haze;
   }
 
-  .text-link-neutral:hover {
-    @apply text-dlot-blue-haze;
+  .ulist {
+    @apply list-disc marker:text-gray-100 marker:text-opacity-50 ml-4;
   }
 
   @media(hover: hover) and (pointer: fine) {
@@ -69,23 +67,6 @@
     }
   }
 
-}
-
-ul > li::before {
-  content: "";
-  position: absolute;
-  background-color: #cbd5e0;
-  border-radius: 50%;
-  width: 0.375em;
-  height: 0.375em;
-  top: calc(0.875em - 0.1875em);
-  left: 0.25em;
-}
-
-ul > li {
-  position: relative;
-  padding-left: 1.75em;
-  @apply leading-7 text-gray-700;
 }
 
 img {

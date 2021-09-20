@@ -244,7 +244,7 @@
       </div>
       <div>
         <section-title path="supportus.live.title" />
-        <ul>
+        <ul class="ulist">
           <li
             v-for="(value, index) in $t('supportus.live.list')"
             :key="index"

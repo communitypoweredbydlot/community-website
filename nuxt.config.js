@@ -76,7 +76,7 @@ export default {
   ],
   modules: [
     '@nuxtjs/pwa',
-    'nuxt-i18n',
+    '@nuxtjs/i18n',
     '@nuxtjs/sitemap',
     'nuxt-clipboard2'
   ],
@@ -98,7 +98,6 @@ export default {
       }
     ],
     defaultLocale: 'ro',
-    seo: false,
     vueI18n: {
       fallbackLocale: 'ro',
       messages: {
@@ -142,6 +141,11 @@ export default {
     ]
   },
   build: {
+    babel: {
+      plugins: [
+        ['@babel/plugin-proposal-private-methods', { loose: true }]
+      ]
+    }
   },
   publicRuntimeConfig: {
     analytics: {
