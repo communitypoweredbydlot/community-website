@@ -49,6 +49,6 @@ export default class NavigationList extends Vue {
 
 <style lang="postcss" scoped>
 .nuxt-link-active {
-  @apply border-b border-dlot-teal;
+  @apply border-b border-dlot-teal text-dlot-teal;
 }
 </style>
