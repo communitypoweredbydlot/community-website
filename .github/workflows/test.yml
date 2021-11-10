@@ -31,11 +31,3 @@ jobs:
 
       - name: Launch tests
         run: yarn e2e-test
-        env:
-          PLAYWRIGHT_JUNIT_OUTPUT_NAME: test-results/e2e/junit.xml
-
-      - uses: actions/upload-artifact@v2
-        if: success() || failure()
-        with:
-          name: e2e-test-results
-          path: test-results/e2e/junit.xml

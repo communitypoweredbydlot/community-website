@@ -8,7 +8,7 @@ test.describe('locale redirect', () => {
     expect(page.url()).toBe('http://localhost:3000/')
   })
 
-  test('should first redirect when accessing EN', async ({ page }) => {
+  test.skip('should first redirect when accessing EN', async ({ page }) => {
     await page.goto('http://localhost:3000/en/')
     expect(page.url()).toBe('http://localhost:3000/')
 
