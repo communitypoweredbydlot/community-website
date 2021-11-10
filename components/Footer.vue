@@ -28,7 +28,7 @@
             <a :href="`tel:${$t('phone')}`">{{ $t("phone") }}</a>
           </div>
           <div class="text-center">
-            <social-icons class="my-1" />
+            <social-icons class="my-1 -ml-1.5" />
           </div>
         </div>
         <div class="hidden sm:flex sm:justify-end items-start col-span-1 order-3 md:order-4">
