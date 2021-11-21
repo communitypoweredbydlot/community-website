@@ -66,13 +66,13 @@
                   <i18n path="supportus.donate.legalNotice[0].content">
                     <template #terms>
                       <nuxt-link class="text-link" :to="localePath(`${$t('supportus.donate.legalNotice[0].map.terms.link')}`)">
-                        {{ $t("supportus.donate.legalNotice[0].map.terms.label") }}<!--
-                  --></nuxt-link>
+                        {{ $t("supportus.donate.legalNotice[0].map.terms.label") }}
+                      </nuxt-link>
                     </template>
                     <template #policy>
                       <nuxt-link class="text-link" :to="localePath(`${$t('supportus.donate.legalNotice[0].map.policy.link')}`)">
-                        {{ $t("supportus.donate.legalNotice[0].map.policy.label") }}<!--
-                  --></nuxt-link>
+                        {{ $t("supportus.donate.legalNotice[0].map.policy.label") }}
+                      </nuxt-link>
                     </template>
                   </i18n>
                 </template>
@@ -175,15 +175,28 @@
         </div>
       </div>
       <div>
-        <section-title path="supportus.incometax.title" />
-        <paragraph path="supportus.incometax.p1" :margin-bottom="false" />
+        <section-title path="supportus.incometax.individual.title" />
+        <paragraph path="supportus.incometax.individual.p1" :margin-bottom="false" />
         <i18n
-          path="supportus.incometax.p2.content"
+          path="supportus.incometax.individual.p2.content"
           tag="p"
           class="paragraph-sm xl:paragraph"
         >
           <nuxt-link class="text-link" :to="localePath('/incometax')">
-            {{ $t("supportus.incometax.p2.redirect_label") }}
+            {{ $t("supportus.incometax.individual.p2.redirect_label") }}
+          </nuxt-link>
+        </i18n>
+      </div>
+      <div>
+        <section-title path="supportus.incometax.entity.title" />
+        <paragraph path="supportus.incometax.entity.p1" :margin-bottom="false" />
+        <i18n
+          path="supportus.incometax.entity.p2.content"
+          tag="p"
+          class="paragraph-sm xl:paragraph"
+        >
+          <nuxt-link class="text-link" :to="localePath('/corporatetax')">
+            {{ $t("supportus.incometax.entity.p2.redirect_label") }}
           </nuxt-link>
         </i18n>
       </div>

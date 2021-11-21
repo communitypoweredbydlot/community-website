@@ -193,11 +193,21 @@
       }
     },
     "incometax": {
-      "title": "Redirecționează 3.5% din impozitul pe venit",
-      "p1": "Prin completarea și depunerea formularului 230, îți exerciți dreptul de a decide ca un procent de 3.5% din impozitul pe venit să nu ajungă la stat ci să fie redirecționat către un ONG pe care îl alegi tu.",
-      "p2": {
-        "content": "Află mai multe detalii despre redirecționarea a 3.5% din impozitul pe venit {0}",
-        "redirect_label": "aici."
+      "individual": {
+        "title": "Redirecționează 3.5% din impozitul pe venit - Persoane fizice",
+        "p1": "Prin completarea și depunerea formularului 230, îți exerciți dreptul de a decide ca un procent de 3.5% din impozitul pe venit să nu ajungă la stat ci să fie redirecționat către un ONG pe care îl alegi tu.",
+        "p2": {
+          "content": "Află mai multe detalii despre redirecționarea a 3.5% din impozitul pe venit {0}",
+          "redirect_label": "aici."
+        }
+      },
+      "entity": {
+        "title": "Redirecționează 20% din impozitul pe profit - Persoane Juridice",
+        "p1": "Contribuabilii persoane juridice plătitoare de impozit pe profit au posibilitatea de a direcţiona 20% din impozitul pe profit datorat, către un ONG la alegere. Acest tip de sponsorizare nu presupune alte cheltuieli suplimentare și nu afectează profitul net al companiei. Cheltuielile sunt total deductibile din impozit, dacă se respecta limitele impuse de codul fiscal.",
+        "p2": {
+          "content": "Află mai multe detalii despre redirecționarea a 20% din impozitul pe prefit {0}",
+          "redirect_label": "aici."
+        }        
       }
     },
     "beavolunteer": {

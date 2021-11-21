@@ -183,13 +183,23 @@
       }
     },
     "incometax": {
-      "title": "If you have earned taxable income in Romania, redirect 3.5% of your income tax.",
-      "p1": "By filling in and submitting the 230 form, you exercise your right to decide that a percentage of 3.5% of the income tax should not reach the state, but be redirected to an NGO of your choice.",
-      "p2": {
-        "content": "Find out more about redirecting 3.5% of your income tax {0}",
-        "redirect_label": "here."
+      "individual": {
+        "title": "If you have earned taxable income in Romania, redirect 3.5% of your income tax - Individual",
+        "p1": "By filling in and submitting the 230 form, you exercise your right to decide that a percentage of 3.5% of the income tax should not reach the state, but be redirected to an NGO of your choice.",
+        "p2": {
+          "content": "Find out more about redirecting 3.5% of your income tax {0}",
+          "redirect_label": "here."
+        }
+      },
+      "entity": {
+        "title": "Redirect 20% of corporate income tax - Legal Entities",
+        "p1": "Taxpayers of legal entities paying corporate income tax have the opportunity to direct 20% of the corporate income tax due to an NGO of their choice. This type of sponsorship does not involve other additional expenses and does not affect the company's net profit. The expenses are totally deductible from the tax, if the limits imposed by the fiscal code are meet.",
+        "p2": {
+          "content": "Find out more about redirecting 20% of corporate income tax {0}",
+          "redirect_label": "here."
+        }        
       }
-    },
+   },
     "beavolunteer": {
       "title": "Volunteer",
       "p1": {
