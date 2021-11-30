@@ -1251,7 +1251,7 @@
     }
   },
   "incometax": {
-    "title": "Redirecționare impozit",
+    "title": "Redirecționare impozit pe venit - Persoane fizice",
     "p1": {
       "content": "Conform {document} din Codul Fiscal, contribuabilii pot direcționa un procent de 3,5% din impozitul pe venit anual datorat pentru susținerea entitaților nonprofit, a unităților de cult, precum și pentru acordarea de burse private.",
       "map": {
@@ -1374,6 +1374,9 @@
         "answer": "Contribuabilii impuși în sistem real care au avut venituri din activități independente/agricole, drepturi de proprietate intelectuală și cedarea folosinței bunurilor și au obligația depunerii Declarației Unice pot alege destinația sumei de 3.5% din impozit completând secțiunea 6 a „Declarației unice privind impozitul pe venit și contribuțiile sociale datorate de persoanele fizice”."
       }
     ]
+  },
+  "corporatetax":{
+    "title": "Redirecționează impozitul pe profit - Persoane Juridice"
   },
   "terms": {
     "title": "TERMENI ȘI CONDIȚII",

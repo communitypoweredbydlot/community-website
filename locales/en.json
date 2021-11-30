@@ -1238,7 +1238,7 @@
     }
   },
   "incometax": {
-    "title": "Redirect Income Tax",
+    "title": "Redirect Income Tax - Individual",
     "p1": {
       "content": "According to the Fiscal Code {document} , taxpayers can direct a percentage of 3.5% of the annual income tax for the support non-profit entities, religious units, as well as fo granting of private scholarships.",
       "map": {
@@ -1364,6 +1364,9 @@
         "answer": "Taxpayers taxed in real system who had income from independent / agricultural activities, intellectual property rights and the transfer of use of assets and have the obligation to submit the Single Declaration can choose the destination of the amount of 3.5% of tax by completing section 6 of the 'Single Declaration on income tax and social contributions due by individuals."
       }
     ]
+  },
+  "corporatetax":{
+    "title": "Redirect corporate tax - Legal entities"
   },
   "terms": {
     "title": "TERMS AND CONDITIONS",
