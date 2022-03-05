@@ -95,7 +95,7 @@
     "save": "Save preferences"
   },
   "statement": {
-    "summary": "Asociația Community powered by DLOT is a non-profit organization focused on environmental protection",
+    "summary": "Asociația Community powered by DLOT is a non-profit organisation focused on environmental protection",
     "vision": {
       "title": "Our Vision",
       "p1": "We aim for a world where people can coexist in harmony; where technology is used for protecting nature and wildlife, so we can all benefit from clean air and water, food and shelter. A world guided by respect and consensus between humans and nature."
@@ -107,7 +107,7 @@
         "poweredBy_label": "powered by DLOT"
       },
       "list": [
-        "We advocate for environment friendly actions and products.",
+        "We advocate for environmentally friendly actions and products.",
         "We support life as a continuous state of exploration and discovery of the self.",
         "We promote love and acceptance for everyone and everything around us.",
         "We support the cultural influence of music."
@@ -117,10 +117,10 @@
     "mission": {
       "title": "Our Mission",
       "list": [
-        "cleaning litter from natural environments such as forests, banks of water, natural parks and other outdoor protected areas,",
-        "identifying regions where trash is improperly disposed and drawing attention of the concerned authority towards the situation,",
+        "cleaning litter from natural environments such as forests, riverbanks, natural parks and other outdoor protected areas,",
+        "identifying regions where trash is improperly disposed and referring the situation to the concerned authority,",
         "educating tourists and rural communities about the importance of properly disposing trash and providing them the means to collect and recycle the waste,",
-        "promoting behaviors oriented to minimize the environmental impact of each individual without getting far from their comfort zone,",
+        "promoting behaviours oriented to minimise the environmental impact of each individual without hindering their comfort zone,",
         "achieving a healthy and balanced lifestyle by spending time outdoors and protecting nature."
       ]
     }
@@ -130,7 +130,7 @@
     "tell": {
       "title": "Spread the word",
       "p1": "Share our concept, educate others, raise awareness about the importance of protecting the environment and keeping nature clean.",
-      "p2": "Follow and use the hastags"
+      "p2": "Follow and use the hashtags"
     },
     "donate": {
       "title": "Donate",
@@ -141,7 +141,7 @@
       },
       "popup": {
         "title": "Asociația Community powered by DLOT",
-        "description": "Thank you for your contribution. We use donations only for the purpose of carrying out our organizationțs activity.",
+        "description": "Thank you for your contribution. We use donations only for the purpose of carrying out our organisation's activity.",
         "placeholder": {
           "name": "John Doe"
         }
@@ -211,14 +211,14 @@
       "title": "Provide valuable data",
       "p1": {
         "content": "Fill in our survey {0}",
-        "form_label": "Consumer behavior and purchase decisions in the beer industry"
+        "form_label": "Consumer behaviour and purchase decisions in the beer industry"
       },
       "disclaimer": "Responses to our surveys are anonymous. We do not collect any personal data that can identify the responder (IP, email, address, ID card and so on)."
     },
     "dumps": {
       "title": "Expose trash",
       "p1": {
-        "content": "Point out locations where the trash is improperly disposed so we can investigate the issue and find solutions. Contact us by email at {email-link} or social {messenger-link}.",
+        "content": "Point out locations where the trash is improperly disposed, so we can investigate the issue and find solutions. Contact us by email at {email-link} or social {messenger-link}.",
         "messenger-link": {
           "label": "media chat"
         },
@@ -232,7 +232,7 @@
       "title": "Live your life powered by DLOT",
       "list": [
         "Respect and protect nature and wildlife.",
-        "Be kind with everyone and everything around you.",
+        "Be kind to everyone and everything around you.",
         "Spend time outdoors.",
         "Recycle.",
         "Reuse disposables.",
@@ -304,7 +304,7 @@
         "Work from wherever you want",
         "Free access to our events",
         "Engage in brainstorming and your ideas will be taken into account. You can also propose campaigns and strategies, even business directions.",
-        "Being at the onset of our activity, your contribution can be easily quantified to measure the value added to the organization’s growth.",
+        "Being at the onset of our activity, your contribution can be easily quantified to measure the value added to the organisation’s growth.",
         "Work related expenditures such as transport, fuel, stationary, prints and others, are reimbursed.",
         "Based on the level of involvement and results, there is the possibility of being hired in the future.",
         "Opportunity to adhere as a member of the NGO.",
@@ -390,7 +390,7 @@
           "list": [
             "Written and verbal skills (English and Romanian).",
             "Ability to build relationships, motivate and inspire diverse groups.",
-            "Attention to detail and good organizational skills.",
+            "Attention to detail and good organisational skills.",
             "Understanding of communications and engagement methodologies.",
             "Problem-solving skills.",
             "Computer skills using Microsoft Office or other similar software.",
@@ -420,7 +420,7 @@
           "list": [
             "Written and verbal skills (English and Romanian).",
             "Ability to build relationships, motivate and inspire diverse groups.",
-            "Attention to detail and good organizational skills.",
+            "Attention to detail and good organisational skills.",
             "Ability to estimate and manage resorces.",
             "Problem-solving skills.",
             "Team management skills.",
@@ -448,7 +448,7 @@
           "list": [
             "Written and verbal skills (English and Romanian).",
             "Knowledge of research principles, concepts, practices, and methods.",
-            "Attention to detail and good organizational skills.",
+            "Attention to detail and good organisational skills.",
             "Mathematical, analytical, and research skills.",
             "Computer skills using Microsoft Office or other similar software.",
             "Knowledge in using Google Docs, Survey Monkey and/or other survey platforms.",
@@ -517,8 +517,8 @@
     "general": {
       "paragraphs": [
         "Hiking, trekking or just relaxing, the benefits of spending time in nature are enormous.",
-        "By protecting the planet and wildlife, we are protecting our future, as we cannot survive while the natural ecosystems collapse.",
-        "The data is visible, on our beaches, forests, lakes and mountains. From the city park to the Everest, the traces left by humans illustrate the problem. Yet, people are walking off these places empty handed."
+        "By protecting the planet and wildlife, we are protecting our future, as we cannot survive if the natural ecosystems collapse.",
+        "The data is visible on our beaches, forests, lakes and mountains. From the city park to Everest, the traces left by humans illustrate the problem. Yet, people are walking away from these places empty-handed."
       ]
     },
     "tripandpick": {
@@ -527,10 +527,10 @@
         "content": "{tripandpick-hashtag} is about enjoying time outdoors and taking part in the environmental clean-up.",
         "tripandpick-hashtag": "#TripAndPick"
       },
-      "p2": "Even if it’s only a few things (cigarette butts or candy wrappers), or even one item, it counts.",
-      "p3": "Next time you take a trip outside the urban area, bring some garbage bags with you and pick up the litter found along the route.",
+      "p2": "Even if it’s only a few things (cigarette butts or candy wrappers), or even one item, it makes a difference.",
+      "p3": "Next time you take a trip outside the urban area, bring some garbage bags with you and pick up the litter you find along your path.",
       "p4": {
-        "content": "If you want to find out about how you can join us in our trips write us at {tripandpick-email-link}.",
+        "content": "If you want to find out about how you can join us in our trips write to us at {tripandpick-email-link}.",
         "tripandpick-email-link": {
           "link": "tripandpick@asociatiacommunity.com",
           "value": "tripandpick@asociatiacommunity.com"
@@ -541,14 +541,14 @@
   "ourstory": {
     "title": "our story",
     "paragraphs": [
-      "We love spending time in nature. Hiking, camping or relaxing in the hammock, we take advantage of every weekend or public holiday to escape the urban jungle.",
-      "At first, we took refuge in easily accessible places by foot or bike. Unfortunately, in this constantly urbanizing world, our peace oases soon became a thing of the past. There are still parks, small forests and barbecue areas nearby, each with their issues and shortcomings: they are crowded, noisy and mostly dirty. Thus, we were forced to retreat further and further away from the city, hoping to reunite with the unaltered nature.",
-      "However, the greater the distance from the cities, the greater our disappointment: large deforestation, private properties and lots of trash.",
+      "We love spending time in nature.By hiking, camping or relaxing in the hammock, we take advantage of every weekend or public holiday to escape the urban jungle.",
+      "At first, we took refuge in easily accessible places on foot or by bike. Unfortunately, in this constantly urbanising world, our oases of peace soon became a thing of the past. There are still parks, small forests and barbecue areas nearby, each with their issues and shortcomings: they are crowded, noisy and mostly dirty. Thus, we were forced to withdraw further and further away from the city, hoping to reunite with the unaltered nature.",
+      "However, the greater the distance from the cities, the greater our disappointment: massive deforestation, private properties and lots of trash.",
       "Due to poor waste management systems in rural areas, riverbanks are the most vulnerable to uncontrolled landfilling from private household waste. Natural areas of tourist interest face the same problem of poor waste management.",
-      "We continued our search for hidden gems away from civilization and we decided to take some garbage bags with us, to pick-up the litter found on the way back. This is how our campaign, Trip & Pick, has started.",
+      "We continued our search for hidden gems away from civilization, and we decided to take some garbage bags with us, to pick-up the litter we found on our way back. This is how our campaign, Trip & Pick, has started.",
       "We encountered areas with so much garbage that it was impossible for us to clean them in one day. Moreover, we would have needed a van to transport the trash. In the absence of a legal form of operation, as well as financial and human resources, we could not clean many of the problem areas, nor could we hire a sanitation truck.",
-      "Many of the things we saw on our trips show the need to go further than just picking up others trash. For a sustainable development of society, expansion of the community of responsible people is indispensable. This is only possible through education and proper information, especially in rural areas.",
-      "In order to find solutions to these issues we founded Community, a non-profit organization focused on environmental protection.",
+      "Many of the things we saw on our trips show the need to go further than just picking up other people's trash. For a sustainable development of society, the growth of the community of responsible people is indispensable. This is only possible through education and proper information, especially in rural areas.",
+      "In order to find solutions to these issues we founded Community, a non-profit organisation focused on environmental protection.",
       "Through various educational campaigns and events, we aim to create awareness around the impact of human lifestyle on nature and to promote means to improve the physical and mental health while living in harmony with the surroundings."
     ],
     "tripandpick": {
@@ -893,7 +893,7 @@
           "to fulfill in time the tasks received from the project / program organizers,",
           "to participate in the training courses offered by the organizers if they are necessary for the good fulfillment of the tasks,",
           "to protect the goods he uses in volunteering activities,",
-          "to respect the rules and norms of behavior of the host Organization: politeness, kindness, civilized language, pro-activity, assertiveness,",
+          "to respect the rules and norms of behaviour of the host Organization: politeness, kindness, civilized language, pro-activity, assertiveness,",
           "to treat with respect the other volunteers and the members of the Organization,",
           "not to communicate or spread in public defamatory statements about the Organization and / or its activity,",
           "not to carry out within the Organization or on the occasion of the manifestations organized by the Organization, activities of political propaganda towards other members of the Organization, or towards third parties, in professional connection with the Organization or foreigners."
@@ -1356,7 +1356,7 @@
         "answer": "No. If you want this form to be valid for only one year, do not check the box."
       },
       {
-        "question": "Is 2020 the correct date on the form?",
+        "question": "Is 2021 the correct date on the form?",
         "answer": "Yes. The form applies for income earned in the year prior to submission."
       },
       {

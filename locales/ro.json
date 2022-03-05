@@ -69,7 +69,7 @@
     "summary": [
       {
         "content": "Folosim cookie-uri funcționale și {optional} cookie-uri statistice pentru a-ți oferi cea mai bună experiență și pentru a înțelege cum să o îmbunătățim. {learnmore}",
-        "optional": "optional",
+        "optional": "opțional",
         "learnmore": "Citește mai mult."
       },
       {
@@ -130,7 +130,7 @@
     "tell": {
       "title": "Spune și altora",
       "p1": "Împărtășește cu alții povestea noastră, atrage atenția asupra importanței protejării naturii.",
-      "p2": "Urmărește și folosește hastag-urile noastre pe social media."
+      "p2": "Urmărește și folosește hashtag-urile noastre pe social media."
     },
     "donate": {
       "title": "Donează",
@@ -246,7 +246,7 @@
         "Petrece timp în natură.",
         "Reciclează.",
         "Renunță la articolele de unică folosință.",
-        "Spune nu cumpărăturilor de tip fast-fashion. Investește în bunuri durabile.",
+        "Spune nu cumpărăturilor de tip fast fashion. Investește în bunuri durabile.",
         "Cumpără produse de la producători locali.",
         "Cultivă legume sau crește plante ornamentale.",
         "Redu consumul de carne.",
@@ -525,7 +525,7 @@
     "general": {
       "paragraphs": [
         "Natura are un impact puternic asupra sănătății noastre fizice și psihice.",
-        "Protejând planeta și viața sălbatică, ne protejam viitorul. În caz contrar, prin prăbușirea ecosistemelor naturale, supraviețuirea rasei umane ar fi imposibilă.",
+        "Protejând planeta și viața sălbatică, ne protejăm viitorul. În caz contrar, prin prăbușirea ecosistemelor naturale, supraviețuirea rasei umane ar fi imposibilă.",
         "Vedem gunoaie aruncate pe plaje, în munți, în păduri și ape... Cu toate acestea, observăm cum mulți trec apatici, fără să le adune."
       ]
     },
@@ -1366,7 +1366,7 @@
         "answer": "Nu. Dacă dorești ca acest formular să aibă valabilitate doar pentru un an, nu bifa căsuța."
       },
       {
-        "question": "Este corect trecut anul 2020?",
+        "question": "Este corect trecut anul 2021?",
         "answer": "Da. Formularul se aplică pentru veniturile realizate în anul anterior depunerii."
       },
       {
