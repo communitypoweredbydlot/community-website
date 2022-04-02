@@ -1366,7 +1366,48 @@
     ]
   },
   "corporatetax":{
-    "title": "Redirect corporate tax - Legal entities"
+    "title": "Redirect corporate tax - Legal entities",
+    "categories" : {
+      "entities" : {
+        "title" : "",
+        "p1" : "",
+        "p2" : ""
+      },
+      "micro": {
+        "title" : "",
+        "p1" : "",
+        "p2" : ""
+      },
+      "independent": {
+        "title" : "",
+        "p1" : ""
+      }
+    },
+    "aspects" : {
+      "title" : "LEGAL ASPECTS",
+      "p1" : "SPONSORSHIP - is the legal act by which two persons agree on the transfer of ownership of some material goods or financial means to support non-profit activities carried out by the beneficiary of the sponsorship.",        "p2" : "DONATION - is a contract by which a person, donor, transmits, usually free of charge and irrevocably, the right of ownership over a good to another person, donee, who accepts it and does not imply the existence of benefits. The donation is a free, unilateral act, and the beneficiary of a donation has the obligation to use the goods exclusively for the stated purpose. The donation contract must be authenticated by a notary, under the sanction of absolute nullity."
+    },
+    "details" :{
+      "title" : "MORE DETAILS",
+      "guide" : {
+        "content": "Download the fiscal guide from {guide}.",
+        "map": {
+          "guide": {
+            "link": "/forms/form_corporate_fiscal_guide.docx",
+            "label": "here"
+          }
+        }
+      },
+      "contract": {
+        "content": "Download the sponsorship contract from {contract}.",
+        "map": {
+          "contract": {
+            "link": "/forms/form_corporate_sponsorship_contract.docx",
+            "label": "here"
+          }
+        }
+      }
+    }  
   },
   "terms": {
     "title": "TERMS AND CONDITIONS",
