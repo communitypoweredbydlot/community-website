@@ -193,11 +193,21 @@
       }
     },
     "incometax": {
-      "title": "Redirecționează 3.5% din impozitul pe venit",
-      "p1": "Prin completarea și depunerea formularului 230, îți exerciți dreptul de a decide ca un procent de 3.5% din impozitul pe venit să nu ajungă la stat ci să fie redirecționat către un ONG pe care îl alegi tu.",
-      "p2": {
-        "content": "Află mai multe detalii despre redirecționarea a 3.5% din impozitul pe venit {0}",
-        "redirect_label": "aici."
+      "individual": {
+        "title": "Redirecționează 3.5% din impozitul pe venit - Persoane fizice",
+        "p1": "Prin completarea și depunerea formularului 230, îți exerciți dreptul de a decide ca un procent de 3.5% din impozitul pe venit să nu ajungă la stat ci să fie redirecționat către un ONG pe care îl alegi tu.",
+        "p2": {
+          "content": "Află mai multe detalii despre redirecționarea a 3.5% din impozitul pe venit {0}",
+          "redirect_label": "aici."
+        }
+      },
+      "entity": {
+        "title": "Redirecționează 20% din impozitul pe profit - Persoane Juridice",
+        "p1": "Contribuabilii persoane juridice plătitoare de impozit pe profit au posibilitatea de a direcţiona 20% din impozitul pe profit datorat, către un ONG la alegere. Acest tip de sponsorizare nu presupune alte cheltuieli suplimentare și nu afectează profitul net al companiei. Cheltuielile sunt total deductibile din impozit, dacă se respecta limitele impuse de codul fiscal.",
+        "p2": {
+          "content": "Află mai multe detalii despre redirecționarea a 20% din impozitul pe prefit {0}",
+          "redirect_label": "aici."
+        }        
       }
     },
     "beavolunteer": {
@@ -1241,7 +1251,7 @@
     }
   },
   "incometax": {
-    "title": "Redirecționare impozit",
+    "title": "Redirecționare impozit pe venit - Persoane fizice",
     "p1": {
       "content": "Conform {document} din Codul Fiscal, contribuabilii pot direcționa un procent de 3,5% din impozitul pe venit anual datorat pentru susținerea entitaților nonprofit, a unităților de cult, precum și pentru acordarea de burse private.",
       "map": {
@@ -1364,6 +1374,51 @@
         "answer": "Contribuabilii impuși în sistem real care au avut venituri din activități independente/agricole, drepturi de proprietate intelectuală și cedarea folosinței bunurilor și au obligația depunerii Declarației Unice pot alege destinația sumei de 3.5% din impozit completând secțiunea 6 a „Declarației unice privind impozitul pe venit și contribuțiile sociale datorate de persoanele fizice”."
       }
     ]
+  },
+  "corporatetax":{
+    "title": "Redirecționează impozitul pe profit - Persoane Juridice",
+    "categories" : {
+      "entities" : {
+        "title" : "I. PERSOANE JURIDICE PLĂTITOARE DE IMPOZIT PE PROFIT",
+        "p1" : "Companiile (contribuabili persoane juridice plătitoare de impozit pe profit) au posibilitatea de a direcţiona/acorda fără costuri  suplimentare fonduri/bunuri/servicii prin acţiuni de sponsorizare, acte de mecenat precum şi pentru burse private. Aceste fonduri/bunuri direcţionate/acordate nu reprezintă o cheltuială suplimentară pentru companie dacă apelează la o facilitate fiscală prevăzută în Codul fiscal, Titlul II, Cap. II, la articolul 25 (punctul 4), litera i).",
+        "p2" : "Cheltuielile de sponsorizare şi/sau actele de mecenat precum şi pentru acordarea de burse private (fonduri financiare, bunuri sau servicii) se scad din impozitul pe profit datorat şi achitat  la  stat.  Cu alte cuvinte, fondurile suportate pentru astfel de acţiuni diminuează ulterior şi direct sumele ce trebuie achitate statului în contul impozitul pe profit."
+      },
+      "micro": {
+        "title" : "II.  MICROINTREPRINDERI",
+        "p1" : "Codul fiscal prevede că microîntreprinderile care efectuează sponsorizări scad sumele aferente din impozitul pe veniturile microîntreprinderilor datorat pentru trimestrul în care au înregistrat cheltuielile respective. Conform articolului 56, Alin. (11), microîntreprinderile care efectuează sponsorizări, potrivit prevederilor Legii nr. 32/1994, cu modificările şi completările ulterioare, pentru susţinerea entităţilor nonprofit şi a unităţilor de cult, care la data încheierii contractului sunt înscrise în Registrul entităţilor/unităţilor de cult pentru care se acordă deduceri fiscale potrivit art. 25 alin. (4^1), precum şi microîntreprinderile care acordă burse elevilor şcolarizaţi în învăţământul profesional-dual în conformitate cu prevederile art. 25 alin. (4) lit. c) din Legea nr. 1/2011, cu modificările şi completările ulterioare, scad sumele aferente din impozitul pe veniturile microîntreprinderilor până la nivelul valorii reprezentând 20% din impozitul pe veniturile microîntreprinderilor datorat pentru trimestrul în care au înregistrat cheltuielile respective.",
+        "p2" : "(12) Sumele care nu sunt scăzute potrivit prevederilor alin. (11) din impozitul pe veniturile microîntreprinderilor datorat se reportează în trimestrele următoare, pe o perioadă de 28 de trimestre consecutive. Scăderea acestor sume din impozitul pe veniturile microîntreprinderilor datorat, în următoarele 28 de trimestre consecutive, se efectuează în ordinea înregistrării acestora, în aceleași condiții, la fiecare termen de plată a impozitului pe veniturile microîntreprinderilor."
+      },
+      "independent": {
+        "title" : "III.  PERSOANELE CARE DESFĂȘOARĂ ACTIVITĂȚI INDEPENDENTE ȘI DETERMINĂ ÎN SISTEM REAL VENITUL NET ANUAL",
+        "p1" : "În ceea ce privește persoanele care desfășoară activități independente, Articolul 68 din Codul fiscal prevede la Alin. (5) faptul că următoarele cheltuieli sunt deductibile limitat: a) cheltuielile de sponsorizare, mecenat, precum și pentru acordarea de burse private, efectuate conform legii, în limita unei cote de 5% din baza de calcul determinată conform alin. (6). Alin. (6) precizează că: baza de calcul se determină ca diferență între venitul brut și cheltuielile deductibile, altele decât cheltuielile de sponsorizare, mecenat, pentru acordarea de burse private, cheltuielile de protocol."
+      }
+    },
+    "aspects" : {
+      "title" : "ASPECTE JURIDICE",
+      "p1" : "SPONSORIZAREA - reprezintă actul juridic prin care două persoane convin cu privire  la transferul  dreptului  de  proprietate  asupra  unor  bunuri  materiale  sau  mijloace  financiare pentru  susţinerea  unor  activităţi  fără  scop  lucrativ  desfăşurate  de  către  beneficiarul sponsorizării.",
+      "p2" : "DONAŢIA - este un contract prin care o persoană, donator, transmite, de regulă în mod gratuit şi irevocabil, dreptul de proprietate asupra unui bun către o altă persoană, donatar, care îl accepta şi nu implică existenţa unor beneficii. Donaţia este un act gratuit, unilateral, iar beneficiarul unei donaţii are obligaţia să folosească bunurile exclusiv în scopul declarat. Contractul de donaţie trebuie autentificat la notar, sub sancţiunea nulităţii absolute."
+    },
+    "details" :{
+      "title" : "MAI MULTE DETALII",
+      "guide" : {
+        "content": "Descarca ghidul fiscal de {guide}.",
+        "map": {
+          "guide": {
+            "link": "/forms/form_corporate_fiscal_guide.docx",
+            "label": "aici"
+          }
+        }
+      },
+      "contract": {
+        "content": "Descarca contractul de sponsorizare de {contract}.",
+        "map": {
+          "contract": {
+            "link": "/forms/form_corporate_sponsorship_contract.docx",
+            "label": "aici"
+          }
+        }
+      }
+    }
   },
   "terms": {
     "title": "TERMENI ȘI CONDIȚII",
