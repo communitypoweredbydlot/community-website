@@ -175,21 +175,21 @@
       },
       "bank": {
         "label": "Bancă",
-        "value": "BCR"
+        "value": "ING"
       },
       "iban": {
         "label": "iban",
-        "value": "RO44RNCB0298169443980001",
+        "value": "RO89INGB0000999913185974",
         "copyTooltip": "Copiază IBAN în clipboard",
         "copySuccess": "Codul a fost copiat în clip board."
       },
       "currency": {
         "label": "Monedă",
-        "value": "ron"
+        "value": "RON"
       },
       "bicswift": {
         "label": "BIC/SWIFT",
-        "value": "RNCBROBU"
+        "value": "INGBROBU"
       }
     },
     "incometax": {
