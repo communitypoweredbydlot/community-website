@@ -1,6 +1,6 @@
 {
     "name": "communitywebsite",
-    "version": "1.7.5",
+    "version": "1.8.0",
     "private": true,
     "license": "(MIT AND CC-BY-SA-4.0)",
     "scripts": {
@@ -39,12 +39,12 @@
         "@nuxtjs/tailwindcss": "^4.2.1",
         "@playwright/test": "^1.16.3",
         "@typescript-eslint/eslint-plugin": "^5.3.1",
-        "tailwindcss": "^2.2.19",
         "eslint": "^8.2.0",
         "eslint-plugin-nuxt": "^3.0.0",
         "eslint-plugin-vue": "^8.0.3",
         "playwright": "^1.16.3",
         "postcss": "^8.3.11",
+        "tailwindcss": "^2.2.19",
         "webp-loader": "^0.6.0"
     }
 }
