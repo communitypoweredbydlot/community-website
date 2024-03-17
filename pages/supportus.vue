@@ -44,41 +44,6 @@
       <div>
         <section-title path="supportus.donate.title" />
         <div class="flex flex-col gap-4">
-          <paragraph path="supportus.donate.p1" :margin-bottom="false" />
-          <div>
-            <button
-              class="inline-flex items-center rounded shadow border border-gray-100 border-opacity-25 px-2 py-1"
-              :class="isAcceptedTermsAndPrivacyPolicy ? 'animate-bounce cursor-pointer hover:bg-gray-100 hover:bg-opacity-25': 'cursor-not-allowed opacity-50'"
-              :disabled="!isAcceptedTermsAndPrivacyPolicy"
-              @click="donate"
-            >
-              <icon class="w-4 h-4 mr-2 text-red-500 hover:text-red-600">
-                {{ iconHeart }}
-              </icon>
-              <span class="paragraph hover:text-gray-900 font-medium">
-                {{ $t("supportus.donate.button.label") }}
-              </span>
-            </button>
-            <div class="flex flex-row items-baseline justify-start space-x-2 mt-2">
-              <checkbox v-model="isAcceptedTermsAndPrivacyPolicy" />
-              <paragraph path="supportus.donate.legalNotice" :from="1" :margin-bottom="false">
-                <template #before>
-                  <i18n path="supportus.donate.legalNotice[0].content">
-                    <template #terms>
-                      <nuxt-link class="text-link" :to="localePath(`${$t('supportus.donate.legalNotice[0].map.terms.link')}`)">
-                        {{ $t("supportus.donate.legalNotice[0].map.terms.label") }}
-                      </nuxt-link>
-                    </template>
-                    <template #policy>
-                      <nuxt-link class="text-link" :to="localePath(`${$t('supportus.donate.legalNotice[0].map.policy.link')}`)">
-                        {{ $t("supportus.donate.legalNotice[0].map.policy.label") }}
-                      </nuxt-link>
-                    </template>
-                  </i18n>
-                </template>
-              </paragraph>
-            </div>
-          </div>
           <paragraph path="supportus.donate.p2" :margin-bottom="false" />
           <div>
             <div class="flex flex-row justify-start">
@@ -281,16 +246,12 @@ import { mdiContentCopy, mdiCardsHeart } from '@mdi/js'
 
 import ogMetaFor from '@/lib/HeaderMeta'
 
-declare let Paylike: any
-
 @Component
 export default class SupportUs extends Vue {
   sizes: string = '300:300,360:360,425:425,768:768,896,896:1080,1280'
   iconCopy = mdiContentCopy
   iconHeart = mdiCardsHeart
   isCopySuccesss = false
-  isPaylikeLoaded = false
-  paylike!: any
   isAcceptedTermsAndPrivacyPolicy = false
 
   async copyToClipboard (v) {
@@ -300,37 +261,6 @@ export default class SupportUs extends Vue {
     setTimeout(() => {
       this.isCopySuccesss = false
     }, 3000)
-  }
-
-  mounted () {
-    this.paylike = Paylike(this.$config.paylike.publicKey)
-  }
-
-  donate () {
-    this.paylike.popup(
-      {
-        title: this.$t('supportus.donate.popup.title'),
-        description: this.$t('supportus.donate.popup.description'),
-        currency: 'RON',
-        locale: this.$i18n.locale,
-        fields: [
-          {
-            name: 'name',
-            placeholder: this.$t('supportus.donate.popup.placeholder.name')
-          },
-          {
-            name: 'amount',
-            required: true
-          }
-        ],
-        custom: {
-          AcceptedTermsAndPrivacyPolicy: this.isAcceptedTermsAndPrivacyPolicy
-        }
-      },
-      () => {
-        this.isAcceptedTermsAndPrivacyPolicy = false
-      }
-    )
   }
 
   head () {
