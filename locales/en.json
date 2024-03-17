@@ -135,7 +135,7 @@
     "donate": {
       "title": "Donate",
       "p1": "You can help us financially by donating an amount of your choice by direct card payment",
-      "p2": "or through a bank transfers using the details below.",
+      "p2": "You can help us financially by donating an amount of your choice through a bank transfer using the details below.",
       "button": {
         "label": "Donate"
       },
