@@ -53,7 +53,7 @@
       class="rounded shadow mb-4 focus:outline-none"
     >
       <source
-        src="https://poweredbydlot.com/wp-content/uploads/2020/07/VID_20191027_133137.mp4?_=1"
+        src="https://poweredbydlot.ro/wp-content/uploads/community/Asociatia_Community_TripAndPick_video.mp4?_=1"
         type="video/mp4"
       >
     </video>
